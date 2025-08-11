@@ -125,11 +125,15 @@ def Accept_cookies_genius (driver) :
 
 
 #Fonction GPT
-def remove_accents(text):
-    return ''.join(
+def remove_accents_and_quotes(text):
+    # Normalize Unicode and remove accents
+    text = ''.join(
         c for c in unicodedata.normalize('NFD', text)
         if unicodedata.category(c) != 'Mn'
     )
+    # Replace curly apostrophes/quotes with straight apostrophe
+    text = text.replace("'", "’").replace("'", "‘")
+    return text
 
 def Get_lyrics_genius (driver, artist_name) :
 
@@ -167,7 +171,7 @@ def Get_lyrics_genius (driver, artist_name) :
         for elem in block.children:
 
             if collab and "[" in elem.text and ":" in elem.text:
-                author_lyrics = artist_name in remove_accents(elem.text)
+                author_lyrics = artist_name.split(" ")[0] in remove_accents_and_quotes(elem.text)
             
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics
                 continue
@@ -214,8 +218,6 @@ def Navigate_songs (driver, songs_list, artist_name) :
     """
 
     dict_parole = {}
-#    found_site = 0
-#    no_found = []
 
     print("Begin the lyrics scrapping...")
     for songs_link in songs_list :
@@ -271,6 +273,9 @@ def prepare_lyrics(driver, artist_name, title_set) :
 
     result = Navigate_songs(driver, title_set, artist_name)
 
+    found_site = 0
+    no_found = []
+
     #Cleaning of lyrics 
     for title in list(result.keys()): 
         lines = result[title] #Je suis obligé d'itérer sur une copie et nan le vrai dict car je modifie sa valeur si len(lines) == 0
@@ -283,8 +288,11 @@ def prepare_lyrics(driver, artist_name, title_set) :
 
         if not lines:
             del result[title]
+            found_site += 1
+            no_found.append(title)
             print(f"Deleted for missing lyrics : {title}")
-    
+    print(found_site, no_found)
+
     #Regroupement de l'entiéreté du corpus de texte
     corpus = []
 
