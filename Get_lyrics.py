@@ -3,8 +3,8 @@ import requests
 import json
 import re
 from tqdm import tqdm
+import time
 import argparse
-import fasttext
 
 #All selenium import
 from selenium import webdriver
@@ -42,50 +42,51 @@ def Find_artist_discography(url) :
         artist_name, songs = extract_artist_data("https://www.deezer.com/fr/artist/14659541/top_track")
     """
 
-    
-    #Get the html page
-    request = requests.get(url)
-    html_page = request.text
-    page = bs(html_page,"html.parser")
+    #Navigate to html page
+    options = webdriver.ChromeOptions()
+    #options.add_argument("--headless=new")
+    options.add_argument("--start-maximized")  
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver.get(url+"/songs")
+
+    Accept_cookies_genius(driver)
+
+        #Get the html page
+    page = bs(driver.page_source,"html.parser")
 
     #Get the artist name
-    artist_name = page.find("h1", attrs={"id" : "naboo_artist_name"}).span.get_text(strip=True)
+    artist_name = page.find("a", {"href" : url}).text
     if artist_name is None :
         raise ValueError("Artist name not found")
     else :
         print(f"Found the artist : {artist_name}")
 
+    #Scroll down to have all the songs displayed (all songs aren't displayed automatically, you need to scroll down to force the load)
+    songs = None #Will have the entire songs as a list
+    songs_len = len(page.find("ul", {"class":"ListSection-desktop__Items-sc-2bca79e6-8 kVtuqy"}).find_all("li"))
+    scroll = True
 
-    #Collect all the discography
-    all_info_html = page.find("script", string = re.compile("ART_ID"))
-    all_info = all_info_html.text.split("window.__DZR_APP_STATE__ = ")[1]
-    structured_info = json.loads(all_info)
+    while scroll == True :
+        nb_scroll = 0
+        
+        while nb_scroll < 5 :
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            nb_scroll += 1
+            time.sleep(0.5)
+        
+        page = bs(driver.page_source,"html.parser")
+        new_len = len(page.find("ul", {"class":"ListSection-desktop__Items-sc-2bca79e6-8 kVtuqy"}).find_all("li"))
+        
+        if new_len == songs_len :
+            scroll = False
+            songs = page.find("ul", {"class":"ListSection-desktop__Items-sc-2bca79e6-8 kVtuqy"}).find_all("li")
+            print(f"Nb of songs found {new_len}")
+        else : 
+            songs_len = new_len
 
-    structured_discography = structured_info["TOP"]["data"]
-    if structured_discography is None :
-        raise ValueError("Discography not found")
-    else : 
-        print("Found artist discography")
+        nb_scroll = 0
 
-    #Organize all the data
-    title_set = set() #Get all the title on what the artist performed
-    album_set = set() #Get all the album that the artist is on
-    collab_set = set() #Get all the possible collab -1
-    time_count = 0
-
-    for title in structured_discography :
-
-        album_set.add(title["ALB_TITLE"])
-        time_count += int(title["DURATION"])
-
-        if len(title["ARTISTS"])>1 : 
-            title_set.add(title["SNG_TITLE"])
-            for artist in title["ARTISTS"] :
-                collab_set.add(artist["ART_NAME"])
-        else :
-            title_set.add(title["SNG_TITLE"])
-    
-    return artist_name,title_set
+    return driver, artist_name, songs
 
 def Accept_cookies_genius (driver) :
 
@@ -130,7 +131,7 @@ def remove_accents(text):
         if unicodedata.category(c) != 'Mn'
     )
 
-def Get_lyrics_genius (driver) :
+def Get_lyrics_genius (driver, artist_name) :
 
     """
     Extracts lyrics from a Genius song page using Selenium and BeautifulSoup.
@@ -166,33 +167,23 @@ def Get_lyrics_genius (driver) :
         for elem in block.children:
 
             if collab and "[" in elem.text and ":" in elem.text:
-                author_lyrics = "Limsa" in elem.text
+                author_lyrics = artist_name in remove_accents(elem.text)
             
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics
                 continue
 
-            if elem.name == "br":
-                    # Si <br> est seul (ligne vide), on saute
-                if ligne.strip():
-                    paroles.append(ligne.strip())
-                ligne = ""
-            elif elem.string:
-                ligne += elem.string
-            elif elem.name == "i" and "class" not in str(elem): #Doit exclure des class qui sont contenus dans des names <i>
-                #Certains textes en italique ont alors l'indication <i> example : 
-                #<i>Qui a encore un peu d’espoir ?<br/>J’préfère être mal accompagné plutôt qu’seul au sommet dans le brouillard</i>
-                #Dans la section en italique, les sauts de ligne ne sont pas automatique dans le texte mais indiqué par <br/>
-                tnf = re.sub(r"</?i\s*/?>", "", str(elem)) #retire <i> / </i> / </i/> / <i/>
-                dnc = tnf.split("<br/>")
-                for i in dnc : 
-                    paroles.append(i.strip())
+            lyric = elem.get_text(separator="\n")
+            if lyric != '' :
+                for part in lyric.split("\n") :
+                    paroles.append(part)
+    
     # Ajouter la dernière ligne si elle existe
         if ligne.strip():
             paroles.append(ligne.strip())
     
     return paroles
 
-def Navigate_Web (artist_name, title_list) :
+def Navigate_songs (driver, songs_list, artist_name) :
 
     """
     Scrapes lyrics from Genius using DuckDuckGo search and Selenium.
@@ -222,59 +213,16 @@ def Navigate_Web (artist_name, title_list) :
     - Cleans lyrics by removing annotations such as "(backs)" or "[refrain]".
     """
 
-
     dict_parole = {}
-    found_site = 0
-    no_found = []
+#    found_site = 0
+#    no_found = []
 
-    print("Begin the lyrics search...")
-    
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")  # Optional
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    print("Begin the lyrics scrapping...")
+    for songs_link in songs_list :
+        true_link = songs_link.a.attrs["href"]
 
-    for idx, title in tqdm(enumerate(title_list), total=len(title_list)):
-        
-        target_song = artist_name + " " + str(title)
-        target_site = "https://genius.com"
-        query = f"{target_song} site:{target_site}"
-        url = "https://duckduckgo.com/?q=" + urllib.parse.quote(query)
-        
-        driver.get(url) #Access the link
-        
-        WebDriverWait(driver, 5).until( #Wait until this specific element is located (for link)
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'a'))
-        )
-        results = driver.find_elements(By.CSS_SELECTOR, 'a') #Store all the results
-
-#        target = "https://"+target_site
-        found = False
-
-        #Preparation du titre 
-        title_adapt = re.sub(r"\([^)]*\)" , "" , (re.sub(r"[\'\.\-\°]", "", title))).lower()        
-#        title_adapt = re.sub(r"\([^)]*\)", "", title.lower())
-        pattern = re.sub(r"\s+", r"[-_+%20]*", (remove_accents(title_adapt)))
-
-        for link in results :
-            href = link.get_attribute("href")
-            if href :
-                last_word_link = href.split("-")[-1]
-                
-            if href and (target_site in href) and ((re.search(pattern,href.lower())) or (re.search(title.lower(),href.lower()))) and last_word_link == "lyrics" :
-                link.click()
-                found = True
-                found_site +=1
-                break
-        
-        if not found : #Site Genius musique non trouvé
-            no_found.append(title)
-            found = False
-            continue
-    
-        if idx == 0 : 
-            Accept_cookies_genius(driver)
-
-        lyrics = Get_lyrics_genius(driver)
+        driver.get(true_link)
+        lyrics = Get_lyrics_genius(driver, artist_name)
 
         only_lyrics = []
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
@@ -283,17 +231,15 @@ def Navigate_Web (artist_name, title_list) :
             if i and indication == False: #Contains at least an element
                 only_lyrics.append(i)    
         
-        dict_parole[f"{title}"] = only_lyrics
+        song_title = songs_link.a.h3.text
+        dict_parole[f"{song_title}"] = only_lyrics
     
     print("End of lyrics search")
-    print(f"{found_site} on {len(title_list)} songs found")
-    for i in no_found : 
-        print(f"Lyrics not found for {i}")
     driver.quit()
 
     return dict_parole
 
-def prepare_lyrics(artist_name, title_set) :
+def prepare_lyrics(driver, artist_name, title_set) :
 
     """
     Retrieves, cleans, and prepares lyrics for both RNN training and tokenization-based models.
@@ -323,7 +269,7 @@ def prepare_lyrics(artist_name, title_set) :
     None
     """
 
-    result = Navigate_Web(artist_name, title_set)
+    result = Navigate_songs(driver, title_set, artist_name)
 
     #Cleaning of lyrics 
     for title in list(result.keys()): 
@@ -367,5 +313,7 @@ parser.add_argument("--link", type=str, help="Link of deezer's artist top songs"
 args = parser.parse_args()
 link = args.link
 
-artist_name, title_set = Find_artist_discography(link)
-prepare_lyrics(artist_name, title_set)
+driver, artist_name, songs = Find_artist_discography(link)
+#songs_lyrics = Navigate_songs(songs, driver)
+
+prepare_lyrics(driver, artist_name, songs)
