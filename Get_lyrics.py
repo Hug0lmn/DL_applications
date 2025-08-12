@@ -5,6 +5,7 @@ import re
 from tqdm import tqdm
 import time
 import argparse
+import gc
 
 #All selenium import
 from selenium import webdriver
@@ -13,7 +14,6 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import urllib
 
 import unicodedata
 
@@ -46,6 +46,9 @@ def Find_artist_discography(url) :
     options = webdriver.ChromeOptions()
     #options.add_argument("--headless=new")
     options.add_argument("--start-maximized")  
+    
+    prefs = {"profile.managed_default_content_settings.images": 2}
+    options.add_experimental_option("prefs", prefs)
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
@@ -86,7 +89,9 @@ def Find_artist_discography(url) :
 
         nb_scroll = 0
 
-    return driver, artist_name, songs
+    driver.quit()
+
+    return artist_name, songs
 
 def Accept_cookies_genius (driver) :
 
@@ -135,7 +140,7 @@ def remove_accents_and_quotes(text):
     text = text.replace("'", "’").replace("'", "‘")
     return text
 
-def Get_lyrics_genius (driver, artist_name) :
+def Get_lyrics_genius (link, artist_name) :
 
     """
     Extracts lyrics from a Genius song page using Selenium and BeautifulSoup.
@@ -152,8 +157,9 @@ def Get_lyrics_genius (driver, artist_name) :
     """
 
 
-    src = driver.page_source
+    src = requests.get(link).text
     new = bs(src,"html.parser")
+    artist_name = remove_accents_and_quotes(artist_name)
 
     # On récupère tous les blocs qui contiennent les paroles
     lyrics_blocks = new.find_all("div", attrs={"data-lyrics-container": "true"})
@@ -171,23 +177,25 @@ def Get_lyrics_genius (driver, artist_name) :
         for elem in block.children:
 
             if collab and "[" in elem.text and ":" in elem.text:
-                author_lyrics = artist_name.split(" ")[0] in remove_accents_and_quotes(elem.text)
+                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(elem.text)) and "&" not in elem.text
             
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics
                 continue
 
             lyric = elem.get_text(separator="\n")
             if lyric != '' :
-                for part in lyric.split("\n") :
-                    paroles.append(part)
+                paroles.extend(lyric.split("\n"))
     
     # Ajouter la dernière ligne si elle existe
         if ligne.strip():
             paroles.append(ligne.strip())
+
+    del src, new
+    gc.collect()
     
     return paroles
 
-def Navigate_songs (driver, songs_list, artist_name) :
+def Navigate_songs (songs_list, artist_name) :
 
     """
     Scrapes lyrics from Genius using DuckDuckGo search and Selenium.
@@ -222,9 +230,8 @@ def Navigate_songs (driver, songs_list, artist_name) :
     print("Begin the lyrics scrapping...")
     for songs_link in songs_list :
         true_link = songs_link.a.attrs["href"]
-
-        driver.get(true_link)
-        lyrics = Get_lyrics_genius(driver, artist_name)
+#        driver.get(true_link)
+        lyrics = Get_lyrics_genius(true_link, artist_name)
 
         only_lyrics = []
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
@@ -237,11 +244,11 @@ def Navigate_songs (driver, songs_list, artist_name) :
         dict_parole[f"{song_title}"] = only_lyrics
     
     print("End of lyrics search")
-    driver.quit()
+#    driver.quit()
 
     return dict_parole
 
-def prepare_lyrics(driver, artist_name, title_set) :
+def prepare_lyrics(artist_name, title_set) :
 
     """
     Retrieves, cleans, and prepares lyrics for both RNN training and tokenization-based models.
@@ -271,7 +278,7 @@ def prepare_lyrics(driver, artist_name, title_set) :
     None
     """
 
-    result = Navigate_songs(driver, title_set, artist_name)
+    result = Navigate_songs(title_set, artist_name)
 
     found_site = 0
     no_found = []
@@ -305,23 +312,24 @@ def prepare_lyrics(driver, artist_name, title_set) :
     corpus_RNN = corpus_RNN.replace('"',"")
     corpus_tokenization = re.sub(r'[?,:/\.]', '', corpus_RNN)
 
-    with open("corpus_RNN.txt", "w", encoding="utf-8") as f:
+    with open(f"corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_RNN)
-    print("Find corpus usable for RNN at corpus_RNN.txt")
+    print(f"Find corpus usable for RNN at corpus_RNN_{artist_name}.txt")
 
-    with open("corpus_tokenization.txt", "w", encoding="utf-8") as f:
+    with open(f"corpus_tokenization_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_tokenization)
-    print("Find corpus usable for tokenization at corpus_tokenization.txt")
+    print(f"Find corpus usable for tokenization at corpus_tokenization_{artist_name}.txt")
 
     return 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--link", type=str, help="Link of deezer's artist top songs", required=True)
+parser.add_argument("--link", type=str, help="Link of genius's artist page", nargs="+", required=True)
 
 args = parser.parse_args()
-link = args.link
-
-driver, artist_name, songs = Find_artist_discography(link)
+links = args.link
+for link in links : 
+    artist_name, songs = Find_artist_discography(link)
 #songs_lyrics = Navigate_songs(songs, driver)
+#Next things to try will be multi threading to reduce heavily runtime
 
-prepare_lyrics(driver, artist_name, songs)
+    prepare_lyrics(artist_name, songs)
