@@ -17,34 +17,39 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import unicodedata
 
-def Find_artist_discography(url) :
-
+def Find_artist_discography(url):
     """
-    Extracts the artist name and full discography from a given Deezer top track URL.
+    Scrapes an artist's full discography from a Genius page.
 
-    Given a URL to the artist’s top track on Deezer, this function retrieves the artist's name 
-    and compiles a set of all song titles associated with the artist.
+    This function uses Selenium to navigate through the artist's Genius page,
+    automatically accepts cookies, scrolls to dynamically load all songs, 
+    and extracts their complete list of tracks.
 
     Args:
-        url (str): The Deezer URL pointing to the artist’s top track 
-               (e.g., "https://www.deezer.com/fr/artist/14659541/top_track").
+        url (str): Genius URL pointing to the artist’s page.
+                   Example: "https://genius.com/artists/Limsa-daulnay"
 
     Returns:
-        Tuple[str, set]: A tuple containing:
-            - artist_name (str): The name of the artist.
-            - title_set (set): A set of all unique song titles found for the artist.
+        tuple[str, list]: 
+            - artist_name (str): The name of the artist as shown on Genius.
+            - songs (list): A list of BeautifulSoup tag elements representing
+              each song entry.
 
     Raises:
-        ValueError: If the URL is malformed or if artist data could not be extracted.
-        requests.exceptions.RequestException: If the HTTP request fails.
+        ValueError: If the artist name cannot be found on the page.
+        requests.exceptions.RequestException: If there are issues retrieving the page.
+        selenium.common.exceptions.WebDriverException: If Selenium fails to launch or navigate.
 
-    Example:
-        artist_name, songs = extract_artist_data("https://www.deezer.com/fr/artist/14659541/top_track")
+    Notes:
+        - Requires Chrome, ChromeDriver, and the `webdriver_manager` package.
+        - Runs Chrome in headless mode for faster scraping.
+        - Scrolling is necessary because Genius loads songs lazily; 
+          this function scrolls until no new songs are loaded.
     """
 
     #Navigate to html page
     options = webdriver.ChromeOptions()
-    #options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     options.add_argument("--start-maximized")  
     
     prefs = {"profile.managed_default_content_settings.images": 2}
@@ -75,7 +80,7 @@ def Find_artist_discography(url) :
         while nb_scroll < 5 :
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             nb_scroll += 1
-            time.sleep(0.5)
+            time.sleep(1)
         
         page = bs(driver.page_source,"html.parser")
         new_len = len(page.find("ul", {"class":"ListSection-desktop__Items-sc-2bca79e6-8 kVtuqy"}).find_all("li"))
@@ -93,23 +98,31 @@ def Find_artist_discography(url) :
 
     return artist_name, songs
 
-def Accept_cookies_genius (driver) :
-
+def Accept_cookies_genius(driver):
     """
-    Handles the cookie consent popup on Genius using Selenium.
-    It doesn't handle other website but can be tweak easily.
+    Handles the Genius.com cookie consent popup using Selenium.
 
-    This function waits for and clicks two cookie-related buttons on a webpage:
+    This function automates the acceptance of cookies by clicking on two buttons:
     1. "Afficher toutes les finalités" (Show all purposes)
     2. "Confirmer la sélection" (Confirm selection)
 
-    If any of the buttons are not found or clickable within the timeout period, the function quits the Selenium driver and prints a message.
+    It waits up to 10 seconds for each button to become clickable.
+    If a button cannot be found or clicked within the timeout, the Selenium driver 
+    is closed and a message is printed. This function is tailored for Genius.com, 
+    but can be adapted for other websites by updating the XPaths.
 
-    Parameters:
-    driver (selenium.webdriver): An active Selenium WebDriver instance controlling a browser.
+    Args:
+        driver (selenium.webdriver): An active Selenium WebDriver instance controlling a browser.
 
     Returns:
-    None
+        None
+
+    Raises:
+        selenium.common.exceptions.TimeoutException: If either button is not found within the timeout.
+        selenium.common.exceptions.WebDriverException: If there is an issue interacting with the browser.
+
+    Notes:
+        - This function is specific to Genius.com's cookie popup in French.
     """
 
     try:
@@ -140,22 +153,39 @@ def remove_accents_and_quotes(text):
     text = text.replace("'", "’").replace("'", "‘")
     return text
 
-def Get_lyrics_genius (link, artist_name) :
-
+def Get_lyrics_genius(link, artist_name):
     """
-    Extracts lyrics from a Genius song page using Selenium and BeautifulSoup.
+    Extracts and cleans lyrics from a Genius song page.
 
-    This function retrieves the HTML source from the current page loaded in the Selenium driver, parses it with BeautifulSoup,
-    and extracts all text lines from the lyrics blocks. It handles special formatting cases such as `<br>` tags, `<i>` italics, 
-    and collaborative tracks (e.g., where multiple artists are involved with labeled verses).
+    This function downloads a Genius song page via HTTP (using `requests`), 
+    parses the HTML with BeautifulSoup, and extracts all text.  
+    It handles:
+      - Removal of extra spaces and spacing before punctuation.
+      - Collaborative tracks (e.g., "Featuring" credit) by filtering verses
+        to include only those attributed to the target artist.
+      - Line breaks and multiple spaces normalization.
 
-    Parameters:
-    driver (selenium.webdriver): An active Selenium WebDriver instance currently on a Genius lyrics page.
+    Args:
+        link (str): The Genius URL of the song's lyrics page.
+        artist_name (str): The main artist's name; used to filter 
+            verses in collaborative tracks so only their parts are returned.
 
     Returns:
-    list of str: A list of cleaned lines of lyrics extracted from the page.
-    """
+        list[str]: A list of cleaned lyric lines for the specified artist.
+                   If the song is a collaboration, only the main artist's
+                   sections are returned (when detectable).
 
+    Raises:
+        requests.exceptions.RequestException: If the HTTP request fails.
+        ValueError: If no lyrics container is found in the page HTML.
+
+    Notes:
+        - Collaborator detection is based on the presence of "Featuring" 
+          in the page and section headers that contain the artist name.
+        - This function does not require Selenium; it fetches the HTML directly.
+        - Punctuation spacing is normalized: e.g., `" , "` → `","` and `" . "` → `". "`.
+
+    """
 
     src = requests.get(link).text
     new = bs(src,"html.parser")
@@ -176,13 +206,19 @@ def Get_lyrics_genius (link, artist_name) :
         ligne = ""
         for elem in block.children:
 
-            if collab and "[" in elem.text and ":" in elem.text:
-                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(elem.text)) and "&" not in elem.text
+            t = elem.text  # avoid repeating the property lookup
+            if collab and (('[' in t or '(' in t) and (':' in t or '-' in t)):
+                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(t)) and "&" not in t
             
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics
                 continue
 
             lyric = elem.get_text(separator="\n")
+            text = re.sub(r"\s+([',;:.!?])", r"\1", lyric)
+            text = re.sub(r"([',;:.!?])\s+", r"\1 ", text)
+
+# Normaliser les espaces multiples
+            lyric = re.sub(r'\s+', ' ', text).strip()
             if lyric != '' :
                 paroles.extend(lyric.split("\n"))
     
@@ -195,40 +231,43 @@ def Get_lyrics_genius (link, artist_name) :
     
     return paroles
 
-def Navigate_songs (songs_list, artist_name) :
-
+def Navigate_songs(songs_list, artist_name):
     """
-    Scrapes lyrics from Genius using DuckDuckGo search and Selenium.
+    Retrieves and cleans lyrics for multiple songs from Genius.
 
-    This function takes an artist name (tested on rapper) and a list of song titles, performs web searches for each track on Genius.com via DuckDuckGo,
-    navigates to the corresponding Genius page if found, and extracts the lyrics. It handles cookie confirmation, lyric formatting cleanup, 
-    and tracks which songs were not found.
+    This function iterates through a list of song HTML elements, extracts the Genius URL for each track, 
+    retrieves its lyrics via `Get_lyrics_genius`, and performs cleanup such as 
+    removing annotations and marking structural elements (e.g., <COUPLET>, <REFRAIN>).
 
-    Parameters:
-    -----------
-    artist_name : str
-        The name of the artist whose songs are being searched.
-    title_list : list of str
-        A list of song titles to retrieve lyrics for.
+    Args:
+        songs_list (list[bs4.element.Tag]): 
+            A list of BeautifulSoup tag elements, each containing a song entry 
+            with a link (`<a>` tag) to its Genius page.
+        artist_name (str): 
+            Name of the artist, used for filtering lyrics in collaborative tracks.
 
     Returns:
-    --------
-    dict_parole : dict
-        A dictionary mapping each song title to a list of cleaned lyrics lines (list of str).
-        Songs not found are excluded from the dictionary.
+        dict[str, list[str]]: 
+            Dictionary mapping song titles to a list of cleaned lyric lines.  
+            Structural markers are added in uppercase between `<STROPHE>` tags:
+              - `<COUPLET>` for verses
+              - `<REFRAIN>` for choruses
+              - `<INTRO>` for introductions
+              - `<OUTRO>` for conclusions
 
     Notes:
-    ------
-    - Uses Selenium WebDriver with Chrome, controlled via `webdriver-manager`.
-    - Skips songs for which no Genius link is found or if lyrics cannot be extracted.
-    - Handles cookie pop-ups on the Genius site.
-    - Cleans lyrics by removing annotations such as "(backs)" or "[refrain]".
+        - Songs for which lyrics cannot be found are skipped.
+        - Removes "backs" or background vocals inside parentheses `(...)`.
+        - Ignores non-lyrical annotations like "(paroles)", "(contributors)", "(pont)", etc.
+        - Structural markers are inserted as separate elements in the lyrics list.
     """
+
 
     dict_parole = {}
 
     print("Begin the lyrics scrapping...")
-    for songs_link in songs_list :
+    #for songs_link in songs_list :
+    for songs_link in tqdm(songs_list, desc='Scrapping songs'):
         true_link = songs_link.a.attrs["href"]
 #        driver.get(true_link)
         lyrics = Get_lyrics_genius(true_link, artist_name)
@@ -236,7 +275,28 @@ def Navigate_songs (songs_list, artist_name) :
         only_lyrics = []
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
             i = re.sub(r"\([^)]*\)", "", i)       # retire les backs
-            indication = ("couplet" in i.lower()) or ("refrain" in i.lower()) or ("intro" in i.lower()) or ("paroles" in i.lower()) 
+            
+            if ('couplet' in i.lower()) :
+                only_lyrics.append("<STROPHE>")
+                only_lyrics.append("<COUPLET>")
+                only_lyrics.append("<STROPHE>")
+
+            elif "refrain" in i.lower() : 
+                only_lyrics.append("<STROPHE>")
+                only_lyrics.append("<REFRAIN>")
+                only_lyrics.append("<STROPHE>")
+
+            elif "intro" in i.lower() :
+                only_lyrics.append("<STROPHE>")
+                only_lyrics.append("<INTRO>")
+                only_lyrics.append("<STROPHE>")
+            
+            elif "outro" in i.lower():
+                only_lyrics.append("<STROPHE>")
+                only_lyrics.append("<OUTRO>")
+                only_lyrics.append("<STROPHE>")
+
+            indication = ("couplet" in i.lower()) or ("refrain" in i.lower()) or ("intro" in i.lower()) or ("paroles" in i.lower()) or ("contributors" in i.lower()) or ("pont" in i.lower()) or ("outro" in i.lower())
             if i and indication == False: #Contains at least an element
                 only_lyrics.append(i)    
         
@@ -248,35 +308,36 @@ def Navigate_songs (songs_list, artist_name) :
 
     return dict_parole
 
-def prepare_lyrics(artist_name, title_set) :
-
+def prepare_lyrics(artist_name, title_set):
     """
-    Retrieves, cleans, and prepares lyrics for both RNN training and tokenization-based models.
+    Retrieves, cleans, and prepares lyrics for both RNN training 
+    and word-level tokenization models.
 
-    This function scrapes song lyrics from Genius.com for a given artist and list of titles,
-    cleans the text (removing unwanted characters and formatting), and writes two versions 
-    of the corpus to text files:
-    - A version with newlines and quotes preserved (for RNN training).
-    - A version with additional punctuation removed (for word-level tokenization).
+    This function:
+      1. Uses `Navigate_songs` to retrieve cleaned lyrics for each song title.
+      2. Removes unwanted characters such as invisible spaces, brackets, and quotes.
+      3. Deletes entries with no available lyrics and logs them.
+      4. Aggregates all lyrics into a single corpus.
+      5. Generates two versions of the corpus:
+         - RNN corpus: preserves case and line breaks (only removes double quotes).
+         - Tokenization corpus: lowercased, punctuation stripped, tags removed,
+           and normalized line breaks.
 
-    Parameters:
-    -----------
-    artist_name : str
-        The name of the artist whose lyrics are to be retrieved.
-    
-    title_set : set of str
-        A set of song titles by the artist.
+    Args:
+        artist_name (str): 
+            Name of the artist whose lyrics are to be scraped and processed.
+        title_set (set[str]): 
+            Set of song titles by the artist.
 
     Effects:
-    --------
-    - Saves `corpus_RNN.txt` : cleaned corpus preserving line breaks (for RNNs).
-    - Saves `corpus_tokenization.txt` : cleaned and stripped version (for tokenization).
-    - Prints status messages and any removed songs due to missing lyrics.
+        - Writes `corpus_RNN_<artist_name>.txt` for character/sequence models (RNN, LSTM, etc.).
+        - Writes `corpus_tokenization_<artist_name>.txt` for embedding training (FastText, Word2Vec, etc.).
+        - Prints the count and names of songs removed due to missing lyrics.
 
     Returns:
-    --------
-    None
+        None
     """
+
 
     result = Navigate_songs(title_set, artist_name)
 
@@ -310,7 +371,11 @@ def prepare_lyrics(artist_name, title_set) :
     #Préparation à la tokenization
     corpus_RNN = "\n".join(corpus)
     corpus_RNN = corpus_RNN.replace('"',"")
-    corpus_tokenization = re.sub(r'[?,:/\.]', '', corpus_RNN)
+
+    corpus_tokenization = re.sub(r'[?,:/\.\(\)]', '', corpus_RNN)
+    corpus_tokenization = re.sub(r'<[^>]*>', '', corpus_tokenization)
+    corpus_tokenization = corpus_tokenization.lower()
+    corpus_tokenization = re.sub(r'\n{2,}', '\n', corpus_tokenization)
 
     with open(f"corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_RNN)
@@ -327,9 +392,10 @@ parser.add_argument("--link", type=str, help="Link of genius's artist page", nar
 
 args = parser.parse_args()
 links = args.link
-for link in links : 
+
+for link in tqdm(links, desc='Scrapping Artist'):
     artist_name, songs = Find_artist_discography(link)
-#songs_lyrics = Navigate_songs(songs, driver)
-#Next things to try will be multi threading to reduce heavily runtime
+
+#Next things to try will be multi threading to reduce runtime heavily 
 
     prepare_lyrics(artist_name, songs)
