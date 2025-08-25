@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import requests
+import undetected_chromedriver as uc
 import json
 import re
 from tqdm import tqdm
@@ -48,13 +49,15 @@ def Find_artist_discography(url):
     """
 
     #Navigate to html page
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--start-maximized")  
+#    options = webdriver.ChromeOptions()
+#    options.add_argument("--headless=new")
+#    options.add_argument("--start-maximized")  
     
+    options = uc.ChromeOptions()
     prefs = {"profile.managed_default_content_settings.images": 2}
     options.add_experimental_option("prefs", prefs)
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    driver = uc.Chrome(version_main=138, options=options)
+    #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
     Accept_cookies_genius(driver)
@@ -125,22 +128,31 @@ def Accept_cookies_genius(driver):
         - This function is specific to Genius.com's cookie popup in French.
     """
 
-    try:
-        wait = WebDriverWait(driver, 10)
-        button_cookies = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[text()="Afficher toutes les finalités"]')))
-        button_cookies.click()
-    except Exception as e :
-        driver.quit()
-        print("No button found")
+    for attempt in range(2):  
+        try:
+            wait = WebDriverWait(driver, 10)
+            button_cookies = wait.until(
+                EC.element_to_be_clickable((By.XPATH, '//button[text()="Afficher toutes les finalités"]'))
+            )
+            button_cookies.click()
+            break  
+        except Exception as e:
+            if attempt != 0:  
+                driver.quit()
+                print("No button found")
 
-    try:
-        wait = WebDriverWait(driver, 10)
-        button_cookies = wait.until(EC.element_to_be_clickable((By.XPATH, '//button[text()="Confirmer la sélection"]')))
-        button_cookies.click()
-    except Exception as e :
-        driver.quit()
-        print("No button found")
-
+    for attempt in range(2):  
+        try:
+            wait = WebDriverWait(driver, 10)
+            button_cookies = wait.until(
+                EC.element_to_be_clickable((By.XPATH, '//button[text()="Confirmer la sélection"]'))
+            )
+            button_cookies.click()
+            break
+        except Exception as e:
+            if attempt != 0:
+                driver.quit()
+                print("No button found")
 
 #Fonction GPT
 def remove_accents_and_quotes(text):
@@ -207,29 +219,36 @@ def Get_lyrics_genius(link, artist_name):
         for elem in block.children:
 
             t = elem.text  # avoid repeating the property lookup
+
+            if "contributor" in t.lower() or "paroles" in t.lower() :
+                continue 
+
             if collab and (('[' in t or '(' in t) and (':' in t or '-' in t)):
                 author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(t)) and "&" not in t
-            
-            if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics
+                paroles.append(t)
                 continue
-
+            
             lyric = elem.get_text(separator="\n")
             text = re.sub(r"\s+([',;:.!?])", r"\1", lyric)
             text = re.sub(r"([',;:.!?])\s+", r"\1 ", text)
 
-# Normaliser les espaces multiples
-            lyric = re.sub(r'\s+', ' ', text).strip()
-            if lyric != '' :
-                paroles.extend(lyric.split("\n"))
+            if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics 
+                continue
+
+
+    # Normaliser les espaces multiples
+            text = re.sub(r'\s+', ' ', text).strip()
+            if text != '' :
+                paroles.extend(text.split("\n"))
     
     # Ajouter la dernière ligne si elle existe
-        if ligne.strip():
-            paroles.append(ligne.strip())
+        if text.strip():
+            paroles.append(text.strip())
 
     del src, new
     gc.collect()
     
-    return paroles
+    return paroles, collab
 
 def Navigate_songs(songs_list, artist_name):
     """
@@ -266,40 +285,66 @@ def Navigate_songs(songs_list, artist_name):
     dict_parole = {}
 
     print("Begin the lyrics scrapping...")
-    #for songs_link in songs_list :
     for songs_link in tqdm(songs_list, desc='Scrapping songs'):
         true_link = songs_link.a.attrs["href"]
 #        driver.get(true_link)
-        lyrics = Get_lyrics_genius(true_link, artist_name)
+        if "lyric" not in true_link : 
+            continue
+
+        lyrics, collab = Get_lyrics_genius(true_link, artist_name)
+
+        if len(lyrics) < 4 :
+            continue
 
         only_lyrics = []
+
+        begin_music = True
+        first_part = True
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
+
+            if begin_music :
+                only_lyrics.append("<BEGINNING>"+str(collab))
+                begin_music = False
+
             i = re.sub(r"\([^)]*\)", "", i)       # retire les backs
             
-            if ('couplet' in i.lower()) :
-                only_lyrics.append("<STROPHE>")
+            if 'Couplet' in re.findall(r"\bCouplet\b", i) : #If i use .lower there can be a problem where the word appear in the lyrics so i new part is created where there is none (happened with intro)
+                if not first_part:
+                    only_lyrics.append("<END_SECTION>")
                 only_lyrics.append("<COUPLET>")
-                only_lyrics.append("<STROPHE>")
+                first_part = False
+                continue
 
-            elif "refrain" in i.lower() : 
-                only_lyrics.append("<STROPHE>")
+            elif "Refrain" in re.findall(r"\bRefrain\b", i) : 
+                if not first_part:
+                    only_lyrics.append("<END_SECTION>")
                 only_lyrics.append("<REFRAIN>")
-                only_lyrics.append("<STROPHE>")
+                first_part = False
+                continue
 
-            elif "intro" in i.lower() :
-                only_lyrics.append("<STROPHE>")
+            elif "Intro" in re.findall(r"\bIntro\b", i) :
+                if not first_part:
+                    only_lyrics.append("<END_SECTION>")
                 only_lyrics.append("<INTRO>")
-                only_lyrics.append("<STROPHE>")
+                first_part = False
+                continue
             
-            elif "outro" in i.lower():
-                only_lyrics.append("<STROPHE>")
+            elif "Outro" in re.findall(r"\bOutro\b", i):
+                if not first_part:
+                    only_lyrics.append("<END_SECTION>")
                 only_lyrics.append("<OUTRO>")
-                only_lyrics.append("<STROPHE>")
-
-            indication = ("couplet" in i.lower()) or ("refrain" in i.lower()) or ("intro" in i.lower()) or ("paroles" in i.lower()) or ("contributors" in i.lower()) or ("pont" in i.lower()) or ("outro" in i.lower())
-            if i and indication == False: #Contains at least an element
-                only_lyrics.append(i)    
-        
+                first_part = False
+                continue
+            
+            elif "Pont" in re.findall(r"\bPont\b", i):
+                if not first_part:
+                    only_lyrics.append("<END_SECTION>")
+                only_lyrics.append("<PONT>")
+                first_part = False
+                continue
+            
+            only_lyrics.append(i)    
+                    
         song_title = songs_link.a.h3.text
         dict_parole[f"{song_title}"] = only_lyrics
     
@@ -352,13 +397,18 @@ def prepare_lyrics(artist_name, title_set):
         lines = [line.replace("[", "") for line in lines]
         lines = [line.replace("]", "") for line in lines]
     
-        result[title] = lines
-
         if not lines:
             del result[title]
             found_site += 1
             no_found.append(title)
             print(f"Deleted for missing lyrics : {title}")
+        else :
+            lines.append("<END_SECTION>")
+            lines.append("<END>\n")
+
+        result[title] = lines
+
+
     print(found_site, no_found)
 
     #Regroupement de l'entiéreté du corpus de texte
