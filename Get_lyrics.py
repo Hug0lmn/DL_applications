@@ -60,7 +60,7 @@ def Find_artist_discography(url):
     #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 20).until(
     lambda d: d.execute_script("return document.readyState") == "complete"
     )
 
@@ -235,7 +235,7 @@ def Get_lyrics_genius(link, artist_name):
 
             text = elem.get_text(separator="<br>") #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
             text = re.sub(r"\s+([',;:.!?])", r"\1", text) #if a space before ponctuation remove space
-            text = re.sub(r"([',;:.!?])\s+", r"\1", text) #if space after ponctuation remove space
+#            text = re.sub(r"([',;:.!?])\s+", r"\1", text) #if space after ponctuation remove space
 
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics 
                 continue
@@ -249,7 +249,7 @@ def Get_lyrics_genius(link, artist_name):
             #Will be bypassed if there is two artists
             if "[" in text and "]" not in text : 
                 inside_bracket = True #Indicate that we are inside a bracket
-                paroles.append([text])
+                paroles.append(text)
                 continue
 
             if inside_bracket  : 
@@ -258,22 +258,28 @@ def Get_lyrics_genius(link, artist_name):
                     inside_bracket = False
                 continue #Skip the whole next part of if statement
 
-            if (text[0] in [",", " "]) and annot == True : #If new line begin with this then the previous line wasn't finished
+            if "<br>" in text : 
+                for line in text.split("<br>") :
+
+                    if (line[0].islower()) or (len(line.strip())==1) : 
+                        try :
+                            paroles[-1] += " "+line
+                        except : 
+                            paroles.extend([line])
+                    elif len(paroles) > 1 :
+                        if paroles[-1][-1] in [",","&"] :
+                            paroles[-1] += " "+line
+                        else :
+                            paroles.extend([line])
+            
+            elif (text[0] in [",", " "]) and annot == True : #If new line begin with this then the previous line wasn't finished
                 paroles[-1] += text 
 
             elif (text[0].islower()) or (len(text.strip())==1) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
                 paroles[-1] += " "+text
 
             else : 
-                if "<br>" in text : 
-                    for line in text.split("<br>") :
-
-                        if (line[0].islower()) or (len(line.strip())==1) or (paroles[-1][-1] in [",","&"]) : 
-                            paroles[-1] += " "+line
-                        else :
-                            paroles.extend([line])
-                else : 
-                    paroles.extend([text])
+                paroles.extend([text])
 
     
             if isinstance(elem, Tag): #This serve when there is an annot on a lyric and this can separate a line in two differents parts in html
@@ -284,8 +290,6 @@ def Get_lyrics_genius(link, artist_name):
 
     del src, new
     gc.collect()
-    if len(paroles) < 3 :
-        return  
     return paroles, collab
 
 def Navigate_songs(songs_list, artist_name):
