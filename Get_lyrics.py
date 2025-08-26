@@ -60,6 +60,10 @@ def Find_artist_discography(url):
     #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
+    WebDriverWait(driver, 10).until(
+    lambda d: d.execute_script("return document.readyState") == "complete"
+    )
+
     Accept_cookies_genius(driver)
 
         #Get the html page
@@ -282,7 +286,7 @@ def Get_lyrics_genius(link, artist_name):
     gc.collect()
     if len(paroles) < 3 :
         return  
-    return paroles
+    return paroles, collab
 
 def Navigate_songs(songs_list, artist_name):
     """
