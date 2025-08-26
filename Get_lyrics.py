@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import undetected_chromedriver as uc
-import json
 import re
+from bs4.element import Tag
 from tqdm import tqdm
 import time
 import argparse
@@ -206,8 +206,10 @@ def Get_lyrics_genius(link, artist_name):
     # On récupère tous les blocs qui contiennent les paroles
     lyrics_blocks = new.find_all("div", attrs={"data-lyrics-container": "true"})
     paroles = []
-    author_lyrics = False
-    collab = False
+    collab = False #Indication if the music is a featuring, if so the code will need to check if each part was written by our author
+    author_lyrics = False #Indication if the lyrics were written by our specified artist, only if collab = True
+    annot = False #Indication if the line of lyrics contains a commentary, used because this can separate a sentence into multiple lines
+    inside_bracket = False 
 
     if new.find_all("span", string = "Featuring") :
         collab = True
@@ -218,37 +220,69 @@ def Get_lyrics_genius(link, artist_name):
         ligne = ""
         for elem in block.children:
 
-            t = elem.text  # avoid repeating the property lookup
-
-            if "contributor" in t.lower() or "paroles" in t.lower() :
-                continue 
-
-            if collab and (('[' in t or '(' in t) and (':' in t or '-' in t)):
-                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(t)) and "&" not in t
-                paroles.append(t)
+            txt = elem.text
+            if (("contributor" in txt.lower()) or ("paroles" in txt.lower())) or (txt.strip() == "") :
                 continue
-            
-            lyric = elem.get_text(separator="\n")
-            text = re.sub(r"\s+([',;:.!?])", r"\1", lyric)
-            text = re.sub(r"([',;:.!?])\s+", r"\1 ", text)
+                
+            if collab and (('[' in txt or '(' in txt) and (':' in txt or '-' in txt)):
+                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(txt)) and "&" not in txt
+                paroles.append(txt)
+                continue
+
+            text = elem.get_text(separator="<br>") #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
+            text = re.sub(r"\s+([',;:.!?])", r"\1", text) #if a space before ponctuation remove space
+            text = re.sub(r"([',;:.!?])\s+", r"\1", text) #if space after ponctuation remove space
 
             if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics 
                 continue
 
-
-    # Normaliser les espaces multiples
+            # Normaliser les espaces multiples
             text = re.sub(r'\s+', ' ', text).strip()
-            if text != '' :
-                paroles.extend(text.split("\n"))
+
+            #Part where we resolve the anomalies in the format
+ 
+            #This part is specifically design to handle long part indication where the part is divided in multiple lines
+            #Will be bypassed if there is two artists
+            if "[" in text and "]" not in text : 
+                inside_bracket = True #Indicate that we are inside a bracket
+                paroles.append([text])
+                continue
+
+            if inside_bracket  : 
+                paroles[-1] += " "+text #If inside a bracket then everything is on the same line
+                if "]" in text : #Close the bracket
+                    inside_bracket = False
+                continue #Skip the whole next part of if statement
+
+            if (text[0] in [",", " "]) and annot == True : #If new line begin with this then the previous line wasn't finished
+                paroles[-1] += text 
+
+            elif (text[0].islower()) or (len(text.strip())==1) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
+                paroles[-1] += " "+text
+
+            else : 
+                if "<br>" in text : 
+                    for line in text.split("<br>") :
+
+                        if (line[0].islower()) or (len(line.strip())==1) or (paroles[-1][-1] in [",","&"]) : 
+                            paroles[-1] += " "+line
+                        else :
+                            paroles.extend([line])
+                else : 
+                    paroles.extend([text])
+
     
-    # Ajouter la dernière ligne si elle existe
-        if text.strip():
-            paroles.append(text.strip())
+            if isinstance(elem, Tag): #This serve when there is an annot on a lyric and this can separate a line in two differents parts in html
+                if elem.attrs.get("data-ignore-on-click-outside") == "true":
+                    annot = True
+            else : 
+                annot = False
 
     del src, new
     gc.collect()
-    
-    return paroles, collab
+    if len(paroles) < 3 :
+        return  
+    return paroles
 
 def Navigate_songs(songs_list, artist_name):
     """

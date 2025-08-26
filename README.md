@@ -6,7 +6,7 @@ This repository serves as a way to practice concepts learned in the Stanford NLP
 - **Scrape** all the song lyrics of a specified artist to create a training corpus (`Get_lyrics.py`).
 - **Embed** words from the corpus into an N-dimensional vector space (`Tokenize.ipynb`).
 - **Character generation**:
-  - Building and using an RNN.
+  - Building and using an RNN. In progress (`RNN_char_generation.ipynb`)
   - Building and using an LLM.
 - **Word generation**:
   - Building and using an RNN or LLM.
