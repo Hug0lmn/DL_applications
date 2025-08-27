@@ -1,17 +1,31 @@
 # DL_applications
 
-This repository serves as a way to practice concepts learned in the Stanford NLP Course.
+This repository explores deep learning applications in NLP, inspired by concepts from the Stanford NLP Course.
+The focus is on building end-to-end pipelines for lyrics-based text generation using RNNs, LSTMs, and embeddings.
 
 ## Roadmap
-- **Scrape** all the song lyrics of a specified artist to create a training corpus (`Get_lyrics.py`).
-- **Embed** words from the corpus into an N-dimensional vector space (`Tokenize.ipynb`).
-- **Character generation**:
-  - Building and using an RNN. In progress (`RNN_char_generation.ipynb`)
-  - Building and using an LLM.
-- **Word generation**:
-  - Building and using an RNN or LLM.
-  - Using FastText pretrained embeddings.
-- **Sequence generation** models (TBD).
+**Scraping & Preprocessing** 
+✅ Scrape lyrics from Genius [Get_lyrics.py]
+✅ Clean and prepare corpora for RNNs & embeddings [Cleaning_txt_Medine.ipynb]
+
+**Embedding & Tokenization** [Tokenize.ipynb]
+✅ Embed words into N-dimensional vector space (FastText, custom)
+
+**Structure Generation**
+🔄 Transition probabilities between song parts (Markov Chains) [Markov_Chain.ipynb]
+🔄 Song length distribution analysis
+🔄 Rhyme scheme detection
+
+**Character Generation**
+🔄 RNN character-level generator [RNN_char_generation.ipynb]
+🔄 LSTM character-level generator [lstm-char-generation.ipynb]
+
+**Word Generation**
+🔄 RNN/LLM-based word generation
+🔄 FastText pretrained embeddings integration
+
+**Sequence Generation Models**
+🔜 TBD
 
 ---
 
