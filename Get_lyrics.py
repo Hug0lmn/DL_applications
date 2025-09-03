@@ -515,3 +515,5 @@ elif len(links) > 1 :
         #Idea : try multi threading to reduce runtime  
         artist_name, songs = Find_artist_discography(link)
         prepare_lyrics(artist_name, songs)
+        subprocess.run(["python", "Markov/Markov_Chain.py", "--name", artist_name])
+        subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])

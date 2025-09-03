@@ -6,13 +6,13 @@ The focus is on building end-to-end pipelines for lyrics-based text generation u
 ## Roadmap
 **Scraping & Preprocessing**   
 ✅ Scrape lyrics from Genius [Get_lyrics.py]  
-✅ Clean and prepare corpora for RNNs & embeddings [Cleaning_txt_Medine.ipynb]  
+✅ Clean and prepare corpora for RNNs & embeddings [Cleaning_txt.py]  
 
 **Embedding & Tokenization** [Tokenize.ipynb]  
 ✅ Embed words into N-dimensional vector space (FastText, custom)  
 
 **Structure Generation**  
-🔄 Transition probabilities between song parts (Markov Chains) [Markov_Chain.ipynb]  
+✅ Transition probabilities between song parts (Markov Chains) [Markov_Chain.py]  
 🔄 Song length distribution analysis  
 🔄 Rhyme scheme detection  
 
@@ -29,16 +29,19 @@ The focus is on building end-to-end pipelines for lyrics-based text generation u
 
 ---
 
-## Get_lyrics.py
-This script:
-- Scrapes an artist’s lyrics from Genius.
-- Cleans and formats them.
-- Generates two corpora:  
-  1. **RNN corpus** – keeps line breaks for sequence models.  
-  2. **Tokenization corpus** – cleaned for embedding models like FastText.
-
-### Usage
-Run the script directly to fetch and prepare the data:
+## Setup
+Install the required dependencies before running the project:
 
 ```bash
-python Get_lyrics.py --link https://genius.com/artists/Limsa-daulnay https://genius.com/artists/Isha
+pip install -r requirements.txt
+```
+
+## Usage
+Run the script directly to fetch and prepare the data:
+
+python Get_lyrics.py --link https://genius.com/artists/Isha
+
+This command will:
+1. Run Get_lyrics.py to generate a corpus of songs and lyrics from the specified artist.  
+2. Run Markov_Chain.py to process the data and return the transition matrix.  
+3. Run Cleaning_txt.py to clean the corpus by removing or replacing invalid characters and unwanted parts.
