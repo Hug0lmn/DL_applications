@@ -7,6 +7,7 @@ from tqdm import tqdm
 import time
 import argparse
 import gc
+import subprocess
 
 #All selenium import
 from selenium import webdriver
@@ -215,7 +216,7 @@ def Get_lyrics_genius(link, artist_name):
     annot = False #Indication if the line of lyrics contains a commentary, used because this can separate a sentence into multiple lines
     inside_bracket = False 
 
-    if new.find_all("span", string = "Featuring") :
+    if new.find_all("span", string = "Featuring") : #Identify a collab (used for post processing and specific scrapping treatment)
         collab = True
     else : 
         collab = False
@@ -224,24 +225,23 @@ def Get_lyrics_genius(link, artist_name):
         ligne = ""
         for elem in block.children:
 
-            txt = elem.text
-            if (("contributor" in txt.lower()) or ("paroles" in txt.lower())) or (txt.strip() == "") :
+            txt = elem.get_text()
+            if (("Contributor" in txt) or ("Paroles" in txt)) or (txt.strip() == "") :#We don't need this type of info
                 continue
                 
-            if collab and (('[' in txt or '(' in txt) and (':' in txt or '-' in txt)):
-                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(txt)) and "&" not in txt
+            #Featuring part
+            if collab and (('[' in txt or '(' in txt) and (':' in txt or '-' in txt)): #If the text indicates a part in a featuring
+                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(txt)) and "&" not in txt #If the artist name is found in this text and only one name : author_lyrics == True
                 paroles.append(txt)
                 continue
 
-            text = elem.get_text(separator="<br>") #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
-            text = re.sub(r"\s+([',;:.!?])", r"\1", text) #if a space before ponctuation remove space
-#            text = re.sub(r"([',;:.!?])\s+", r"\1", text) #if space after ponctuation remove space
-
-            if collab and not author_lyrics : #Passe au prochain elem jusqu'à ce qu'un élément corresponde à author_lyrics 
+            if collab and not author_lyrics : #If the part isn't sung by our artist, skip the text
                 continue
 
-            # Normaliser les espaces multiples
-            text = re.sub(r'\s+', ' ', text).strip()
+            #Get the text and perform small corrections
+            text = elem.get_text(separator="<br>") #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
+            text = re.sub(r"\s+([',;:.!?])", r"\1", text) #If a space before ponctuation remove space
+            text = re.sub(r'\s+', ' ', text).strip() #Normalize consecutive spaces
 
             #Part where we resolve the anomalies in the format
  
@@ -261,13 +261,13 @@ def Get_lyrics_genius(link, artist_name):
             if "<br>" in text : 
                 for line in text.split("<br>") :
 
-                    if (line[0].islower()) or (len(line.strip())==1) : 
-                        try :
+                    if (line[0].islower()) or (len(line.strip())==1) : #If the first letter is a lowercase or contains only one char
+                        try :  #then we assume the sentence wasn't finished and need to add it to the previous line 
                             paroles[-1] += " "+line
                         except : 
-                            paroles.extend([line])
-                    elif len(paroles) > 1 :
-                        if paroles[-1][-1] in [",","&"] :
+                            paroles.extend([line]) #If no previous line then new line
+                    elif len(paroles) >= 1 : #Else 
+                        if paroles[-1][-1] in [",","&"] : #This is use because on a number of outro, i observed that the outro part is divided in multiple lines when there is multiple artists in it
                             paroles[-1] += " "+line
                         else :
                             paroles.extend([line])
@@ -280,7 +280,6 @@ def Get_lyrics_genius(link, artist_name):
 
             else : 
                 paroles.extend([text])
-
     
             if isinstance(elem, Tag): #This serve when there is an annot on a lyric and this can separate a line in two differents parts in html
                 if elem.attrs.get("data-ignore-on-click-outside") == "true":
@@ -386,6 +385,29 @@ def Navigate_songs(songs_list, artist_name):
                 continue
             
             only_lyrics.append(i)    
+
+        only_lyrics.append("<END_SECTION>")
+        only_lyrics.append("<END>\n")
+        
+        ## Part that resolve the pb where a part (REFRAIN) has no lyrics because it is identical has the previous one 
+        refrain_part = []
+        where_to_add = []
+        
+        for n in range(len(only_lyrics)-1) :
+            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] != "<END_SECTION>") : #Identify a complete REFRAIN
+                j = n + 1
+                while only_lyrics[j] != "<END_SECTION>" : #Collect all the lyrics of the REFRAIN
+                    refrain_part.append(only_lyrics[j])
+                    j += 1
+
+            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] == "<END_SECTION>") : #Collect the empty REFRAIN
+                where_to_add.append(n+1)
+
+        compteur_add = 0 #Complete the empty REFRAIN
+        for i in where_to_add :
+            for j in refrain_part : #If use of refrain_part directly, we have nested list 
+                only_lyrics.insert(i+compteur_add,j)
+                compteur_add += 1
                     
         song_title = songs_link.a.h3.text
         dict_parole[f"{song_title}"] = only_lyrics
@@ -444,14 +466,11 @@ def prepare_lyrics(artist_name, title_set):
             found_site += 1
             no_found.append(title)
             print(f"Deleted for missing lyrics : {title}")
-        else :
-            lines.append("<END_SECTION>")
-            lines.append("<END>\n")
 
         result[title] = lines
-
-
-    print(found_site, no_found)
+    
+    if found_site > 0 :
+        print(found_site, no_found)
 
     #Regroupement de l'entiéreté du corpus de texte
     corpus = []
@@ -469,7 +488,7 @@ def prepare_lyrics(artist_name, title_set):
     corpus_tokenization = corpus_tokenization.lower()
     corpus_tokenization = re.sub(r'\n{2,}', '\n', corpus_tokenization)
 
-    with open(f"corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
+    with open(f"Corpus/corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_RNN)
     print(f"Find corpus usable for RNN at corpus_RNN_{artist_name}.txt")
 
@@ -485,9 +504,14 @@ parser.add_argument("--link", type=str, help="Link of genius's artist page", nar
 args = parser.parse_args()
 links = args.link
 
-for link in tqdm(links, desc='Scrapping Artist'):
-    artist_name, songs = Find_artist_discography(link)
-
-#Next things to try will be multi threading to reduce runtime heavily 
-
+if len (links) == 1 : 
+    artist_name, songs = Find_artist_discography(links[0])
     prepare_lyrics(artist_name, songs)
+    subprocess.run(["python", "Markov/Markov_Chain.py", "--name", artist_name])
+    subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
+
+elif len(links) > 1 :
+    for link in tqdm(links, desc='Scrapping Artist'):
+        #Idea : try multi threading to reduce runtime  
+        artist_name, songs = Find_artist_discography(link)
+        prepare_lyrics(artist_name, songs)

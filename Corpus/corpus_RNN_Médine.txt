@@ -1,5 +1,7 @@
 <BEGINNING>True
 <INTRO>
+C'est nous l'Grand Paris 
+C'est nous l'Grand Paris 
 <END_SECTION>
 <COUPLET>
 La banlieue, c'est des pâquerettes sur un tas d'fumier 
@@ -12,6 +14,10 @@ Papy t'a défendu, est-c'que tu t'en souviens ?
 <PONT>
 <END_SECTION>
 <REFRAIN>
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
@@ -32,6 +38,10 @@ C'est nous, on braque Paris
 Devant les inspecteurs qui nous respectent as-pJoue les Winspector, gros, j'expectore 
 <END_SECTION>
 <REFRAIN>
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
 <END_SECTION>
 <PONT>
 <END_SECTION>
@@ -43,6 +53,10 @@ et on s'v'-esqui quand ça sent la taule
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
+C'est nous, on braque Paris 
 <END_SECTION>
 <END>
 
@@ -52,12 +66,28 @@ et on s'v'-esqui quand ça sent la taule
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Y'a des rumeurs entre vous, y'a des rancœurs entre vous
+Des engraineurs, des pompeurs, des rappeurs entre vous
+Y'a les majors entre vous, le Top-IFOP entre vous
+Les internautes, la radio, la parano entre vous
+Eh, et à quoi bon de se tuer dans cette épreuve
+Pour le fric, pour les clics, pour le buzz
+Y'a l'estime entre nous, pas besoin de clash entre nous
+Avant c'était eux contre nous maintenant c'est nous contre nous
 <END_SECTION>
 <PONT>
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Y'a des rumeurs entre vous, y'a des rancœurs entre vous
+Des engraineurs, des pompeurs, des rappeurs entre vous
+Y'a les majors entre vous, le Top-IFOP entre vous
+Les internautes, la radio, la parano entre vous
+Eh, et à quoi bon de se tuer dans cette épreuve
+Pour le fric, pour les clics, pour le buzz
+Y'a l'estime entre nous, pas besoin de clash entre nous
+Avant c'était eux contre nous maintenant c'est nous contre nous
 <END_SECTION>
 <COUPLET>
 Kery tu parles comme un jeune rookie qu'a faim d'buzz
@@ -404,6 +434,22 @@ Alors comment ne pas trouver le rap si romantique?
 Comment ne pas trouver le rap romantique?
 <END_SECTION>
 <REFRAIN>
+J'ai fait le tour de ma vie sur des notes
+Pour qu'on m'ouvre les portes, ouais, du paradis des poètes
+J'ai tout donné pour écrire mon époque
+Sur des pages, j'ai gravé ma vie de bohème
+Entre mes doutes et mon bonheur
+Tant que je garderai mon honneur
+Je ferai le tour de ma vie sur des notes
+Au paradis des poètes
+J'ai fait le tour de ma vie sur des notes
+Pour qu'on m'ouvre les portes, ouais, du paradis des poètes
+J'ai tout donné pour écrire mon époque
+Sur des pages, j'ai gravé ma vie de bohème
+Entre mes doutes et mon bonheur
+Tant que je garderai mon honneur
+Je ferai le tour de ma vie sur des notes
+Au paradis des poètes
 <END_SECTION>
 <PONT>
 <END_SECTION>
@@ -700,6 +746,88 @@ Y a pas qu'en mourant par un trou d'balle qu'on rentre dans les annales
 <END_SECTION>
 <END>
 
+<BEGINNING>False
+, 
+Alger crie
+Alger peur , 
+Alger prie
+Alger pleure, 
+Algérie
+<COUPLET>
+J’ai l’sang mêlé: un peu colon, un peu colonisé
+Un peu colombe sombre ou corbeau décolorisé
+Médine est métissé: Algérien-Français
+Double identité: je suis un schizophrène de l’humanité
+Deux vieux ennemis cohabitent dans mon code génétique
+À moi seul j’incarne une histoire sans générique
+Malheureusement les douleurs sont rétroactives
+Lorsque ma part algérienne s'exprime dans le micro d'la vie
+Pensiez-vous qu’on oublierait la torture?
+Que la vraie nature de l’invasion était l’hydrocarbure?
+Pensaient-ils vraiment que le pétrole était dans nos abdomens?
+Pour labourer nos corps comme on laboure un vaste domaine
+On ne peut oublier le code pour indigène
+On ne peut masquer sa gêne, au courant de la gégène
+Électrocuter des hommes durant six ou sept heures
+Des corps nus sur un sommier de fer branché sur le secteur
+On n’oublie pas les djellabas de sang immaculées
+La dignité masculine ôtée d’un homme émasculé
+Les corvées de bois
+, creuser sa tombe avant d’y prendre emploi
+On n'oublie pas les mutilés à plus de trente endroits
+Les averses de coups,  le supplice de la goutte
+Les marques de boots sur l’honneur des djounouds
+On n’oublie pas les morsures du peloton cynophile
+Et les sexes non-circoncis dans les ventres de nos filles
+On n’omet pas les lois par la loi de l’Omerta
+Main de métal nationale écrase les lois Mahométanes
+Et les centres de regroupement pour personnes musulmanes
+Des camps d’concentration au sortir de la seconde mondiale
+On n’oublie pas ses ennemis
+Les usines de la mort ,  la villa Sesini
+Épaule drapée, vert dominant sur ma banderole
+Ma parole de mémoire d’homme: les bourreaux n’auront jamais l’bon rôle
+<END_SECTION>
+<REFRAIN>
+Alger meurt, Alger vit
+Alger dort , 
+Alger crie
+Alger peur , 
+Alger prie
+Alger pleure, 
+Algérie
+<END_SECTION>
+<COUPLET>
+J’ai l’sang miellé, aux trois-quarts caramélisé
+Naturalisé, identités carbonisées
+Médine, mais qui c’est?
+Méditerranée?
+Ou Mer du Nord salée?
+Tamponné Made in terre damnée
+Le plus dur dans une guerre c’est de la terminer
+Que la paix soit une valeur entérinée
+Les vieux ennemis nourrissent une rancœur pour l’éternité
+Si l'Algérie s'enrhume c'est que la France a éternué
+Alors on dialogue en se raclant la gorge
+En se rappelant les morts avec le tranchant du bord
+On marque le score à chaque nouvelle écorche
+Recompte les corps à chaque nouvel effort
+Du martyr au harki, du colon jusqu’au natif
+Qui s’battirent pour sa patrie? Et qui pour ses actifs?
+Du pied noir au maquisard, on est tous en mal d’histoire
+Alger la blanche, Alger la noire
+<END_SECTION>
+<REFRAIN>
+Alger meurt, Alger vit
+Alger dort , 
+Alger crie
+Alger peur , 
+Alger prie
+Alger pleure, 
+Algérie
+<END_SECTION>
+<END>
+
 <BEGINNING>True
 <COUPLET>
 <END_SECTION>
@@ -735,6 +863,8 @@ Car si le renard a plusieurs ruses, le hérisson en a qu'une bonne
 
 <BEGINNING>True
 <COUPLET>
+Bienvenue dans l'monde héroïque
+Où ne plus vivre malheureux, c'est mourir dans un décès comique
 Où Malcolm n'est plus X, mais le frère de Reese
 Où l'on ne combat plus le mal, mais le favorise
 On porte des capes pour mieux s'élever
@@ -830,6 +960,10 @@ Qu'ils ouvrent des écoles et ferment tous les cachots
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Isolé, loin des autres comme un damné
+Désolé de mes fautes, depuis des années
+Je suis désarmé, je sais désormais
+Que la vie est un apprentissage qui ne finit jamais
 <END_SECTION>
 <COUPLET>
 Apprendre que les petits freestyles forgent les grandes gueules
@@ -858,14 +992,26 @@ Que la vie est un apprentissage qui ne finit jamais
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Isolé, loin des autres comme un damné
+Désolé de mes fautes, depuis des années
+Je suis désarmé, je sais désormais
+Que la vie est un apprentissage qui ne finit jamais
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Isolé, loin des autres comme un damné
+Désolé de mes fautes, depuis des années
+Je suis désarmé, je sais désormais
+Que la vie est un apprentissage qui ne finit jamais
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Isolé, loin des autres comme un damné
+Désolé de mes fautes, depuis des années
+Je suis désarmé, je sais désormais
+Que la vie est un apprentissage qui ne finit jamais
 <END_SECTION>
 <END>
 
@@ -1059,6 +1205,8 @@ Tant qu'on aura pas le porte-parolat
 
 <BEGINNING>False
 <COUPLET>
+J'ai commencé avec Mourad le petit frère de Youssef
+À l'époque, personne nous aide, c'était do it yourself
 À 13 ans j'voulais déjà faire l'album de la maturité
 Aujourd'hui le mot mature tu peux plus le googliser
 Accent normand sur langue de Molière j'suis pas normalien
@@ -1171,6 +1319,7 @@ Pré-refrain : Nassi
 <REFRAIN>
 <END_SECTION>
 <COUPLET>
+Ces quelques paroles servent de potion
 Révèlent la lumière des peuples à la peau sombre
 Appelle-moi Médine, premier du nom
 J'viens du continent qu'on prend pour le grenier du monde
@@ -1271,6 +1420,8 @@ Ici t'es qu'un âne on t'appelle Kendrick le 7mar
 
 <BEGINNING>False
 Verse
+Je suis le genre de mec qui, dans une boite de strip-tease, regarde le public
+Comme de l'héroïne planquée parmi les hosties, le ton est biblique
 J'ai promis d'arrêter la provoc', j'ai pas promis d'arrêter de mentir
 J'ai lu qu'écrire causait la mort, alors j'ai donc décidé d'arrêter de lire
 Mes mots viennent de ma plume, ma plume revient de la forge
@@ -1485,6 +1636,14 @@ Et pour le dire un album c'est trop court!
 
 <BEGINNING>False
 <COUPLET>
+J’ai mis mon casque et mon blouson
+Sorti ma vieille goose grise appropriée pour la saison
+En peau de bison Ipod dans l’intérieure poche
+Du baladeur fait passer le fil par la manche
+Au bord de la Manche où tous les jours sont dimanche
+Piétine les flaques d’eau comme pour prendre ma revanche
+Ma revanche sur les trottoirs trop tard
+Petit Apple commence la lecture aléatoire
 Au premier rang de l’école du micro d’argent
 L’étoile de métal et le pharaon croyant
 M'enseignent que demain c’est loin que la vie c’est long
@@ -1584,6 +1743,11 @@ Aléatoire 2006
 
 <BEGINNING>False
 <INTRO>
+J'suis venu au monde en pleurant et tout l'monde souriait autour de moi
+J'veux mourir en souriant, que tout l'monde pleure autour de moi
+D'humeur massacrante, j'viens pour cracher mon venin 
+
+Deux minutes trente dans un sas de décompression, appelez-moi venom
 <END_SECTION>
 <COUPLET>
 La vie, c'est le petit théâtre, j'préfère autant crever d'hépatite A
@@ -1769,6 +1933,8 @@ C'est nous l'Grand Paris
 
 <BEGINNING>False
 <COUPLET>
+Mesdames et messieurs, bienvenue dans les métiers du spectacle
+Où les disques de rap ne servent qu'à caler les armoires bancales
 J'préfère quand y'a pas d'sièges
 Entrouvre les rideaux dans les backstages
 Pour voir si la jauge est pleine
@@ -1837,6 +2003,10 @@ Tout ce que je voulais faire, c'était le Bataclan
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+C'est plus fort que la Musique, plus lourd que l'acier
+Embrouilles et trafics, frère ça c'est ma vie
+Entre le Dîn et le deal, j’ai dû faire un choix
+Mais Dieu seul jugera, frère, le mal qu'on a fait
 <END_SECTION>
 <COUPLET>
 Quitter le monde avec une aiguille dans le bras
@@ -1879,6 +2049,12 @@ Et qu’on regrette sur ce son, Médine, Alpha 5.20
 
 <BEGINNING>False
 <REFRAIN>
+Quand t'allumes un feu
+Ne dis pas c'est la faute aux allumettes
+Ils ont ouvert le feu
+Ils ont pris une centaine de nos âmes humaines
+No drama, no more
+C'est vos guerres mais nos morts
 J'te l'répète encore: l'amour des siens c'est pas la haine des autres
 <END_SECTION>
 <COUPLET>
@@ -2433,6 +2609,7 @@ Arabian téléphone, téléphonie berbère
 Attentat burlesque sur la planète connerie
 Encore une histoire de l’homme qui a vu l’homme qui a vu l’ours
 Lorsque les bruits de couloirs deviennent des affaires d’Etat
+Que les rumeurs sont prises pour paroles d’évangile
 Mesdames et messieurs, voici le rap game en mode Gene Hackman, Orson Welles et Jason Bourne
 Yeah! Din Records, tellement de concepts qu’on te fait croire au complot
 Table d’Ecoute, que tous les bougs vérifient leurs sources
@@ -2441,6 +2618,8 @@ Table d’Ecoute, que tous les bougs vérifient leurs sources
 
 <BEGINNING>False
 <INTRO>
+J'ai lu quelque part que vous renonciez au Protest Song. Est-ce que vous avez un message? Est-ce que vous vous sentez investi d'une mission? Est-ce que vous essayez de... changer le monde, je voulais dire? Est-ce que vous essayez de faire passer votre idéalisme auprès du public?
+Vous êtes considérés comme le symbole du mouvement protestataire auprès du jeune public, et beaucoup s'interrogent après la sortie de votre nouvel album, et se demandent si vous vous préoccupez encore des gens...
 <END_SECTION>
 <REFRAIN>
 R.A.P.: Rien À Promettre
@@ -2536,6 +2715,14 @@ J'viens pour chanter du Protest!
 
 <BEGINNING>False
 <INTRO>
+On m'a dit Bouge de là
+Vas-y bouge de là!
+Alors bouge de là!
+Ou bien bouge de là! Bouge de là! Bouge de là!
+Bouge de là!
+Vas-y, bouge de là!
+Alors, bouge de là!
+MC, bouge de là! Bouge de là! Boude de là!
 <END_SECTION>
 <COUPLET>
 Entre le vendeur de disques et le vendeur de discours
@@ -2704,6 +2891,9 @@ Leur sang sèchera plus vite que mon encre
 
 <BEGINNING>False
 <COUPLET>
+Y a mes titres qui font les gros titres, les trolls du net qui gossip
+Et tout est parti d'un tweet raciste mais qui se justifie se crucifie
+Un exemplaire de mon disque a fini sur le bureau du ministre
 L'irrévérence et la satire, moi, j'croyais qu'c'était pour tous les artistes
 J'suis l'enfant du peuple qui fait la grimace à l'État dès qu'il a le dos tourné
 C'est maître Victor Hugo qui disait qu'être contesté, c'est être constaté
@@ -2747,6 +2937,8 @@ C'est-à-dire qu'si tu es en colère, c'est qu'tu n'es pas capable de raisonner 
 
 <BEGINNING>False
 <INTRO>
+On rencontre son destin
+Sur les chemins que l'on emprunte pour mieux l'éviter
 Parti pour combattre le déclin
 J'me suis libéré d'mes besoins pour léviter
 Pour mieux élever ma Nation
@@ -2755,6 +2947,7 @@ Y a le mot love dans révolutionne
 Avec un canon à onde, j'fais la rélovution!
 <END_SECTION>
 <COUPLET>
+Besoin de changer les belles paroles en de belles actions
 Besoin de tourner les paraboles de nos cœurs vers la réflexion
 Besoin de changer l'état du peuple et l'État de sa condition
 Besoin de faire construire des écoles, pour mieux démolir des prisons
@@ -3333,6 +3526,10 @@ Indiqueraient le temps des douze prochains mois de l'année
 Et terminera gouverné par des inéligibles
 <END_SECTION>
 <REFRAIN>
+J'démine, ils me prennent pour un poseur de bombes
+Ils nous prennent pour de sombres démons
+J'écroule les murs pour faire des ponts
+On ne lira pas mon nom sur les monuments du monde, j'démine
 <END_SECTION>
 <COUPLET>
 Ce n'est pas une fausse alerte
@@ -3354,6 +3551,10 @@ Ceux qui solutionnent la crise en vendant leurs mairies aux racistes
 Désolé de t'apprendre que la France ce n'est pas la méritocratie
 <END_SECTION>
 <REFRAIN>
+J'démine, ils me prennent pour un poseur de bombes
+Ils nous prennent pour de sombres démons
+J'écroule les murs pour faire des ponts
+On ne lira pas mon nom sur les monuments du monde, j'démine
 <END_SECTION>
 <COUPLET>
 Ce n'est pas un canular
@@ -3372,6 +3573,96 @@ Nous étions venus pour désamorcer l'engin explosif
 Nous étions vêtus de combinaisons marquées co-exist
 C'est pas l'bruit des bottes qui effraie, mais le silence des pantoufles
 Démineur au rapport j'ai coupé le fil bleu blanc rouge
+<END_SECTION>
+<END>
+
+<BEGINNING>False
+avec une santé fidèle comme à Castro
+Et le visage public de Viktor Iouchtchenko
+Si j’étais un sport je serai la guerre
+Et si j’étais une guerre mon frère je serais la Terre
+Je serai l’hiver si j’étais une saison
+Pour garder la tête froide même en temps de typhon
+Si j’étais une musique je serai le rap
+Sur la scène musicale y'a pas plus honorable, non
+Qu’un artiste qui manie le stylo
+Mais si j’étais rappeur mon frère je serai Renaud
+<REFRAIN>
+Avec des si on met Paris en bouteille
+Dirigés vers l’or seront parés mes bootlegs
+J’viens romancer mon histoire en dents de scie
+Et noircir le tableau d’un portrait nois-chi
+Avec des si on met Dakar en canette
+Décorées par l’or seront marquées mes maquettes
+J’viens romancer mon parcours en dents de scie
+Si et seulement si Dieu veut qu’il en soit ainsi
+De l’alphabet si j’étais une lettre
+Je serais celle qui précède le Y et le Z
+Non pas le X des films de sodom’
+Mais le X placé sur le Little de Malcolm
+Aussi vrai que le livre vient de l’arbre
+J’aurais été le savoir si j’étais une arme
+J’aurais été la pire si j’étais une âme
+J’aurais été la guerre si j’étais un art
+Si j’étais un chiffre je serai le zéro
+Comme leur tolérance et ce que représentent nos euros
+Je serai heureux zinc si j’étais Zorro
+Pour faire cavaler les zinc  thésauriser
+ leurs trésors
+Je terroriserai les réseaux si j’étais un désaxé
+Vu que l’armement est un commerce détaxé
+Libres d’accès les bombes au rayon bonbecs
+Qu’aurait été le monde si les armes n’avaient pu naître
+Si j’étais un King j’aurais lutté comme Martin
+Avec un peu moins d’esprit Coubertin
+Et si j’étais sensible à la misère
+J’aurais aimé ma terre-mère comme l’aimait Césaire
+Je serai l’Afrique si j’étais un continent
+Et je nettoierai la merde du colon incontinent
+Si j’étais un leader j’aurais été rappeur
+Mais si j’étais leader à l’heure qu’il est je serai mort
+<END_SECTION>
+<REFRAIN>
+Avec des si on met Paris en bouteille
+Dirigés vers l’or seront parés mes bootlegs
+J’viens romancer mon histoire en dents de scie
+Et noircir le tableau d’un portrait nois-chi
+Avec des si on met Dakar en canette
+Décorées par l’or seront marquées mes maquettes
+J’viens romancer mon parcours en dents de scie
+Si et seulement si Dieu veut qu’il en soit ainsi
+<END_SECTION>
+<COUPLET>
+Si j’étais un jour je serai le neuvième de septembre
+Pour me souvenir d’une légende
+Et que le monde ne porta pas que des bourreaux
+Même si avec des si on ne scie pas de barreaux
+Je serai une Black Panther si j’étais un fauve
+Avec un béret noir posé sur mon crâne chauve
+Si j’étais pauvre,  sans loi ni toit
+J’habiterai dans le parc de Rosa ou Che Guevara
+Si de papiers je me trouvais à court
+Je tatouerai mon corps comme 2Pac Shakur
+Afin de ne faire qu’un avec mes combats
+J’avalerai mes discours comme Lumumba
+Si je me bats comme Ibrahim ou si mon
+Cœur à mal comme Giovanni
+C’est que nos âmes sont sales, pas comme Adama
+Et qu’on espère tous une baraque blanche pour Obama
+Si de ce titre on en sort grandi
+J’habillerai ma violence dans les vêtements de Gandhi
+Et je serai Médine si j’étais une ville
+Mais si j’étais Médine j’aurai peur qu’on m’assassine
+<END_SECTION>
+<REFRAIN>
+Avec des si on met Paris en bouteille
+Dirigés vers l’or seront parés mes bootlegs
+J’viens romancer mon histoire en dents de scie
+Et noircir le tableau d’un portrait nois-chi
+Avec des si on met Dakar en canette
+Décorées par l’or seront marquées mes maquettes
+J’viens romancer mon parcours en dents de scie
+Si et seulement si Dieu veut qu’il en soit ainsi
 <END_SECTION>
 <END>
 
@@ -3512,6 +3803,76 @@ Djazaïr
 <END_SECTION>
 <END>
 
+<BEGINNING>False
+la pétarade
+Encaisse mes textes d'Arabe c'est pas du  gangsta rap
+Advisory Parental
+ car  la paix n'est pas rentable
+Plus rien n'est abordable c'est la 
+Panther Arabian
+Medine Records
+ pas Made in Taiwan
+Balance mes  punchlines
+ sur  machine de guerre akaï
+Venu du sud pour les tourments du studio
+Avec un sourire kabyle
+  et la barbe du leader Massimo
+Voici 40 ans qu'on a la turista sur un territoire instable
+Qui spolie notre belle histoire
+C'est pour les assistés, brothers & sistas
+Qui falsifient leurs visas sous Windows Vista
+Moi j'ai l'art et la manière, l'arme et la bannière
+Une cartouchière d'encre noire mise en bandoulière
+J'ai enveloppé mon arme à feu dans mon cours d'hier
+Pour braquer le ministère de mon passé terne
+On a les termes qui ressuscitent les morts
+Et si je tends l'autre joue c'est pour mieux te mordre aaaarrrghhh
+Caractère vénal ne supplie pas l'Etat
+J'avale le code pénal comme arme sublétale
+Et puis j'écris quelques  sonnets bad
+ comme à 
+Soledad
+Quand les chefs d'état poignardent sous les tables
+Sous les dalles sont les descendants de 
+Souleymane
+Et sous les draps sont les leaders tombés sous les balles
+Me saoulez pas moi j'ai quelques albums sous le bras
+C'est de la soul en rap pour bad boys et scélérats
+Baisser les bras ne se fera que sous la pierre tombale
+En ayant vu tous leurs soldats sous injection létale
+Si le meilleur cercueil reste la mémoire des gens
+Je cherche le martyr pour entrer dans la légende
+Et je chante le cafard des fauves
+Marginalisée ma musique est le caviar du pauvre
+C'est du rap  céfran
+ self défense conscient et  bête de sens
+On fait du son comme on panse une plaie
+Complète le sens de la  loi Taubira
+N'oublie pas ton histoire ou bien le monde t'oubliera
+Je répète c'est du rap céfran self défense conscient et bête de sens
+On fait du son comme on panse une plaie
+Complète le sens de la loi Taubira
+N'oublie pas ton histoire ou bien le monde t'oubliera
+Interlude: Malcolm X
+« We declare our rights on this earth… to be a human being, to be given the rights of a human being, to be respected as a human being in this society, on this earth, in this day. Which we intend to bring into existence by any means necessary. »
+« Nous déclarons notre droit sur cette terre… à être des hommes, à jouir des droits d’un être humain, à être respecté en tant qu’êtres humains dans cette société, sur cette Terre, aujourd’hui même. Toute chose que nous avons l’intention de faire exister par tous les moyens nécessaires. »
+Médine
+Alléluia Qu'Allah soit loué
+Libérez 
+Mumia
+ et 
+Leonard Peltier
+C'est pour les  khouyas
+ qui  portent le béret
+Comme le faisait Bobby Seal et les Newton P Huey
+Hamdoulilah que Dieu soit loué
+Indemnisez nos aïeux qui croupissent dans les foyers
+C'est pour les  youvoi
+ qui  portent le Keffieh
+Comme le faisait Arafat au fin fond des tranchées
+<END_SECTION>
+<END>
+
 <BEGINNING>True
 <REFRAIN>
 <END_SECTION>
@@ -3559,6 +3920,10 @@ Balance les phases qui cicatrisent leurs coupures de presse
 
 <BEGINNING>False
 <INTRO>
+Premier titre, du nom de mon dernier fils
+Premier titre, du nom de mon dernier fils
+Premier titre, du nom de mon dernier fils
+Premier titre
 <END_SECTION>
 <COUPLET>
 Rien à foutre d’être propriétaire, j'veux qu'un astéroïde porte mon nom
@@ -3700,6 +4065,10 @@ On n'chasse pas l'brouillard à l'éventail
 
 <BEGINNING>False
 <INTRO>
+Appelez-moi le Boulehya
+Appelez-moi le Boulehya
+Appelez-moi le Boulehya
+Check
 <END_SECTION>
 <COUPLET>
 Une punchline dans leur gueule, ils perdent leur centre de gravité
@@ -3841,6 +4210,161 @@ Enfant du destin, enfant de la guerre
 Enfant du destin, enfant de la guerre
 Komalé, Tiendanite, Canala, Nakéty, Kouaoua, Oroe, Nekou, Azareu et Kikoue
 Enfant du destin
+<END_SECTION>
+<END>
+
+<BEGINNING>False
+voilà dix années
+Nos parents dissuadés par nos couplets designés
+Si Dieu l'accepte, artiste à perpète
+Sans vraiment connaître le sens des termes « auteur interprète »
+Indépendante est la manière l'Islam est la bannière
+Beaucoup disait qu'on s'ajoutait des barrières
+Mais bien plus fort que la consanguinité
+L'Islam est venu cimenter jusqu'à la plus petite cavité
+Appelle ça comme tu veux pour le plaisir
+Tantôt l'opium du peuple tantôt de l'hérésie
+Dans les récits prophétiques j'ai trouvé mon équilibre
+De quoi enchaîner mes démons avec les chapitres d'un Livre
+Elle est mon garde fou celle qui garde au garde-à-vous
+Mon garde boue quotidien si la Dounia est une autoroute
+D'un héritage paternel au nourrisson
+J'obtiens des gants de boxe et les trésors d'un prénom
+MÉDINE!
+ 
+J'habite à 5000 km de cette ville
+Mais l'écho de son histoire résonne en moi comme un missile
+Comme une bénédiction une sorte d'armure invisible
+Qui m'a préservé du crime
+De toute manière je n'étais pas fait pour être gangster
+La moindre taffe sur un spliff m'aurait filé le cancer
+J'aurai chopé la cirrhose avec une gorgée de scotch
+Embrassé des tonnes de murs en pilotant des moto-cross
+La crosse à la ceinture je m'éclate un testicule à coup sûr
+Heureusement qu'on meurt pas de ridicule
+Ou je serai mort depuis des lustres dans un bus
+Encore gosse aux cotés d'un poste qui jouait Kriss Kross
+J'avais peut-être l'étoffe d'un bon boxeur
+Mais toute force de la nature possède les faiblesses d'un corps
+Frappe-moi le nez si tu veux l'effet de Sangoku
+À qui on sert la queue je serai KO à coup sûr
+À la moindre pichenette je pisse du bec
+Alors de 
+Daddy Lord C
+ j'endosse la partie poète
+Mon titre n'était pas sur un ring mais planqué sous des rimes
+Et de l'iceberg ma rage était la partie sous-marine
+Maritime seine c'est la qu'ma team sème
+Ses graines pour qu'un jour elles germent par dizaines
+Les médisants disaient que ça se terminerait dans deux ans
+Au final ça fait dix ans que ça doit faire deux ans
+Aucun ancien ne nous a pris sous son aile
+Aucun directeur artistique n'est venu nous signer sur son label
+Crier à l'aide même pas en rêve
+Écrire, une lettre, aux maisons de squeuds plutôt s'ouvrir les veines
+C'est tout le mental de la maison
+On partira le cœur léger sur l'estrade de la pendaison
+Et à raison d'un morceau par semaine
+On parsèmera les bacs d'un album par semestre
+Par semestre, par semestre, par semestre...
+<COUPLET>
+Moi j'ai le mal du siècle
+Depuis qu'à Manhattan les tours jumelles ne décorent plus le ciel
+Sans vouloir romancer mon parcours officiel
+J'ai déposé ma plume au profit d'un retour spirituel
+Individuelle retraite au sein des mosquées de quartier
+Aucune scène, aucun concert viendra me perturber
+Un aller simple pour le voyage intérieur
+Afin de réparer les cœurs que la vie matérielle détériore
+Une éponge à la place de la mémoire
+Moi j'ai le cerveau perméable à toutes formes de savoir
+Ne souris pas j'ai des  sourates
+ sous les soupapes
+Et j'aspire à devenir un Livre Saint sur pattes
+Lorsque enfin l'envie de rapper me dépasse
+Moi en 2004 ma destinée me déclasse
+Premier album: c'est l'autopsie d'une catastrophe
+« Eleven september » seulement présent dans quelques stores
+C'était l'époque où les radios se prenaient pour Skyrock
+Où pour ouvrir les portes fallait paraître au top Ifop
+Mon pote, la rotation s'achète à coups de pub
+Mais le respect du public s'obtient à coups de plume
+Alors je n'écoute plus les ondes et leurs contenus
+Le game est une guerre dont l'issue est déjà convenue
+Les dés sont pipés par l'industrie friquée
+La profession pour les provinciaux est plus que cryptée
+On passe du groupe de quartier, au statut associatif
+De la société, au label qualitatif
+Géographiquement éloigné de la capitale
+S'avère au final être un bien beaucoup plus qu'un mal
+Mais est-ce un signe que malgré tout ceci
+Ma carrière se dessine et mon chemin se désigne
+En toute modestie c'est le  conscient
+ qu'on me destine
+Mes premiers sque-di se soldent en succès d'estime
+Les magazines se décident à nous citer
+Après le forcing bien connu des artistes de l'indé
+J’enchaîne les compiles freestyle et featuring
+Ma culture devient de la confiture de barbituriques
+En 2005 deuxième album en demi-teinte j'emprunte
+Les voix de la provocation pour tous les convaincre
+Et non les combattre avec un disque en forme de sabre
+Mais lutter contre soi reste le plus grand Jihad!
+J'amène un message de paix derrière une épée
+Mes pieds dans le guêpier par les RG je suis épié
+Quand les khalifes sont sur les terrasses des cafés
+Moi j'écris comme un greffier de l'encre au bout d'une griffe
+Productif mais sans faire de l'alimentaire
+C'est tout le défi du R.A.P contestataire
+On sort des squeuds malgré les crises financières
+Afin d'éviter les diverses liquidations judiciaires
+Chaque sortie sauve les salaires
+D'aller bien ça n'a que l'air
+L'ensemble des banquiers s'alertent
+Les plus âgés s'endettent, sous les traites s'enterrent
+Que vaut l'argent devant la rage d'un groupe de jeune  déter
+?
+Ajoute à ça quelques tensions familiales
+Qui nous répètent sans cesse que le rap n'est pas un boulot fiable
+Ajoute à ça quelques pressions d'imams
+Qui nous répètent que ne font pas bon ménage musique et Islam
+Maintenant je sais que le diable est dans le détail
+Que dans la division souvent se cache  le Sheitan
+Alors je m'en remets à Dieu et à ses scientifiques
+Je suis un muslim qui fait de la black musique
+Pourtant je n'ai rien de black je suis tout pâle j'ai même du sang toubab
+Je ne suis ni 
+Serigne Touba
+ ni 2Pac
+Je n'ai que la barbe à 
+Barry White
+Et puis j'habite Le Havre
+À l'embouchure de la Seine pleine de cadavres
+Je déclare mon profond respect aux leaders morts
+Et laisse une couronne de lyrics sur leurs lits de mort
+Do'a pour 
+Malcom , 
+Luther King
+ et 
+Massoud
+Sankara , 
+Lumumba , 
+Arafat Yasser
+Dîn Record humain chaque membre est vital
+Chaque organe a su se rendre inévitable
+D comme Déterminé
+I pour Islam
+N comme Nécessaire aux hommes aux enfants et aux femmes
+C'est de l' hostile gospel
+, de l' arabospiritual
+Des mots de velours écrits d'une main de métal
+Ma profession: gratter des textes sombres
+Déjà en gestation le prochain album c'est Protest Song
+Mais pour l'heure fini de chialer dans les chaumières
+J'arrive dans les charts avec la chance du chômeur
+Et pour le dire rien qu'une centaine de vers frères
+Sculptés dans le fer par L'
+Arabian Panther
 <END_SECTION>
 <END>
 
@@ -4201,6 +4725,10 @@ Une sœur à la morgue découvre le corps de son frère violacé
 
 <BEGINNING>False
 <INTRO>
+Les belles paroles ne sont pas vraies
+Les vraies paroles ne sont pas belles
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais
 <END_SECTION>
 <COUPLET>
 Ils sont prêts à faire fondre l'or des églises pour frapper monnaie et payer les filles de joie
@@ -4215,6 +4743,18 @@ On s'auto-suffit, que nos gangs s'unifient
 Les derniers seront les premiers, premiers sur l'urbain, Urbain Premier
 <END_SECTION>
 <REFRAIN>
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
 <END_SECTION>
 <COUPLET>
 J'connais la street mieux qu'un gars de l'urbanisme, j'me prends pas pour Moïse
@@ -4247,13 +4787,31 @@ Je frappe les ténèbres, pour qu'elles saignent la lumière
 Din Records, Urban prière
 <END_SECTION>
 <REFRAIN>
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
+Les belles paroles ne sont pas vraies, Urbain Premier
+Les vraies paroles ne sont pas belles, Urbain Premier
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais, Urbain Premier
 <END_SECTION>
 <OUTRO>
+Les belles paroles ne sont pas vraies
+Les vraies paroles ne sont pas belles
+J'ai toujours pensé ce que je rappais
+Je n'ai pas rappé tout ce que je pensais
 <END_SECTION>
 <END>
 
 <BEGINNING>False
 <INTRO>
+Je suis l'oracle, l'oracle
+L'oracle,  ce n'est pas une prévision
 Je suis l'oracle, l'oracle
 Qu'ils ouvrent des écoles, ils fermeront des prisons
 <END_SECTION>
@@ -4799,6 +5357,14 @@ Avis de tempête sur les bouffons
 Goûte au supplice des plumes et du goudron
 <END_SECTION>
 <REFRAIN>
+Tout le monde veut rapper mais est ce que tout le monde doit?
+Tout le monde veut gagner mais est ce que tout le monde pourra?
+Tu veux ressembler au rappeur tendance?
+Chante ces couplets devant un miroir déformant
+Tout le monde veut rapper mais est ce que tout le monde doit?
+Tout le monde veut peser mais est ce que tout le monde fait le poids?
+Trop de postulants pour peu de place
+Une poignée d’élu au jeu du trône musical
 <END_SECTION>
 <COUPLET>
 Moi j’ai ma part de conneries
@@ -4913,6 +5479,10 @@ Je crois qu'avec mes chansons, je peux apporter un petit peu de plaisir esthéti
 
 <BEGINNING>False
 David est un juif et ses parents sont colons
+Papa est dans l'armée maman l'est aussi
+Engagés après leur fac de médecine
+Aujourd'hui, ils sont tous deux montés en grade
+Pour avoir démantelé la résistance arabe
 David!
 Est réservé et solitaire
 Il se comporte à l'école de manière exemplaire
@@ -5057,6 +5627,10 @@ Choeur du public
 
 <BEGINNING>False
 <COUPLET>
+Y a pas qu'les chiffres qui sont arabes, y a les lettres aussi
+Sans elles, certaines phrases se termineraient dans la langue des signes
+Y a pas d'histoires de races, de mauvaises suprématies
+Y a que des hommes qui cherchent un peu de fierté dans les vieilles racines
 J't'informe que amiral vient du mot émir
 J'suis qu'un petit beur qui fait swinguer la langue comme Némir
 Que le mot toubib soigne les troubles de la parole
@@ -5134,6 +5708,8 @@ Arobase à zéro, arobase à zéro, zéro
 
 <BEGINNING>False
 <INTRO>
+Y a plus d'encre que de sang
+Et y a plus d'encre que de sang
 <END_SECTION>
 <COUPLET>
 Paris, London et Bruxelles
@@ -5239,6 +5815,7 @@ Et dégueulent sur ma gueule dans un excès de zèle
 Une demi-dizaine d'Emails dans ma mail box
 Traitant de décibels et de paradoxes
 En tout genre du genre du mineur au majeur
+Qui font de mes paroles un problème d'État major
 Première question active le mécanisme
 Pourquoi dis-tu: pas intégré mais -plus qu'intégriste-?
 Je l'ai lu dans les dernières mesures
@@ -5886,6 +6463,108 @@ Ignorez l'intro, ignorez l'intro
 <END>
 
 <BEGINNING>False
+d'un back
+  et d'un passeport falsh
+Dans « Résolution », besoin de remplacer le « S » par le « V »
+Tu t'es pas relevé qu'on a le bras levé!
+J'ai besoin de changer les choses,   la main sur le glaive
+Et les deux poings dans une paire de Gloves
+Oh my God! Besoin d'observer le globe
+Un tigre dans la glotte,  je viens débarbouiller le gloss
+Besoin d'un keuf pour un keuf, d'un juge pour un juge
+D'un proc' pour un proc', pour ceux qu'on accusent
+Besoin de patch anti-shit dans les coffee shop
+Besoin d'un badge  anti-Schmit
+ sur nos beaux tee-shirts
+Besoin de révolte ,  de réveil communautaire
+Besoin de paix alors j'ai besoin d'un revolver
+De dénoncer leur climat ultra sécuritaire
+De me torcher l'arrière avec leurs presse populaire
+Besoin d'un pouvoir d'achat de P.D.G
+Besoin de sortir de sous le seuil de pauvreté
+Besoin que l'Or Noir repasse sous les 100 dollars
+Que les ghettos repassent sous la barre des 100 taulards
+Besoin de changer par un 
+Q7
+ ma Twingo
+Sans pour autant enlever le chapelet du rétro!
+Besoin de 
+Bicots
+, de Blancs et de Blackos!
+Besoin de 
+Din Records
+ autant que 
+Because
+Des be-besoins, j'en ai be- bezef
+Si je bé-bégaie faute à 
+R.Z.A
+ ou à 
+D.B.Z ?
+J'ai be-besoin de la be-bebar des 
+ZZ Top
+Be-besoin de  bé-bé-bébar
+ leur digicode
+Besoin de zapper le hip-hop de mon Ipod
+Besoin de balancer ma zapette au fond des chiottes
+Le R.A.P aurait bien besoin d'un checkpoint
+Car les M.C tiennent le micro comme un sex-toy
+Besoin de performances, de morceaux hors-formats
+D'être au rap ce que Muhammad est à George Forman
+Besoin d'efforts, de hardcore et de réformes
+Besoin que le binôme Lunatic se reforme
+Aux clubbers, besoin d'arracher la langue
+Le seul clubber que l'on tolère c'est Clubber Lang
+Les studios sont des bars, les clips des stripteases
+Besoin de ressusciter l'esprit des « Sixties »
+Besoin d'un Hallal Cheese du Funny Bunny
+Besoin des royalties à Carla Bruni
+Besoin d'un homme politique 
+Boulevard Auriol
+Et de George W. dans un cercueil
+Besoin d'une bouche d'égout pour beat-boxer
+Besoin d'un marketing de Blockbuster
+Brother, besoin de m'écarter du viseur
+De déguster du  poulet braisé
+ au 
+Taser
+Besoin d'une assurance vie pour marcher en ville
+D'un chèque à six Chiffres pour mon centre islamique
+Besoin de Dieu, pas d'un bodyguard
+D'envoyer les journaleux vicieux dans un body bag
+Besoin de 
+Brav , 
+Tiers Monde
+ et 
+Sals'a
+Nahim, Hugues, 
+Proof , 
+Aboubakr
+ et 
+Yahia
+Besoin de 
+Samba , 
+Moodee , 
+Enarce
+ et 
+Koto
+Besoin de 
+Dr.C , 
+Chicanos
+ et 
+Remos
+On a les besoins d'énergumène
+À l'apparence humaine avec une rage herculéenne
+Besoin d'écrire quand les rappeurs ont la flemme
+De régler nos horloges internes sur celle de Flavor Flav 
+J'ai les besoin d'un énergumène
+À l'apparence humaine avec une rage herculéenne
+Besoin d'écrire quand les rappeurs font la grève
+De régler mon horloge interne sur celle de Flavor Flav
+Besoin de Révolution!
+<END_SECTION>
+<END>
+
+<BEGINNING>False
 <COUPLET>
 C'est pas Miss Météo, j'suis pas Monsieur Musclor
 J'ai varices, pas d'abdo', vergetures sur le corps
@@ -5966,6 +6645,73 @@ On crève comme des Cœur de Lion, pas comme Kurt Cobain
 
 <BEGINNING>True
 <REFRAIN>
+Ol' Kainry
+J'ai mis une main aux seufs à la life, la chiennasse m’a dit pas touche
+Couz j’suis toujours au max, vous emballez pas tous
+Ouf j’ai appris à faire mouche
+Direct, je viens m’imposer comme Zlatan, pas le temps de faire le Lucho
+Oh, Ne me juge pas à mon look, ou à mon bouc poilu
+J’ai appris qu’elle peut être douce, alors je zouk la rue
+Je joue pas de rôle, mais ne sous estime pas le bonhomme
+Parce que tu pourrais te prendre, j’ai appris de maître Yoda, hein
+Dans la streetzer, faut se méfier de tout le monde
+Pour protéger mon dos j’apprends à faire le moonwalk
+Et à doguiner la vie, je l’ai appris trop tôt
+J’ai mis une coco, Dyf le lyriciste popo
+L’être humain est mauvais, pute nègre et coupable
+Je l’ai appris quand dans mes propres frères, j’ai vu des poucaves
+J’ai appris des infos, sont-elles fausses ou pas?
+Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
+Sinik
+Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
+Tous, contre les poulets, douce, on rêve de se la couler
+J'ai vite appris à flairer les chiennes selon leur lingerie
+Normal, c'est pas aux singes de mon espèce qu'on fait des singeries
+À courir vite quand tous ces policiers nous encerclent
+Big up, essaye encore petit enculé de tes ancêtres
+J'apprends la survie en taule avec une lamelle de rasoir
+Tout ça pour éviter de finir en passoire
+J'apprends la débrouille, la tête au fond d'un cyclone
+Message à la jeunesse: aller en taule n'est pas un diplôme
+J'apprends les numbers, les sons, les paroles guerrières
+Aux jeunes à faire du rap en évitant d'offrir son derrière
+Les ter-ter, des coups j'en ai fait 400
+Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
+La rue j'en ai pris l'accent, les zen se mettent à couler
+Quiconque se la raconte, se fera fumer dans la foulée
+Mac Tyer
+Ne pas croire en son destin, C’est la honte
+Les babtous ont peur de nous parce qu’on descend des pharaons
+On rêve de
+Murcielago sans revoir des frères qui meurent sur des mers obscurs
+Je navigue, c’est dépressif, que je heurte- la vertue – se perd dans l’intérêt
+Super les gens du même avis
+Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
+J’ai combattu pour César, celui-ci m’a trahi
+Un noir à la maison blanche ça fait tâche sur ton cachemire
+Faut du cash, c’est la kalash qui jacte
+Gros c’est le Glock neuf pas le coffre d’une voiture neuve que je charge
+J’ai dans les gênes chosekel qui me fait kicker
+Si je me sens différent, j’arrive pas à l’expliquer
+Mes rêves d’enfant sont morts avec Mickael Jackson gros
+C’est une époque qui se ferme avec les portes de la taule
+Maintenant c’est la folie, la fièvre du samedi soir
+A trouver son médoc, Doc dans un gros bolide
+OrelsanJe porte un toast à la mort de l'industrieSortez les 8'6, on vient fêter la fin du disqueÉcouter la radio c'est devenu un suppliceSauf que j'aime pas non plus les putains de puristesMusique rétro-futuristeLa bande originale des aventures d'UlysseJ'habiterais dans les abysses j'aurais pas plus de pressionTout ce que je veux : foutre le feu dans ma ville #NéronDonner mon corps à la science inclut la dissectionDes jours entiers je récite mes leçons rourmenté dans une pluie de questionsRien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le sonJ'ai presque abandonné sans faire ma 2ème livraisonMais bordel j'ai fait le plus durAutant tenter un salto avant d'échouer au pied du murJe suis de retour avec ma sous-culture ouaisSauf que c'est nous le futur hein c'est nous le futur !
+Oxmo Puccino
+Le rap une sous-culture mais quelle idée?
+Ce sont des propos de fils de... Ah!
+Une seule phrase, placée musicalement te calme
+La voix agit médicalement
+Ce qu’on trouve ici c’est groovissime
+Mon disque anti grippe, médecine sous cannabis boom
+Okay je canalise, mets sous aspirine les psychanalistes
+Aspirent à pouvoir diminuer la douleur
+Avec des bouquets de lyrics de toutes les couleurs
+D’ailleurs, souvent ailleurs
+Faut bien que je trouve de quoi mettre le fire
+Une basse un rythme le ciel peut s’écrouler
+La terre fleurit dès que je l’ai foulée…
 <END_SECTION>
 <REFRAIN>
 Ol' Kainry
@@ -5998,6 +6744,7 @@ J'apprends la survie en taule avec une lamelle de rasoir
 Tout ça pour éviter de finir en passoire
 J'apprends la débrouille, la tête au fond d'un cyclone
 Message à la jeunesse: aller en taule n'est pas un diplôme
+J'apprends les numbers, les sons, les paroles guerrières
 Aux jeunes à faire du rap en évitant d'offrir son derrière
 Les ter-ter, des coups j'en ai fait 400
 Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
@@ -6005,6 +6752,73 @@ La rue j'en ai pris l'accent, les zen se mettent à couler
 Quiconque se la raconte, se fera fumer dans la foulée
 <END_SECTION>
 <REFRAIN>
+Ol' Kainry
+J'ai mis une main aux seufs à la life, la chiennasse m’a dit pas touche
+Couz j’suis toujours au max, vous emballez pas tous
+Ouf j’ai appris à faire mouche
+Direct, je viens m’imposer comme Zlatan, pas le temps de faire le Lucho
+Oh, Ne me juge pas à mon look, ou à mon bouc poilu
+J’ai appris qu’elle peut être douce, alors je zouk la rue
+Je joue pas de rôle, mais ne sous estime pas le bonhomme
+Parce que tu pourrais te prendre, j’ai appris de maître Yoda, hein
+Dans la streetzer, faut se méfier de tout le monde
+Pour protéger mon dos j’apprends à faire le moonwalk
+Et à doguiner la vie, je l’ai appris trop tôt
+J’ai mis une coco, Dyf le lyriciste popo
+L’être humain est mauvais, pute nègre et coupable
+Je l’ai appris quand dans mes propres frères, j’ai vu des poucaves
+J’ai appris des infos, sont-elles fausses ou pas?
+Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
+Sinik
+Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
+Tous, contre les poulets, douce, on rêve de se la couler
+J'ai vite appris à flairer les chiennes selon leur lingerie
+Normal, c'est pas aux singes de mon espèce qu'on fait des singeries
+À courir vite quand tous ces policiers nous encerclent
+Big up, essaye encore petit enculé de tes ancêtres
+J'apprends la survie en taule avec une lamelle de rasoir
+Tout ça pour éviter de finir en passoire
+J'apprends la débrouille, la tête au fond d'un cyclone
+Message à la jeunesse: aller en taule n'est pas un diplôme
+J'apprends les numbers, les sons, les paroles guerrières
+Aux jeunes à faire du rap en évitant d'offrir son derrière
+Les ter-ter, des coups j'en ai fait 400
+Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
+La rue j'en ai pris l'accent, les zen se mettent à couler
+Quiconque se la raconte, se fera fumer dans la foulée
+Mac Tyer
+Ne pas croire en son destin, C’est la honte
+Les babtous ont peur de nous parce qu’on descend des pharaons
+On rêve de
+Murcielago sans revoir des frères qui meurent sur des mers obscurs
+Je navigue, c’est dépressif, que je heurte- la vertue – se perd dans l’intérêt
+Super les gens du même avis
+Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
+J’ai combattu pour César, celui-ci m’a trahi
+Un noir à la maison blanche ça fait tâche sur ton cachemire
+Faut du cash, c’est la kalash qui jacte
+Gros c’est le Glock neuf pas le coffre d’une voiture neuve que je charge
+J’ai dans les gênes chosekel qui me fait kicker
+Si je me sens différent, j’arrive pas à l’expliquer
+Mes rêves d’enfant sont morts avec Mickael Jackson gros
+C’est une époque qui se ferme avec les portes de la taule
+Maintenant c’est la folie, la fièvre du samedi soir
+A trouver son médoc, Doc dans un gros bolide
+OrelsanJe porte un toast à la mort de l'industrieSortez les 8'6, on vient fêter la fin du disqueÉcouter la radio c'est devenu un suppliceSauf que j'aime pas non plus les putains de puristesMusique rétro-futuristeLa bande originale des aventures d'UlysseJ'habiterais dans les abysses j'aurais pas plus de pressionTout ce que je veux : foutre le feu dans ma ville #NéronDonner mon corps à la science inclut la dissectionDes jours entiers je récite mes leçons rourmenté dans une pluie de questionsRien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le sonJ'ai presque abandonné sans faire ma 2ème livraisonMais bordel j'ai fait le plus durAutant tenter un salto avant d'échouer au pied du murJe suis de retour avec ma sous-culture ouaisSauf que c'est nous le futur hein c'est nous le futur !
+Oxmo Puccino
+Le rap une sous-culture mais quelle idée?
+Ce sont des propos de fils de... Ah!
+Une seule phrase, placée musicalement te calme
+La voix agit médicalement
+Ce qu’on trouve ici c’est groovissime
+Mon disque anti grippe, médecine sous cannabis boom
+Okay je canalise, mets sous aspirine les psychanalistes
+Aspirent à pouvoir diminuer la douleur
+Avec des bouquets de lyrics de toutes les couleurs
+D’ailleurs, souvent ailleurs
+Faut bien que je trouve de quoi mettre le fire
+Une basse un rythme le ciel peut s’écrouler
+La terre fleurit dès que je l’ai foulée…
 <END_SECTION>
 <REFRAIN>
 Mac Tyer
@@ -6046,50 +6860,73 @@ Une basse un rythme le ciel peut s’écrouler
 La terre fleurit dès que je l’ai foulée…
 <END_SECTION>
 <REFRAIN>
-<END_SECTION>
-<END>
-
-<BEGINNING>False
-<COUPLET>
-Et j'te dirais 
-Que si tu veux d'l'amour, il y en a chez moi 
-J'suis pas un Saint, j'suis pas un prince, j'suis pas une pince
-J'cacherai rien qu'tu découvriras qu'à la fin 
-Y a pas de feinte
-Pré-refrain
-Allons à l'essentiel 
-Allons à l'essentiel 
-<END_SECTION>
-<REFRAIN>
-J'vais t'rendre heureuse et tu peux l'parier
-J'vais t'mettre plus haut que toutes les damеs
-Et comment ça, tu veux plus m'parler?
-Dans tout mon cœur, t'as mis du dramе
-<END_SECTION>
-<COUPLET>
-Et j'te dirais 
-Qu'j'suis nul en maths mais j'sais combien tu comptes pour moi 
-Et qu'en anglais, c'est pire mais qu'j'sais dire I love you
-Que les montées sont des descentes quand j'viens te voir 
-Quand vient le soir 
-Et j'te dirais 
-Jamais j'aurais cru t'voir un jour sur une civière 
-Qu'un jour, ce soit tes cendres à toi que je disperse 
-J'pensais quitter avant toi ce monde de merde
-Ô, Dieu du ciel 
-Pré-refrain
-Alors, allons à l'essentiel 
-Allons à l'essentiel 
-<END_SECTION>
-<REFRAIN>
-J'vais t'rendre heureuse et tu peux l'parier
-J'vais t'mettre plus haut que toutes les dames
-Et comment ça, tu veux plus m'parler?
-Dans tout mon cœur, t'as mis du drame
-J'vais t'rendre heureuse et tu peux l'parier
-J'vais t'mettre plus haut que toutes les dames
-Et comment ça, tu veux plus m'parler?
-Dans tout mon cœur, t'as mis du drame
+Ol' Kainry
+J'ai mis une main aux seufs à la life, la chiennasse m’a dit pas touche
+Couz j’suis toujours au max, vous emballez pas tous
+Ouf j’ai appris à faire mouche
+Direct, je viens m’imposer comme Zlatan, pas le temps de faire le Lucho
+Oh, Ne me juge pas à mon look, ou à mon bouc poilu
+J’ai appris qu’elle peut être douce, alors je zouk la rue
+Je joue pas de rôle, mais ne sous estime pas le bonhomme
+Parce que tu pourrais te prendre, j’ai appris de maître Yoda, hein
+Dans la streetzer, faut se méfier de tout le monde
+Pour protéger mon dos j’apprends à faire le moonwalk
+Et à doguiner la vie, je l’ai appris trop tôt
+J’ai mis une coco, Dyf le lyriciste popo
+L’être humain est mauvais, pute nègre et coupable
+Je l’ai appris quand dans mes propres frères, j’ai vu des poucaves
+J’ai appris des infos, sont-elles fausses ou pas?
+Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
+Sinik
+Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
+Tous, contre les poulets, douce, on rêve de se la couler
+J'ai vite appris à flairer les chiennes selon leur lingerie
+Normal, c'est pas aux singes de mon espèce qu'on fait des singeries
+À courir vite quand tous ces policiers nous encerclent
+Big up, essaye encore petit enculé de tes ancêtres
+J'apprends la survie en taule avec une lamelle de rasoir
+Tout ça pour éviter de finir en passoire
+J'apprends la débrouille, la tête au fond d'un cyclone
+Message à la jeunesse: aller en taule n'est pas un diplôme
+J'apprends les numbers, les sons, les paroles guerrières
+Aux jeunes à faire du rap en évitant d'offrir son derrière
+Les ter-ter, des coups j'en ai fait 400
+Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
+La rue j'en ai pris l'accent, les zen se mettent à couler
+Quiconque se la raconte, se fera fumer dans la foulée
+Mac Tyer
+Ne pas croire en son destin, C’est la honte
+Les babtous ont peur de nous parce qu’on descend des pharaons
+On rêve de
+Murcielago sans revoir des frères qui meurent sur des mers obscurs
+Je navigue, c’est dépressif, que je heurte- la vertue – se perd dans l’intérêt
+Super les gens du même avis
+Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
+J’ai combattu pour César, celui-ci m’a trahi
+Un noir à la maison blanche ça fait tâche sur ton cachemire
+Faut du cash, c’est la kalash qui jacte
+Gros c’est le Glock neuf pas le coffre d’une voiture neuve que je charge
+J’ai dans les gênes chosekel qui me fait kicker
+Si je me sens différent, j’arrive pas à l’expliquer
+Mes rêves d’enfant sont morts avec Mickael Jackson gros
+C’est une époque qui se ferme avec les portes de la taule
+Maintenant c’est la folie, la fièvre du samedi soir
+A trouver son médoc, Doc dans un gros bolide
+OrelsanJe porte un toast à la mort de l'industrieSortez les 8'6, on vient fêter la fin du disqueÉcouter la radio c'est devenu un suppliceSauf que j'aime pas non plus les putains de puristesMusique rétro-futuristeLa bande originale des aventures d'UlysseJ'habiterais dans les abysses j'aurais pas plus de pressionTout ce que je veux : foutre le feu dans ma ville #NéronDonner mon corps à la science inclut la dissectionDes jours entiers je récite mes leçons rourmenté dans une pluie de questionsRien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le sonJ'ai presque abandonné sans faire ma 2ème livraisonMais bordel j'ai fait le plus durAutant tenter un salto avant d'échouer au pied du murJe suis de retour avec ma sous-culture ouaisSauf que c'est nous le futur hein c'est nous le futur !
+Oxmo Puccino
+Le rap une sous-culture mais quelle idée?
+Ce sont des propos de fils de... Ah!
+Une seule phrase, placée musicalement te calme
+La voix agit médicalement
+Ce qu’on trouve ici c’est groovissime
+Mon disque anti grippe, médecine sous cannabis boom
+Okay je canalise, mets sous aspirine les psychanalistes
+Aspirent à pouvoir diminuer la douleur
+Avec des bouquets de lyrics de toutes les couleurs
+D’ailleurs, souvent ailleurs
+Faut bien que je trouve de quoi mettre le fire
+Une basse un rythme le ciel peut s’écrouler
+La terre fleurit dès que je l’ai foulée…
 <END_SECTION>
 <END>
 
@@ -6166,6 +7003,50 @@ Qu'oublier un crime est un crime, de
 Beltrame à Oussekine
 On va tous finir par se kill, alors j'ai plus qu'une chose à dire
 L'amour
+<END_SECTION>
+<END>
+
+<BEGINNING>False
+<COUPLET>
+Et j'te dirais 
+Que si tu veux d'l'amour, il y en a chez moi 
+J'suis pas un Saint, j'suis pas un prince, j'suis pas une pince
+J'cacherai rien qu'tu découvriras qu'à la fin 
+Y a pas de feinte
+Pré-refrain
+Allons à l'essentiel 
+Allons à l'essentiel 
+<END_SECTION>
+<REFRAIN>
+J'vais t'rendre heureuse et tu peux l'parier
+J'vais t'mettre plus haut que toutes les damеs
+Et comment ça, tu veux plus m'parler?
+Dans tout mon cœur, t'as mis du dramе
+<END_SECTION>
+<COUPLET>
+Et j'te dirais 
+Qu'j'suis nul en maths mais j'sais combien tu comptes pour moi 
+Et qu'en anglais, c'est pire mais qu'j'sais dire I love you
+Que les montées sont des descentes quand j'viens te voir 
+Quand vient le soir 
+Et j'te dirais 
+Jamais j'aurais cru t'voir un jour sur une civière 
+Qu'un jour, ce soit tes cendres à toi que je disperse 
+J'pensais quitter avant toi ce monde de merde
+Ô, Dieu du ciel 
+Pré-refrain
+Alors, allons à l'essentiel 
+Allons à l'essentiel 
+<END_SECTION>
+<REFRAIN>
+J'vais t'rendre heureuse et tu peux l'parier
+J'vais t'mettre plus haut que toutes les dames
+Et comment ça, tu veux plus m'parler?
+Dans tout mon cœur, t'as mis du drame
+J'vais t'rendre heureuse et tu peux l'parier
+J'vais t'mettre plus haut que toutes les dames
+Et comment ça, tu veux plus m'parler?
+Dans tout mon cœur, t'as mis du drame
 <END_SECTION>
 <END>
 
@@ -6396,6 +7277,10 @@ J'aurais pu être Belker, Adil, Kéda, Adama Traoré, Zyed Benna, Bouna Traoré,
 
 <BEGINNING>False
 <COUPLET>
+J'entends d'ici s'insurger toutes les pseudo-féministes
+Toutes ces bourgeoises hystériques pleines de fumisteries
+A la rhétorique soi-disant en faveur de la femme
+Mais qui dégueulent sur le voile et collent des procès à Orelsan
 Moi je n'attends rien de la marche du 8 mars
 J'viens faire tomber le masque pour la masse qui vit en marge
 Non, y'a rien de politique, rien de polémique
@@ -6457,6 +7342,16 @@ On bectera des bonbecs à s'en refiler le diabète
 Pas vrai ma belle qu'on fera des manèges à la pelle, Leya?
 <END_SECTION>
 <REFRAIN>
+Alors, sors de ce corps petite sœur, sors de ce coffre
+Ouvre ce cœur petite meuf, ouvre la porte
+Sors de cette grotte petite reus, c'est toi la boss
+Délaisse Kate Moss petite rose, c'est toi la must
+Montre tes crocs petite lionne, t'es plus qu'une môme
+T'es pas une conne petite cloche, t'es peut-être mon clone
+Oublie la mode petite pomme, t'es loin d'être moche
+Sors de ce corps petite gosse, redeviens mioche
+Petite sœur, petite meuf
+Petite reus, petite rose
 <END_SECTION>
 <COUPLET>
 Je n'attendrai pas la journée de la jupe
@@ -6478,6 +7373,16 @@ Voici mes quelques conseils qui ne seront jamais zélés
 Leya, voici mes conseils...
 <END_SECTION>
 <REFRAIN>
+Alors, sors de ce corps petite sœur, sors de ce coffre
+Ouvre ce cœur petite meuf, ouvre la porte
+Sors de cette grotte petite reus, c'est toi la boss
+Délaisse Kate Moss petite rose, c'est toi la must
+Montre tes crocs petite lionne, t'es plus qu'une môme
+T'es pas une conne petite cloche, t'es peut-être mon clone
+Oublie la mode petite pomme, t'es loin d'être moche
+Sors de ce corps petite gosse, redeviens mioche
+Petite sœur, petite meuf
+Petite reus, petite rose
 <END_SECTION>
 <END>
 
@@ -6588,6 +7493,24 @@ La La La La Fouine Médine Admiral T
 Verse 3 : Admiral T
 <END_SECTION>
 <REFRAIN>
+Verse 2 : Médine
+O.K. je pars au quart de seconde ma rage sort de ses gonds
+Car on se souvient du premier mais rarement du second
+Et puis laisse parler ces cons laisse ces cons et leurs zesses-gon
+Rafle les médailles comme un gymnaste de Hong-Kong
+Mon slogan gare au 7-6
+Rap au plexus, gagne en silence comme Carlos et Smith
+J'ai la carrosserie du risque dans l'industrie du disque
+J'ai les keys de la réussite et sa carte grise
+Tu veux les étoiles, vise la Lune
+Petit fils allume, ta vie insalubre
+Vaincre, c'est comme le Port-Salut c'est écrit dessus
+Cherche le salut dans les saintes écritures
+Puisque l'histoire est écrite par les békés
+J'ai raturé le cahier pour y marquer L.K.P héhé
+3arbis et Antilles, Caraïbes et Arabie
+La La La La Fouine Médine Admiral T
+Verse 3 : Admiral T
 <END_SECTION>
 <PONT>
 <END_SECTION>
@@ -6608,6 +7531,8 @@ Tout ça n'est qu'un complexe d'ex-pauvre et j'suis toujours pas riche dans l'fu
 J'ai l'âge où l'on a plus de souvenirs que de projets mais le vintage n'a jamais été aussi moderne
 <END_SECTION>
 <REFRAIN>
+Post-refrain : Bigflo & Oli
+Post-refrain : Bigflo & Oli
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
@@ -7278,6 +8203,8 @@ Mais j'oublierai pas, pas pas
 
 <BEGINNING>False
 Parce qu'un arabe trop studieux ça couvre quelque chose
+Pourquoi tu parles de ma barbe dans le fond de ta moustache
+Petit journaliste en stage
 Écoute mon Jihad
 Parle-moi, du destin de notre autre monde
 Je te parlerai des armes et de l'industrie des bombes
@@ -7917,6 +8844,12 @@ Mon p'tit cœur rest'ra français
 
 <BEGINNING>False
 <COUPLET>
+J'ai j'té une bouteille à la mer, on m'a dit: C'est pas trop écolo
+C'que j'peux dire sur l'camp des Verts, c'est qu'c'est pas Ritchie et Golo
+J'arrive en prime au Super Bowl comme le baby bump de Ri-Ri'
+Bats les couilles de ton gender reveal, tout c'qu'on veut c'est des yeuks en ro-ro 
+J'suis occupé, petit dérange-moi que si ça saigne
+Au cul, j'ai le même OQTF que l'imam Hassan Iquioussen
 Casier gе-vier comme Marie-Madеleine, j'aime la France, mais mon mariage bat d'l'aile
 Marianne veut plus que j'sois son Mahlem, ce s'ra ma Première dame quand j's'rai l'maire
 Nique les fafs, les Waffen-SS , j'suis pas Stanislas, un peu Averroès
@@ -7963,6 +8896,9 @@ Stentor
 
 <BEGINNING>False
 <COUPLET>
+Commissariat d’Aubervilliers, déposition
+C’est Marie Leblanc qui porte plainte pour agression
+Contre une demi-douzaine de méditerranéens
 Sanguinaires, maghrébins qui n’avaient rien de caucasiens
 En effet, même si la mémoire vous fait défaut
 Tels sont les faits, qui sont ces fous?
@@ -8238,6 +9174,12 @@ J'm'adresse aux nes-jeu comme un grand d'la tess
 <PONT>
 <END_SECTION>
 <REFRAIN>
+J'regarde les tits-pe jouer par la fenêtre 
+J'me revois sur le rrain-te pour du bénéf' 
+J'm'adresse aux nes-jeu comme un grand d'la tess 
+J'regarde les tits-pe jouer par la fenêtre 
+J'me revois sur le rrain-te pour du bénéf' 
+J'm'adresse aux nes-jeu comme un grand d'la tess 
 <END_SECTION>
 <END>
 
@@ -8246,6 +9188,7 @@ J'm'adresse aux nes-jeu comme un grand d'la tess
 J'ai le syndrome de l'imposteur, bientôt, la vie va me remonter
 Si tu vois ma tête en poster, mon vrai visage est de l'autre côté
 Quand j'suis heureux, j'écoute la musique
+Quand j'suis malheureux, j'comprends les paroles
 J'veux pas être une figure publique
 J'veux juste être un homme parmi les autres 
 <END_SECTION>
@@ -8268,6 +9211,7 @@ Et puis, l'autodestruction a plus de fidèles que l'bouddhisme
 J'ai le syndrome de l'imposteur, bientôt, la vie va me remonter
 Si tu vois ma tête en poster, mon vrai visage est de l'autre côté
 Quand j'suis heureux, j'écoute la musique
+Quand j'suis malheureux, j'comprends les paroles
 J'veux pas être une figure publique
 J'veux juste être un homme parmi les autres
 L'imposteur, l'imposteur, l'imposteur, yah
@@ -8289,6 +9233,7 @@ Mais crois pas qu'je pousse la chansonnette, c'est qu'une topline de Proof que j
 J'ai le syndrome de l'imposteur, bientôt, la vie va me remonter
 Si tu vois ma tête en poster, mon vrai visage est de l'autre côté
 Quand j'suis heureux, j'écoute la musique
+Quand j'suis malheureux, j'comprends les paroles
 J'veux pas être une figure publique
 J'veux juste être un homme parmi les autres
 L'imposteur, l'imposteur, l'imposteur, yah
@@ -8298,6 +9243,8 @@ L'imposteur, l'imposteur, l'imposteur, yah
 
 <BEGINNING>False
 <INTRO>
+Bang, bang, bangerang
+Exo grand Médine
 Allez, c'est parti
 <END_SECTION>
 <REFRAIN>
@@ -8491,6 +9438,8 @@ Les contraires s'attirent mais ne veulent pas de destin commun
 Les continents s'aiment comme Sud et Nord Coréens
 Nord et Sud, zup Nord et zup Sud
 C'est la chute, plus personne ne veut se supporter zut!
+Tes paroles portent la dernière veste Gucci
+Les miennes portent le pull-over rouge de Ranucci
 Réfléchis! Qui n'a jamais fait preuve d'injustice
 Qui n'a pas déballé sa haine sans lire la notice
 Sans motif, au quart de tour démarre agressif
@@ -8596,6 +9545,7 @@ J'écris quelques rimes pour impressionner leurs ouïes
 Besoin d'un Bic, d'un beat et d'une bonne grosse basse
 La salle est pleine de prétendants
 D'anciens du mouvements et de la scène indépendante
+Tous, révisent leurs paroles réajustent leurs flow
 Portent les dernières sapes à la mode sur leur dos
 J'ai mis mes Nike et mon survêt' de training
 Mon keffieh offert par les frères de Gaza Team
@@ -8751,6 +9701,7 @@ Je crois que les stars des Restos du Cœur sont surcotées, ils ont le cœur sur
 <END_SECTION>
 <COUPLET>
 Hier encore j'écoutais Aznav', et le track Demain c'est loin d'IAM
+J'ai vu les paroles dans le rap se nachavent, j'aurai ma certif quand on m'ôtera la prostate
 T'façon le disque d'or c'est nous qu'on le paye, c'est comme la légion d'honneur on paye la médaille
 Ça a le goût amer, d'un rêve qui se réalise bien trop tard
 Et quand les jeunes rappeurs me lancent des fleurs, c'est pour savoir si je peux les ramasser encore
@@ -9141,6 +10092,45 @@ Si j'respire la sincérité, j'suis vite essoufflé
 <END_SECTION>
 <END>
 
+<BEGINNING>True
+<COUPLET>
+J'écris au clair de lune, quand celle-ci éclaire mon cahier
+Bouquine l'Art de la Guerre et sirotte un lait caillé
+Le crissement des pneus derrière la fenètre
+Me rapelle bizzarement les hurlements de nos ancètres
+Depuis, les pieds nus en marchant dans la jungle
+Et la violence est physique quand l'autorité nous épingle
+Inutile de méditer nos décisions
+Bien que Mohamed Ali refuse l'incorporation
+Moi j'suis inscris sur les listes éléctorales
+Mais privés de droits civiques sans mes chechias et mes voiles
+Mes croissants et mes étoiles sont dans la lune
+L'éducation nationale a jugé bon qu'on nous annule
+Alors j'écris et revisite l'encyclopédie
+Lyrics explicites, un cours d'histoire, petit, expédie
+Maitrise mon sujet, dépoussière tes enceintes
+Poli le miroir de nos coeurs de la poussière de guerre sainte
+La double culture devient la double peine
+Enfermés à double tours, on fabrique une double haine
+Un triple mensonge est gravé sur les pierres
+L'intégration des indigènes est un mensonge de toutes pièces
+Comprend le contexte à travers les colonies
+Abdel Kader, et Ben Bellah, les combattants l'avaient compris
+Depuis le Maghreb jusqu'à Port Elizabeth
+Comprends au pied de la lettre, population analphabèthe
+Syndrome du collègien ou amnésie de l'algérien
+Qui oublie l'occupation, le calendrier Hégirien
+Ecriture de lauréat, documentalistes en studio
+Nos textes: un masque à gaz pour le métro de Tokyo
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<END>
+
 <BEGINNING>False
 <INTRO>
 Demandez moi à quoi j'pense, me réinventer souvent
@@ -9196,45 +10186,6 @@ Hein, Hein, Hein
 Hein, Hein, Hein
 Hein, Hein, Hein
 Hein, Hein, Hein
-<END_SECTION>
-<END>
-
-<BEGINNING>True
-<COUPLET>
-J'écris au clair de lune, quand celle-ci éclaire mon cahier
-Bouquine l'Art de la Guerre et sirotte un lait caillé
-Le crissement des pneus derrière la fenètre
-Me rapelle bizzarement les hurlements de nos ancètres
-Depuis, les pieds nus en marchant dans la jungle
-Et la violence est physique quand l'autorité nous épingle
-Inutile de méditer nos décisions
-Bien que Mohamed Ali refuse l'incorporation
-Moi j'suis inscris sur les listes éléctorales
-Mais privés de droits civiques sans mes chechias et mes voiles
-Mes croissants et mes étoiles sont dans la lune
-L'éducation nationale a jugé bon qu'on nous annule
-Alors j'écris et revisite l'encyclopédie
-Lyrics explicites, un cours d'histoire, petit, expédie
-Maitrise mon sujet, dépoussière tes enceintes
-Poli le miroir de nos coeurs de la poussière de guerre sainte
-La double culture devient la double peine
-Enfermés à double tours, on fabrique une double haine
-Un triple mensonge est gravé sur les pierres
-L'intégration des indigènes est un mensonge de toutes pièces
-Comprend le contexte à travers les colonies
-Abdel Kader, et Ben Bellah, les combattants l'avaient compris
-Depuis le Maghreb jusqu'à Port Elizabeth
-Comprends au pied de la lettre, population analphabèthe
-Syndrome du collègien ou amnésie de l'algérien
-Qui oublie l'occupation, le calendrier Hégirien
-Ecriture de lauréat, documentalistes en studio
-Nos textes: un masque à gaz pour le métro de Tokyo
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
 <END_SECTION>
 <END>
 
@@ -9408,6 +10359,12 @@ Jules-Édouard Moustic
 
 <BEGINNING>False
 <INTRO>
+Le bateau fait que d'caler, sur les plages du Pas-d'-Calais
+Et le passeur m'a calé entre les cordes et les sauts de galets
+Le zodiac fait que d'tanguer, ça va finir à la pagaie
+L'hélice du moteur Yamaha s'est prise dans un paquet d'filets
+Deux-trois kilos euros, c'est le prix de la classe éco'
+Dans les eaux internationales à quelques nautiques des côtes
 Le mеrcure indique -7, ressеnti: -30
 Son prénom, c'est Yasser, ça fait deux ans qu'il a quitté l'Soudan
 Il a quitté le régime, pour échapper à la vie chère
@@ -9677,6 +10634,14 @@ Et en sortira ce qui devait en sortir
 Et on partira en véritable martyrs
 <END_SECTION>
 <REFRAIN>
+Oh Anéanti 
+Par toutes ces foudres que nos vies attirent
+Anéanti 
+Par l'interprétation du mot martyr
+Anéanti 
+Par tous ces clichés qui m'empêchent de vivre
+Yeah. Pour tous ces jeunes de l'époque condamnés à construire
+Des châteaux d'sable près des marées hautes
 <END_SECTION>
 <COUPLET>
 Refaire le monde avec un peu d'imagination
@@ -9866,6 +10831,18 @@ La puissance, la puissance, la puissance du Port du Havre
 Té-ma c'qu'on brandit, y a pas de Gandhi 
 <END_SECTION>
 <REFRAIN>
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
@@ -9873,6 +10850,18 @@ Té-ma c'qu'on brandit, y a pas de Gandhi
 re-pu ?, étage, dans la sale averse ? , pensées noires comme la chloroquine blanchie par la cess
 <END_SECTION>
 <REFRAIN>
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance du Port du Havre , la puissance du Port du Havre 
+C'est la puissance du Port du Havre , la culture de la bicrave 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre 
+La puissance, la puissance, la puissance du Port du Havre
 <END_SECTION>
 <END>
 
@@ -9992,6 +10981,14 @@ Aboubakr et Médine dans le tas
 Beaucoup plus qu'un symbole des ennemis de l’État
 <END_SECTION>
 <REFRAIN>
+On est des tas décrétés ennemis d'état
+État des lieux: vendetta, tchiki blah et Berreta
+On respecta comme Franklin Aretha
+Mais l'Histoire nous rattrapa car troqués en pesetas
+Aboubakr et Médine ennemis publics
+Ennemis du service de la fonction publique
+Ennemis des tiens ennemis de l'axe du bien
+Ennemis du faux et mon Seigneur m'en est témoin
 <END_SECTION>
 <COUPLET>
 On a la couleur de l'ennemi, la foi de l’ennemi
@@ -10022,58 +11019,6 @@ Aboubakr et Médine ennemis publics
 Ennemis du service de la fonction publique
 Ennemis des tiens ennemis de l'axe du bien
 Ennemis du faux et mon Seigneur m'en est témoin
-<END_SECTION>
-<END>
-
-<BEGINNING>False
-Aucun danger, que je m'édulcore
-Car mon âme un jour paiera les dettes du corps
-Call me cador, D.A.R.K Vador
-Abdelkader écrit au carbone 14
-Je suis fait de terre et de sperme
-Enquêteur-criminel comme Dexter
-J'ai la haine, la même que tous les braves du Game
-Mon A.D.N est parfumé à la bave humaine
-Pop! Pop! C'est le retour de la panthère!
-J'ai quelques vers pour les petits frères et les trentenaires
-Que les collèges me traduisent par cœur!
-Les coeurs je percute comme
-Travis Barker
-Qu'Allah m'assiste!
-Moi je n'ai rien d'un gars laxiste et je viens d'une autre galaxie
-Sûrement pas de la planète rap et de
-Leur panier de crabe mal dirigé par une poignée de rats
-A chacun sa crise
-Moi, même en temps de paix, j'ai le swagg d'Assassin's Creed
-Boulehya dès le sabah, avale des bols de zik
-Aucun repos, moi je bosse comme un bolchevik
-J'ai le menton en moquette
-Je donne de l'espoir comme les mosquées de Phuket
-OK, demande à
-Karim du MINT
-Si en enfer y aura des carrés VIP
-2011 y a intérêt à pé-ra
-Ou on m'enterra avec un disque d'un téra
-Pas de discours de terrasse, que du terre à terre
-R.D.V le 11/09, et cetera
-<REFRAIN>
-Toutes sortes de soucis fourmillent
-Quand t'as la barbe et les sourcils fournis
-Ce coup-ci, on est au four et au moulin
-Din Records venu fournir le sourcing
-Bas les masques mais haut les mains!
-Si je rappe à tue-tête, c'est que pour les miens
-Sois journaliste de ta propre vie
-Plutôt que spectateur de celle d'autrui!
-Din Records
-Musique sur Table d'Écoute
-Moi je suis plus franc que maçon
-Plus bohémien que club
-Plus brother que big
-Plus Life que Thug
-2011
-On fait pas de rap de ce monde
-Non, on fait du protest song !
 <END_SECTION>
 <END>
 
@@ -10139,6 +11084,58 @@ Paratonnerre, j'attire la foudre avant qu'elle tombe sur la foule
 <END>
 
 <BEGINNING>False
+Aucun danger, que je m'édulcore
+Car mon âme un jour paiera les dettes du corps
+Call me cador, D.A.R.K Vador
+Abdelkader écrit au carbone 14
+Je suis fait de terre et de sperme
+Enquêteur-criminel comme Dexter
+J'ai la haine, la même que tous les braves du Game
+Mon A.D.N est parfumé à la bave humaine
+Pop! Pop! C'est le retour de la panthère!
+J'ai quelques vers pour les petits frères et les trentenaires
+Que les collèges me traduisent par cœur!
+Les coeurs je percute comme
+Travis Barker
+Qu'Allah m'assiste!
+Moi je n'ai rien d'un gars laxiste et je viens d'une autre galaxie
+Sûrement pas de la planète rap et de
+Leur panier de crabe mal dirigé par une poignée de rats
+A chacun sa crise
+Moi, même en temps de paix, j'ai le swagg d'Assassin's Creed
+Boulehya dès le sabah, avale des bols de zik
+Aucun repos, moi je bosse comme un bolchevik
+J'ai le menton en moquette
+Je donne de l'espoir comme les mosquées de Phuket
+OK, demande à
+Karim du MINT
+Si en enfer y aura des carrés VIP
+2011 y a intérêt à pé-ra
+Ou on m'enterra avec un disque d'un téra
+Pas de discours de terrasse, que du terre à terre
+R.D.V le 11/09, et cetera
+<REFRAIN>
+Toutes sortes de soucis fourmillent
+Quand t'as la barbe et les sourcils fournis
+Ce coup-ci, on est au four et au moulin
+Din Records venu fournir le sourcing
+Bas les masques mais haut les mains!
+Si je rappe à tue-tête, c'est que pour les miens
+Sois journaliste de ta propre vie
+Plutôt que spectateur de celle d'autrui!
+Din Records
+Musique sur Table d'Écoute
+Moi je suis plus franc que maçon
+Plus bohémien que club
+Plus brother que big
+Plus Life que Thug
+2011
+On fait pas de rap de ce monde
+Non, on fait du protest song !
+<END_SECTION>
+<END>
+
+<BEGINNING>False
 <COUPLET>
 Claque la portière, rebranche le compteur
 Joe le taxi je suis chauffeur, conducteur
@@ -10151,6 +11148,7 @@ Au volant de mon bolide qui ne consomme qu'un litre au cent
 Kilométrique sera ton gagne-pain
 Et méfie du bamboula, bicot chinetoque et rabbin
 Héritage de mon père sur son lit de mort
+Quelques paroles et une voiture de sport
 Prise de service pour Joe le matinal
 Aucune trace de la clientèle habituelle nationale
 Toi conduire moi à l'ambassade
@@ -10518,6 +11516,20 @@ Merci
 
 <BEGINNING>False
 <COUPLET>
+Quand j'serai grand, j'veux être dresseur de cirque
+Faire asseoir les lions et lever le public
+Quand je serai grand, j'voudrais être Omar Sy
+Pour que la police, avec moi, fasse des selfies
+Pour l’instant, j'me suis inscrit au théâtre
+C’est toujours moi qui fais le rôle de l’Arabe
+Quand je s'rai grand, j'veux quitter où j’habite
+Partir loin comme l’astronaute Thomas Pesquet
+Est-ce qu’il nous voit sur l’image satellite
+Quand on fait des doigts d’honneur à la cité?
+Courir pour rien devant les keufs, on a été à la bonne école
+On n'a pas besoin de trop réfléchir 
+Un rodéo en moto-cross, poursuivi par les RoboCops
+On a entendu un bruit retentir
 <END_SECTION>
 <REFRAIN>
 Ratatata, ta-ta, ta-ta, ta-ta
@@ -10561,6 +11573,47 @@ Embrasse chaleureusement la daronne
 Dis-lui qu'son enfant s’est fait refroidir
 Ratatata, ta-ta, ta-ta
 Je pars, je pleure, je respire
+<END_SECTION>
+<END>
+
+<BEGINNING>True
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+Dans la bergerie s'est installé le loup
+On est comme sorti tout droit d'un fim de Lelouch
+Où le soldat de carrière est apothicaire
+Où l'on soigne la famine à coups de couteau dans le cœur
+Des ONG pensent à panser des jambes de bois
+Un Hansaplast sur le plâtre d'un cul-de-jatte sans bras
+Voici l'image de mon continent
+On s'pisse dessus sans souffrir d'incontinence
+J'ai vu l'Amnesty oublier Nelson Mandela
+Et l'injustice vétu d'orange dans la Baie de Cuba
+Crois-moi sur parole bonhomme ou tombe dans les pommes
+Le cruauté n'a d'égal que l'imagination de l'homme
+Le lion est mort deux jours avant eleven-nine
+Pratique pour le passage d'oléoduc et de pipeline
+Tu fais du rap depuis 8Mile, nous depuis long time
+Comprends pourquoi nous sommes borderline
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<OUTRO>
+Tu fais du rap depuis 8 mile
+Nous depuis long time
+Din Records, Assassin
+Rockin' Squat, Médine
+Médite l'histoire dans ton rocking chair
+Confessions du second millénaire
 <END_SECTION>
 <END>
 
@@ -10651,47 +11704,6 @@ Comprends bien le combat auquel je crois
 114 chapitres et peu de scrupules
 Les tours s'écroulent, ma plume crie famine
 Lecture entre les lignes à l'encre de Médine
-<END_SECTION>
-<END>
-
-<BEGINNING>True
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-Dans la bergerie s'est installé le loup
-On est comme sorti tout droit d'un fim de Lelouch
-Où le soldat de carrière est apothicaire
-Où l'on soigne la famine à coups de couteau dans le cœur
-Des ONG pensent à panser des jambes de bois
-Un Hansaplast sur le plâtre d'un cul-de-jatte sans bras
-Voici l'image de mon continent
-On s'pisse dessus sans souffrir d'incontinence
-J'ai vu l'Amnesty oublier Nelson Mandela
-Et l'injustice vétu d'orange dans la Baie de Cuba
-Crois-moi sur parole bonhomme ou tombe dans les pommes
-Le cruauté n'a d'égal que l'imagination de l'homme
-Le lion est mort deux jours avant eleven-nine
-Pratique pour le passage d'oléoduc et de pipeline
-Tu fais du rap depuis 8Mile, nous depuis long time
-Comprends pourquoi nous sommes borderline
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<OUTRO>
-Tu fais du rap depuis 8 mile
-Nous depuis long time
-Din Records, Assassin
-Rockin' Squat, Médine
-Médite l'histoire dans ton rocking chair
-Confessions du second millénaire
 <END_SECTION>
 <END>
 
@@ -11299,10 +12311,18 @@ Et quand la violence gratuite est un commerce
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Être libre, comme la colombe
+Des colons j'me délivre
+Rien à faire de leurs sapins et de leurs feux d'artifice
+Mon rap, des coups d'feu, sur leurs foutus artifices
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
 <REFRAIN>
+Être libre, comme la colombe
+Des colons j'me délivre
+Rien à faire de leurs sapins et de leurs feux d'artifice
+Mon rap, des coups d'feu, sur leurs foutus artifices
 <END_SECTION>
 <REFRAIN>
 Être libre, comme la colombe
@@ -11474,6 +12494,10 @@ Les usines de la mort, la villa Sesini
 Ma parole de mémoire d’homme: les bourreaux n’auront jamais l’bon rôle
 <END_SECTION>
 <REFRAIN>
+Alger meurt, Alger vit
+Alger dort, Alger crie
+Alger peur, Alger prie
+Alger pleure, Algérie
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
@@ -11481,6 +12505,22 @@ Ma parole de mémoire d’homme: les bourreaux n’auront jamais l’bon rôle
 
 <BEGINNING>True
 
+Je recrache mes couplets, ne rappe que sous la contrainte
+Je noircis ma feuille avec un canon posé sur ma tempe
+Et pourtant je ne porterais pas plainte
+De l'idée derrière le gun car ce combat je le chante
+Banlieue, cité de pierres qui oppresse
+Une prison de tour à qui je témoigne de la tendresse
+Des costumes cravates veulent te passer le savon
+Ouvrir les vannes, dénonce l'incendie comme en temps d'exclusion
+Comme en temps de discrimination
+Comme en temps de ségrégation raciale communautaire
+Comme en temps où nos pères combattaient leurs commandants
+Commentant l'actu, c'est par cette voix qu'on m'entend
+Si vivre en quartier tourne à la prise d'otage
+Pas de Bruce Willis pour éviter le carnage
+Opération à cœur ouvert sur un 45 tours
+En quarantaine dans les tours c'est Médine Bétancourt
 Otage par le corps, otage par l'esprit
 Otage d'un ravisseur qui nous prend de sympathie
 Le regard masculin est otage du décolleté
@@ -11497,6 +12537,16 @@ Qu'on se souviendra de l'histoire le canon entre les lèvres
 
 <END_SECTION>
 <REFRAIN>
+
+Sefyu )
+On a, pour syndrome la capitale de Suède
+On réunit les causes comme le canal de Suez
+Banlieue, maison d’arrêt à ciel ouvert
+Banlieusard sur brancard, opération à cœur ouvert
+Stockholm, un syndrome sans sérum
+C'est l'industrie du ghetto dupliquer sur un album
+On compatit avec le preneur d'otage
+Lui sert de bouclier humain le soir du carnage
 <END_SECTION>
 <REFRAIN>
 Sefyu )
@@ -11539,6 +12589,7 @@ Où l’on termine dans une tournante en cliquant sur un icône
 Voici le siècle de la drogue pour Aspégic
 Où l‘on s‘achète un pavillon avec une sonnerie polyphonique
 Jette un œil dans le miroir depuis ta cellule
+Avale mes paroles et recrache ta pilule
 Ton matricule, ton numéro de Sécu Sociale
 Pénitencier à ciel ouvert j'envoie l'échelle dans la promenade
 J’envoie le son qui scie les barreaux
@@ -11745,6 +12796,29 @@ J'écris comme une machine à écrire
 Un coup de crayon magistral qui efface les sourires
 <END_SECTION>
 <REFRAIN>
+Stylo au moteur débridé
+Noirci ma feuille blanche, équipé d'un briquet
+Entreprise de la rime martyre
+Enfonce les lettres dans les pages comme une machine à écrire
+Stylo au moteur débridé
+Noirci ma feuille blanche équipé d'un briquet
+Track-listing conçu dans un stand de tir
+Nos avant bras écrivent comme des machines à écrire
+Stylo au moteur débridé
+Noirci ma feuille blanche, équipé d'un briquet
+Entreprise de la rime martyre
+Enfonce les lettres dans les pages comme une machine à écrire
+Stylo au moteur débridé
+Noirci ma feuille blanche équipé d'un briquet
+Track-listing conçu dans un stand de tir
+Nos avant bras écrivent comme des machines à écrire
+Transition
+Table d'écoute
+1427
+Din Records
+Ok
+On passe nos vies à décrire
+Aboubakr et Médine
 <END_SECTION>
 <COUPLET>
 Rajoute un I devant ton slam ou change de station
@@ -11965,6 +13039,10 @@ Lourd! .
 
 <BEGINNING>False
 <COUPLET>
+Les poings levés sur le Mont Olympe
+Face au pouce de César qui nous condamne pour les lois enfreintes
+En direction de l'enfer éternel
+Parce que l'ange de la Mort nous aime d'un amour fraternel
 J'obtiendrais le martyr avec un stylo
 Aussi sûr qu'Arthur Ashe et sa raquette afro
 Surmonta les barrières en temps de guerre
@@ -12112,6 +13190,49 @@ Pose pas la question : le meilleur, c'est toujours l'prochain album
 <END_SECTION>
 <END>
 
+<BEGINNING>True
+<COUPLET>
+Je fais de l'afro fait par des blancs, je vais faire un Colors en noir et blanc
+J'suis comme Olivier Besancenot, c'est moi le facteur aggravant
+J'suis la variable, tape justement, justement
+Quand je fais des sons, c'est moi le premier musulman avec un caractère de cochon
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<COUPLET>
+Je compte mes singles d'or sur une main, pour mes procès il faut une calculette
+Mon seul délit, un non rendu de livre à la bibliothèque du tiek's
+Les rappeurs vieillissent, les fans rajeunissent, bientôt on kick devant des fœtus
+J'veux que les parkings redeviennent gratis, quand eux veulent juste plus de Urus
+<END_SECTION>
+<REFRAIN>
+On bosse comme des frontaliers, eux c'est des fonts de panier
+On passe la douane vos papiers, on vient faire du papier
+C'est donc ça le grand remplacement dont parlent les racistes
+Les meilleurs rappeurs français sont devenus des belges et des suisses
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<COUPLET>
+La seule façon de venir en Europe sans passeport, c'est dans un cercueil
+Y a pas de dialogue, mais de monologue de t'façon quand tu parles avec les keufs
+Quand on papote de conditionnelle, on parle pas de verbes irréguliers
+Payer le pèlerinage à la darz, ça coûte le salaire d'un frontalier
+Quand j'ai passé l'oral du bac, je portais le merch du double Pact
+Tous ces rappeurs sont ultra bright, que jusqu'au sommet de leur Prada
+Ce que j'étais con adolescent, d'être en échec en permanence
+La gloire à partir de 40 ans, on appelle ça la revanche
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+On bosse comme des frontaliers, eux c'est des fonts de panier
+On passe la douane vos papiers, on vient faire du papier
+C'est donc ça le grand remplacement dont parlent les racistes
+Les meilleurs rappeurs français sont devenus des belges et des suisses
+<END_SECTION>
+<END>
+
 <BEGINNING>False
 <COUPLET>
 C'est le son des cordes, le ballon contre le mur
@@ -12168,49 +13289,6 @@ Victorieux dans nos milieux et dans toute situation
 On met du cœur à l'ouvrage, de la rage dans l'action
 En plus de l’œil du tigre, on a la voix du lion
 Victory! mon garçon, Victory! dans mon son, Victory!
-<END_SECTION>
-<END>
-
-<BEGINNING>True
-<COUPLET>
-Je fais de l'afro fait par des blancs, je vais faire un Colors en noir et blanc
-J'suis comme Olivier Besancenot, c'est moi le facteur aggravant
-J'suis la variable, tape justement, justement
-Quand je fais des sons, c'est moi le premier musulman avec un caractère de cochon
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<COUPLET>
-Je compte mes singles d'or sur une main, pour mes procès il faut une calculette
-Mon seul délit, un non rendu de livre à la bibliothèque du tiek's
-Les rappeurs vieillissent, les fans rajeunissent, bientôt on kick devant des fœtus
-J'veux que les parkings redeviennent gratis, quand eux veulent juste plus de Urus
-<END_SECTION>
-<REFRAIN>
-On bosse comme des frontaliers, eux c'est des fonts de panier
-On passe la douane vos papiers, on vient faire du papier
-C'est donc ça le grand remplacement dont parlent les racistes
-Les meilleurs rappeurs français sont devenus des belges et des suisses
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<COUPLET>
-La seule façon de venir en Europe sans passeport, c'est dans un cercueil
-Y a pas de dialogue, mais de monologue de t'façon quand tu parles avec les keufs
-Quand on papote de conditionnelle, on parle pas de verbes irréguliers
-Payer le pèlerinage à la darz, ça coûte le salaire d'un frontalier
-Quand j'ai passé l'oral du bac, je portais le merch du double Pact
-Tous ces rappeurs sont ultra bright, que jusqu'au sommet de leur Prada
-Ce que j'étais con adolescent, d'être en échec en permanence
-La gloire à partir de 40 ans, on appelle ça la revanche
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
-On bosse comme des frontaliers, eux c'est des fonts de panier
-On passe la douane vos papiers, on vient faire du papier
-C'est donc ça le grand remplacement dont parlent les racistes
-Les meilleurs rappeurs français sont devenus des belges et des suisses
 <END_SECTION>
 <END>
 
@@ -12574,6 +13652,15 @@ Yeah, Hip-Hop Convict
 Mouloud, et les 2 XXX
 <END_SECTION>
 <REFRAIN>
+Sur la montre, les secondes se changent en heures
+Faut qu'on nous montre: comment change t-on le plomb en or?
+On vit les années de plombs, on meurt les années de plombs
+Ici endure les années, mais surtout ne pète pas les plombs!
+Le ferme nous ronge comme le temps ronge le fer
+Que tous les feux du droit chemin passent du rouge au vert
+On vit les années de plombs
+On meurt les années de plombs
+Ici endure les années, mais surtout ne pète pas les plombs!
 <END_SECTION>
 <END>
 
@@ -12734,6 +13821,53 @@ Hors des tendances, obligé d'être indépendant
 <END>
 
 <BEGINNING>False
+<COUPLET>
+En fin de compte, rien de smart dans c’monde, tout est contradictoire
+Chez nous, au Havre, faut qu’tu saches, la rue d’l’avenir est une impasse
+Même quand on crée, on fait que du crade, comme le dit l’adage
+Quand on invente le navire, on invente aussi le naufrage
+Regarde-moi, j’suis un mec de gauche qui vit sur la rive droite
+Si tu m’demandes d’arracher le fruit, moi, j’arracherais tout l’arbrе
+Moi, je n’suis qu’une goutte d’еau, celle qui fait déborder l’vase
+J’veux soulever l’monde, j’arrive même pas à me lever pour le Fajr
+<END_SECTION>
+<REFRAIN>
+J’vois la tempête, j’lui choisis un nom
+C’est ma manière d’affronter le monde
+Comme ma mère, je l’appellerais Jemila
+C’est ma manière de chasser le monstre
+Jemila
+<END_SECTION>
+<COUPLET>
+Sur les bons comme sur les méchants, le soleil s’lève quand même
+On l’voit d’un canot de sauvetage, eux d’un paquebot de croisière
+Quand ils ont valises sous les yeux, c’est des Hermès ou des LV
+Eux, ils combattent les pauvres, ils combattent pas la pauvreté Moi, en sortant d'la faculté, j’ai perdu mes facultés
+Alors je cherche la vérité sur des comptes Meta vérifiés
+J’regarde la terre brûler, bien enroulé dans mon plaid
+La paix, c’est moins télégénique que l'spectacle de la guerre
+<END_SECTION>
+<REFRAIN>
+J’vois la tempête, j’lui choisis un nom
+C’est ma manière d’affronter le monde
+Comme ma mère, je l’appellerais Jemila
+C’est ma manière de chasser le monstre
+Jemila
+<END_SECTION>
+<OUTRO>
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+Jemila, oh, Jemila
+J’vois la tempête, j’lui choisis un nom
+<END_SECTION>
+<END>
+
+<BEGINNING>False
 Une maitresse & des enfants 
 - Les enfants dépêchez-vous... Nori, Gaël, dépêchez-vous
 - Madame est-ce que je peux aller aux toilettes s'il vous plait?
@@ -12876,54 +14010,12 @@ Tout s'achète tout se vend, personne n'est innocent
 <END>
 
 <BEGINNING>False
-<COUPLET>
-En fin de compte, rien de smart dans c’monde, tout est contradictoire
-Chez nous, au Havre, faut qu’tu saches, la rue d’l’avenir est une impasse
-Même quand on crée, on fait que du crade, comme le dit l’adage
-Quand on invente le navire, on invente aussi le naufrage
-Regarde-moi, j’suis un mec de gauche qui vit sur la rive droite
-Si tu m’demandes d’arracher le fruit, moi, j’arracherais tout l’arbrе
-Moi, je n’suis qu’une goutte d’еau, celle qui fait déborder l’vase
-J’veux soulever l’monde, j’arrive même pas à me lever pour le Fajr
-<END_SECTION>
-<REFRAIN>
-J’vois la tempête, j’lui choisis un nom
-C’est ma manière d’affronter le monde
-Comme ma mère, je l’appellerais Jemila
-C’est ma manière de chasser le monstre
-Jemila
-<END_SECTION>
-<COUPLET>
-Sur les bons comme sur les méchants, le soleil s’lève quand même
-On l’voit d’un canot de sauvetage, eux d’un paquebot de croisière
-Quand ils ont valises sous les yeux, c’est des Hermès ou des LV
-Eux, ils combattent les pauvres, ils combattent pas la pauvreté Moi, en sortant d'la faculté, j’ai perdu mes facultés
-Alors je cherche la vérité sur des comptes Meta vérifiés
-J’regarde la terre brûler, bien enroulé dans mon plaid
-La paix, c’est moins télégénique que l'spectacle de la guerre
-<END_SECTION>
-<REFRAIN>
-J’vois la tempête, j’lui choisis un nom
-C’est ma manière d’affronter le monde
-Comme ma mère, je l’appellerais Jemila
-C’est ma manière de chasser le monstre
-Jemila
-<END_SECTION>
-<OUTRO>
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-Jemila, oh, Jemila
-J’vois la tempête, j’lui choisis un nom
-<END_SECTION>
-<END>
-
-<BEGINNING>False
 ...
+La troisième lui déchire la poitrine
+Sou Han, au réveil n’est plus la même
+Elle connaît la nouvelle que son oncle lui amène
+Elle reste assise, les idées noires et peine
+Loin d’avoir digéré la douleur vietnamienne
 ...
 Coupable, innocent, potentielle est la cible
 Croiseurs d’acier, au réfectoire des insensibles
@@ -13091,6 +14183,15 @@ Records et l'adversaire est dans les cordes
 Les coups des traitres sont dans les ?
 <END_SECTION>
 <REFRAIN>
+Comportement violent et musique éloquente
+Rien d’anormal la violence nous enchante
+Comportement violent
+C’est ce qui traduit le mieux les écarts dans ma conduite
+Comportement violent et encore j’me retiens
+C’est dans mes rimes que ma rage s'entretient
+Comportement violent on voit la vie rouge sang
+Pas qu’on s’en vante, on préfère vivre sans
+
 <END_SECTION>
 <COUPLET>
 <END_SECTION>
@@ -13156,6 +14257,7 @@ Il y a le mot love dans révolutionne
 Avec un canon à onde, j'fais la rélovution!
 <END_SECTION>
 <COUPLET>
+Besoin de changer les belles paroles en de belles actions
 Besoin de tourner les paraboles de nos cœurs vers la réflexion
 Besoin de changer l'état du peuple et l'État de sa condition
 Besoin de faire construire des écoles, pour mieux démolir des prisons
@@ -13212,6 +14314,26 @@ Besoin de designer nos rapports pour mieux redynamiser les cœurs
 N'ayons plus peur! Peur, peur, peur...
 <END_SECTION>
 <REFRAIN>
+Rélovution, rélovution, rélovution
+J'ai besoin de rélovution
+Élève la voix!
+Lève le bras!
+Lève la voile!
+Trouve la foi!
+Enlève le mal!
+Allège le poids!
+Lève le poing!
+Prouve l'exploit!
+Rélovution, rélovution, rélovution
+J'ai besoin de rélovution
+Élève la voix!
+Lève le bras!
+Lève la voile
+Trouve la foi!
+Enlève le mal!
+Allège le poids!
+Lève le poing!
+Trouve l'espoir!
 <END_SECTION>
 <PONT>
 Nous sommes des rélovutionnaires
@@ -13224,6 +14346,26 @@ Tant qu'il y a d'la vie, il y a de l'espoir dit-on
 Sur un tank à vibrations, j'mène la rélovution!
 <END_SECTION>
 <REFRAIN>
+Rélovution, rélovution, rélovution
+J'ai besoin de rélovution
+Élève la voix!
+Lève le bras!
+Lève la voile!
+Trouve la foi!
+Enlève le mal!
+Allège le poids!
+Lève le poing!
+Prouve l'exploit!
+Rélovution, rélovution, rélovution
+J'ai besoin de rélovution
+Élève la voix!
+Lève le bras!
+Lève la voile
+Trouve la foi!
+Enlève le mal!
+Allège le poids!
+Lève le poing!
+Trouve l'espoir!
 <END_SECTION>
 <OUTRO>
 Jamais un album ne m'aura pris autant de temps... Cinq ans, cinq ans d'absence, cinq ans d'épreuves, de remise en question, de doutes... Alors quand les professionnels de la musique, analyseront les ventes de la première semaine... moi, je me souviendrais des heures de studio inchiffrables, de toutes les fois où j'ai dis à ma femme: je reviens dans deux heures grand max, de ces nuits blanches qui ne prenaient fin qu'avec la sonnerie de l'école maternelle Edouard Vaillant, des discussions avec Proof et Salsa, des marathons à travers la France, de salles de concert en cabine d'enregistrement. On se souvient surtout dans ces moments, de tout ce que les gens ne pourront que supposer. J'me donne pas d'excuse, je ne cherche pas à susciter une quelconque empathie. J'ai pas à me plaindre, on pourra certainement me conter parmi les chanceux. J'marche avec les mêmes gars depuis la primaire. Le rap nous a réuni et aujourd'hui le rap nous fait vivre. J'essaie juste de rappeler, qu'il n'y a pas de victoire sans effort. Et qu'on oublie souvent, qu'il y a le mot homme dans album
@@ -13612,6 +14754,15 @@ Négatifs, sachons le dire, Mister R
 Nous sommes nés poussières, on partira poussières de guerre
 <END_SECTION>
 <REFRAIN>
+Hey Pit! Si on rappait comme en 98
+Si on récoltait les fruits qu'ont planté les anciennes équipes
+(A visage découvert, dans la rue, dans l'rap, on r'met les couverts
+Refaire le monde à notre sauce, soldat la guerre est ouverte)
+Hey Pit! Si on rappait comme en 98
+Si on récoltait les fruits qu'ont planté les anciennes équipes
+(Baccardi, Médine, on plante le décor
+Première classe, DIN Records, la fin du monde, nouvel épisode)
+Changement d'instrumentale
 <END_SECTION>
 <END>
 
@@ -13732,21 +14883,6 @@ Que les plus grands féministes sont des keumés
 <END_SECTION>
 <END>
 
-<BEGINNING>True
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<COUPLET>
-<END_SECTION>
-<REFRAIN>
-<END_SECTION>
-<OUTRO>
-<END_SECTION>
-<END>
-
 <BEGINNING>False
 <INTRO>
 Si j'ai rencard avec mon histoire, j'voulais être Rocca, pas Rocard
@@ -13808,6 +14944,21 @@ J'vous vendrai jamais la corde avec laquelle on va se pendre
 Et ouais, y a urgence, j'suis pas d'ces artistes qui s'dépolitisent
 J'suis pas zadistes, ni d'la police du militantisme
 Les pronostics à une carrière éclair me destinent au final, ça fait 20 ans qu'ça doit être de-spi
+<END_SECTION>
+<END>
+
+<BEGINNING>True
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<COUPLET>
+<END_SECTION>
+<REFRAIN>
+<END_SECTION>
+<OUTRO>
 <END_SECTION>
 <END>
 
@@ -15005,6 +16156,7 @@ Vocabulaire chatié des quartiers
 Rapologique charnier au stylo tir de mortier
 Master de cérémonie qui veulent mon hégémonie
 N'ont pas compris que le nom de La ville est mon homonyme
+Un tas de paroles en l'air qui gesticulent
 Heureusement pour vous qu'on ne meurt pas du ridicule
 Écrire c'est magique ça peut te sortir de l'enfer
 C'est pas moi qui l'ai dit c'est Rubin Carter
