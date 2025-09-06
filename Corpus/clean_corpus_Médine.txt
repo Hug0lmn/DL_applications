@@ -1145,8 +1145,6 @@ Tu te crois dans Sons of Anar
 Tu te prends pour Kendrick Lamar
 Ici t'es qu'un âne on t'appelle Kendrick le 7mar
 §
-<OUTRO>
-§
 <END>
 <BEGINNING>
 Je suis le genre de mec qui, dans une boite de strip-tease, regarde le public
@@ -1520,8 +1518,7 @@ J'veux mourir en souriant, que tout l'monde pleure autour de moi
 <BEGINNING>
 <INTRO>
 Geah, c'est l'Arabian Panther
-LH
-§
+LH§
 <COUPLET>
 J'fais pas de paix sociale, j'fais la guerre au Diable
 Mon Prophète à moi sort pas d'un film d'Audiard
@@ -2853,8 +2850,7 @@ Ahou! Que tout le monde gagne la Plèbe!
 <BEGINNING>
 <INTRO>
 Médine France, pas Made in Taïwan
-Okay
-§
+Okay§
 <COUPLET>
 J'suis pas Made in France quand j'vois les étudiants d'vant le CROUS
 Faire la queue pour obtenir la moitié d'un casse-croûte
@@ -3726,8 +3722,7 @@ Premier titre, Prose Elite
 <BEGINNING>
 <INTRO>
 Hey, hey, hey, hey
-Kuda
-§
+Kuda§
 <COUPLET>
 J'étais déjà là sous Giscard , je s'rai encore là sous Marine
 J'suis du
@@ -3792,8 +3787,7 @@ On n'chasse pas l'brouillard à l'éventail
 Appelez-moi le Boulehya
 Appelez-moi le Boulehya
 Appelez-moi le Boulehya
-Check
-§
+Check§
 <COUPLET>
 Une punchline dans leur gueule, ils perdent leur centre de gravité
 C'est plus facile de désintégrer les atomes que les préjugés
@@ -4127,8 +4121,7 @@ BangerangP, remets-moi du rap de pit-Proof, please
 M'enlève pas l'robs de la boca khoya
 Sals', Din Records mental
 On n'crie pas avant d'avoir mal
-Bangerang
-§
+Bangerang§
 <COUPLET>
 Enfant du-per sur la terre de ce-Fran
 Où l'on accueille mieux les aliens que les migrants
@@ -6010,8 +6003,7 @@ Un moment peut changer un jour, un jour peut changer une vie
 Une vie peut changer le world, t'aurais dû ignorer l'intro
 Un moment peut changer un jour, un jour peut changer une vie
 Une vie peut changer le world, t'aurais dû ignorer l'intro
-Beatswitch
-§
+Beatswitch§
 <COUPLET>
 Depuis l'époque Global, on a glow up , ils font leurs albums, j'fais le gros œuvre
 J'fais la ière-pri au fond du pop-up, c'est l'retour du rap çais-fran, pop, pop
@@ -6213,7 +6205,7 @@ Ne pas croire en son destin, C'est la honte
 Les babtous ont peur de nous parce qu'on descend des pharaons
 On rêve de
 Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue – se perd dans l'intérêt
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
 Super les gens du même avis
 Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
 J'ai combattu pour César, celui-ci m'a trahi
@@ -6329,7 +6321,7 @@ Ne pas croire en son destin, C'est la honte
 Les babtous ont peur de nous parce qu'on descend des pharaons
 On rêve de
 Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue – se perd dans l'intérêt
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
 Super les gens du même avis
 Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
 J'ai combattu pour César, celui-ci m'a trahi
@@ -6377,7 +6369,7 @@ Ne pas croire en son destin, C'est la honte
 Les babtous ont peur de nous parce qu'on descend des pharaons
 On rêve de
 Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue – se perd dans l'intérêt
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
 Super les gens du même avis
 Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
 J'ai combattu pour César, celui-ci m'a trahi
@@ -6461,7 +6453,7 @@ Ne pas croire en son destin, C'est la honte
 Les babtous ont peur de nous parce qu'on descend des pharaons
 On rêve de
 Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue – se perd dans l'intérêt
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
 Super les gens du même avis
 Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
 J'ai combattu pour César, celui-ci m'a trahi
@@ -7231,8 +7223,7 @@ Frénésik Radio
 <END>
 <BEGINNING>
 <INTRO>
-Hey
-§
+Hey§
 <COUPLET>
 Mes 15 ans de combat valent mieux que leurs disques de platine
 J'arriverai en berline à mon jugement pour conduite sans permis
@@ -7361,8 +7352,7 @@ Pire que de n'pas voir, j'aurais pu être noir
 <END>
 <BEGINNING>
 <INTRO>
-Unfazzed
-§
+Unfazzed§
 <COUPLET>
 Besoin de changement ce morning ou juste besoin d'aller pisser
 Besoin de soulever la colline ou soulever la cuvette des WC
@@ -8154,8 +8144,7 @@ Ils ne sont pas les bienvenus comme Rachida Dati au DVM Show
 Eh, buste de centaure, hm, j'ai la voix de cent hommes
 Je fact-check et je débunke quand les lanceurs d'alerte s'endorment
 StopMédine
-Stentor
-§
+Stentor§
 <END>
 <BEGINNING>
 <COUPLET>
@@ -8225,10 +8214,10 @@ C'est l'école de la vie où tu mords la poussière
 <END>
 <BEGINNING>
 <COUPLET>
-J'pue d'la gueule quand je lis leurs programmes à voix haute
+J'pue d'lagueule quand je lis leurs programmes à voix haute
 Ils écrivent leurs discours d'la main gauche, la droite est dans nos poches
 Font des clins d'œil appuyés à la petite fille d'un borgne
-Si j'vais à leurs funérailles c'est pour m'assurer de leur mort
+Si j'vaisà leurs funérailles c'est pour m'assurer de leur mort
 Œil pour œil, dent pour dent, on s'ra aveugles et édentés
 Gigantesque est la foule, encagoulée et gantée
 A bas le gotha, j'suis le
@@ -8250,7 +8239,7 @@ L'immigration c'est l'avenir, ça rapporte plus que ça coûte
 S'ils ont sauté du navire c'est sûrement pas pour faire la course
 S'ils ont traversé la Manche c'est sûrement pas pour faire la manche
 Ils veulent qu'on quitte le pays, qu'on sorte les poubelles en partant
-Si ces clowns ont mauvaise haleine, c'est qu'ils ont le cœur sur les lèvres
+Si ces clowns ont mauvaise haleine, c'est qu'ilsont le cœur sur les lèvres
 J'suis ni d'Alsace, ni de Lorraine
 Ni d'Allemagne, ni de Bohême
 Qu'un enfant de colonisé
@@ -8302,8 +8291,6 @@ Tel un scalp d'apache arrache une mèche à sa tignasse
 En tout, 13 minutes dans un train d'enfer
 Démoniaque signifie le D de ce RER
 §
-<PONT>
-§
 <COUPLET>
 Le certif médical et le procès verbal
 Seront transmis d'Aubervilliers à la PJ de Versailles
@@ -8349,8 +8336,6 @@ Question: Arabes et noirs ont-ils eu réparation?
 Réponse: Trois petits points de suspension...
 Question: Vous sentez-vous français après cette scène?
 Réponse: J'attends le prochain match pour siffler la Marseillaise
-§
-<OUTRO>
 §
 <END>
 <BEGINNING>
@@ -9067,8 +9052,7 @@ Aujourd'hui je veux plus vivre dans le regard d'un autre, qui va me juger chaque
 Le mouton passe sa vie, à avoir peur du loup, pour finir par être mangé par le berger
 Tout ça n'était qu'une aventure musicale qui ne devait pas dépasser le garage familial
 Que le Seigneur préserve mon père AbdelOuahab, de finir SDF comme le père de 6ix9ine
-Amin
-§
+Amin§
 <END>
 <BEGINNING>
 <COUPLET>
@@ -9594,8 +9578,7 @@ Tous ces Noirs sont-ils en situation régulière?
 Voici le prix du sang d'une ancienne colonie
 Voici le respect attribué aux familles...
 Diamé, Gassama, Cissé, Konate, Diara, Sy, Traoré, Sissoko, Dembele, les familles de l'hôtel Opéra...
-Paix
-§
+Paix§
 <END>
 <BEGINNING>
 <COUPLET>
@@ -10554,8 +10537,7 @@ Leurs carrières dans le fond d'un C3
 Leurs carrières dans le fond d'un G7
 L'ingé son, l'ingé sait, l'ingé saigne
 Conteneur CGM-CMA dans la mémoire de mon GSM
-Stentor
-§
+Stentor§
 <PONT>
 Putain j'aime trop les cuivres, putain j'aime trop le pe-ra
 J'ai gagné des points d'vie, j'ai gagné des points d'aura
@@ -10579,8 +10561,7 @@ C'est que du rap conscient, t'as jamais l'compte en banque en excédent
 Y a que Michael Jackson qu'est passé d'pauvre et noir à riche et blanc
 Y aura bien plus de gens quand on va m'pendre qu'à mon couronnement
 Veuillez laisser l'rap en sortant comme il était propre en rentrant
-Merci
-§
+Merci§
 <END>
 <BEGINNING>
 <INTRO>
@@ -11291,8 +11272,6 @@ Dis au quai d'Orsay au 36 quai des orfèvres
 Qu'on se souviendra de l'histoire le canon entre les lèvres
 §
 <REFRAIN>
-§
-<REFRAIN>
 On a, pour syndrome la capitale de Suède
 On réunit les causes comme le canal de Suez
 Banlieue, maison d'arrêt à ciel ouvert
@@ -11301,12 +11280,6 @@ Stockholm, un syndrome sans sérum
 C'est l'industrie du ghetto dupliquer sur un album
 On compatit avec le preneur d'otage
 Lui sert de bouclier humain le soir du carnage
-§
-<OUTRO>
-§
-<REFRAIN>
-§
-<OUTRO>
 §
 <END>
 <BEGINNING>
@@ -11706,7 +11679,7 @@ Aie! Méprisant comme un prince envers un lépreux
 Sur les lèvres de la France j'ai lu: Qu'ils crèvent eux!
 J'ai comme une envie de dégueuler sur leur prompteurs
 De regrouper dans un couplet tout ce qui peut leur faire peur
-Boulahia – Rital, anciennement rival
+Boulahia - Rital, anciennement rival
 Algérien sur passé rappeur quasi animal
 Caractère vénal, ambassadeur d'islam
 Cultive une haine viscérale depuis l'ère coloniale
@@ -11779,8 +11752,7 @@ Ne confonds pas le noir et le bounty
 Chaque époque à sa révolte et ça période unity
 Records et l'adversaire est dans les cordes
 La forme esclave du fond, c'est Médine Records
-Ecoute
-§
+Ecoute§
 <END>
 <BEGINNING>
 <COUPLET>
@@ -12000,8 +11972,7 @@ Le jour où j'recevrai le prix Nobel comme Yasser Arafat, j'regarderai Tom et Je
 <OUTRO>
 Arabian Panther, Storyteller
 En direct de Konbini, Iron Mic
-Bangerang
-§
+Bangerang§
 <END>
 <BEGINNING>
 Je leur pisserais même pas dans l'oreille si leur mémoire prenait feu
@@ -12598,8 +12569,7 @@ Pour ne jamais voir sa gueule dans les environs de la crèche de mon fils
 Suis-je paranoïaque ou les 250 000 expulsions de la droite
 Se cachent derrière la nomination de Rama Yade
 Si je l'étais j'aurais dit que 
-Est un film qui incite à l'extermination de la race noire par noyade han 
-§
+Est un film qui incite à l'extermination de la race noire par noyade han §
 <COUPLET>
 Tu veux r'sembler à Mesrine nous casse pas les couilles
 Fais toi la barbe à Seth Gueko ou fais toi canner à Clignancourt

@@ -34,16 +34,12 @@ print("Nb of individual char",len(set(corpus)))
 
 dict_change = {}
 substitutions = [
-    (r"<.*>\n<END_SECTION>\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
-    (r"<BEGINNING>\n<END>\n", "", 0), #No songs
-    (r"<END_SECTION>", "§", 0), #End_Section can be replaced by a specific character that isn't in the corpus such as §
-#    (r"<BEGINNING>\n", "", 0),
-#    (r"<END>\n", "", 0),
     (r"\n([a-z]\w+)\n", r"\1\n", 0), #If lowercase, we assume that the sentence wasn't finished
     (r"\n([A-Z]\w+)\n", r"\n\1", 0), #If uppercase, we assume we are at the beginning of the sentence
     (r"\(.*?\)", "", re.DOTALL), # Characters : ()
     (r"\*", "", re.DOTALL), # Character : *
     (r"«.*?»", "", 0), # Characters : « »
+    ('–', '-', 0),
     ("”", '"', 0), # Characters : “ ”
     ("“", '"', 0),
     ("…", "...", 0), # Character : …
@@ -57,13 +53,16 @@ substitutions = [
     ("\x80", "", 0),
     ("\x99", "", 0),
     ("\ufeff", "", 0),
+    ("\xa0", "", 0),
     ("ʿ", "", 0), # Character : ʿ
     ("·", "", 0), # Character : ·
     (r"\n(\n)", "", 0), #Sometime the text is in « and the previous will just replace it with only a "" but the line are kept and on some songs there is huge part of this
     (r"><", ">\n<", 0), #If two parts are fuzed together, unfuze them
     (r"(>)(\w+)", r"\1\n\2",0),
-#    (r"\w+(§)", "\n§", 0) #I can't explain it exactly but some § can be found near a word and not after a \n
-    (r"(?:(?<!\n)§)", "\n§", 0)
+    (r"(?:(?<!\n)§)", "\n§", 0),
+    (r"<END_SECTION>", "§", 0), #End_Section can be replaced by a specific character that isn't in the corpus such as §
+    (r"<.*>\n§\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
+    (r"<BEGINNING>\n<END>\n", "", 0), #No songs
 ]
 
 # Apply them
