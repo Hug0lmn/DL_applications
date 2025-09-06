@@ -213,7 +213,7 @@ def Get_lyrics_genius(link, artist_name):
     paroles = []
     collab = False #Indication if the music is a featuring, if so the code will need to check if each part was written by our author
     author_lyrics = False #Indication if the lyrics were written by our specified artist, only if collab = True
-    annot = False #Indication if the line of lyrics contains a commentary, used because this can separate a sentence into multiple lines
+#    annot = False #Indication if the line of lyrics contains a commentary, used because this can separate a sentence into multiple lines
     inside_bracket = False 
 
     if new.find_all("span", string = "Featuring") : #Identify a collab (used for post processing and specific scrapping treatment)
@@ -223,14 +223,15 @@ def Get_lyrics_genius(link, artist_name):
 
     for block in lyrics_blocks:
         ligne = ""
-        for elem in block.children:
+        for elem in block.children: #Most of the time the lyrics are divided in separate parts
 
             txt = elem.get_text()
             if (("Contributor" in txt) or ("Paroles" in txt)) or (txt.strip() == "") :#We don't need this type of info
-                continue
+                continue              
                 
+            list_part = ["Couplet","Refrain","Intro","Outro","Pont"]
             #Featuring part
-            if collab and (('[' in txt or '(' in txt) and (':' in txt or '-' in txt)): #If the text indicates a part in a featuring
+            if collab and (('[' in txt[0] or '(' in txt[0])) and any(re.search(rf"{part.lower()}", txt.lower()) for part in list_part): #If the text indicates a part in a featuring
                 author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(txt)) and "&" not in txt #If the artist name is found in this text and only one name : author_lyrics == True
                 paroles.append(txt)
                 continue
@@ -239,14 +240,15 @@ def Get_lyrics_genius(link, artist_name):
                 continue
 
             #Get the text and perform small corrections
-            text = elem.get_text(separator="<br>") #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
+            text = elem.get_text(separator="<br>").strip() #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
             text = re.sub(r"\s+([',;:.!?])", r"\1", text) #If a space before ponctuation remove space
-            text = re.sub(r'\s+', ' ', text).strip() #Normalize consecutive spaces
-
+            text = re.sub(r"\([^)]*\)", "", text)       # retire les backs
+            if text == "" :
+                continue
             #Part where we resolve the anomalies in the format
  
             #This part is specifically design to handle long part indication where the part is divided in multiple lines
-            #Will be bypassed if there is two artists
+            #Sometimes a bracket [that indicates a part] is on multiple lines, when multiple artist
             if "[" in text and "]" not in text : 
                 inside_bracket = True #Indicate that we are inside a bracket
                 paroles.append(text)
@@ -260,32 +262,36 @@ def Get_lyrics_genius(link, artist_name):
 
             if "<br>" in text : 
                 for line in text.split("<br>") :
+                    line = line.strip()
 
-                    if (line[0].islower()) or (len(line.strip())==1) : #If the first letter is a lowercase or contains only one char
-                        try :  #then we assume the sentence wasn't finished and need to add it to the previous line 
-                            paroles[-1] += " "+line
-                        except : 
-                            paroles.extend([line]) #If no previous line then new line
-                    elif len(paroles) >= 1 : #Else 
+                    if len(line) == 0 :
+                        continue
+                
+                    if len(paroles) == 0 : #This part is of use when there is only one lyrics_blocks
+                        paroles.extend([line])
+                        continue
+
+                    #This part is of use in a normal lyrics_blocks when inside an annotation, that concat multiple lines
+                    if (line[0].islower()) or (len(line)==1) : #If the first letter is a lowercase or contains only one char
+                        paroles[-1] += " "+line #we assume the sentence wasn't finished, we add it to the previous line 
+
+                    elif line[0] == "," : #If the new line begin by ,
+                        paroles[-1] += line
+
+                    else : #Else 
                         if paroles[-1][-1] in [",","&"] : #This is use because on a number of outro, i observed that the outro part is divided in multiple lines when there is multiple artists in it
                             paroles[-1] += " "+line
                         else :
                             paroles.extend([line])
-            
-            elif (text[0] in [",", " "]) and annot == True : #If new line begin with this then the previous line wasn't finished
+
+            elif len(paroles)>0 and ((text[0] in [",", " "]) or (paroles[-1][-1] == "'")) : #If new line begin or previous line ended with , ==> not finished
                 paroles[-1] += text 
-
-            elif (text[0].islower()) or (len(text.strip())==1) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
+            
+            elif len(paroles)>0 and ((text[0].islower()) or (len(text)==1) or (paroles[-1][-1] == ",")) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
                 paroles[-1] += " "+text
-
+            
             else : 
                 paroles.extend([text])
-    
-            if isinstance(elem, Tag): #This serve when there is an annot on a lyric and this can separate a line in two differents parts in html
-                if elem.attrs.get("data-ignore-on-click-outside") == "true":
-                    annot = True
-            else : 
-                annot = False
 
     del src, new
     gc.collect()
@@ -341,50 +347,31 @@ def Navigate_songs(songs_list, artist_name):
 
         begin_music = True
         first_part = True
+        SECTION_TOKENS = {
+            "Couplet": "<COUPLET>",
+            "Refrain": "<REFRAIN>",
+            "Intro": "<INTRO>",
+            "Outro": "<OUTRO>",
+            "Pont": "<PONT>",
+        }
+        
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
+            i = i.strip()
 
             if begin_music :
                 only_lyrics.append("<BEGINNING>"+str(collab))
                 begin_music = False
-
-            i = re.sub(r"\([^)]*\)", "", i)       # retire les backs
             
-            if 'Couplet' in re.findall(r"\bCouplet\b", i) : #If i use .lower there can be a problem where the word appear in the lyrics so i new part is created where there is none (happened with intro)
-                if not first_part:
-                    only_lyrics.append("<END_SECTION>")
-                only_lyrics.append("<COUPLET>")
-                first_part = False
-                continue
-
-            elif "Refrain" in re.findall(r"\bRefrain\b", i) : 
-                if not first_part:
-                    only_lyrics.append("<END_SECTION>")
-                only_lyrics.append("<REFRAIN>")
-                first_part = False
-                continue
-
-            elif "Intro" in re.findall(r"\bIntro\b", i) :
-                if not first_part:
-                    only_lyrics.append("<END_SECTION>")
-                only_lyrics.append("<INTRO>")
-                first_part = False
-                continue
+            for key, token in SECTION_TOKENS.items() :
+                if re.search(rf"\b{key}\b", i) : #If i use .lower there can be a problem where the word appear in the lyrics so i new part is created where there is none (happened with intro)
+                    if not first_part:
+                        only_lyrics.append("<END_SECTION>")
+                    only_lyrics.append(f"{token}")
+                    first_part = False
+                    continue
             
-            elif "Outro" in re.findall(r"\bOutro\b", i):
-                if not first_part:
-                    only_lyrics.append("<END_SECTION>")
-                only_lyrics.append("<OUTRO>")
-                first_part = False
-                continue
-            
-            elif "Pont" in re.findall(r"\bPont\b", i):
-                if not first_part:
-                    only_lyrics.append("<END_SECTION>")
-                only_lyrics.append("<PONT>")
-                first_part = False
-                continue
-            
-            only_lyrics.append(i)    
+            if (i[0] != "[" and i[-1] != "]")  :
+                only_lyrics.append(i)    
 
         only_lyrics.append("<END_SECTION>")
         only_lyrics.append("<END>\n")
