@@ -19,7 +19,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import unicodedata
 
-def Find_artist_discography(url):
+def Find_artist_discography(driver, url):
     """
     Scrapes an artist's full discography from a Genius page.
 
@@ -54,10 +54,17 @@ def Find_artist_discography(url):
 #    options.add_argument("--headless=new")
 #    options.add_argument("--start-maximized")  
     
-    options = uc.ChromeOptions()
-    prefs = {"profile.managed_default_content_settings.images": 2}
-    options.add_experimental_option("prefs", prefs)
-    driver = uc.Chrome(version_main=138, options=options)
+    no_cookies = False 
+
+    if driver == False :
+        options = uc.ChromeOptions()
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        options.add_experimental_option("prefs", prefs)
+        driver = uc.Chrome(options=options)
+    else : 
+        no_cookies = True
+
+
     #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
@@ -65,7 +72,8 @@ def Find_artist_discography(url):
     lambda d: d.execute_script("return document.readyState") == "complete"
     )
 
-    Accept_cookies_genius(driver)
+    if no_cookies == False :
+        Accept_cookies_genius(driver)
 
         #Get the html page
     page = bs(driver.page_source,"html.parser")
@@ -102,9 +110,9 @@ def Find_artist_discography(url):
 
         nb_scroll = 0
 
-    driver.quit()
+#    driver.quit()
 
-    return artist_name, songs
+    return artist_name, songs, driver
 
 def Accept_cookies_genius(driver):
     """
@@ -331,7 +339,7 @@ def Navigate_songs(songs_list, artist_name):
 
     dict_parole = {}
 
-    print("Begin the lyrics scrapping...")
+    #print("Begin the lyrics scrapping...")
     for songs_link in tqdm(songs_list, desc='Scrapping songs'):
         true_link = songs_link.a.attrs["href"]
 #        driver.get(true_link)
@@ -399,7 +407,7 @@ def Navigate_songs(songs_list, artist_name):
         song_title = songs_link.a.h3.text
         dict_parole[f"{song_title}"] = only_lyrics
     
-    print("End of lyrics search")
+    #print("End of lyrics search")
 #    driver.quit()
 
     return dict_parole
@@ -479,28 +487,45 @@ def prepare_lyrics(artist_name, title_set):
         f.write(corpus_RNN)
     print(f"Find corpus usable for RNN at corpus_RNN_{artist_name}.txt")
 
-    with open(f"corpus_tokenization_{artist_name}.txt", "w", encoding="utf-8") as f:
-        f.write(corpus_tokenization)
-    print(f"Find corpus usable for tokenization at corpus_tokenization_{artist_name}.txt")
+#    with open(f"corpus_tokenization_{artist_name}.txt", "w", encoding="utf-8") as f:
+#        f.write(corpus_tokenization)
+#    print(f"Find corpus usable for tokenization at corpus_tokenization_{artist_name}.txt")
 
     return 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--link", type=str, help="Link of genius's artist page", nargs="+", required=True)
+parser.add_argument("--RNN", type=bool, help="Perform specific pre-processing task", required=True)
 
 args = parser.parse_args()
 links = args.link
+rnn = args.RNN
+
+print(args)
 
 if len (links) == 1 : 
     artist_name, songs = Find_artist_discography(links[0])
     prepare_lyrics(artist_name, songs)
-    subprocess.run(["python", "Markov/Markov_Chain.py", "--name", artist_name])
     subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
+    subprocess.run(["python", "Markov/Markov_Chain.py"])
 
 elif len(links) > 1 :
+    artists_names = []
+    songs_ = []
+    driver = False
+
     for link in tqdm(links, desc='Scrapping Artist'):
         #Idea : try multi threading to reduce runtime  
-        artist_name, songs = Find_artist_discography(link)
-        prepare_lyrics(artist_name, songs)
-        subprocess.run(["python", "Markov/Markov_Chain.py", "--name", artist_name])
-        subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
+        artist_name, songs, driver = Find_artist_discography(driver, link)
+        artists_names.append(artist_name)
+        songs_.append(songs)
+
+    driver.quit()
+
+    for i in range(len(artists_names)) :
+        prepare_lyrics(artists_names[i], songs_[i])
+        subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artists_names[i]])
+    subprocess.run(["python", "Markov/Markov_Chain.py"])
+
+    if rnn == True :
+        subprocess.run(["python", "Corpus/Manip.py"])

@@ -30,7 +30,7 @@ for i in range(len(corpus_splitted)) :
 corpus = "".join(new_list)
 
 #Beginning of the corpus cleaning
-print("Nb of individual char",len(set(corpus)))
+#print("Nb of individual char",len(set(corpus)))
 
 dict_change = {}
 substitutions = [
@@ -53,6 +53,7 @@ substitutions = [
     ("\x80", "", 0),
     ("\x99", "", 0),
     ("\ufeff", "", 0),
+    ("\u205f", "", 0),
     ("\xa0", "", 0),
     ("ʿ", "", 0), # Character : ʿ
     ("·", "", 0), # Character : ·
@@ -75,8 +76,9 @@ def remove_special(match):
 
 corpus = re.sub(r"'\s|\s+'", remove_special, corpus, flags=re.DOTALL)
 
-print("New nb of char:", len(set(corpus)))
+#print("New nb of char:", len(set(corpus)))
 
-save_path = os.path.join(script_dir, f"clean_corpus_{name}.txt")
+save_path = os.path.join(script_dir, f"Cleaning\clean_corpus_{name}.txt")
+#os.remove(file_path)
 with open(save_path, "w", encoding="utf-8") as f :
     f.write(corpus)

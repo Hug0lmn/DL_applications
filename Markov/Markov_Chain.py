@@ -2,12 +2,11 @@ import re
 import numpy as np
 import pandas as pd
 import os
-import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--name", type=str, default="", help="Name of the artist")
-args = parser.parse_args()
-name = args.name
+#parser = argparse.ArgumentParser()
+#parser.add_argument("--name", type=str, default="", help="Name of the artist")
+#args = parser.parse_args()
+#name = args.name
 
 def count_each_interact(splitted) :
     #This function count what part appeared after another one and generate the structure that will be used to calculate the transition matrix
@@ -96,14 +95,23 @@ def generate_a_song_structure(matrix) :
 
 
 script_dir = os.path.dirname(__file__)
-file_path = os.path.join(script_dir, "..", "Corpus", f"corpus_RNN_{name}.txt")
+path = os.path.join(script_dir, "..", "Corpus")
+list_files = os.listdir(path)
+
+#Regroup the songs, necessary when multiple artists
+
+global_corpus = []
+for i in list_files :
+    if "corpus_RNN" in i  :
+        with open(f"{path}\{i}", "r", encoding="utf-8", errors="replace") as f:
+            corpus = f.read()
+            global_corpus.extend([corpus])
+        os.remove(f"{path}\{i}")
+one_corpus = "".join(global_corpus)
+
 ###This code will create the matrix of transition of the Markov Chain
-
-with open(file_path, "r", encoding="utf-8", errors="replace") as f:
-    corpus = f.read()
-
 ## Removing featuring 
-corpus_solo = re.sub(r"<BEGINNING>True.*?<END>\n\n", " ", corpus, flags=re.DOTALL)
+corpus_solo = re.sub(r"<BEGINNING>True.*?<END>\n\n", " ", one_corpus, flags=re.DOTALL)
 
 ## Removing the songs with only one part identified
 all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(\w+)>", corpus_solo)]
@@ -135,7 +143,7 @@ for i in all_parts :
         if i[0] == "END" :
             count+=1
             endi = i[2]
-            if count >=10 :
+            if count >=15 :
                 print("Nb parts :",count, beg, endi)
         else : 
             count+=1
@@ -151,6 +159,12 @@ splitted = [i.strip() for i in splitted[:-1]]
 
 all_count = count_each_interact(splitted)
 
+#Remove impossible transitions, in case the pre-processing doesn't work properly or has let passed an error
+all_count[0]["OUTRO"] = 0
+all_count[1]["END"] = 0
+all_count[4]["INTRO"] = 0
+all_count[5]["INTRO"] = 0
+
 ## Creation of matrix of transition
 matrix = []
 for i in all_count :
@@ -165,9 +179,9 @@ print("\nGeneration of 3 structures :")
 for run in range(3) :
     generate_a_song_structure(matrix)
 
-print(f"\nTransition_matrix {name}:\n",pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())))
+print(f"\nTransition_matrix :\n",pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())))
 
-save_path = os.path.join(script_dir, f"transition_matrix_{name}.csv")
+save_path = os.path.join(script_dir, f"transition_matrix.csv")
 pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())).to_csv(save_path, index=False)
 
-print(f"\nTransition_matrix saved as transition_matrix_{name}.csv")
+print(f"\nTransition_matrix saved as transition_matrix.csv")
