@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import requests
-import undetected_chromedriver as uc
 import re
-from bs4.element import Tag
 from tqdm import tqdm
 import time
 import argparse
@@ -10,14 +8,68 @@ import gc
 import subprocess
 
 #All selenium import
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+import undetected_chromedriver as uc
 import unicodedata
+
+def search_artist(query, headers): #Will send back 10 results 
+    url = f"https://api.genius.com/search"
+    params = {"q": query}
+    response = requests.get(url, headers=headers, params=params)
+    return response.json()
+
+def collect_all_songs(artist_id, page_nb, headers): #Will send back 20 songs of the artist_id
+    url = f"https://api.genius.com/artists/{artist_id}/songs?per_page=20&page={page_nb}"
+    response = requests.get(url, headers=headers)
+    return response.json()
+
+def new_find_discography(headers) :
+
+    result_search = search_artist(input("\nName a song of your artist or the artist's name : "), headers)
+
+    #Will trr to find the artist specific id in order to find their songs
+    for song in result_search["response"]["hits"] : #Loop over all the 10 proposed songs by search_artist()
+        
+        collect_artist = [] #Collect all the artists on the song
+        for i in song["result"]["primary_artists"] : 
+            collect_artist.append([i["name"],i["id"]])
+        for i in song["result"]["featured_artists"] : 
+            collect_artist.append([i["name"],i["id"]])
+    
+        question = [] 
+        for nb,i in enumerate(collect_artist) :
+            question.extend([f"{nb} : {i[0]}"])
+
+        #Identify the good artist
+        result = input(f"Which artist is the good one (if none leave blank)? {question} : ")
+        if result != "" :
+            break
+    try : 
+        result = int(result)
+    except :
+        raise ValueError("Provide a valid number or change the song's name")
+
+    ## Collect the artist's discography 
+    artist_name = collect_artist[result][0]
+    collect_songs = []
+    
+    for i in range(1,50) :
+        songs_ = collect_all_songs(collect_artist[result][1], i, headers)
+
+        if len(songs_["response"]["songs"]) == 0 : #No songs returned
+            break
+        collect_songs.extend(songs_["response"]["songs"])
+
+    #Check if lyrics are good
+    list_songs =[]
+    for i in collect_songs : 
+        if i["lyrics_state"] == "complete" :
+            list_songs.append([i["url"],i["title"]])
+
+    return list_songs, artist_name
 
 def Find_artist_discography(driver, url):
     """
@@ -52,7 +104,7 @@ def Find_artist_discography(driver, url):
     #Navigate to html page
 #    options = webdriver.ChromeOptions()
 #    options.add_argument("--headless=new")
-#    options.add_argument("--start-maximized")  
+#    options.add_argument("--start-maximized")
     
     no_cookies = False 
 
@@ -64,8 +116,6 @@ def Find_artist_discography(driver, url):
     else : 
         no_cookies = True
 
-
-    #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(url+"/songs")
 
     WebDriverWait(driver, 20).until(
@@ -341,7 +391,7 @@ def Navigate_songs(songs_list, artist_name):
 
     #print("Begin the lyrics scrapping...")
     for songs_link in tqdm(songs_list, desc='Scrapping songs'):
-        true_link = songs_link.a.attrs["href"]
+        true_link = songs_link[0]
 #        driver.get(true_link)
         if "lyric" not in true_link : 
             continue
@@ -404,7 +454,7 @@ def Navigate_songs(songs_list, artist_name):
                 only_lyrics.insert(i+compteur_add,j)
                 compteur_add += 1
                     
-        song_title = songs_link.a.h3.text
+        song_title = songs_link[1]
         dict_parole[f"{song_title}"] = only_lyrics
     
     #print("End of lyrics search")
@@ -441,7 +491,6 @@ def prepare_lyrics(artist_name, title_set):
     Returns:
         None
     """
-
 
     result = Navigate_songs(title_set, artist_name)
 
@@ -494,33 +543,38 @@ def prepare_lyrics(artist_name, title_set):
     return 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--link", type=str, help="Link of genius's artist page", nargs="+", required=True)
+#parser.add_argument("--link", type=str, help="Link of genius's artist page", nargs="+", required=True)
 parser.add_argument("--RNN", type=bool, help="Perform specific pre-processing task", required=True)
+parser.add_argument("--nb", type=int, help="Number of artists that will be collected", required=True)
 
 args = parser.parse_args()
-links = args.link
+#links = args.link
 rnn = args.RNN
 
-print(args)
+with open("API_genius.txt","r",encoding="utf-8") as f :
+    GENIUS_API_TOKEN = f.read()
+headers = {"Authorization": f"Bearer {GENIUS_API_TOKEN}"}
 
-if len (links) == 1 : 
-    artist_name, songs = Find_artist_discography(links[0])
+if args.nb == 1 :
+    driver = False
+    songs, artist_name = new_find_discography(headers)
     prepare_lyrics(artist_name, songs)
     subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
     subprocess.run(["python", "Markov/Markov_Chain.py"])
 
-elif len(links) > 1 :
+elif args.nb > 1 :
     artists_names = []
     songs_ = []
     driver = False
 
-    for link in tqdm(links, desc='Scrapping Artist'):
+    for link in tqdm(range(args.nb), desc='Scrapping Artist'):
         #Idea : try multi threading to reduce runtime  
-        artist_name, songs, driver = Find_artist_discography(driver, link)
+        songs, artist_name = new_find_discography(headers)
+#        artist_name, songs, driver = Find_artist_discography(driver, link)
         artists_names.append(artist_name)
         songs_.append(songs)
 
-    driver.quit()
+#    driver.quit()
 
     for i in range(len(artists_names)) :
         prepare_lyrics(artists_names[i], songs_[i])
