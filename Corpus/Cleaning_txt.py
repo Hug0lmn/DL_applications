@@ -14,7 +14,7 @@ with open(file_path, "r", encoding="utf-8", errors="replace") as f:
     corpus = f.read()
 
 #First we remove the indication of featuring
-corpus = re.sub(r">(True|False)\n", ">\n", corpus)
+#corpus = re.sub(r">(True|False)\n", ">\n", corpus)
 
 #Then we remove the unecessary spaces
 corpus = corpus.strip()
@@ -34,12 +34,36 @@ corpus = "".join(new_list)
 
 dict_change = {}
 substitutions = [
+#Data cleaning
     (r"\n([a-z]\w+)\n", r"\1\n", 0), #If lowercase, we assume that the sentence wasn't finished
     (r"\n([A-Z]\w+)\n", r"\n\1", 0), #If uppercase, we assume we are at the beginning of the sentence
+#Specific characters
     (r"\(.*?\)", "", re.DOTALL), # Characters : ()
     (r"\*", "", re.DOTALL), # Character : *
     (r"«.*?»", "", 0), # Characters : « »
     ('–', '-', 0),
+    ('ğ', 'g', 0),
+    ('ć', 'c', 0),
+    ('¿', '', 0),
+    ('Ä', 'A', 0),
+    ("Î", "I", 0),
+    ("Ô", "O", 0),
+    ("Ö", "O", 0),
+    ("Ü", "U", 0),
+    ("á", "a", 0),
+    ("ã", "a", 0),
+    ("ä", "a", 0),
+    ("æ", "ae", 0),
+    ("í", "i", 0),
+    ("ñ", "n", 0),
+    ("ü", "u", 0),
+    ("ā", "a", 0),
+    ("ō", "o", 0),
+    ("Œ","OE",0),
+    ("œ", "oe", 0),
+    ("Ş","S",0),
+    ("ş","s",0),
+    ("—","-",0),
     ("”", '"', 0), # Characters : “ ”
     ("“", '"', 0),
     ("…", "...", 0), # Character : …
@@ -60,10 +84,32 @@ substitutions = [
     (r"\n(\n)", "", 0), #Sometime the text is in « and the previous will just replace it with only a "" but the line are kept and on some songs there is huge part of this
     (r"><", ">\n<", 0), #If two parts are fuzed together, unfuze them
     (r"(>)(\w+)", r"\1\n\2",0),
-    (r"(?:(?<!\n)§)", "\n§", 0),
-    (r"<END_SECTION>", "§", 0), #End_Section can be replaced by a specific character that isn't in the corpus such as §
-    (r"<.*>\n§\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
-    (r"<BEGINNING>\n<END>\n", "", 0), #No songs
+    (r"(?:(?<!\n)<END_\w+>)", "\n\g<0>", 0), #If the end of a part is preceded by a thing that is not \n then add a \n
+
+#Replace indication part by specific charac (greek)
+#η θ	ι	κ	λ	μ	ν	ξ	Ο	π	ρ	Σ	τ	υ	φ	χ ψ	Ω	
+    (r"<BEGINNING_SONG>", "<α>", 0),
+ 
+    (r"<INTRO>", "<β>", 0),
+    (r"<END_INTRO>", "</β>", 0),
+ 
+    (r"<COUPLET>", "<γ>", 0),
+    (r"<END_COUPLET>", "</γ>", 0),
+ 
+    (r"<REFRAIN>", "<ε>", 0),
+    (r"<END_REFRAIN>", "</ε>", 0),
+
+    (r"<PONT>", "<ζ>", 0),
+    (r"<END_PONT>", "</ζ>", 0),
+    
+    (r"<OUTRO>", "<η>", 0),
+    (r"<END_OUTRO>", "</η>", 0),
+
+    (r"<END_SONG>", "<θ>", 0),
+    (r"<α>\n<θ>\n", "", 0), #No lyrics inside a song
+
+    (r"<.*>\n<END_\w+>\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
+    (r"\n<END_>\n", "\n", 0), 
 ]
 
 # Apply them
@@ -76,9 +122,7 @@ def remove_special(match):
 
 corpus = re.sub(r"'\s|\s+'", remove_special, corpus, flags=re.DOTALL)
 
-#print("New nb of char:", len(set(corpus)))
-
 save_path = os.path.join(script_dir, f"Cleaning\clean_corpus_{name}.txt")
-#os.remove(file_path)
+os.remove(file_path)
 with open(save_path, "w", encoding="utf-8") as f :
     f.write(corpus)

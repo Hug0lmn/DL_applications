@@ -11,8 +11,17 @@ import os
 def count_each_interact(splitted) :
     #This function count what part appeared after another one and generate the structure that will be used to calculate the transition matrix
     
+    dict_translation = {"α" : "BEGINNING",
+                        "β" : "INTRO",
+                        "γ" : "COUPLET",
+                        "ε" : "REFRAIN",
+                        "ζ" : "PONT",
+                        "η" : "OUTRO",
+                        "θ" : "END"
+                    }
+    
     for i in range(len(splitted)) :
-        splitted[i] = splitted[i]+" END"
+        splitted[i] = splitted[i]+" θ"
 
     good_parts = (" ".join(splitted)).split(" ")
 
@@ -35,24 +44,24 @@ def count_each_interact(splitted) :
     for part in list_dicti :
         for j in order :
             part[j] = 0    
-    
+
+
     for i in dict_glob.keys() :
         actual = i.split(" ")[0]
-        next = i.split(" ")[1]
+        next = dict_translation[i.split(" ")[1]]
 
-        if actual == "BEGINNING" :  
+        if actual == "α" :  
             beginn[next] = dict_glob[i]
 
-        elif actual == "INTRO" :
+        elif actual == beginning_sections[0] :
             intro[next] = dict_glob[i]
-
-        elif actual == "COUPLET" :
+        elif actual == beginning_sections[1] :
             couplet[next] = dict_glob[i]
-        elif actual == "PONT" :
+        elif actual == beginning_sections[3] :
             pont[next] = dict_glob[i]
-        elif actual == "REFRAIN" :
+        elif actual == beginning_sections[2] :
             refrain[next] = dict_glob[i]
-        elif actual == "OUTRO" :
+        elif actual == beginning_sections[-1] :
             outro[next] = dict_glob[i]
 
     return list_dicti
@@ -62,19 +71,19 @@ def generate_a_song_structure(matrix) :
     
     song_struct = [0]
 
-    index = [i for i, p in enumerate(matrix[0]) if p>0]
-    proba = [p for p in matrix[0] if p > 0]
+    index = [i for i, p in enumerate(matrix[0]) if p>0] #Get the index of part
+    proba = [p for p in matrix[0] if p > 0] #Get the proba of transition
 
+    #Select the first part of the song
     cumsum = np.cumsum(proba)
     r = np.random.rand()
-
     idx = np.searchsorted(cumsum, r)
     selected_value = index[idx] 
     song_struct.append(selected_value)
 
     end = False
 
-    while end == False :
+    while end == False : #Select the next parts
 
         index = [i for i, p in enumerate(matrix[selected_value]) if p>0]
         proba = [p for p in matrix[selected_value] if p > 0]
@@ -92,75 +101,102 @@ def generate_a_song_structure(matrix) :
     print([order[i] for i in song_struct])
     return
 
-
-
 script_dir = os.path.dirname(__file__)
-path = os.path.join(script_dir, "..", "Corpus")
+path = os.path.join(script_dir, "..", "Corpus\Cleaning")
 list_files = os.listdir(path)
 
 #Regroup the songs, necessary when multiple artists
 
 global_corpus = []
 for i in list_files :
-    if "corpus_RNN" in i  :
+    if "clean_corpus" in i  :
+        
         with open(f"{path}\{i}", "r", encoding="utf-8", errors="replace") as f:
             corpus = f.read()
             global_corpus.extend([corpus])
-        os.remove(f"{path}\{i}")
+        
+        corpus = re.sub(r">(True|False)\n", ">\n", corpus)
+        with open(f"{path}\{i}", "w", encoding="utf-8", errors="replace") as f:
+            f.write(corpus)
+
 one_corpus = "".join(global_corpus)
 
-###This code will create the matrix of transition of the Markov Chain
-## Removing featuring 
-corpus_solo = re.sub(r"<BEGINNING>True.*?<END>\n\n", " ", one_corpus, flags=re.DOTALL)
-
-## Removing the songs with only one part identified
-all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(\w+)>", corpus_solo)]
-
-for i in range(len(all_parts)-3) :
-    nn = len(all_parts)-3 -i
-    if all_parts[nn-2][0] == "BEGINNING" :
-        if all_parts[nn-1][0] == "END_SECTION" :
-            if all_parts[nn][0] == "END" :
-                part_1_corp = corpus_solo[:all_parts[nn-2][1]]
-                part_2_corp = corpus_solo[all_parts[nn][2]:]
-                corpus_solo = part_1_corp+part_2_corp
+beginning_sections =["β", "γ", "ε", "ζ", "η"]
+end_sections =["/β", "/γ", "/ε", "/ζ", "/η"]
 
 ##Count the number of parts in songs
-#If a song has more than 10 parts indicates the beginning and end of the song in the corpus
-all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(\w+)>", corpus_solo)]
+#If a song has more than 15 parts, delete the song from the corpus
+all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(.*)>", one_corpus)]
 
 count = 0
 beg = 0
 endi =0
+delete_the_text = []
 
 for i in all_parts :
-    if i[0] == "BEGINNING" :
+    if i[0] == "α" :
         count = 0
         beg = i[1]
-    elif i[0] == "END_SECTION" :
+    elif i[0] in end_sections :
         continue
     else : 
-        if i[0] == "END" :
+        if i[0] == "θ" :
             count+=1
             endi = i[2]
             if count >=15 :
-                print("Nb parts :",count, beg, endi)
+#                print("Nb_part :",count, beg, endi)
+                delete_the_text.append([beg,endi])
         else : 
             count+=1
 
+for i in delete_the_text[::-1] :
+    one_corpus = one_corpus = one_corpus[:beg] + one_corpus[endi:]
+
+print("Nb songs where nb parts > 15 : ",len(delete_the_text))
+
+#Final clean before usable corpus for training
+regroup_corpus = re.sub("(True|False)\n", "", one_corpus)
+regroup_corpus = re.sub("<(.*)>", r"\g<1>", regroup_corpus)
+
+for i in beginning_sections :
+    re.sub("{i}\n/{i}", "{i}\nτ\n/{i}", regroup_corpus) #τ will represent a part where there is no text so we can control it later
+    #And the model can see the form of the structure
+
+save_path = os.path.join(path, f"regroup_clean_corpus.txt")
+with open(save_path, "w", encoding="utf-8") as f :
+    f.write(regroup_corpus)
+
+## Removing featuring 
+solo_corpus = re.sub(r"<α>True.*?<θ>\n\n", " ", one_corpus, flags=re.DOTALL)
+
+## Removing the songs with only one part identified
+all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(.*)>", solo_corpus)]
+
+for i in range(len(all_parts)-3) :
+    nn = len(all_parts)-3 -i
+    if all_parts[nn-2][0] == "α" :
+        if all_parts[nn-1][0] in end_sections :
+            if all_parts[nn][0] == "θ" :
+                part_1_corp = solo_corpus[:all_parts[nn-2][1]]
+                part_2_corp = solo_corpus[all_parts[nn][2]:]
+                solo_corpus = part_1_corp+part_2_corp
+
+###This code will create the matrix of transition of the Markov Chain
 ##Prep for Markov Chain
 
-parts = re.findall(r"<(\w+)>", corpus_solo) #Identify each part
+parts = re.findall(r"<(.*)>", solo_corpus) #Identify each part
 regrouped = " ".join(parts) #re.findall gave back a list, we need a full text to perform next modif
-regrouped = re.sub("END_SECTION ", "", regrouped) 
-splitted = regrouped.split("END")
 
-splitted = [i.strip() for i in splitted[:-1]]
+#Delete end_sections
+for i in end_sections : 
+    regrouped = regrouped.replace(i+" ","")
 
+splitted = [i.strip() for i in regrouped.split("θ")][:-1]
 all_count = count_each_interact(splitted)
 
 #Remove impossible transitions, in case the pre-processing doesn't work properly or has let passed an error
 all_count[0]["OUTRO"] = 0
+all_count[0]["END"] = 0
 all_count[1]["END"] = 0
 all_count[4]["INTRO"] = 0
 all_count[5]["INTRO"] = 0

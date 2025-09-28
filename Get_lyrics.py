@@ -74,7 +74,7 @@ def remove_accents_and_quotes(text):
     text = text.replace("'", "’").replace("'", "‘")
     return text
 
-def Get_lyrics_genius(link, artist_name):
+def Get_lyrics_genius(link, artist_name, s):
     """
     Extracts and cleans lyrics from a Genius song page.
 
@@ -87,14 +87,8 @@ def Get_lyrics_genius(link, artist_name):
       - Line breaks and multiple spaces normalization.
 
     Args:
-        link (str): The Genius URL of the song's lyrics page.
-        artist_name (str): The main artist's name; used to filter 
-            verses in collaborative tracks so only their parts are returned.
 
     Returns:
-        list[str]: A list of cleaned lyric lines for the specified artist.
-                   If the song is a collaboration, only the main artist's
-                   sections are returned (when detectable).
 
     Raises:
         requests.exceptions.RequestException: If the HTTP request fails.
@@ -108,98 +102,100 @@ def Get_lyrics_genius(link, artist_name):
 
     """
 
-    src = requests.get(link).text
+    src = s.get(link).text
     new = bs(src,"html.parser")
     artist_name = remove_accents_and_quotes(artist_name)
 
     # On récupère tous les blocs qui contiennent les paroles
-    lyrics_blocks = new.find_all("div", attrs={"data-lyrics-container": "true"})
+    lyrics_blocks = new.find_all("div", class_="Lyrics__Container-sc-a49d8432-1")
+    lyrics = []
+    for block in lyrics_blocks :
+        #If text preview, will be included in text if no action
+        if len(block.find_all("a", class_="StyledLink-sc-15c685a-0 cBFlAw SongBioPreview__Wrapper-sc-8d233cbc-1 jKXpmZ"))>0 : #Preview text
+            header = block.find("div", class_="LyricsHeader__Container-sc-5e4b7146-1 hFsUgC")
+            for i in header.next_siblings :
+                lyrics.append(i.get_text(separator="\n"))
+            continue
+        
+        lyrics.append(block.get_text(separator="\n"))
+    
+    lyrics = "\n".join(lyrics).split("\n")
+    #lyrics_blocks = new.find_all("div", attrs={"data-lyrics-container": "true"})
     paroles = []
+    
     collab = False #Indication if the music is a featuring, if so the code will need to check if each part was written by our author
     author_lyrics = False #Indication if the lyrics were written by our specified artist, only if collab = True
-#    annot = False #Indication if the line of lyrics contains a commentary, used because this can separate a sentence into multiple lines
     inside_bracket = False 
+    parole_bracket = False
 
-    if new.find_all("span", string = "Featuring") : #Identify a collab (used for post processing and specific scrapping treatment)
+    #Identify a collab (used for post processing and specific scrapping treatment)
+    if new.find_all("span", string = "Featuring") :
         collab = True
     else : 
         collab = False
 
-    for block in lyrics_blocks:
-        ligne = ""
-        for elem in block.children: #Most of the time the lyrics are divided in separate parts
+    for line in lyrics:
 
-            txt = elem.get_text()
-            if (("Contributor" in txt) or ("Paroles" in txt)) or (txt.strip() == "") :#We don't need this type of info
-                continue              
+        if "Read More" in line :
+            paroles = []
+            continue
+
+        if (("Contributor" in line) or (line.strip() == "") or ("Lyrics" in line)) :#We don't need this type of info
+            continue              
                 
-            list_part = ["Couplet","Refrain","Intro","Outro","Pont"]
-            #Featuring part
-            if collab and (('[' in txt[0] or '(' in txt[0])) and any(re.search(rf"{part.lower()}", txt.lower()) for part in list_part): #If the text indicates a part in a featuring
-                author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(txt)) and "&" not in txt #If the artist name is found in this text and only one name : author_lyrics == True
-                paroles.append(txt)
-                continue
+        list_part = ["Couplet","Refrain","Intro","Outro","Pont"]
+        #Featuring part
+        if collab and (('[' in line[0] or '(' in line[0])) and any(re.search(rf"{part.lower()}", line.lower()) for part in list_part): #If the text indicates a part in a featuring
+            author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(line)) and "&" not in line #If the artist name is found in this text and only one name : author_lyrics == True
+            paroles.append(line)
+            continue
 
-            if collab and not author_lyrics : #If the part isn't sung by our artist, skip the text
-                continue
+        if collab and not author_lyrics : #If the part isn't sung by our artist, skip the text
+            continue
 
-            #Get the text and perform small corrections
-            text = elem.get_text(separator="<br>").strip() #The separator will be used to split the text, sometimes two lines are regroup into one but can be splitted later
-            text = re.sub(r"\s+([',;:.!?])", r"\1", text) #If a space before ponctuation remove space
-            text = re.sub(r"\([^)]*\)", "", text)       # retire les backs
-            if text == "" :
-                continue
+        #Get the text and perform small corrections
+        line = re.sub(r"\s+([',;:.!?])", r"\1", line) #If a space before ponctuation remove space
+        line = re.sub(r"\([^)]*\)", "", line)       # retire les backs
+        if line == "" :
+            continue
             #Part where we resolve the anomalies in the format
  
             #This part is specifically design to handle long part indication where the part is divided in multiple lines
             #Sometimes a bracket [that indicates a part] is on multiple lines, when multiple artist
-            if "[" in text and "]" not in text : 
-                inside_bracket = True #Indicate that we are inside a bracket
-                paroles.append(text)
+        if "[" in line and "]" not in line : 
+            inside_bracket = True #Indicate that we are inside a bracket
+            if "Paroles" in line : 
+                parole_bracket = True
                 continue
+            paroles.append(line)
+            continue
+        elif "[" in line and "]" in line and "Paroles" in line :
+            continue
 
-            if inside_bracket  : 
-                paroles[-1] += " "+text #If inside a bracket then everything is on the same line
-                if "]" in text : #Close the bracket
+        if inside_bracket  : 
+            if parole_bracket : 
+                if ']' in line :
+                    parole_bracket = False
+                    inside_bracket = False
+                continue
+            else :
+                paroles[-1] += " "+line #If inside a bracket then everything is on the same line
+                if "]" in line : #Close the bracket
                     inside_bracket = False
                 continue #Skip the whole next part of if statement
 
-            if "<br>" in text : 
-                for line in text.split("<br>") :
-                    line = line.strip()
-
-                    if len(line) == 0 :
-                        continue
-                
-                    if len(paroles) == 0 : #This part is of use when there is only one lyrics_blocks
-                        paroles.extend([line])
-                        continue
-
-                    #This part is of use in a normal lyrics_blocks when inside an annotation, that concat multiple lines
-                    if (line[0].islower()) or (len(line)==1) : #If the first letter is a lowercase or contains only one char
-                        paroles[-1] += " "+line #we assume the sentence wasn't finished, we add it to the previous line 
-
-                    elif line[0] == "," : #If the new line begin by ,
-                        paroles[-1] += line
-
-                    else : #Else 
-                        if paroles[-1][-1] in [",","&"] : #This is use because on a number of outro, i observed that the outro part is divided in multiple lines when there is multiple artists in it
-                            paroles[-1] += " "+line
-                        else :
-                            paroles.extend([line])
-
-            elif len(paroles)>0 and ((text[0] in [",", " "]) or (paroles[-1][-1] == "'")) : #If new line begin or previous line ended with , ==> not finished
-                paroles[-1] += text 
+        elif len(paroles)>0 and ((line[0] in [",", " "]) or (paroles[-1][-1] == "'")) : #If new line begin or previous line ended with , ==> not finished
+            paroles[-1] += line 
             
-            elif len(paroles)>0 and ((text[0].islower()) or (len(text)==1) or (paroles[-1][-1] == ",")) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
-                paroles[-1] += " "+text
+        elif len(paroles)>0 and ((line[0].islower()) or (len(line)==1) or (paroles[-1][-1] == ",")) : #If the "new" line begin with a lowercase it indicate that the sentence wasn't finished
+            paroles[-1] += " "+line
             
-            else : 
-                paroles.extend([text])
+        else : 
+            paroles.extend([line])
 
     del src, new
     gc.collect()
-    return paroles, collab
+    return paroles, collab, s
 
 def Navigate_songs(songs_list, artist_name):
     """
@@ -234,6 +230,7 @@ def Navigate_songs(songs_list, artist_name):
 
 
     dict_parole = {}
+    s = requests.Session()
 
     #print("Begin the lyrics scrapping...")
     for songs_link in tqdm(songs_list, desc='Scrapping songs'):
@@ -242,7 +239,7 @@ def Navigate_songs(songs_list, artist_name):
         if "lyric" not in true_link : 
             continue
 
-        lyrics, collab = Get_lyrics_genius(true_link, artist_name)
+        lyrics, collab,s = Get_lyrics_genius(true_link, artist_name, s)
 
         if len(lyrics) < 4 :
             continue
@@ -259,39 +256,42 @@ def Navigate_songs(songs_list, artist_name):
             "Pont": "<PONT>",
         }
         
+        actual_part = "" #Will be used to close the part
         for i in lyrics: #A ce stade, les indications de couplet/refrains ont toujours là entre [] et les backs aussi entre ()
             i = i.strip()
 
             if begin_music :
-                only_lyrics.append("<BEGINNING>"+str(collab))
+                only_lyrics.append("<BEGINNING_SONG>"+str(collab))
                 begin_music = False
             
             for key, token in SECTION_TOKENS.items() :
-                if re.search(rf"\b{key}\b", i) : #If i use .lower there can be a problem where the word appear in the lyrics so i new part is created where there is none (happened with intro)
+                if re.search(rf"\b{key}\b", i) : #If i use .lower there can be a problem where the word appear in the lyrics so a new part is created where there is none (happened with intro)
                     if not first_part:
-                        only_lyrics.append("<END_SECTION>")
+                        only_lyrics.append(f"<END_{actual_part.upper()}>")
+
                     only_lyrics.append(f"{token}")
+                    actual_part = key
                     first_part = False
                     continue
             
             if (i[0] != "[" and i[-1] != "]")  :
                 only_lyrics.append(i)    
 
-        only_lyrics.append("<END_SECTION>")
-        only_lyrics.append("<END>\n")
+        only_lyrics.append(f"<END_{actual_part.upper()}>")
+        only_lyrics.append("<END_SONG>\n")
         
-        ## Part that resolve the pb where a part (REFRAIN) has no lyrics because it is identical has the previous one 
+        ## Part that resolve the pb where a part (REFRAIN) has no lyrics because it is identical has the previous one (in older genius's lyrics)
         refrain_part = []
         where_to_add = []
         
         for n in range(len(only_lyrics)-1) :
-            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] != "<END_SECTION>") : #Identify a complete REFRAIN
+            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] != "<END_REFRAIN>") : #Identify a complete REFRAIN
                 j = n + 1
-                while only_lyrics[j] != "<END_SECTION>" : #Collect all the lyrics of the REFRAIN
+                while only_lyrics[j] != "<END_REFRAIN>" : #Collect all the lyrics of the REFRAIN
                     refrain_part.append(only_lyrics[j])
                     j += 1
 
-            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] == "<END_SECTION>") : #Collect the empty REFRAIN
+            if (only_lyrics[n] == "<REFRAIN>") and (only_lyrics[n+1] == "<END_REFRAIN>") : #Collect the empty REFRAIN
                 where_to_add.append(n+1)
 
         compteur_add = 0 #Complete the empty REFRAIN
@@ -340,9 +340,6 @@ def prepare_lyrics(artist_name, title_set):
 
     result = Navigate_songs(title_set, artist_name)
 
-    found_site = 0
-    no_found = []
-
     #Cleaning of lyrics 
     for title in list(result.keys()): 
         lines = result[title] #Je suis obligé d'itérer sur une copie et nan le vrai dict car je modifie sa valeur si len(lines) == 0
@@ -351,17 +348,8 @@ def prepare_lyrics(artist_name, title_set):
         lines = [line.replace("[", "") for line in lines]
         lines = [line.replace("]", "") for line in lines]
     
-        if not lines:
-            del result[title]
-            found_site += 1
-            no_found.append(title)
-            print(f"Deleted for missing lyrics : {title}")
-
         result[title] = lines
     
-    if found_site > 0 :
-        print(found_site, no_found)
-
     #Regroupement de l'entiéreté du corpus de texte
     corpus = []
 
@@ -380,7 +368,7 @@ def prepare_lyrics(artist_name, title_set):
 
     with open(f"Corpus/corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_RNN)
-    print(f"Find corpus usable for RNN at corpus_RNN_{artist_name}.txt")
+    print(f"\nFind corpus usable for RNN at corpus_RNN_{artist_name}.txt")
 
 #    with open(f"corpus_tokenization_{artist_name}.txt", "w", encoding="utf-8") as f:
 #        f.write(corpus_tokenization)
@@ -402,7 +390,6 @@ with open("API_genius.txt","r",encoding="utf-8") as f :
 headers = {"Authorization": f"Bearer {GENIUS_API_TOKEN}"}
 
 if args.nb == 1 :
-    driver = False
     songs, artist_name = new_find_discography(headers)
     prepare_lyrics(artist_name, songs)
     subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
@@ -411,18 +398,15 @@ if args.nb == 1 :
 elif args.nb > 1 :
     artists_names = []
     songs_ = []
-    driver = False
 
-    for link in tqdm(range(args.nb), desc='Scrapping Artist'):
+    for link in range(args.nb) :
         #Idea : try multi threading to reduce runtime  
         songs, artist_name = new_find_discography(headers)
-#        artist_name, songs, driver = Find_artist_discography(driver, link)
         artists_names.append(artist_name)
         songs_.append(songs)
 
 #    driver.quit()
-
-    for i in range(len(artists_names)) :
+    for i in range(len(artists_names)):
         prepare_lyrics(artists_names[i], songs_[i])
         subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artists_names[i]])
     subprocess.run(["python", "Markov/Markov_Chain.py"])

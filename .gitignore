@@ -2,3 +2,7 @@ Get_lyrics.ipynb
 venv/
 Models_generation/_pycache_/
 API_genius.txt
+Corpus/Manip.ipynb
+Corpus/Test_tokenizer.ipynb
+Corpus/Cleaning_txt_test.ipynb
+Markov/Markov_Chain.ipynb
