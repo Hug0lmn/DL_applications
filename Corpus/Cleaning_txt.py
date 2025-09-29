@@ -63,7 +63,8 @@ substitutions = [
     ("œ", "oe", 0),
     ("Ş","S",0),
     ("ş","s",0),
-    ("—","-",0),
+    ("$","s", 0),
+    ("È", "E", 0),
     ("”", '"', 0), # Characters : “ ”
     ("“", '"', 0),
     ("…", "...", 0), # Character : …
@@ -88,28 +89,29 @@ substitutions = [
 
 #Replace indication part by specific charac (greek)
 #η θ	ι	κ	λ	μ	ν	ξ	Ο	π	ρ	Σ	τ	υ	φ	χ ψ	Ω	
-    (r"<BEGINNING_SONG>", "<α>", 0),
+    (r"<BEGINNING_SONG>", "α", 0),
  
-    (r"<INTRO>", "<β>", 0),
-    (r"<END_INTRO>", "</β>", 0),
+    (r"<INTRO>", "β", 0),
+    (r"<END_INTRO>", "/β", 0),
  
-    (r"<COUPLET>", "<γ>", 0),
-    (r"<END_COUPLET>", "</γ>", 0),
+    (r"<COUPLET>", "γ", 0),
+    (r"<END_COUPLET>", "/γ", 0),
  
-    (r"<REFRAIN>", "<ε>", 0),
-    (r"<END_REFRAIN>", "</ε>", 0),
+    (r"<REFRAIN>", "ε", 0),
+    (r"<END_REFRAIN>", "/ε", 0),
 
-    (r"<PONT>", "<ζ>", 0),
-    (r"<END_PONT>", "</ζ>", 0),
+    (r"<PONT>", "ζ", 0),
+    (r"<END_PONT>", "/ζ", 0),
     
-    (r"<OUTRO>", "<η>", 0),
-    (r"<END_OUTRO>", "</η>", 0),
+    (r"<OUTRO>", "η", 0),
+    (r"<END_OUTRO>", "/η", 0),
 
-    (r"<END_SONG>", "<θ>", 0),
-    (r"<α>\n<θ>\n", "", 0), #No lyrics inside a song
+    (r"<END_SONG>", "θ", 0),
+    (r"α\nθ\n", "", 0), #No lyrics inside a song
 
-    (r"<.*>\n<END_\w+>\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
+#    (r"<.*>\n<END_\w+>\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
     (r"\n<END_>\n", "\n", 0), 
+    ("—","-",0),
 ]
 
 # Apply them

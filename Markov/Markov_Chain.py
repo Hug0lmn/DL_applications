@@ -21,8 +21,9 @@ def count_each_interact(splitted) :
                     }
     
     for i in range(len(splitted)) :
+#        print(splitted[i])
         splitted[i] = splitted[i]+" θ"
-
+    
     good_parts = (" ".join(splitted)).split(" ")
 
     dict_glob = {}
@@ -108,25 +109,28 @@ list_files = os.listdir(path)
 #Regroup the songs, necessary when multiple artists
 
 global_corpus = []
-for i in list_files :
-    if "clean_corpus" in i  :
-        
+for i in list_files :      
+    if "clean_corpus_" in i  :
         with open(f"{path}\{i}", "r", encoding="utf-8", errors="replace") as f:
             corpus = f.read()
             global_corpus.extend([corpus])
         
-        corpus = re.sub(r">(True|False)\n", ">\n", corpus)
+        good_corpus = re.sub(r"(True|False)\n", "\n", corpus)
+        os.remove(f"{path}\{i}")
         with open(f"{path}\{i}", "w", encoding="utf-8", errors="replace") as f:
-            f.write(corpus)
+            f.write(good_corpus)
 
 one_corpus = "".join(global_corpus)
 
 beginning_sections =["β", "γ", "ε", "ζ", "η"]
 end_sections =["/β", "/γ", "/ε", "/ζ", "/η"]
 
+#Remove potential duplicates
+one_corpus = "θ\n".join(set(one_corpus.split("θ\n")))
+
 ##Count the number of parts in songs
 #If a song has more than 15 parts, delete the song from the corpus
-all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(.*)>", one_corpus)]
+all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"(α|θ|β|γ|ε|ζ|η|/β|/γ|/ε|/ζ|/η)", one_corpus)]
 
 count = 0
 beg = 0
@@ -150,16 +154,17 @@ for i in all_parts :
             count+=1
 
 for i in delete_the_text[::-1] :
-    one_corpus = one_corpus = one_corpus[:beg] + one_corpus[endi:]
+    beg = i[0]
+    endi = i[1]
+    one_corpus = one_corpus[:beg] + one_corpus[endi:]
 
-print("Nb songs where nb parts > 15 : ",len(delete_the_text))
+print("Nb songs where nb parts > 10 : ",len(delete_the_text))
 
 #Final clean before usable corpus for training
 regroup_corpus = re.sub("(True|False)\n", "", one_corpus)
-regroup_corpus = re.sub("<(.*)>", r"\g<1>", regroup_corpus)
 
 for i in beginning_sections :
-    re.sub("{i}\n/{i}", "{i}\nτ\n/{i}", regroup_corpus) #τ will represent a part where there is no text so we can control it later
+    regroup_corpus = re.sub(f"{i}\n/{i}", f"{i}\nτ\n/{i}", regroup_corpus) #τ will represent a part where there is no text so we can control it later
     #And the model can see the form of the structure
 
 save_path = os.path.join(path, f"regroup_clean_corpus.txt")
@@ -167,10 +172,10 @@ with open(save_path, "w", encoding="utf-8") as f :
     f.write(regroup_corpus)
 
 ## Removing featuring 
-solo_corpus = re.sub(r"<α>True.*?<θ>\n\n", " ", one_corpus, flags=re.DOTALL)
+solo_corpus = re.sub(r"αTrue.*?θ\n\n", " ", one_corpus, flags=re.DOTALL)
 
 ## Removing the songs with only one part identified
-all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"<(.*)>", solo_corpus)]
+all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"(/β|/γ|/ε|/ζ|/η|α|θ|β|γ|ε|ζ|η)", solo_corpus)]
 
 for i in range(len(all_parts)-3) :
     nn = len(all_parts)-3 -i
@@ -184,14 +189,14 @@ for i in range(len(all_parts)-3) :
 ###This code will create the matrix of transition of the Markov Chain
 ##Prep for Markov Chain
 
-parts = re.findall(r"<(.*)>", solo_corpus) #Identify each part
+parts = re.findall(r"(/β|/γ|/ε|/ζ|/η|α|θ|β|γ|ε|ζ|η)", solo_corpus) #Identify each part
 regrouped = " ".join(parts) #re.findall gave back a list, we need a full text to perform next modif
 
 #Delete end_sections
 for i in end_sections : 
-    regrouped = regrouped.replace(i+" ","")
+    regrouped = regrouped.replace(" "+i,"")
 
-splitted = [i.strip() for i in regrouped.split("θ")][:-1]
+splitted = [i.strip() for i in regrouped.split("θ") if i.strip()]
 all_count = count_each_interact(splitted)
 
 #Remove impossible transitions, in case the pre-processing doesn't work properly or has let passed an error
@@ -211,13 +216,13 @@ for i in all_count :
 
 order = ["<BEGINNING>","<INTRO>", "<COUPLET>", "<PONT>", "<REFRAIN>", "<OUTRO>", "<END>"]
 
-print("\nGeneration of 3 structures :")
-for run in range(3) :
-    generate_a_song_structure(matrix)
+#print("\nGeneration of 3 structures :")
+#for run in range(3) :
+#    generate_a_song_structure(matrix)
 
-print(f"\nTransition_matrix :\n",pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())))
+#print(f"\nTransition_matrix :\n",pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())))
 
 save_path = os.path.join(script_dir, f"transition_matrix.csv")
 pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())).to_csv(save_path, index=False)
 
-print(f"\nTransition_matrix saved as transition_matrix.csv")
+#print(f"\nTransition_matrix saved as transition_matrix.csv")

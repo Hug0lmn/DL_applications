@@ -1,6 +1,6 @@
-<α>
-False
-<γ>
+α
+
+γ
 J'recrache le drame du monde qui nous entoure:
 Bizarrement le vent souffle en bas des tours
 L'envers du décor j'le rapporte sans détour:
@@ -82,8 +82,8 @@ C'est chez les autres qu'on finira par s'asseoir
 Retraçant leurs frontières et modifiant leurs histoires
 Une histoire qu'on finira par oublier
 Et qui à force de minutes de silences, se tait!!
-</γ>
-<γ>
+/γ
+γ
 C'est violent et ça émane de l'homme
 Du drapeau tricolore et du pays des droits de l'Homme
 Où ils faut être light ou laïque
@@ -121,11 +121,11 @@ On dépose cette pierre
 . Alimente le débat!
 Et pour le dire un album c'est trop court!
 11.09 ou le récit du 11ème jour...
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 Alger, capitale, au commencement des 
 Les pieds-noirs quittent le navire, les colons dératisent
 1961, période estivale
@@ -146,8 +146,8 @@ Basilique de Notre-Dame d'Afrique
 S'éloigne de mon regard lorsque les mouchoirs s'agitent
 Verse une larme dans la Méditerranée
 Une goutte d'eau dans la mer contient la peine de ma terre damnée
-</γ>
-<γ>
+/γ
+γ
 Accoste à Marseille, port autonome
 Citée Phocéenne un étranger parmi les autochtones
 Direction Saint Charles gare ferroviaire
@@ -171,8 +171,8 @@ Nanterre, monticule de bidonvilles
 Habitation précaire pour mon entrée en vie civile
 Je ne laisserais pas les tueurs du FLN faire la loi dans Paris!
 À partir de maintenant pour un coup reçu, vous en rendrez 10!
-</γ>
-<γ>
+/γ
+γ
 Ici rien de bon pour les ratons
 M'a dit  le commissaire sanguinaire de mon canton
 Après m'avoir uriné sur les mains
@@ -221,8 +221,8 @@ On n'éteint pas des braises avec un verre de gasoil
 Sans penser aux tirailleurs et combattants zouaves
 Mon cadavre emporté par le courant
 Sera repêché dans les environs de Rouen
-</γ>
-<ζ>
+/γ
+ζ
 D'étranges nénuphars flottent sur la Seine
 Séquence long métrage les yeux plongés dans la scène
 Dégât des eaux pour les gens des humans-zoo
@@ -231,8 +231,8 @@ D'étranges nénuphars flottent sur la Seine
 Séquence long métrage les yeux plongés dans la scène
 Un sceau de pisse dans lequel on noie des rats
 Octobre noir, ratonnade sur les boulevards
-</ζ>
-<η>
+/ζ
+η
 Ici rien de bon pour les ratons
 M'a dit le commissaire Maurice Papon
 4 mois plus tard on ratonne à Charonne
@@ -243,10 +243,10 @@ Ont servi à remplacer nos coeurs par des braises
 Algérie en vert et blanc, étoile et croissant
 Devoir de mémoire grandissant,
 Djazaïr
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 - Les enfants dépêchez-vous... Nori, Gaël, dépêchez-vous
 - Madame est-ce que je peux aller aux toilettes s'il vous plait?
 - Non, tu viens tout juste d'y aller Manuel tout à l'heure. Installe-toi
@@ -267,16 +267,16 @@ Avant de commencer les enfants, j'ai quelque-chose à vous dire
 - Un tirailleur sénégalais!
 - C'est pareil...
 - Madame, Madame, Madame, pourquoi on fait pas de minute de silence pour ceux qui crèvent de faim? Comme le Mali, la Somalie, le Sénégal, la Tunisie...?
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+θ
+α
+
+β
+/β
+γ
+/γ
+ε
+/ε
+γ
 J'te connais ni d'adem, ni d'awa, j'peux te le 7lef sur la tête de oi-m
 J'tombedans le tieks mais on fait ?, c'est ton gars mais il m'a mis l'dawa
 C'est Le Havre ici, pas Ottawa, mets du sel de mer dans mon kawa
@@ -292,12 +292,12 @@ On m'appelle Grand Médine mais j'habite dans la ville de Little Bob
 Tous ces chiens voulaient construire un hebs à la place de l'hippodrome
 Pose pas la question: le meilleur, c'est toujours l'prochain album
 Si tu traines avec oim, t'es qu'à trois poignées d'mains de gros braqueurs
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
+/γ
+ε
+/ε
+θ
+α
+
 On ne se sépare jamais de son trac
 On a beau l'enfouir au fond de nous même
 Derrière nos sourires, derrière nos postures d'hommes sûrs de soi
@@ -340,10 +340,10 @@ Sous les néons rouges de l'Olympia
 Un vieil ami repointer le bout de son nez au fond de mes boyaux...
 Et me chuchotera
 Hé, je serai toujours là, du Hall au Music'Hall...
-<θ>
-<α>
-False
-<γ>
+θ
+α
+
+γ
 Mon encre... A l'encre de Médine...Écoute mon histoire...
 C'est la bavure de mon encre, mon anxiété
 Mes peines, ma rage, ma façon de m'exprimer
@@ -373,8 +373,8 @@ Déshonore ses parents si peu instruit
 C'est si facile de détruire ce qu'ils ont construit
 Élevé aux coups de cafards, au shit, au mitard
 Puis le visage de l'école reçoit ton mollard
-</γ>
-<ε>
+/γ
+ε
 Écoute-moi bien de Ground Zéro à 11
 C'est le revers de l'argent et du bronze
 Additionne injustice et chemin de croix
@@ -383,8 +383,8 @@ Comprends bien le combat auquel je crois
 114 chapitres et peu de scrupules
 Les tours s'écroulent, ma plume crie famine
 Lecture entre les lignes à l'encre de Médine
-</ε>
-<γ>
+/ε
+γ
 Chapitre second en plein coeur du monde
 Depuis le premier crime et que le monde est monde
 On reconstruit puis détruit à coups de bombe
@@ -418,8 +418,8 @@ Archimède, Averroès, une culture bâillonnée
 Je m'aventure où tout le monde n'a pas pied
 A mon encre qui résonne sur le papier
 Écoute.... Médine, 11 septembre, de Ground Zéro à Onze
-</γ>
-<ε>
+/γ
+ε
 Écoute-moi bien de Ground Zéro à 11
 C'est le revers de l'argent et du bronze
 Additionne injustice et chemin de croix
@@ -429,11 +429,11 @@ Comprends bien le combat auquel je crois
 Les tours s'écroulent, ma plume crie famine
 Lecture entre les lignes à l'encre de Médine
 Paroles rédigées et expliquées par la communauté RapGenius France
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 Et j'te dirais
 Que si tu veux d'l'amour, il y en a chez moi
 J'suis pas un Saint, j'suis pas un prince, j'suis pas une pince
@@ -441,14 +441,14 @@ J'cacherai rien qu'tu découvriras qu'à la fin
 Y a pas de feinte
 Allons à l'essentiel
 Allons à l'essentiel
-</γ>
-<ε>
+/γ
+ε
 J'vais t'rendre heureuse et tu peux l'parier
 J'vais t'mettre plus haut que toutes les dames
 Et comment ça, tu veux plus m'parler?
 Dans tout mon coeur, t'as mis du drame
-</ε>
-<γ>
+/ε
+γ
 Et j'te dirais
 Qu'j'suis nul en maths mais j'sais combien tu comptes pour moi
 Et qu'en anglais, c'est pire mais qu'j'sais dire I love you
@@ -461,8 +461,8 @@ J'pensais quitter avant toi ce monde de merde
 O, Dieu du ciel
 Alors, allons à l'essentiel
 Allons à l'essentiel
-</γ>
-<ε>
+/γ
+ε
 J'vais t'rendre heureuse et tu peux l'parier
 J'vais t'mettre plus haut que toutes les dames
 Et comment ça, tu veux plus m'parler?
@@ -471,11 +471,11 @@ J'vais t'rendre heureuse et tu peux l'parier
 J'vais t'mettre plus haut que toutes les dames
 Et comment ça, tu veux plus m'parler?
 Dans tout mon coeur, t'as mis du drame
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 J'ai l'sang mêlé: un peu colon, un peu colonisé
 Un peu colombe sombre ou corbeau décolorisé
 Médine est métissé: Algérien-Français
@@ -510,8 +510,8 @@ J'refuse qu'on m'associe aux généraux dégénérés
 Mes grands-parents n'seront jamais responsables du mal généré
 Du mal à digérer que l'Histoire en soit à gerber
 Qu'des deux côtés de la Méditerranée tout soit exacerbé
-</γ>
-<ε>
+/γ
+ε
 Alger meurt, Alger vit
 Alger dort,
 Alger crie
@@ -519,8 +519,8 @@ Alger peur,
 Alger prie
 Alger pleure,
 Algérie
-</ε>
-<γ>
+/ε
+γ
 J'ai l'sang mêlé: un peu colon, un peu colonisé
 Un peu colombe sombre ou corbeau décolorisé
 Médine est métissé: Algérien-Français
@@ -553,8 +553,8 @@ On n'oublie pas ses ennemis
 Les usines de la mort,  la villa Sesini
 Épaule drapée, vert dominant sur ma banderole
 Ma parole de mémoire d'homme: les bourreaux n'auront jamais l'bon rôle
-</γ>
-<ε>
+/γ
+ε
 Alger meurt, Alger vit
 Alger dort,
 Alger crie
@@ -562,8 +562,8 @@ Alger peur,
 Alger prie
 Alger pleure,
 Algérie
-</ε>
-<γ>
+/ε
+γ
 J'ai l'sang miellé, aux trois-quarts caramélisé
 Naturalisé, identités carbonisées
 Médine, mais qui c'est?
@@ -582,8 +582,8 @@ Du martyr au harki, du colon jusqu'au natif
 Qui s'battirent pour sa patrie? Et qui pour ses actifs?
 Du pied noir au maquisard, on est tous en mal d'histoire
 Alger la blanche, Alger la noire
-</γ>
-<ε>
+/γ
+ε
 Alger meurt, Alger vit
 Alger dort,
 Alger crie
@@ -591,11 +591,11 @@ Alger peur,
 Alger prie
 Alger pleure,
 Algérie
-</ε>
-<θ>
-<α>
-True
-<γ>
+/ε
+θ
+α
+
+γ
 J'ai l'sang mêlé: un peu colon, un peu colonisé
 Un peu colombe sombre ou corbeau décolorisé
 Médine est métissé: Algérien-Français
@@ -628,10 +628,10 @@ J'refuse qu'on m'associe aux généraux dégénérés
 Mes grands parents n'seront jamais responsables du mal généré
 Du mal à digérer que l'Histoire en soit à gerber
 Qu'des deux côtés de la Méditerranée tout soit exacerbé
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 J'ai l'sang mêlé: un peu colon, un peu colonisé
 Un peu colombe sombre ou corbeau décolorisé
 Médine est métissé: Algérien-Français
@@ -664,22 +664,22 @@ On n'oublie pas ses ennemis
 Les usines de la mort, la villa Sesini
 Épaule drapée, vert dominant sur ma banderole
 Ma parole de mémoire d'homme: les bourreaux n'auront jamais l'bon rôle
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<β>
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+θ
+α
+
+β
 Delta, Zoulou
 Alger roi, Alger reine
 Les révolutionnaires ont Alger
-</β>
-<γ>
+/β
+γ
 J'porte le survêt des Fennecs
 Aussi bien que Castro Fidel
 Aéroport Houari Boumediene
@@ -693,8 +693,8 @@ Essaye donc de d'mander là bas qui est Charlie
 Le seul slogan qu'on voit c'est hashtag FreeLacrim
 De novembre à avril trouve moi vers Notre Dame d'Afrique
 Dans le ventre de ma ville ou  à bord de l'Algérie Ferries
-</γ>
-<ε>
+/γ
+ε
 Les chrétiens ont le Vatican
 Les révolutionnaires ont Alger
 La Mecque c'est pour les musulmans
@@ -703,8 +703,8 @@ Les juifs ont les 10 commandements
 Les révolutionnaires ont Alger
 Le 93 a ses bâtiments
 Les révolutionnaires ont Alger
-</ε>
-<γ>
+/ε
+γ
 Shake, Shake, Shake, Shakespeare
 Non j'suis Che, Che, Che Guevara
 Comme un tchétchène de Chelsea
@@ -721,8 +721,8 @@ AkhiJ'suis le Will.i.am de Wilaya
 Appelez moi le Jay-Z de Zlabia
 Même si d'Asia viens ma habiba
 Je chante pour les chebab et chibania
-</γ>
-<ε>
+/γ
+ε
 Les chrétiens ont le Vatican
 Les révolutionnaires ont Alger
 La Mecque c'est pour les musulmans
@@ -731,16 +731,16 @@ Les juifs ont les 10 commandements
 Les révolutionnaires ont Alger
 Le 93 a ses bâtiments
 Les révolutionnaires ont Alger
-</ε>
-<γ>
+/ε
+γ
 Je lève mes mots pas ma voix
 C'est la pluie qui fait pousser la fleur pas le tonnerre
 Dans mon gang de Franco-Algérois
 Personne ne choisit entre sa mère et son père
 J'ai tous les atouts d'un DZ: élevé au gazouz et cornes de gazelles
 J'respire les vapeurs de mon bled à m'en coller l'embolie pulmonaire
-</γ>
-<ε>
+/γ
+ε
 Les chrétiens ont le Vatican
 Les révolutionnaires ont Alger
 La Mecque c'est pour les musulmans
@@ -749,8 +749,8 @@ Les juifs ont les 10 commandements
 Les révolutionnaires ont Alger
 Le 93 a ses bâtiments
 Les révolutionnaires ont Alger
-</ε>
-<η>
+/ε
+η
 Amilcar Cabral
 Les révolutionnaires ont Alger
 Malik Shabazz
@@ -759,14 +759,14 @@ Frantz Fanon
 Les révolutionnaires ont Alger
 Jacques Vergès
 Les révolutionnaires ont Alger
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 J'suis pas là pour leur dire ce qu'ils veulent entendre
-</β>
-<γ>
+/β
+γ
 Sais tu vraiment ce qu'est le rap français?
 Le mien vient d'Haïti, teint couleur black foncé
 Monte le son sur le trajet du  tier-qu's
@@ -784,8 +784,8 @@ Avec l'espoir d'un peu d'amour d'un nid de tarentules
 Nostalgie d'une époque où j'déchire mes jeans
 Et pour un court instant,
 Médine devient Dj Mehdi
-</γ>
-<ε>
+/γ
+ε
 Ali est né où les hommes sont aliénés
 Ali aime les jeunes, mais les jeunes haïssent l'ainé
 Ali ne ment pas, mais Ali alimente
@@ -793,8 +793,8 @@ Ali ne chante pas, il pousse des cris de ralliements
 Ali est né où les hommes sont bien alignés
 Ali aime les gens, mais les gens n'veulent pas s'allier
 Personne t'idéalise, ode au leader d'Ideal J,  alias Ali X
-</ε>
-<γ>
+/ε
+γ
 Sais-tu vraiment ce qu'est le rap censé?
 Si un dojo c'était, lui aurait le grade senseï
 Chaque fois qu'j'te vois sur scène, j'en perds mes mots
@@ -820,8 +820,8 @@ Mon admiration vient décorer le dompteur au moignon
 Celui qui disait sans cesse
 arrête de crier en criant
 Ce rappeur qui n'était pas là pour dire ce que l'on voulait entendre
-</γ>
-<ε>
+/γ
+ε
 Ali est né où les hommes sont aliénés
 Ali aime les jeunes, mais les jeunes haïssent l'ainé
 Ali ne ment pas, mais Ali alimente
@@ -829,8 +829,8 @@ Ali ne chante pas, il pousse des cris de ralliements
 Ali est né où les hommes sont bien alignés
 Ali aime les gens, mais les gens n'veulent pas s'allier
 Personne t'idéalise, ode au leader d'Ideal J
-</ε>
-<γ>
+/ε
+γ
 Loin des bureaux à dorures, où l'on adoube les veaux d'or
 Et de ces hommes qui finissent par brûler les vedettes qu'ils adorent
 Loin du paganisme et de ces hommes qu'on prophétise
@@ -839,8 +839,8 @@ Tu cherches l'idole, je cherche le leader
 Un peu dans Malcolm, un peu dans Martin Luther
 Un peu dans Tariq, un peu dans celui qui t'gênes
 Un peu dans Alix Mathurin, aka Kery James
-</γ>
-<ε>
+/γ
+ε
 Ali est né où les hommes sont aliénés
 Ali aime les jeunes, mais les jeunes haïssent l'ainé
 Ali ne ment pas, mais Ali alimente
@@ -848,13 +848,13 @@ Ali ne chante pas, il pousse des cris de ralliements
 Ali est né où les hommes sont bien alignés
 Ali aime les gens, mais les gens n'veulent pas s'allier
 Personne t'idéalise, ode au leader d'Ideal J, alias Ali X
-</ε>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
+/ε
+θ
+α
+
+ε
+/ε
+γ
 Plier les biens du sarrasin pour les rendre à César
 Les sarrasines dépriment sur les quais de St-Lazare
 Alerte à la bombe, alerte à la rime
@@ -892,13 +892,13 @@ Remonte la barre comme Sergueï Bubka
 Crache les mots qui blessent sans se servir du Booska
 Petite fille ton rap à la burka
 Aboussanah dit Proof à l'éléctro-derbouka
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+γ
 Je suis pas français comme un soldat de l'armée
 La Marseillaise, je sais toujours pas la chanter
 J'aime pas les drapeaux, les képis, les calots
@@ -911,8 +911,8 @@ Me mets pas trop d'pression, j'ai déjà tout un tas de problèmes
 L'hymne de la nation, je vais le réécrire moi-même
 Je me sens légitime à écrire un joli poème
 Depuis que le premier boulanger de France peut s'appeler Mohamed
-</γ>
-<ε>
+/γ
+ε
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
@@ -921,8 +921,8 @@ Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Bientôt le jour de gloire, aux armes, et caetera
-</ε>
-<γ>
+/ε
+γ
 Bientôt le jour de gloire, mais, j'arriverai pas armé
 Faut plus de cran pour le mariage, que pour se faire la re-gué
 La musique est mondiale, mais le texte est français
@@ -939,8 +939,8 @@ Me mets pas trop d'pression, j'ai déjà tout un tas de problèmes
 L'hymne de la nation, je vais le réécrire moi-même
 J'me sens légitime à écrire un joli poème
 Depuis que le plat préféré de France, c'est le couscous du Maghreb
-</γ>
-<ε>
+/γ
+ε
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
@@ -949,11 +949,11 @@ Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Allons zenfants de la patrie, c'est quoi les bails?
 Bientôt le jour de gloire, aux armes, et caetera
-</ε>
-<θ>
-<α>
-False
-<ε>
+/ε
+θ
+α
+
+ε
 Quand t'allumes un feu
 Ne dis pas c'est la faute aux allumettes
 Ils ont ouvert le feu
@@ -961,8 +961,8 @@ Ils ont pris une centaine de nos âmes humaines
 No drama, no more
 C'est vos guerres mais nos morts
 J'te l'répète encore: l'amour des siens c'est pas la haine des autres
-</ε>
-<γ>
+/ε
+γ
 Pose-toi confort
 C'est le morceau fleuve
 Je vais t'dérouler comme quand j'ai commencé le rap
@@ -987,8 +987,8 @@ Moi j'appelle pas ça le progrès
 Un cannibale qui mange à la cuillère
 Ils sont bonnet blanc, blanc bonnet
 On est pot de terre contre pot de fer
-</γ>
-<ε>
+/γ
+ε
 Quand t'allumes un feu
 Ne dis pas c'est la faute aux allumettes
 Ils ont ouvert le feu
@@ -996,8 +996,8 @@ Ils ont pris une centaine de nos âmes humaines
 No drama, no more
 C'est vos guerres mais nos morts
 J'te l'répète encore: l'amour des siens c'est pas la haine des autres
-</ε>
-<γ>
+/ε
+γ
 Comme une boîte aux lettres sur un cimetière
 J'continue de délivrer mon message
 Il y a aucune raison que j'désespère
@@ -1012,8 +1012,8 @@ Du numéro d'écrou au numéro de SIRET
 La téloche, miroir aux alouettes
 Tu suis ce qu'elle te dit à la lettre
 J'te le répète si t'allumes l'incendie, ne dis pas que c'est de la faute aux allumettes
-</γ>
-<ε>
+/γ
+ε
 Quand t'allumes un feu
 Ne dis pas c'est la faute aux allumettes
 Ils ont ouvert le feu
@@ -1021,26 +1021,26 @@ Ils ont pris une centaine de nos âmes humaines
 No drama, no more
 C'est vos guerres mais nos morts
 J'te l'répète encore: l'amour des siens c'est pas la haine des autres
-</ε>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<γ>
+/ε
+θ
+α
+
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+θ
+α
+
+γ
 J'ai mis des couplets sur ma plaie ouverte
 Décuplé le sens profond d'un seul proverbe
 J'ai mis de l'eau pas dans mon vin mais dans mes vers
@@ -1061,10 +1061,10 @@ Trop de choses qui me désolent alors qu'ici
 Ce sont les femmes qui font de nous des hommes
 Et que bien plus que les hommes elles sont chastes
 Que chez les lions ce sont les femelles qui chassent
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 J'ai mis des mesures sur ma large blessure
 Démesure le sens profond d'une belle formule
 Puis j'essaye de repenser comme un foetus
@@ -1085,10 +1085,10 @@ Je n'aurait pas l'instinct maternel que requiert un seul mouflard
 Dans l'ombre du félin tu trouveras son féminin
 J'répète, à l'ombre du mal se cache le bien
 Dans l'ombre du félin tu trouveras son féminin
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 Idéaliser les unes,  en diabolisant les autres
 Ne réglera pas le problème d'un poil de fauve
 Si t'as mordu à la cédille de Koxie
@@ -1105,15 +1105,15 @@ C'est ce qui rendra moins crédible ma plume
 Aux yeux de ceux qui regardent le doigt, quand on leur montre la lune
 Quand on leur prouve par A+B
 Que les plus grands féministes sont des keumés
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-True
-<γ>
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
 Refaire le monde avec un disque de rap
 En racontant le monde et ses habitants qui dérapent
 J'ai, sur deux albums prolongé ma résonnance
@@ -1138,10 +1138,10 @@ Ou dans les couches-culottes usagées de Steven Biko Junior
 C'est par ma voix que je partagerai leurs sorts
 Et en sortira ce qui devait en sortir
 Et on partira en véritable martyrs
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 Refaire le monde avec un peu d'imagination
 En racontant le monde, en dénonçant ses machinations
 Marginal, accusation machinale
@@ -1174,23 +1174,23 @@ Voici mes mémoires le récit de nos morts
 Sur un CD céllophané j'ouvre la boîte de Pandore
 J'aurai ma paix mon répit quand mon sang aura son prix
 Quand s'écrouleront les continents des Titans anéantis
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+β
+/β
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
 Parce qu'une balle dit toujours la vérité
 Laisse mes mots être un tir, pour aller le vérifier
 Visez les enfarinés des coins V.I.P
@@ -1214,19 +1214,19 @@ Il faut qu'on fasse les choses avant qu'tout explose
 T'as pas saisi la vibes, remets la ? et réécoute ma prose
 J'affûte mes phrases et les gueule bien haut
 Le rap libre, voilà ce qu'y a de brodé sur nos drapeaux
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-True
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
 J'ai rêvé qu'7 vaches maigres avaleraient 7 vaches grasses
 Que les grâces de peine s'exercent de Sète à Grasse
 Lève-le bras, brise les bracelets!
@@ -1239,8 +1239,8 @@ J'ai levé le pour, entre mon bras, élevé le pont
 Certains croquent la pomme, nous on plante des pieds d'pommiers
 De lourdes peines à cause de moeurs légères
 Les plus grands hommes tombent aussi vite que les petits frères
-</γ>
-<ε>
+/γ
+ε
 Sur la montre, les secondes se changent en heures
 Faut qu'on nous montre: comment change t-on le plomb en or?
 On vit les années de plombs, on meurt les années de plombs
@@ -1250,10 +1250,10 @@ Que tous les feux du droit chemin passent du rouge au vert
 On vit les années de plombs
 On meurt les années de plombs
 Ici endure les années, mais surtout ne pète pas les plombs!
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Sur la montre, les secondes se changent en heures
 Faut qu'on nous montre: comment change t-on le plomb en or?
 On vit les années de plombs, on meurt les années de plombs
@@ -1263,10 +1263,10 @@ Que tous les feux du droit chemin passent du rouge au vert
 On vit les années de plombs
 On meurt les années de plombs
 Ici endure les années, mais surtout ne pète pas les plombs!
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Sur la montre, les secondes se changent en heures
 Faut qu'on nous montre: comment change t-on le plomb en or?
 On vit les années de plombs, on meurt les années de plombs
@@ -1276,10 +1276,10 @@ Que tous les feux du droit chemin passent du rouge au vert
 On vit les années de plombs
 On meurt les années de plombs
 Ici endure les années, mais surtout ne pète pas les plombs!
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Sur la montre, les secondes se changent en heures
 Faut qu'on nous montre: comment change t-on le plomb en or?
 On vit les années de plombs, on meurt les années de plombs
@@ -1289,14 +1289,14 @@ Que tous les feux du droit chemin passent du rouge au vert
 On vit les années de plombs
 On meurt les années de plombs
 Ici endure les années, mais surtout ne pète pas les plombs!
-</ε>
-<η>
+/ε
+η
 C'est l'Arabian Panther, c'est la Shtar Ac'Années de plomb contre kilos de plumes
 Mirak, Bader, Malik, Smokin, on est àl
 Yeah, Hip-Hop Convict
 Mouloud, et les 2 XXX
-</η>
-<ε>
+/η
+ε
 Sur la montre, les secondes se changent en heures
 Faut qu'on nous montre: comment change t-on le plomb en or?
 On vit les années de plombs, on meurt les années de plombs
@@ -1306,19 +1306,19 @@ Que tous les feux du droit chemin passent du rouge au vert
 On vit les années de plombs
 On meurt les années de plombs
 Ici endure les années, mais surtout ne pète pas les plombs!
-</ε>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
+/ε
+θ
+α
+
+γ
+/γ
+ε
 Isolé, loin des autres comme un damné
 Désolé de mes fautes, depuis des années
 Je suis désarmé, je sais désormais
 Que la vie est un apprentissage qui ne finit jamais
-</ε>
-<γ>
+/ε
+γ
 Apprendre que  les petits freestyles forgent les grandes gueules
 Autant que les petites batailles forment les grandes guerres
 Apprends de nous qu'on souhaite se couper des tours
@@ -1335,41 +1335,41 @@ J'ai appris que les majors n'étaient qu'une banque
 Ils nous aideront que lorsqu'à l'huile de friteuse rouleront les tanks
 J'ai appris du pouvoir législatif
 À fuir face aux flics avant de finir à l'état végétatif
-</γ>
-<ε>
+/γ
+ε
 Isolé, loin des autres comme un damné
 Désolé de mes fautes, depuis des années
 Je suis désarmé, je sais désormais
 Que la vie est un apprentissage qui ne finit jamais
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Isolé, loin des autres comme un damné
 Désolé de mes fautes, depuis des années
 Je suis désarmé, je sais désormais
 Que la vie est un apprentissage qui ne finit jamais
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Isolé, loin des autres comme un damné
 Désolé de mes fautes, depuis des années
 Je suis désarmé, je sais désormais
 Que la vie est un apprentissage qui ne finit jamais
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Isolé, loin des autres comme un damné
 Désolé de mes fautes, depuis des années
 Je suis désarmé, je sais désormais
 Que la vie est un apprentissage qui ne finit jamais
-</ε>
-<θ>
-<α>
-True
-<ε>
+/ε
+θ
+α
+
+ε
 J'ai mis une main aux seufs à la life, la chiennasse m'a dit pas touche
 Couz j'suis toujours au max, vous emballez pas tous
 Ouf j'ai appris à faire mouche
@@ -1448,8 +1448,8 @@ D'ailleurs, souvent ailleurs
 Faut bien que je trouve de quoi mettre le fire
 Une basse un rythme le ciel peut s'écrouler
 La terre fleurit dès que je l'ai foulée...
-</ε>
-<ε>
+/ε
+ε
 J'ai mis une main aux seufs à la life, la chiennasse m'a dit pas touche
 Couz j'suis toujours au max, vous emballez pas tous
 Ouf j'ai appris à faire mouche
@@ -1466,8 +1466,8 @@ L'être humain est mauvais, pute nègre et coupable
 Je l'ai appris quand dans mes propres frères, j'ai vu des poucaves
 J'ai appris des infos, sont-elles fausses ou pas?
 Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
-</ε>
-<ε>
+/ε
+ε
 Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
 Tous, contre les poulets, douce, on rêve de se la couler
 J'ai vite appris à flairer les chiennes selon leur lingerie
@@ -1484,140 +1484,8 @@ Les ter-ter, des coups j'en ai fait 400
 Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
 La rue j'en ai pris l'accent, les zen se mettent à couler
 Quiconque se la raconte, se fera fumer dans la foulée
-</ε>
-<ε>
-J'ai mis une main aux seufs à la life, la chiennasse m'a dit pas touche
-Couz j'suis toujours au max, vous emballez pas tous
-Ouf j'ai appris à faire mouche
-Direct, je viens m'imposer comme Zlatan, pas le temps de faire le Lucho
-Oh, Ne me juge pas à mon look, ou à mon bouc poilu
-J'ai appris qu'elle peut être douce, alors je zouk la rue
-Je joue pas de rôle, mais ne sous estime pas le bonhomme
-Parce que tu pourrais te prendre, j'ai appris de maître Yoda, hein
-Dans la streetzer, faut se méfier de tout le monde
-Pour protéger mon dos j'apprends à faire le moonwalk
-Et à doguiner la vie, je l'ai appris trop tôt
-J'ai mis une coco, Dyf le lyriciste popo
-L'être humain est mauvais, pute nègre et coupable
-Je l'ai appris quand dans mes propres frères, j'ai vu des poucaves
-J'ai appris des infos, sont-elles fausses ou pas?
-Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
-Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
-Tous, contre les poulets, douce, on rêve de se la couler
-J'ai vite appris à flairer les chiennes selon leur lingerie
-Normal, c'est pas aux singes de mon espèce qu'on fait des singeries
-À courir vite quand tous ces policiers nous encerclent
-Big up, essaye encore petit enculé de tes ancêtres
-J'apprends la survie en taule avec une lamelle de rasoir
-Tout ça pour éviter de finir en passoire
-J'apprends la débrouille, la tête au fond d'un cyclone
-Message à la jeunesse: aller en taule n'est pas un diplôme
-J'apprends les numbers, les sons, les paroles guerrières
-Aux jeunes à faire du rap en évitant d'offrir son derrière
-Les ter-ter, des coups j'en ai fait 400
-Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
-La rue j'en ai pris l'accent, les zen se mettent à couler
-Quiconque se la raconte, se fera fumer dans la foulée
-Ne pas croire en son destin, C'est la honte
-Les babtous ont peur de nous parce qu'on descend des pharaons
-On rêve de
-Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
-Super les gens du même avis
-Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
-J'ai combattu pour César, celui-ci m'a trahi
-Un noir à la maison blanche ça fait tâche sur ton cachemire
-Faut du cash, c'est la kalash qui jacte
-Gros c'est le Glock neuf pas le coffre d'une voiture neuve que je charge
-J'ai dans les gênes chosekel qui me fait kicker
-Si je me sens différent, j'arrive pas à l'expliquer
-Mes rêves d'enfant sont morts avec Mickael Jackson gros
-C'est une époque qui se ferme avec les portes de la taule
-Maintenant c'est la folie, la fièvre du samedi soir
-A trouver son médoc, Doc dans un gros bolide
-Je porte un toast à la mort de l'industrie
-Sortez les 8'6, on vient fêter la fin du disque
-Écouter la radio c'est devenu un supplice
-Sauf que j'aime pas non plus les putains de puristes
-Musique rétro-futuriste
-La bande originale des aventures d'Ulysse
-J'habiterais dans les abysses j'aurais pas plus de pression
-Tout ce que je veux: foutre le feu dans ma ville Néron
-Donner mon corps à la science inclut la dissection
-Des jours entiers je récite mes leçons rourmenté dans une pluie de questions
-Rien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le son
-J'ai presque abandonné sans faire ma 2ème livraison
-Mais bordel j'ai fait le plus dur
-Autant tenter un salto avant d'échouer au pied du mur
-Je suis de retour avec ma sous-culture ouais
-Sauf que c'est nous le futur hein c'est nous le futur!
-Le rap une sous-culture mais quelle idée?
-Ce sont des propos de fils de... Ah!
-Une seule phrase, placée musicalement te calme
-La voix agit médicalement
-Ce qu'on trouve ici c'est groovissime
-Mon disque anti grippe, médecine sous cannabis boom
-Okay je canalise, mets sous aspirine les psychanalistes
-Aspirent à pouvoir diminuer la douleur
-Avec des bouquets de lyrics de toutes les couleurs
-D'ailleurs, souvent ailleurs
-Faut bien que je trouve de quoi mettre le fire
-Une basse un rythme le ciel peut s'écrouler
-La terre fleurit dès que je l'ai foulée...
-</ε>
-<ε>
-Ne pas croire en son destin, C'est la honte
-Les babtous ont peur de nous parce qu'on descend des pharaons
-On rêve de
-Murcielago sans revoir des frères qui meurent sur des mers obscurs
-Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
-Super les gens du même avis
-Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
-J'ai combattu pour César, celui-ci m'a trahi
-Un noir à la maison blanche ça fait tâche sur ton cachemire
-Faut du cash, c'est la kalash qui jacte
-Gros c'est le Glock neuf pas le coffre d'une voiture neuve que je charge
-J'ai dans les gênes chosekel qui me fait kicker
-Si je me sens différent, j'arrive pas à l'expliquer
-Mes rêves d'enfant sont morts avec Mickael Jackson gros
-C'est une époque qui se ferme avec les portes de la taule
-Maintenant c'est la folie, la fièvre du samedi soir
-A trouver son médoc, Doc dans un gros bolide
-</ε>
-<ε>
-Je porte un toast à la mort de l'industrie
-Sortez les 8'6, on vient fêter la fin du disque
-Écouter la radio c'est devenu un supplice
-Sauf que j'aime pas non plus les putains de puristes
-Musique rétro-futuriste
-La bande originale des aventures d'Ulysse
-J'habiterais dans les abysses j'aurais pas plus de pression
-Tout ce que je veux: foutre le feu dans ma ville Néron
-Donner mon corps à la science inclut la dissection
-Des jours entiers je récite mes leçons rourmenté dans une pluie de questions
-Rien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le son
-J'ai presque abandonné sans faire ma 2ème livraison
-Mais bordel j'ai fait le plus dur
-Autant tenter un salto avant d'échouer au pied du mur
-Je suis de retour avec ma sous-culture ouais
-Sauf que c'est nous le futur hein c'est nous le futur!
-</ε>
-<ε>
-Le rap une sous-culture mais quelle idée?
-Ce sont des propos de fils de... Ah!
-Une seule phrase, placée musicalement te calme
-La voix agit médicalement
-Ce qu'on trouve ici c'est groovissime
-Mon disque anti grippe, médecine sous cannabis boom
-Okay je canalise, mets sous aspirine les psychanalistes
-Aspirent à pouvoir diminuer la douleur
-Avec des bouquets de lyrics de toutes les couleurs
-D'ailleurs, souvent ailleurs
-Faut bien que je trouve de quoi mettre le fire
-Une basse un rythme le ciel peut s'écrouler
-La terre fleurit dès que je l'ai foulée...
-</ε>
-<ε>
+/ε
+ε
 J'ai mis une main aux seufs à la life, la chiennasse m'a dit pas touche
 Couz j'suis toujours au max, vous emballez pas tous
 Ouf j'ai appris à faire mouche
@@ -1696,14 +1564,146 @@ D'ailleurs, souvent ailleurs
 Faut bien que je trouve de quoi mettre le fire
 Une basse un rythme le ciel peut s'écrouler
 La terre fleurit dès que je l'ai foulée...
-</ε>
-<θ>
-<α>
-False
-<β>
+/ε
+ε
+Ne pas croire en son destin, C'est la honte
+Les babtous ont peur de nous parce qu'on descend des pharaons
+On rêve de
+Murcielago sans revoir des frères qui meurent sur des mers obscurs
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
+Super les gens du même avis
+Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
+J'ai combattu pour César, celui-ci m'a trahi
+Un noir à la maison blanche ça fait tâche sur ton cachemire
+Faut du cash, c'est la kalash qui jacte
+Gros c'est le Glock neuf pas le coffre d'une voiture neuve que je charge
+J'ai dans les gênes chosekel qui me fait kicker
+Si je me sens différent, j'arrive pas à l'expliquer
+Mes rêves d'enfant sont morts avec Mickael Jackson gros
+C'est une époque qui se ferme avec les portes de la taule
+Maintenant c'est la folie, la fièvre du samedi soir
+A trouver son médoc, Doc dans un gros bolide
+/ε
+ε
+Je porte un toast à la mort de l'industrie
+Sortez les 8'6, on vient fêter la fin du disque
+Écouter la radio c'est devenu un supplice
+Sauf que j'aime pas non plus les putains de puristes
+Musique rétro-futuriste
+La bande originale des aventures d'Ulysse
+J'habiterais dans les abysses j'aurais pas plus de pression
+Tout ce que je veux: foutre le feu dans ma ville Néron
+Donner mon corps à la science inclut la dissection
+Des jours entiers je récite mes leçons rourmenté dans une pluie de questions
+Rien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le son
+J'ai presque abandonné sans faire ma 2ème livraison
+Mais bordel j'ai fait le plus dur
+Autant tenter un salto avant d'échouer au pied du mur
+Je suis de retour avec ma sous-culture ouais
+Sauf que c'est nous le futur hein c'est nous le futur!
+/ε
+ε
+Le rap une sous-culture mais quelle idée?
+Ce sont des propos de fils de... Ah!
+Une seule phrase, placée musicalement te calme
+La voix agit médicalement
+Ce qu'on trouve ici c'est groovissime
+Mon disque anti grippe, médecine sous cannabis boom
+Okay je canalise, mets sous aspirine les psychanalistes
+Aspirent à pouvoir diminuer la douleur
+Avec des bouquets de lyrics de toutes les couleurs
+D'ailleurs, souvent ailleurs
+Faut bien que je trouve de quoi mettre le fire
+Une basse un rythme le ciel peut s'écrouler
+La terre fleurit dès que je l'ai foulée...
+/ε
+ε
+J'ai mis une main aux seufs à la life, la chiennasse m'a dit pas touche
+Couz j'suis toujours au max, vous emballez pas tous
+Ouf j'ai appris à faire mouche
+Direct, je viens m'imposer comme Zlatan, pas le temps de faire le Lucho
+Oh, Ne me juge pas à mon look, ou à mon bouc poilu
+J'ai appris qu'elle peut être douce, alors je zouk la rue
+Je joue pas de rôle, mais ne sous estime pas le bonhomme
+Parce que tu pourrais te prendre, j'ai appris de maître Yoda, hein
+Dans la streetzer, faut se méfier de tout le monde
+Pour protéger mon dos j'apprends à faire le moonwalk
+Et à doguiner la vie, je l'ai appris trop tôt
+J'ai mis une coco, Dyf le lyriciste popo
+L'être humain est mauvais, pute nègre et coupable
+Je l'ai appris quand dans mes propres frères, j'ai vu des poucaves
+J'ai appris des infos, sont-elles fausses ou pas?
+Le Zaïre à la Coupe du Monde, Samuel et Youssoupha
+Sur ma vie, pour commencer, j'aurais pas dû apprendre à rouler
+Tous, contre les poulets, douce, on rêve de se la couler
+J'ai vite appris à flairer les chiennes selon leur lingerie
+Normal, c'est pas aux singes de mon espèce qu'on fait des singeries
+À courir vite quand tous ces policiers nous encerclent
+Big up, essaye encore petit enculé de tes ancêtres
+J'apprends la survie en taule avec une lamelle de rasoir
+Tout ça pour éviter de finir en passoire
+J'apprends la débrouille, la tête au fond d'un cyclone
+Message à la jeunesse: aller en taule n'est pas un diplôme
+J'apprends les numbers, les sons, les paroles guerrières
+Aux jeunes à faire du rap en évitant d'offrir son derrière
+Les ter-ter, des coups j'en ai fait 400
+Ce soir, j'ai trop fumé, m'en voulez pas si j'ai l'air absent
+La rue j'en ai pris l'accent, les zen se mettent à couler
+Quiconque se la raconte, se fera fumer dans la foulée
+Ne pas croire en son destin, C'est la honte
+Les babtous ont peur de nous parce qu'on descend des pharaons
+On rêve de
+Murcielago sans revoir des frères qui meurent sur des mers obscurs
+Je navigue, c'est dépressif, que je heurte- la vertue - se perd dans l'intérêt
+Super les gens du même avis
+Ont leurs dépouilles dans les Everglades ou sous terre à Tel Aviv
+J'ai combattu pour César, celui-ci m'a trahi
+Un noir à la maison blanche ça fait tâche sur ton cachemire
+Faut du cash, c'est la kalash qui jacte
+Gros c'est le Glock neuf pas le coffre d'une voiture neuve que je charge
+J'ai dans les gênes chosekel qui me fait kicker
+Si je me sens différent, j'arrive pas à l'expliquer
+Mes rêves d'enfant sont morts avec Mickael Jackson gros
+C'est une époque qui se ferme avec les portes de la taule
+Maintenant c'est la folie, la fièvre du samedi soir
+A trouver son médoc, Doc dans un gros bolide
+Je porte un toast à la mort de l'industrie
+Sortez les 8'6, on vient fêter la fin du disque
+Écouter la radio c'est devenu un supplice
+Sauf que j'aime pas non plus les putains de puristes
+Musique rétro-futuriste
+La bande originale des aventures d'Ulysse
+J'habiterais dans les abysses j'aurais pas plus de pression
+Tout ce que je veux: foutre le feu dans ma ville Néron
+Donner mon corps à la science inclut la dissection
+Des jours entiers je récite mes leçons rourmenté dans une pluie de questions
+Rien qu'en un an ça m'a soûlé, je voulais tout plaquer, quitter le son
+J'ai presque abandonné sans faire ma 2ème livraison
+Mais bordel j'ai fait le plus dur
+Autant tenter un salto avant d'échouer au pied du mur
+Je suis de retour avec ma sous-culture ouais
+Sauf que c'est nous le futur hein c'est nous le futur!
+Le rap une sous-culture mais quelle idée?
+Ce sont des propos de fils de... Ah!
+Une seule phrase, placée musicalement te calme
+La voix agit médicalement
+Ce qu'on trouve ici c'est groovissime
+Mon disque anti grippe, médecine sous cannabis boom
+Okay je canalise, mets sous aspirine les psychanalistes
+Aspirent à pouvoir diminuer la douleur
+Avec des bouquets de lyrics de toutes les couleurs
+D'ailleurs, souvent ailleurs
+Faut bien que je trouve de quoi mettre le fire
+Une basse un rythme le ciel peut s'écrouler
+La terre fleurit dès que je l'ai foulée...
+/ε
+θ
+α
+
+β
 Panthère de métal, du plomb dans le mental, Arabian's original
-</β>
-<γ>
+/β
+γ
 Quand de l'arabe ils ne retiennent que son étalon
 De race pure qui finira par tourner les talons
 Pantalons trop larges et baskets à talons
@@ -1727,19 +1727,19 @@ Plaque militaire, MC habillés en black
 Une capuche sur la tête comme à la mort de 2Pac
 L'habit ne fait pas l'imam, mais pas autant que le moine
 Arabian Panthers number one
-</γ>
-<ε>
+/γ
+ε
 Traverse l'histoire sur le dos d'un pur-sang
 Quand les richesses sont réparties entre 5%, 95 sous un soleil de plomb
 A l'ombre de la haine la Panthère te surplombe
 Traverse l'histoire sur le dos d'un pur-sang
 Quand les richesses sont réparties entre 5%, 95 sous un soleil de plomb
 A l'ombre de la haine la Panthère te surplombe
-</ε>
-<β>
+/ε
+β
 Panthère de métal, du plomb dans le mental, Arabian's original
-</β>
-<γ>
+/β
+γ
 Impériale est la marche des panthères
 Sans partenaires officiels, car pavés d'or sont leurs parterres
 Paramilitaires, MC en temps de guerre
@@ -1764,16 +1764,16 @@ Mais patience tout vient à point à qui sait attendre
 Méfie toi des cadeaux qui t'attendrissent
 Et si tu ne sais plus où tu vas, regarde d'où tu viens
 Arabian Panthers épisode 1
-</γ>
-<ε>
+/γ
+ε
 Traverse l'histoire sur le dos d'un pur-sang
 Quand les richesses sont réparties entre 5%, 95 sous un soleil de plomb
 A l'ombre de la haine la Panthère te surplombe
 Traverse l'histoire sur le dos d'un pur-sang
 Quand les richesses sont réparties entre 5%, 95 sous un soleil de plomb
 A l'ombre de la haine la Panthère te surplombe
-</ε>
-<η>
+/ε
+η
 Panthère de métal, du plomb dans le mental, Arabian's original...
 Allo Medine c'est Ablaye
 Je suis passé au studio pour chanter un couplet à moi mais y avait personne
@@ -1783,48 +1783,48 @@ Un vétéran c'est un vieux qui savait plein de trucs
 Nous aussi on est des ptits mais on connaît plein de trucs aussi!
 C'est pour ça ma chanson ça va être Jeune vétéran
 Bon vas-y Medine, Salaam et on s'voit plus tard
-</η>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
+/η
+θ
+α
+
+ε
+/ε
+γ
+/γ
+γ
+/γ
+γ
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
 Le Printemps Beur est dans les charts comme les soldats dans les chars
 Je t'ai dans la chair, Monde arabe  ta démocratie se télécharge oh!
 Rien ne sert d'agiter l'épouvantail la crise est inévitable
 On n'chasse pas l'brouillard à l'éventail
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+ε
+/ε
+θ
+α
+
+γ
 On s'était dit que d'une manière ou d'une autre on y arriverait
 Et que malgré tout sur le rap on parierait
 Macadam dans l'âme, me sers de l'art comme une arme
@@ -1884,8 +1884,8 @@ On partira le coeur léger sur l'estrade de la pendaison
 Et à raison d'un morceau par semaine
 On parsèmera les bacs d'un album par semestre
 Par semestre, par semestre, par semestre...
-</γ>
-<γ>
+/γ
+γ
 Moi j'ai le mal du siècle
 Depuis qu'à Manhattan les tours jumelles ne décorent plus le ciel
 Sans vouloir romancer mon parcours officiel
@@ -1976,17 +1976,17 @@ Mais pour l'heure fini de chialer dans les chaumières
 J'arrive dans les charts avec la chance du chômeur
 Et pour le dire rien qu'une centaine de vers frères
 Sculptés dans le fer par L'Arabian Panther
-</γ>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+θ
+α
+
+β
+/β
+γ
+/γ
+ε
+/ε
+γ
 D'être intégré, j'en n'ai vraiment rien à glander, ça veut rien dire comme le tatouage japonais d'Ariana Grande
 En politique, y a qu'des culs-de-jatte qui se s'raient fait les croisés
 Être heureux dans c'tt époque malade n'est pas un signe de bonne santé
@@ -1996,16 +1996,16 @@ Car lorsque l'homme qui parle est armé, c'est l'arme qu'on écoute et pas l'hom
 Tellement d'venin sur la langue que quand ils s'mordent, ils s'empoisonnent
 J'me sens comme un guide Michelin en Éthiopie, comme chez Décathlon en hijab de running
 Ici,  les pigeons sont des porteurs de gue-dro, on s'soigne, on s'entraide, tu connais l'tarot
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<β>
+/γ
+ε
+/ε
+θ
+α
+
+β
 Bangerang, ouh
-</β>
-<γ>
+/β
+γ
 J'casse internet quand j'casse le beat
 Mon CM, c'est Mathieu Kassovitz
 Ils m'ont enterré, comme un Marvel, j'arrive toujours à la fin du générique
@@ -2034,15 +2034,15 @@ Ma première semaine, c'est leur jour d'ITT
 Ma ville, c'est ma muse, j'suis son égérie
 Médine descendant d'immigrés d'Algérie
 Le jour où j'recevrai le prix Nobel comme Yasser Arafat, j'regarderai Tom et Jerry
-</γ>
-<ζ>
+/γ
+ζ
 BangerangP, remets-moi du rap de pit-Proof, please
 M'enlève pas l'robs de la boca khoya
 Sals', Din Records mental
 On n'crie pas avant d'avoir mal
 Bangerang
-</ζ>
-<γ>
+/ζ
+γ
 Enfant du-per sur la terre de ce-Fran
 Où l'on accueille mieux les aliens que les migrants
 À ma propre blague, j'veux mourir en riant
@@ -2058,8 +2058,8 @@ Une ablation du sein sur la Marianne de Delacroix
 Que des révolutionnaires de bacs à sable
 Comme un wallpaper Windows sur un Mac
 Depuis qu'un mec de gauche, c'est juste un gars qui aimerait avoir les moyens d'être à droite
-</γ>
-<η>
+/γ
+η
 Bangerang, bangerang
 Bangerang, bangerang
 Bangerang, bangerang
@@ -2073,14 +2073,14 @@ Bangerang, bangerang
 Bangerang, bangerang
 Bangerang, bangerang
 Bangerang, bangerang
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 BrraPah, pah, pah, pah, pah
-</β>
-<γ>
+/β
+γ
 On a grandi dans la ZUP de toutes les couleurs comme une boîte de Dragibus
 C'est vrai qu'dans les tubes, si y avait d'la poudre, eh bah, c'était pas du sucre
 La conso dans les sachets, deux-trois fraises tagada et quelques têtes brûlées
@@ -2089,18 +2089,18 @@ On a grandi dans la zone, vendu le réglisse
 Y avait plein de bâtiments faits en pain d'épice
 Les bracelets de la police, c'était des friandises
 On mangeait leurs coups d'matraque comme des Mister Freeze
-</γ>
-<ζ>
+/γ
+ζ
 Mais la pierre d'la main d'un ennemi, c'est d'la guimauve
 Mais la pierre d'la main d'un ennemi, c'est d'la guimauve
-</ζ>
-<ε>
+/ζ
+ε
 La Barbapapa, la Barbapapa, nous, on aime que ça
 La Barbapapa, au prochain birthday, on veut Marine en pinata
 La Barbapapa, la Barbapapa, nous on aime que ça
 La Barbapapa, au prochain birthday, on veut Marine en pinata
-</ε>
-<γ>
+/ε
+γ
 Mi-rebeu mi-Asiat comme un malabar bi-goût
 Une gueule de Yakuza mais j'dis Salam Aleykoum
 T'as déjà mélangé les Mentos et le Coca?
@@ -2113,23 +2113,23 @@ Aujourd'hui, j'suis l'fils de Médine mais demain, c'est Médine qui s'ra l'pèr
 De lui, j'essaierai de me montrer digne, j'irai chez l'dentiste avec sucette dans la bouche
 Tellement d'punchlines en moi, cachées comme les phrases dans les biscuits chinois
 J'ai lu l'avenir dans ce monde,  leur dernière vision s'ra une barbe et des tongs
-</γ>
-<ε>
+/γ
+ε
 La Barbapapa, la Barbapapa, nous, on aime que ça
 La Barbapapa, au prochain birthday, on veut Marine en pinata
 La Barbapapa, la Barbapapa, nous on aime que ça
 La Barbapapa, au prochain birthday, on veut Marine en pinata
-</ε>
-<η>
+/ε
+η
 La Barbapapa, la Barbapapa, nous, on aime que ça
 On veut qui?
 Marine en pinata
 Ah oui, on veut Marine en pinata
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Mon combat dans la gova, on crie pas sur tous les toits, discrétion oblige
 Bolide, on dort pas dans la soie, bah ouais, l'équipe est hors-la-loi, dites-le bien aux SPIP
 Parle pas de réinsertion après incarcération chez les multi-récidivistes
@@ -2139,15 +2139,15 @@ M'trouve pas méchant, c'est toi qui est bien trop til-gen
 Jette pas d'pavés sehla dans la mare de sang
 Le linge sale en mille-fa, on crame jusqu'au centre
 Mama la frappe a cagoule et gants
-</γ>
-<ε>
+/γ
+ε
 J'barode toute la journée, toute la journée, toute la journée, tout ça juste pour tuer l'temps
 Soir-ce, j'suis mal-luné, j'suis mal-luné, j'suis mal-luné, khabta, l'gang a bu le temps
 Dans l'hall sous la fumée, sous la fumée, sous la fumée, Meda-Gang a fumé le temps, woh, woh
 Le gang a fumé l'temps, woh, woh
 Le gang a fumé l'temps, woh, woh, woh
-</ε>
-<γ>
+/ε
+γ
 Tu me verras qu's'il y a la mille-f', s'il y a du biff, s'il y a du chiffre, sinon, laissez-moi dans mon coin
 Ma froideur me suit dans l'Uber, j'suis pas d'humeur, a parler des heures, le chauffeur sait que j'suis pas commun
 J'suis sauvageon dans la ville, c'est pas de ma faute, c'est la street
@@ -2158,18 +2158,18 @@ M'trouve pas méchant, c'est toi qui est bien trop til-gen
 Jette pas d'pavés sehla dans la mare de sang
 Le linge sale en mille-fa, on crame jusqu'au centre
 Mama la frappe a cagoule et gants
-</γ>
-<ε>
+/γ
+ε
 J'barode toute la journée, toute la journée, toute la journée, tout ça juste pour tuer l'temps
 Soir-ce, j'suis mal-luné, j'suis mal-luné, j'suis mal-luné, khabta, l'gang a bu le temps
 Dans l'hall sous la fumée, sous la fumée, sous la fumée, Meda-Gang a fumé le temps, woh, woh
 Le gang a fumé l'temps, woh, woh
 Le gang a fumé l'temps, woh, woh, woh
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 Mesdames et messieurs, bienvenue dans les métiers du spectacle
 Où les disques de rap ne servent qu'à caler les armoires bancales
 J'préfère quand y'a pas d'sièges
@@ -2186,22 +2186,22 @@ Et après chaque tournée, mon coeur se sent comme Ibiza en hiver
 Même si parfois, on parlait d'ma venue que dans la rubrique faits divers
 Un gros smack aux SMAC de France qui n'ont pas cédé aux polémiques
 Le piano n'assassinera jamais le pianiste, même s'il n'aime pas la musique
-</γ>
-<ζ>
+/γ
+ζ
 Quand j'connaissais pas le statut d'intermittent
 Que ma pauvreté, c'était mon taff à plein temps
 Y'avait qu'une seule chose qui changeait le mal en patience
 Tout ce que je voulais faire, c'était le Bataclan
-</ζ>
-<ε>
+/ζ
+ε
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
-</ε>
-<γ>
+/ε
+γ
 Escorté par les forces de la clameur
 Une salle qui brûle, c'est une époque qui meurt
 Quand l'Elysée-Montmartre est parti en feu
@@ -2214,8 +2214,8 @@ Surplomber le monde comme la tour de Toronto
 J'me sens tout heureux comme Totoro
 Pourquoi appelle-t-on ça la fosse si je n'y ai vu que des vrais?
 Pourquoi appelle-t-on ça la fosse? Moi, je n'y ai vu que des vrais
-</γ>
-<ζ>
+/γ
+ζ
 Comme dans les manifs, ils chantent mes slogans
 Jamais je ne fais de shows décevants
 Du Zénith à la fête des voisins
@@ -2224,18 +2224,18 @@ Que des chaînes humaines, pas de files d'attente
 Si j'oublie, c'est l'public qui reprend
 J'ai des flashs de quand j'n'étais qu'un enfant
 Tout ce que je voulais faire, c'était l'Bataclan
-</ζ>
-<ε>
+/ζ
+ε
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
 Le Bataclan
 Tout ce que je voulais faire, c'était le Bataclan
-</ε>
-<θ>
-<α>
-False
+/ε
+θ
+α
+
 Besoin d'air pur, de s'vider par l'écriture
 Besoin de repères et plus que jamais besoin d'or pur
 Besoin d'évacuer mes démons
@@ -2297,9 +2297,9 @@ D'une nouvelle paire de Air Max et de mettre bien mes gens
 En vérité besoin de se remettre en question
 De se poser les bonnes questions, besoins de résolutions
 Paroles rédigées et expliquées par la communauté RapGenius France
-<θ>
-<α>
-False
+θ
+α
+
 Besoin d'un bic, d'un beat et d'une bonne grosse basse
 Besoin d'un mic, d'un back et d'un passeport falsh
 Dans , besoin de remplacer le  par le 
@@ -2382,10 +2382,10 @@ J'ai les besoin d'un énergumène
 Besoin d'écrire quand les rappeurs font la grève
 De régler mon horloge interne sur celle de Flavor Flav
 Besoin de Révolution!
-<θ>
-<α>
-False
-<β>
+θ
+α
+
+β
 On rencontre son destin
 Sur les chemins que l'on emprunte pour mieux l'éviter
 Parti pour combattre le déclin
@@ -2394,8 +2394,8 @@ Pour mieux élever ma Nation
 La même qui me considère comme un problème plutôt qu'une solution
 Il y a le mot love dans révolutionne
 Avec un canon à onde, j'fais la rélovution!
-</β>
-<γ>
+/β
+γ
 Besoin de changer les belles paroles en de belles actions
 Besoin de tourner les paraboles de nos coeurs vers la réflexion
 Besoin de changer l'état du peuple et l'État de sa condition
@@ -2408,8 +2408,8 @@ D'écrire le livre pas d'être l'acteur
 Besoin de dealer de la sueur
 D'être leader parmi les suiveurs
 Je n'ai plus peur! Peur, peur, peur...
-</γ>
-<ε>
+/γ
+ε
 Rélovution, rélovution, rélovution
 J'ai besoin de rélovution
 Élève la voix!
@@ -2430,8 +2430,8 @@ Enlève le mal!
 Allège le poids!
 Lève le poing!
 Trouve l'espoir!
-</ε>
-<ζ>
+/ε
+ζ
 On a besoin d'agir
 Car le mal n'a besoin que de l'inaction des gens de bien
 On gâchera trente ans de nos vies
@@ -2440,8 +2440,8 @@ Prisonniers de nos besoins
 Être libre c'est avoir des longueurs de chaîne plus grandes que le voisin
 Il y a le mot rêve dans révolution
 Au revolver à son j'viens faire la rélovution!
-</ζ>
-<γ>
+/ζ
+γ
 Besoin d'envoyer les têtes plus haut que la stratosphère
 Besoin d'aboyer dans les quartiers bien plus fort que leurs chiens n'peuvent faire
 Besoin d'engendrer les caractères sur la matrice de nos pères
@@ -2451,8 +2451,8 @@ Besoin d'être l'agriculteur, le semencier de mon propre sort
 Besoin de dynamiter les peurs, changer ces dix années de labeur
 Besoin de designer nos rapports pour mieux redynamiser les coeurs
 N'ayons plus peur! Peur, peur, peur...
-</γ>
-<ε>
+/γ
+ε
 Rélovution, rélovution, rélovution
 J'ai besoin de rélovution
 Élève la voix!
@@ -2473,8 +2473,8 @@ Enlève le mal!
 Allège le poids!
 Lève le poing!
 Trouve l'espoir!
-</ε>
-<ζ>
+/ε
+ζ
 Nous sommes des rélovutionnaires
 Un jour on lève le poing, un jour on forme un coeur avec les doigts
 Où sont mes fréros missionnaires?
@@ -2483,8 +2483,8 @@ Les hommes fêlés qui laissent passer la lumière
 Ceux qui veulent planter leur bannière en terre lunaire
 Tant qu'il y a d'la vie, il y a de l'espoir dit-on
 Sur un tank à vibrations, j'mène la rélovution!
-</ζ>
-<ε>
+/ζ
+ε
 Rélovution, rélovution, rélovution
 J'ai besoin de rélovution
 Élève la voix!
@@ -2505,14 +2505,14 @@ Enlève le mal!
 Allège le poids!
 Lève le poing!
 Trouve l'espoir!
-</ε>
-<η>
+/ε
+η
 Jamais un album ne m'aura pris autant de temps... Cinq ans, cinq ans d'absence, cinq ans d'épreuves, de remise en question, de doutes... Alors quand les professionnels de la musique, analyseront les ventes de la première semaine... moi, je me souviendrais des heures de studio inchiffrables, de toutes les fois où j'ai dis à ma femme: je reviens dans deux heures grand max, de ces nuits blanches qui ne prenaient fin qu'avec la sonnerie de l'école maternelle Edouard Vaillant, des discussions avec Proof et Salsa, des marathons à travers la France, de salles de concert en cabine d'enregistrement. On se souvient surtout dans ces moments, de tout ce que les gens ne pourront que supposer. J'me donne pas d'excuse, je ne cherche pas à susciter une quelconque empathie. J'ai pas à me plaindre, on pourra certainement me conter parmi les chanceux. J'marche avec les mêmes gars depuis la primaire. Le rap nous a réuni et aujourd'hui le rap nous fait vivre. J'essaie juste de rappeler, qu'il n'y a pas de victoire sans effort. Et qu'on oublie souvent, qu'il y a le mot homme dans album
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 On rencontre son destin
 Sur les chemins que l'on emprunte pour mieux l'éviter
 Parti pour combattre le déclin
@@ -2521,8 +2521,8 @@ Pour mieux élever ma Nation
 La même qui me considère comme un problème plutôt qu'une solution
 Y a le mot love dans révolutionne
 Avec un canon à onde, j'fais la rélovution!
-</β>
-<γ>
+/β
+γ
 Besoin de changer les belles paroles en de belles actions
 Besoin de tourner les paraboles de nos coeurs vers la réflexion
 Besoin de changer l'état du peuple et l'État de sa condition
@@ -2532,8 +2532,8 @@ Besoin d'être l'instigateur, le parfumeur de ma propre odeur
 Besoin de m'libérer de la peur,  d'écrire le livre, pas d'être l'acteur
 Besoin de dealer de la sueur, d'être leader parmi les suiveurs
 J'en ai plus peur! Peur, peur, peur...
-</γ>
-<ε>
+/γ
+ε
 Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
@@ -2542,8 +2542,8 @@ Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
 Enlève le mal, allège le poids, lève le poing, trouve l'espoir
-</ε>
-<ζ>
+/ε
+ζ
 On a besoin d'agir
 Car le mal n'a besoin que de l'inaction des gens de bien
 On gâchera trente ans de nos vies
@@ -2552,8 +2552,8 @@ Prisonniers de nos besoins
 Être libre, c'est avoir des longueurs de chaîne plus grandes que le voisin
 Y a le mot rêve dans révolution
 Au revolver à son, j'viens faire la rélovution!
-</ζ>
-<γ>
+/ζ
+γ
 Besoin d'envoyer les têtes plus haut que la stratosphère
 Besoin d'aboyer dans les quartiers bien plus fort que leurs chiens n'peuvent faire
 Besoin d'engendrer les caractères sur la matrice de nos pères
@@ -2563,8 +2563,8 @@ Besoin d'être l'agriculteur, le semencier de mon propre sort
 Besoin de dynamiter les peurs, changer ces dix années de labeur
 Besoin de designer nos rapports pour mieux redynamiser les coeurs
 N'ayons plus peur! Peur, peur, peur...
-</γ>
-<ε>
+/γ
+ε
 Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
@@ -2573,8 +2573,8 @@ Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
 Enlève le mal, allège le poids, lève le poing, trouve l'espoir
-</ε>
-<ζ>
+/ε
+ζ
 Nous sommes des rélovutionnaires
 Un jour on lève le poing, un jour on forme un coeur avec les doigts
 Où sont mes frérots missionnaires?
@@ -2583,8 +2583,8 @@ Les hommes fêlés qui laissent passer la lumière
 Ceux qui veulent planter leur bannière en terre lunaire
 Tant qu'il y a d'la vie, il y a de l'espoir dit-on
 Sur un tank à vibrations, j'mène la rélovution!
-</ζ>
-<ε>
+/ζ
+ε
 Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
@@ -2593,21 +2593,21 @@ Rélovution, rélovution
 Rélovution, j'ai besoin de rélovution
 Élève la voix, lève le bras, lève la voile, trouve la foi
 Enlève le mal, allège le poids, lève le poing, trouve l'espoir
-</ε>
-<η>
+/ε
+η
 Jamais un album ne m'aura pris autant de temps... Cinq ans, cinq ans d'absence, cinq ans d'épreuves, de remise en question, de doutes...
 Alors quand les professionnels de la musique, analyseront les ventes de la première semaine... moi, je me souviendrais des heures de studio inchiffrables, de toutes les fois où j'ai dis à ma femme: je reviens dans deux heures grand max, de ces nuits blanches qui ne prenaient fin qu'avec la sonnerie de l'école maternelle Édouard Vaillant, des discussions avec Proof et Salsa, des marathons à travers la France, de salles de concert en cabines d'enregistrement. On se souvient surtout dans ces moments, de tout ce que les gens ne pourront que supposer. J'me donne pas d'excuse, je ne cherche pas à susciter une quelconque empathie. J'ai pas à me plaindre, on pourra certainement me compter parmi les chanceux. J'marche avec les mêmes gars depuis la primaire. Le rap nous a réunis et, aujourd'hui, le rap nous fait vivre.
 J'essaie juste de rappeler, qu'il n'y a pas de victoire sans effort
 .
 Et qu'on oublie souvent, qu'il y a le mot homme dans album.
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 Unfazzed
-</β>
-<γ>
+/β
+γ
 Besoin de changement ce morning ou juste besoin d'aller pisser
 Besoin de soulever la colline ou soulever la cuvette des WC
 Besoin de distribuer des front kicks aux soi-disant frérots qu'en font trop
@@ -2621,8 +2621,8 @@ Besoin d'te dire que ma confiance, c'est comme les timbres: ça colle pas deux f
 Besoin d'jurer la tête de oi-m, si t'as b'soin d'moi, j's'rai là Day One
 Toute cette colère n's'éteindra pas par l'oseille
 Y a plus d'amour dans un couple le jour de paye
-</γ>
-<ε>
+/γ
+ε
 Maintenant, j'veux des choses que l'argent n'achète pas
 J'veux la fierté d'mes rents-pa et l'amour d'une mille-fa
 L'amitié sincère d'un frère, ça ne s'achète pas
@@ -2631,8 +2631,8 @@ Pour ça, j'ai b'soin de temps
 Besoin, besoin, besoin d'plus de temps
 J'ai juste besoin de temps
 Besoin, besoin, besoin d'plus de temps
-</ε>
-<γ>
+/ε
+γ
 Besoin d'échanger leurs fausses montres contre de vraies cicatrices
 Pas b'soin d'être suivi par tout l'monde, ni par un psychanalyste
 Besoin de couper la main d'un juge juste pour en faire un cendrier
@@ -2647,8 +2647,8 @@ Besoin d'leur dire que la fin des temps arrivera avant la fin des temps
 Besoin de presser la détente, de les démarrer comme un deux temps
 Toute cette colère n's'éteindra pas par l'oseille
 Y a plus d'amour dans un couple le jour de paye
-</γ>
-<ε>
+/γ
+ε
 Maintenant, j'veux des choses que l'argent n'achète pas
 J'veux la fierté d'mes rents-pa et l'amour d'une mille-fa
 L'amitié sincère d'un frère, ça ne s'achète pas
@@ -2657,11 +2657,11 @@ Pour ça, j'ai b'soin de temps
 Besoin, besoin, besoin d'plus de temps
 J'ai juste besoin de temps
 Besoin, besoin, besoin d'plus de temps
-</ε>
-<θ>
-<α>
-True
-<γ>
+/ε
+θ
+α
+
+γ
 J'suis né le jour de la Saint-Modeste, ça fait pas d'moi un modèle
 J'mériterais même pas la réplique d'un prix Nobel
 J'ai des maux d'tête sous l'glaive de Damoclès
@@ -2701,12 +2701,12 @@ Parfois la politique peut s'avérer très poétique
 Alors comment ne pas trouver le rap si romantique?
 Alors comment ne pas trouver le rap si romantique?
 Comment ne pas trouver le rap romantique?
-</γ>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<γ>
+/γ
+ε
+/ε
+ζ
+/ζ
+γ
 Toute ressemblance avec des personnes existantes n'a rien d'fortuite
 Si j't'évoque de mauvais moments, que Dieu me forgive
 J'pensais pas qu'un jour j'raconterais cette histoire
@@ -2740,10 +2740,10 @@ Alors tribute au noble art, à ces pairs qui nous font honneur
 J'en crache un mollard, rrk puh aux snobeurs
 Détenteurs de valeurs de merde
 Les sauvés sont souvent ceux qui s'prennent pour les sauveteurs en mer
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 Mais depuis quelques temps, j'ai comme perdu la foi
 J'ai comme un voile devant la vue qui me perturbe la voix
 J'me vois comme un bénévole parmi les traders
@@ -2802,25 +2802,25 @@ En hommage à cet artiste politique qui
 Trouvait qu'le rap avait quelque chose de romantique
 J'trouvais qu'le rap avait quelque chose de romantique
 J'trouvais qu'le rap avait quelque chose de romantique
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+β
+/β
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
 Classez-moi monument historique, j'ai des polémiques, j'en fais des stories
 J'viens couper l'herbe sous le pied des racistes, la grand-mère d'Edith Piaf était Kabyle
 Paraîtrait qu'elle s'appelait Aïcha, qu'elle portait l'même hijab que Mona Lisa
@@ -2829,34 +2829,34 @@ J'mets du sens dans mes phrases sans faire exprès, comme quand j'fais tomber l'
 Ces bâtards racontent des craques à mes gosses, j'suis sur leur plateau comme dans Among Us
 Après tout ça, les cistes-ra se taisent, après tout ça, les fils de pute tachycardent
 Comme si DJ Snake était un DZ, c'est pas d'la Taki-Taki-Taki-ah
-</γ>
-<θ>
-<α>
-True
-<β>
-</β>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
-<β>
+/γ
+θ
+α
+
+β
+/β
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+β
 Appelez-moi le Boulehya
 Appelez-moi le Boulehya
 Appelez-moi le Boulehya
 Check
-</β>
-<γ>
+/β
+γ
 Une punchline dans leur gueule, ils perdent leur centre de gravité
 C'est plus facile de désintégrer les atomes que les préjugés
 Me revoilà, Ayato-Allah car y'a Médine dans Ahmadinejad
@@ -2872,8 +2872,8 @@ Que les journalopes et les maisons de sque-d s'ouvrent les veines à la carte de
 J'ai contribué à conscientiser le plus engagé de tout ton quartier
 Y'a pas qu'en concert qu'on les fait jumper
 Comme Kanye j'inclus les handicapés Oups
-</γ>
-<ε>
+/γ
+ε
 Ma barbe de Chaman, barbe de Chaman, barbe de Chaman
 Vous passe le salaam, passe le salaam, passe le salaam
 J'suis pas rasta-man, pas rasta-man, pas rasta-man
@@ -2882,8 +2882,8 @@ C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
-</ε>
-<γ>
+/ε
+γ
 Ton rappeur favori se défrise et se taille la be-bar comme ce shemale de Conchita
 Leur engagement disparaît comme le tweet pour Gaza de Rihanna
 FreePalestine AuFreestyleDeSky
@@ -2896,8 +2896,8 @@ Moi je n'égorge pas je fais que tracer les pointillés
 Sur la carotide du rap français au coupe-choux c'est bien outillé
 J'suis pas ton coeur de cible ni dans ta playlist, alors j't'arrache les fils de ton Streaming
 Depuis que la zik s'écoute que sur les sites bientôt ton boss s'appelle Fif Tobossi Oups
-</γ>
-<ε>
+/γ
+ε
 Ma barbe de Chaman, barbe de Chaman, barbe de Chaman
 Vous passe le salaam, passe le salaam, passe le salaam
 J'suis pas rasta-man, pas rasta-man, pas rasta-man
@@ -2906,8 +2906,8 @@ C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
-</ε>
-<γ>
+/ε
+γ
 Front orienté vers la Mecque
 Les chèques sont envoyés au Bled
 Mon skeud a fuité sur le net
@@ -2930,17 +2930,17 @@ Mes dix ans de combat, je les porte sur moi
 Je suis le Bouleyha
 Mes dix ans de combat, je les porte sur moi
 Je suis le Bouleyha
-</γ>
-<η>
+/γ
+η
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
 C'est la panthère, Ara-Arabian Panthère
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Sénégal 19.78 le départ de mon pays ressemble plus à ma fuite
 J'ai entrevu la réussite et son manteau tricolore
 Pris refuge auprès de l'ex-colonisateur
@@ -3010,8 +3010,8 @@ Mais ce sont nos enfants qui souffrent de saturnisme
 Et je repense à ma venue de Dakar
 Le rêve Européen s'est transformé en cauchemar...
 Mais depuis quelques semaines, elle craque. Son fils de 6 ans aurait été mordu par un rat en pleine nuit. Il était monté ici, après il est venu par ici, après il a sauté ici après il m'a mordu. Mais aujourd'hui les habitants craignent pour leur sécurité et redoutent un incendie.
-</γ>
-<γ>
+/γ
+γ
 Voici l'heure d'un repos bien mérité
 Après une dure journée de labeur je m'assoies devant la télé
 Papa, papa Mais qu'est-ce-qu'il y'a encore?
@@ -3055,11 +3055,11 @@ Voici le prix du sang d'une ancienne colonie
 Voici le respect attribué aux familles...
 Diamé, Gassama, Cissé, Konate, Diara, Sy, Traoré, Sissoko, Dembele, les familles de l'hôtel Opéra...
 PaixParoles rédigées et expliquées par la communauté RapGenius France
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 Ou j'les cane ou j'm'assagis en artiste obéissant
 Ouais, c'est rare de devenir anarchiste en vieillissant
 J'suis une marque vieillissante qu'a réussi son rebranding
@@ -3080,8 +3080,8 @@ J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
-</γ>
-<ε>
+/γ
+ε
 Brassens; la lumière est plus rapide que le son
 Brassens; c'est pour ça qu'j'suis brillant avant d'être con
 Brassens; pardon de n'pas retenir la leçon
@@ -3090,8 +3090,8 @@ Brassens; la lumière est plus rapide que le son
 Brassens; c'est pour ça qu'j'suis brillant avant d'être con
 Brassens; pardon de n'pas retenir la leçon
 Brassens; Brassens, c'est la tradition
-</ε>
-<γ>
+/ε
+γ
 J'fais l'Zénith, j'veux de viriles applauses
 Pas de vigile en fosse; sapes de Virgil Abloh
 J'fais l'Zénith, j'veux de viriles applauses
@@ -3108,8 +3108,8 @@ J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
 J'fais pas d'rap pour qu'on l'écoute mais pour qu'on le réécoute
-</γ>
-<ε>
+/γ
+ε
 Brassens; la lumière est plus rapide que le son
 Brassens; c'est pour ça qu'j'suis brillant avant d'être con
 Brassens; pardon de n'pas retenir la leçon
@@ -3118,15 +3118,15 @@ Brassens; la lumière est plus rapide que le son
 Brassens; c'est pour ça qu'j'suis brillant avant d'être con
 Brassens; pardon de n'pas retenir la leçon
 Brassens; Brassens, c'est la tradition
-</ε>
-<η>
+/ε
+η
 J'y réfléchi à la mort, j'y réfléchi à tous ces thèmes. Au profit, j'y réfléchi, à ces histoires d'engagement, à tout ça, à la guerre, à la paix. En réalité, je n'ai pas de solution collective. C'est parce que je ne crois pas aux solutions collectives que j'me branle à faire des chansons
 Je crois qu'avec mes chansons, je peux apporter un petit peu de plaisir esthétique à certaines oreilles, pas trop difficiles et pas non plus trop bouchées
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 J'écris ce son le jour où mon pater vient d'mettre en terre son homme de coin
 J'sais pas si ça vous fait quelque chose à vous, moi, ça m'fait l'effet d'un coupe-faim
 J'ai l'coeur déchiré quand une team se déchire
@@ -3148,12 +3148,12 @@ Jamais on n's'évite, jamais on s'éloigne
 Jusqu'à ce que la mort nous sépare
 Moi, je ne pleure pas, c'est la plume qui pleure
 Je fleurirai ta tombe, qu'il vente ou qu'il pleuve
-</γ>
-<ε>
+/γ
+ε
 Oh, pour mes frèros
 Ceux qu'j'aime depuis le préau
-</ε>
-<γ>
+/ε
+γ
 Voilà vingt ans que ma voix criarde
 Se mêle au hardware de Proof
 Le nom d'mon label, c'est le fil d'Ariane
@@ -3178,15 +3178,15 @@ Jamais on n's'évite, jamais on s'éloigne
 Jusqu'à ce que la mort nous sépare
 Moi, je ne pleure pas, c'est la plume qui pleure
 Je fleurirai ta tombe, qu'il vente ou qu'il pleuve
-</γ>
-<ε>
+/γ
+ε
 Oh, pour mes frèros
 Ceux qu'j'aime depuis les préau
-</ε>
-<θ>
-<α>
-True
-<γ>
+/ε
+θ
+α
+
+γ
 Un poing fermé, c'est mon Bat signal
 Inutiles sont les rappeurs, comme les bras de Zidane
 J'rappe pour les aggoun et les rats d'égouts
@@ -3203,21 +3203,21 @@ Case par case, on avance comme Kasparov
 On fait nos classes, nos gammes au son des kalashnikovs
 J'ouvre la voie, t'enfonces des portes open
 On crève comme des Coeur de Lion, pas comme Kurt Cobain
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+θ
+α
+
+γ
 Au parfum par une fraîche dépêche de l'AFP
 Du kidnapping des 3 français les mieux draftés
 Soixante millions de coeurs pour un rockeur
@@ -3250,15 +3250,15 @@ Non rien que le support de politiques entités
 Même si des Droits de l'Homme cette base est l'antithèse
 Genèse, dans cette pièce ils repensent à leurs jeunesses
 Accueillis par la gégène non par la Convention de Genève
-</γ>
-<ε>
+/γ
+ε
 Guantanamo!
 Bienvenido a Guantanamo oh
 Welcome to Guantanamo oh
 Bienvenido a Guantanamo oh
 Welcome to Guantanamo oh
-</ε>
-<γ>
+/ε
+γ
 Réveillé nu comme un nouveau né qui vient de naître
 Hallyday Johnny, de son vrai nom Jean-Philippe Smet
 N'a rien à se mettre  si ce n'est une combinaison
@@ -3296,15 +3296,15 @@ Et fera du chanteur un parolier sans son organe
 Un transistor qui du matin au soir joue la même musique
 Du hard rock métal à plein volume
 Mort clinique pour Yannick, l'athlète n'est plus qu'un légume
-</γ>
-<ε>
+/γ
+ε
 Guantanamo!
 Bienvenido a Guantanamo oh
 Welcome to Guantanamo oh
 Bienvenido a Guantanamo oh
 Welcome to Guantanamo oh
-</ε>
-<γ>
+/ε
+γ
 Un démenti en bonne et dûe forme est de rigueur
 Personne n'enleva ni footeux, chanteur ou rockeur
 Petite frayeur pour grande réalité
@@ -3325,11 +3325,11 @@ Alors je parle de prisonniers islamiques
 Derrière un masque représentant les symboles démocratiques
 Que chérisse le coeur de tous les gens
 Pour qu'à Guantanamo fleurissent les tombes des innocents
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 J'avais dans l'idée d'éplucher les petites annonces
 De me trouver un job d'appoint en pleine récession
 Afin de pallier au manque de finance en
@@ -3353,8 +3353,8 @@ Alors, à l'audition de la dernière chance
 Je me présenterai comme la dernière tendance
 MC sulfureux les lyrics écrient sur le feu
 Moitié engagé, moitié hardcore et rageux!
-</γ>
-<γ>
+/γ
+γ
 C'est le jour J et à quelques mètres du jury
 J'écris quelques rimes pour impressionner leurs ouïes
 Ça donne un truc, qui commençait comme a-ç:
@@ -3379,8 +3379,8 @@ Je rappe les yeux fermés le coeur ouvert, les poings fermés, la bouche ouverte
 Pas renfermé mais presque ouvert, pas renfrogné mais son contraire
 Je rap pour les secondaires, ceux qui ont rien, ceux qui perdent
 Ceux qui restent en chien et tous ceux qu'on enferme
-</γ>
-<γ>
+/γ
+γ
 Quoi? Communautaire j'aurais souhaité ne jamais l'être
 Autant qu'un nègre des sixties dans la cours d'une fac de Lettres
 Forcé d'admettre que votre cancer n'a pas de remède
@@ -3419,8 +3419,8 @@ Refusons la main tendue et agissons comme le chien qui trop longtemps battu grog
 Organisons nous, en groupe, en collectif, en association, peu importe, du moment que ça vienne de nous-mêmes, du moment que l'initiative vienne de nous-mêmes
 Et ne laissons pas les clé du rap à des mégalos dégénérés, qui font de nos carrières des sujets de conversation
 Parole d'Arabian Panther!
-</γ>
-<η>
+/γ
+η
 C'est le retour de l'Arabian Panther
 Le poing en l'air, baisser les bras hors de question
 Le Savoir est une arme en tant de guerre
@@ -3433,17 +3433,17 @@ On peut tuer un révolutionnaire mais pas la révolution
 On peut tuer un révolutionnaire mais pas la révolution
 On peut tuer un révolutionnaire mais pas la révolution
 Le poing en l'air, baisser les bras hors de question
-</η>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/η
+θ
+α
+
+γ
+/γ
+γ
+/γ
+ε
+/ε
+γ
 Global, 98, le bambou
 Frappe sec, bambino, bambin, fuck Bambi, Barbie, the crew
 Qui ser-'cra, même le pire des scards-la sant-cri
@@ -3463,19 +3463,19 @@ Bosse dans le jus d'Onyx et là, j'expire
 J'espère me sortir de toute cette galère
 Je joue pas l'jaloux mais pour un produit fini, j'fous la de-mer
 J'fous la de-mer
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<β>
+/γ
+γ
+/γ
+ε
+/ε
+θ
+α
+
+β
 Y a plus d'encre que de sang
 Et y a plus d'encre que de sang
-</β>
-<γ>
+/β
+γ
 Paris, London et Bruxelles
 C'est l'triangle de la querelle
 Deux new-comers dans le game
@@ -3496,14 +3496,14 @@ Cap sur la Grande-Bretagne, là où l'game n'est pas devenu comme dans Empire
 L'un quitte sa riche belle famille
 L'autre ne craint pas la famine
 C'est pour vivre pleinement leurs vies d'artistes que tous deux prennent le ferry vers la city
-</γ>
-<ζ>
+/γ
+ζ
 Verlaine a tiré sur maître Rimbaud
 Verlaine a tiré sur maître Rimbaud
 Y a plus d'encre que de sang
 Et y a plus d'encre que de sang
-</ζ>
-<ε>
+/ζ
+ε
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
@@ -3512,8 +3512,8 @@ Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
-</ε>
-<γ>
+/ε
+γ
 L'un vit au crochet de l'autre
 Y a plus d'amour mais moins de love
 Verlaine est porté sur l'alcool
@@ -3537,14 +3537,14 @@ Grosse fusillade et son poignet éclate
 Entre les deux poètes, c'est le torchon qui crame
 Pas de pochon de crack à l'origine du drame
 Pourtant,  c'est l'genre de clash qu'on retrouve dans le rap, royal
-</γ>
-<ζ>
+/γ
+ζ
 Verlaine a tiré sur maître Rimbaud
 Verlaine a tiré sur maître Rimbaud
 Y a plus d'encre que de sang
 Et y a plus d'encre que de sang
-</ζ>
-<ε>
+/ζ
+ε
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
@@ -3553,8 +3553,8 @@ Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
 Verlaine a tiré sur Rimbaud
-</ε>
-<η>
+/ε
+η
 Bah ouais, igo, ça s'clashait bien avant nous
 Chacun son game, c'est tout
 Je les ai vus venir hein, à rendre le rap responsable de tous les maux
@@ -3564,11 +3564,11 @@ Je les ai vus venir hein, à rendre le rap responsable de tous les maux
 Askip ceci, askip cela
 Hé, vous allez pas nous la faire, hein
 Même Verlaine a tiré sur Rimbaud
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Elle a plus de sens que les lunettes à Polnareff
 Et sur un prof de sciences, elle symbolise la sagesse
 Elle, ce n'est pas sa taille qui fait la valeur d'un homme
@@ -3593,8 +3593,8 @@ Accuse à tort tous les boulahyas du bout du monde
 Quand tu t'imagines sur le bout d'une bombe
 Potentiel coupable de son port, moi je le plaide
 Elle est du poil à gratter dans le col de ce bled
-</γ>
-<ε>
+/γ
+ε
 J'avance, une coupe afro sous la mâchoire, silhouette sur le pochoir
 Fourrure de panthère couleur bon-char
 Sur le menton j'ai la coupe à Pete Rock
@@ -3605,8 +3605,8 @@ Sur le menton j'ai les rastas de Marley
 Aussi grosse que Freeway, je la coiffe et la fais briller
 Pourquoi tu parles de ma barbe dans le fond de ta moustache?
 Pourquoi tu parles de ma barbe?
-</ε>
-<γ>
+/ε
+γ
 Elle a plus de sens que sur le faciès de Chabal
 Inexistante sur l'épiderme d'un vieux chaman
 Elle est prohibée des règlements de l'école
@@ -3627,8 +3627,8 @@ Même dans de beaux draps le bras haut je l'arbore
 Je la porterai le jour de ma mort
 Puis avant qu'ils versent du poison dans l'after-shave
 Leur dernière vision sera une barbe et un chauve
-</γ>
-<ε>
+/γ
+ε
 J'avance, une coupe afro sous la mâchoire
 Silhouette sur le pochoir
 Fourrure de panthère couleur bon-char
@@ -3643,8 +3643,8 @@ Aussi grosse que Freeway
 Je la coiffe et la fais briller
 Pourquoi tu parles de ma barbe dans le fond de ta moustache?
 Pourquoi tu parles de ma barbe?
-</ε>
-<η>
+/ε
+η
 Code barbe c'est ma plus-value
 J'évolue visiblement depuis que j'ai le visage velu
 Sur le menton j'ai des mouvements de foule
@@ -3652,11 +3652,11 @@ Protestataire, qui crie
 Médine, Proof
 Arabian Panther
 1429, Ok
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 270 Jours dans le repos de la matrice
 Une destinée insufflée dans l'éternelle institutrice
 Voyager vers la vie dans des entrailles
@@ -3674,8 +3674,8 @@ Mère couveuse, mère poule, mère solitaire
 Mère à l'écoute, mère porteuse et mère autoritaire
 Aucun adjectif n'est assez baraqué
 Aussi vrai que le Paradis maman se trouve à tes pieds
-</γ>
-<ε>
+/γ
+ε
 Lorsque les mères enfantent les filles et les filles deviennent femmes
 Deviennent des soeurs, des demoiselles puis des dames
 Combattre au féminin et ce depuis les premiers ages
@@ -3684,8 +3684,8 @@ Le visage qui réconforte nos carcasses
 Éloigne du tracas, soulage des sarcasmes
 Au moindre problème se jette dans l'arène
 Combat de lionnes, combat de princesses et de reines
-</ε>
-<γ>
+/ε
+γ
 Il est plus facile qu'un homme de faire perdre l'honneur d'une femme
 Un seul geste de travers et le monde entier la condamne
 Petite soeur qui à l'école montre l'exemple
@@ -3702,8 +3702,8 @@ L'encouragement, le minimum que l'on puisse faire
 Avec ton voile et ton droit de vote il va falloir s'y faire
 Et pour preuve que le malaise est sur ton nom
 Seulement 16 mesures déjà à court d'inspiration
-</γ>
-<ε>
+/γ
+ε
 Lorsque les mères enfantent les filles et les filles deviennent femmes
 Deviennent des soeurs, des demoiselles puis des dames
 Combattre au féminin et ce depuis les premiers ages
@@ -3712,8 +3712,8 @@ Le visage qui réconforte nos carcasses
 Éloigne du tracas, soulage des sarcasmes
 Au moindre problème se jette dans l'arène
 Combat de lionnes, combat de princesses et de reines
-</ε>
-<γ>
+/ε
+γ
 Un seul vêtement épouse la forme de nos corps
 Les bâtiments pour seul décor donnent des orphelins du coeur
 La moitié pleine qui remplit la moitié vide
@@ -3730,8 +3730,8 @@ Préserve moi, je préserverais ton nom
 Sanctuaire de la vie et de la procréation
 Et va savoir pourquoi tes sourires m'inspirent
 La 1ere lettre de mon nom comme le mot que je voudrais dire
-</γ>
-<ε>
+/γ
+ε
 Lorsque les mères enfantent les filles et les filles deviennent femmes
 Deviennent des soeurs, des demoiselles puis des dames
 Combattre au féminin et ce depuis les premiers ages
@@ -3741,15 +3741,15 @@ Le visage qui réconforte nos carcasses
 Au moindre problème se jette dans l'arène
 Combat de lionnes, combat de princesses et de reines
 Paroles rédigées et annotées par la communauté française de Rap Genius
-</ε>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<ε>
+/ε
+θ
+α
+
+β
+/β
+γ
+/γ
+ε
 Y'a des rumeurs entre vous, y'a des rancoeurs entre vous
 Des engraineurs, des pompeurs, des rappeurs entre vous
 Y'a les majors entre vous, le Top-IFOP entre vous
@@ -3758,12 +3758,12 @@ Eh, et à quoi bon de se tuer dans cette épreuve
 Pour le fric, pour les clics, pour le buzz
 Y'a l'estime entre nous, pas besoin de clash entre nous
 Avant c'était eux contre nous maintenant c'est nous contre nous
-</ε>
-<ζ>
-</ζ>
-<γ>
-</γ>
-<ε>
+/ε
+ζ
+/ζ
+γ
+/γ
+ε
 Y'a des rumeurs entre vous, y'a des rancoeurs entre vous
 Des engraineurs, des pompeurs, des rappeurs entre vous
 Y'a les majors entre vous, le Top-IFOP entre vous
@@ -3772,8 +3772,8 @@ Eh, et à quoi bon de se tuer dans cette épreuve
 Pour le fric, pour les clics, pour le buzz
 Y'a l'estime entre nous, pas besoin de clash entre nous
 Avant c'était eux contre nous maintenant c'est nous contre nous
-</ε>
-<γ>
+/ε
+γ
 Kery tu parles comme un jeune rookie qu'a faim d'buzz
 Depuis quand tu clashes pour élargir ta fan base?
 Tu nous fais l'remake des Beatles et des Stones
@@ -3797,8 +3797,8 @@ Auditeur qui de ce siècle êtes les sponsors
 Faites en sorte que les corbillards restent au point-mort
 Parfois ça mène au clic-clic que de cliquer
 Face au gling gling du bling bling, on vient se liguer!
-</γ>
-<ε>
+/γ
+ε
 Y'a des rumeurs entre vous, y'a des rancoeurs entre vous
 Des engraineurs, des pompeurs, des rappeurs entre vous
 Y'a les majors entre vous, le Top-IFOP entre vous
@@ -3807,21 +3807,21 @@ Eh, et à quoi bon de se tuer dans cette épreuve
 Pour le fric, pour les clics, pour le buzz
 Y'a l'estime entre nous, pas besoin de clash entre nous
 Avant c'était eux contre nous maintenant c'est nous contre nous
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
-<β>
+/ε
+η
+/η
+θ
+α
+
+β
 Si j'ai rencard avec mon histoire,  j'voulais être Rocca, pas Rocard
 J'voulais pas être à Beauvau mais autre part, faire le festival Beauregard
 Vers ma bourgade, pas dans l'Haut-Gard, être au calme, siroter du cidre dans mon Boga
 J'voulais même pas être un Bompard, dénoncer les bobards et ceux qui bombardent
 J'voulais juste être un bon gars
 Avec mon gars Brav, quelques garres-ba, pas de garde à v'On écoutait du son dans la gova
-</β>
-<γ>
+/β
+γ
 J'voulais être Rocky, pas Reagan, DJ Snake quand Paris gagne Splitter les chèques à parts égales, ça m'paraît carré
 J'm'en carre de leur échelon cadre et d'leurs diplômes sous cadre
 J'ai pas d'licence, mais j'ai plein d'oncles qu'ont une licence IV
@@ -3835,8 +3835,8 @@ Tous les sondages, tous les candidats, tous les résultats, les comptes de campa
 Les scores, les stats, les talks, les primes, tous les regards cam de politicards
 De quoi s'mettre une balle dans l'encéphale
 Même ça, c'est interdit par la loi
-</γ>
-<γ>
+/γ
+γ
 J'voulais être le gardien d'mon frère, le gardien d'ma rue
 J'avais oublié qu'les gardiens d'prison restaient plus longtemps que les détenus
 J'voulais être le plus cool, porter ceux qui t'naient plus l'coup
@@ -3849,8 +3849,8 @@ J'étais plein d'salam aleyk', je jurais sur Allah et la Mecque
 Comme un chef de cartel qui vient dire quelques mots l'dimanche à la messe
 L'enfer, c'est soi, l'enfer, c'est les autres
 Si un jour, j'change de foi, c'est pour pas être avec eux dans c'monde ni dans l'autre
-</γ>
-<γ>
+/γ
+γ
 J'ai commencé par avoir envie de tout changer, puis, j'ai changé d'avis
 Si j'm'inscrivais comme Charlie Chaplin, j'perdais à mon propre concours de sosies
 J'aurais pas l'premier rôle dans mon biopic en accompagnant un pote au casting
@@ -3862,8 +3862,8 @@ Ou Google avis, mais c'est grâce à vous que j'gagne un salaire à six chiffres
 Après la virgule, hahahaha
 J'ai ni patrimoine, ni véhicule
 Propriété intellectuelle ta3 les convaincues
-</γ>
-<η>
+/γ
+η
 J'suis né dans la vindicte populaire, y a vingt piges, j'avais la vingtaine
 Vent contraire, foule vengeresse, j'avance quand même
 Entre nous, entre convaincues, pas de danse du ventre
@@ -3871,11 +3871,11 @@ J'vous vendrai jamais la corde avec laquelle on va se pendre
 Et ouais, y a urgence, j'suis pas d'ces artistes qui s'dépolitisent
 J'suis pas zadiste, ni d'la police du militantisme
 Les pronostics à une carrière éclair me destinent, au final, ça fait vingt ans qu'ça doit être de-spee
-</η>
-<θ>
-<α>
-True
-<β>
+/η
+θ
+α
+
+β
 De la douleur et du dégoût pour les couleurs et les goûts
 Avalez nos couleuvres comme une coulée de boue
 Hardcore! Sur un confort d'écoute
@@ -3884,8 +3884,8 @@ On découpe nos couplets c'est du rap corde au cou
 Le tissu de vérité venu revêtir Kirikou
 Qui ricane de nos cours goûtera aux battes avec des clous
 Tiers Monde et Médine c'est du rap corde au cou
-</β>
-<γ>
+/β
+γ
 Fallait savoir quelques points noirs de l'histoire
 Et que ma plume sert de défense en ivoire aux mémoires
 Qui dans le noir avancent sans y voir
@@ -3910,29 +3910,29 @@ Hé, fallait savoir que le savoir est une arme
 Et que le cerveau de l'homme réfléchit comme une arme
 Indépendant dans les veines
 Chez nous les majors pratiquent l'espionnage industriel
-</γ>
-<ε>
-</ε>
-<β>
-</β>
-<γ>
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+β
+/β
+γ
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
 Y'a pas de mauvais hommes, ni de mauvaises herbes
 Y'a que des mauvaises cultures,  on baigne dans la merde comme un cul-de-jatte dans des chiottes ke-tur
 Cimenter les murs anti-migrants au ciment Lafarge
@@ -3947,15 +3947,15 @@ Les pornocrates parlent d'Islam comme d'une maladie grave
 Nos trois voix c'est l'autoroute du soleil, écrit à six mains comme de l'autotune sur la Marseillaise
 Ils veulent nous enterrer oubliant qu'on est des graines
 Que l'Esquisse 3 s'abatte sur eux en déluge de grêle
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+ε
+/ε
+γ
 Bienvenue dans l'monde héroïque
 Où ne plus vivre malheureux, c'est mourir dans un décès comique
 Où Malcolm n'est plus X, mais le frère de Reese
@@ -3972,23 +3972,23 @@ Mon pouvoir? Être fils de de haut placé
 Être l'époux de l'héroïne de la famille opiacée
 Les valeurs sont boursières, ma devise est l'espèce
 On m'appelle Capitaine American Express
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
 Y a pas qu'les chiffres qui sont arabes, y a les lettres aussi
 Sans elles, certaines phrases se termineraient dans la langue des signes
 Y a pas d'histoires de races, de mauvaises suprématies
@@ -4001,8 +4001,8 @@ Tu parles spanglish? J'parle franrabe
 Comme Johnny Bachir? Non, comme Frantz Fanon
 Dans ma bouche, les mots sonnent bien
 Accent de blédiens chantonnant chez les académiciens, woh!
-</γ>
-<ε>
+/γ
+ε
 Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 D'arobase à zéro
@@ -4011,8 +4011,8 @@ Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 Moi, j'repars à zéro
 Case départ à la zone, on s'démarque des autres
-</ε>
-<γ>
+/ε
+γ
 Tu veux savoir où sont les boss en 2013?
 Mes soeurs du Nord, mes frères de l'Est du lycée Averroès
 Tu peux pas test, on ressuscite
@@ -4024,8 +4024,8 @@ Ils peuvent nous virer de leurs écoles, ils ne stopperont pas nos mômes
 Ambiance collégiale, on sabre le champagne halal
 T-shirt LSA, ni chaîne, ni shambhala
 T'emballes pas, des bancs de la Fac ou de la garde à v'Cherche la baraka d'Allah derrière un voile ou un bandana banane
-</γ>
-<ε>
+/γ
+ε
 Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 D'arobase à zéro
@@ -4034,8 +4034,8 @@ Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 Moi, j'repars à zéro
 Case départ à la zone, on s'démarque des autres
-</ε>
-<ζ>
+/ε
+ζ
 De A à Z, j'cultive la fierté de soi
 Du savoir est une arme, moi, j'en ai fait mon swag
 Du Nord au Sud, moi, je m'efforce d'y croire
@@ -4048,8 +4048,8 @@ Arobase à zéro, arobase à zéro
 Arobase à zéro, arobase à zéro, zéro
 Arobase à zéro, arobase à zéro
 Arobase à zéro, arobase à zéro, zéro
-</ζ>
-<ε>
+/ζ
+ε
 Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 D'arobase à zéro
@@ -4058,38 +4058,38 @@ Rien ne se perd, rien ne se crée, tout se transforme
 Rien ne s'avère, rien de secret, tout se transporte
 Moi, j'repars à zéro
 Case départ à la zone, on s'démarque des autres
-</ε>
-<η>
+/ε
+η
 Arobase à zéro, arobase à zéro
 Arobase à zéro, arobase à zéro, zéro
 Arobase à zéro, arobase à zéro
 Arobase à zéro, arobase à zéro, zéro
-</η>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<ε>
+/η
+θ
+α
+
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+θ
+α
+
+ε
 J'démine, ils me prennent pour un poseur de bombes
 Ils nous prennent pour de sombres démons
 J'écroule les murs pour faire des ponts
 On ne lira pas mon nom sur les monuments du monde, j'démine
-</ε>
-<γ>
+/ε
+γ
 Ce n'est pas un exercice
 J'ai coupé le fil bleu, sauvé la mise au pays de l'élitisme
 Pour qui les colonies ne sont que des litiges
@@ -4106,14 +4106,14 @@ Il paraîtrait qu'les douze premiers jours de janvier
 Indiqueraient le temps des douze prochains mois de l'année
 2015 a débuté comme les dix plaies d'Égypte
 Et terminera gouverné par des inéligibles
-</γ>
-<ε>
+/γ
+ε
 J'démine, ils me prennent pour un poseur de bombes
 Ils nous prennent pour de sombres démons
 J'écroule les murs pour faire des ponts
 On ne lira pas mon nom sur les monuments du monde, j'démine
-</ε>
-<γ>
+/ε
+γ
 Ce n'est pas une fausse alerte
 J'ai coupé le fil blanc,  sauvé les cols-blancs et les hauts salaires
 Le patronat leucoderme, celui qu'on enferme dans les locaux
@@ -4131,14 +4131,14 @@ Ce régime peu paritaire qui nous voit comme des Boko Haram
 Aux dernières nouvelles au Carlton de Lille y'avait pas beaucoup d'Arabes
 Ceux qui solutionnent la crise en vendant leurs mairies aux racistes
 Désolé de t'apprendre que la France ce n'est pas la méritocratie
-</γ>
-<ε>
+/γ
+ε
 J'démine, ils me prennent pour un poseur de bombes
 Ils nous prennent pour de sombres démons
 J'écroule les murs pour faire des ponts
 On ne lira pas mon nom sur les monuments du monde, j'démine
-</ε>
-<γ>
+/ε
+γ
 Ce n'est pas un canular
 J'viens dénuder le dernier fil couleur écarlate
 La mère patrie à la République nauséeuse
@@ -4155,21 +4155,21 @@ Nous étions venus pour désamorcer l'engin explosif
 Nous étions vêtus de combinaisons marquées co-exist
 C'est pas l'bruit des bottes qui effraie, mais le silence des pantoufles
 Démineur au rapport j'ai coupé le fil bleu blanc rouge
-</γ>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+θ
+α
+
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
 Dans la bergerie s'est installé le loup
 On est comme sorti tout droit d'un fim de Lelouch
 Où le soldat de carrière est apothicaire
@@ -4186,29 +4186,29 @@ Le lion est mort deux jours avant eleven-nine
 Pratique pour le passage d'oléoduc et de pipeline
 Tu fais du rap depuis 8Mile, nous depuis long time
 Comprends pourquoi nous sommes borderline
-</γ>
-<ε>
-</ε>
-<η>
+/γ
+ε
+/ε
+η
 Tu fais du rap depuis 8 mile
 Nous depuis long time
 Din Records, Assassin
 Rockin Squat, Médine
 Médite l'histoire dans ton rocking chair
 Confessions du second millénaire
-</η>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
+/η
+θ
+α
+
+β
+/β
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
 J'ai avalé leur temps d'parole, alors j'en chie des pendules
 Quand on réfléchit au sens, ils jouent au jeu du pendu
 Dur,  j'ai la plume abrupte, taillée dans le bitume brut
@@ -4222,21 +4222,21 @@ J'fais dans les BPM depuis le méconium
 Mon coeur bat sans métronome, jamais ma rime n'est économe
 J'trouve pas l'inspi dans les zamal
 Y a pas qu'en mourant par un trou d'balle qu'on rentre dans les annales
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+θ
+α
+
+γ
 C'est le genre de type qui aimait déconner
 Avec ses potes, devant les meufs sort son bluff
 Aime bien jouer les gros bonnets
@@ -4258,8 +4258,8 @@ Avec sa soeur nez à nez, il a pris le chemin erroné
 Pète un câble et c'est le seum qui vient dominer
 Tue sa soeur de ses mains, on a pas pu le raisonner
 Le soir même sur sa tempe son Glock a détonné
-</γ>
-<γ>
+/γ
+γ
 On était partis pour s'aimer d'un amour pour 6 vies
 Amoureux depuis l'école, étaient Yvan et Sylvie
 Rien d'ombrageux au-dessus de leur tête
@@ -4292,8 +4292,8 @@ Sylvie perds connaissance et sur le sol se couche
 Mais petit Yvan a le coeur rempli de haine
 Il recharge son fusil et abat son paternel
 Détonation
-</γ>
-<γ>
+/γ
+γ
 Lui  c'est un jeune beur  issu d'un quartier sensible
 Elle  d'un autre genre, d'un autre lieu bien plus paisible
 Lui  n'a plus d'école, n'a pas de goal, n'a plus qu'le vide
@@ -4317,11 +4317,11 @@ Lui  et elle  n'ont pas les mêmes vies
 Lui  les flics le pistent, elle le fisc l'ennui
 Lui  et elle  se verront même pas parce que
 Lui  et elle ont un destin qui ne se croisent pas
-</γ>
-<θ>
-<α>
-True
-<γ>
+/γ
+θ
+α
+
+γ
 On est les plus divisés du monde
 Pour quelques dinars ou la cambrure d'une blonde
 Sur de mauvaises ondes on construit de mauvais ponts
@@ -4338,10 +4338,10 @@ Ton fils a-t-il de quoi garnir une table?
 Et ta fille a-t-elle vraiment l'hymen intact?
 Bientôt on publiera les bulletins de paie
 Et les certificats de virginité..
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 On est les plus divisés du globe
 Pour quelques dirhams ou des lèvres pleines de gloss
 Je sonne les cloches avant que sonnent les Glocks
@@ -4360,8 +4360,8 @@ De la ville sainte j'en ai pas le destin
 J'n'ai que le blaze et des miens j't'en fais le dessin
 Paroles arabes...
 Dinia wahed houa l'Islam, c'est dommage, darouna l'houdoud
-</γ>
-<γ>
+/γ
+γ
 On est les plus divisés du monde
 Auto-critique avant la tombe
 Ne soyons pas seulement unis le temps d'une compile
@@ -4370,13 +4370,13 @@ United Maghreb
 La division d'honneur m'agresse
 Maghrébin, dénominateur commun
 Africain uni comme les doigts d'une main
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+γ
 Dieu est mort selon Nietzsche,  signé Dieu
 On parlera laïcité ente l'Aïd et la Saint-Matthieu
 Nous sommes les gens du Livre f ace aux évangélistes d'Eve Angeli
@@ -4393,8 +4393,8 @@ Ils connaissent la loi, on connait la juge
 Pas de signe ostentatoire, pas même la croix de Jésus
 J'suis une Djellaba à la journée de la jupe
 Islamo-caillera, c'est ma prière de rue
-</γ>
-<ε>
+/γ
+ε
 Ta barbe, rebeu, dans ce pays c'est Don't Laïk
 Ton voile, ma soeur, dans ce pays c'est Don't Laïk
 Ta foi nigga dans ce pays c'est Don't Laïk
@@ -4403,8 +4403,8 @@ On ira tous au paradis, tous au paradis on ira
 On ira tous au paradis, tous au paradis incha'Allah
 On ira tous au paradis, tous au paradis on ira
 On ira tous au paradis, enfin seulement ceux qui y croient
-</ε>
-<γ>
+/ε
+γ
 Ils n'ont ni Dieu ni maître à part Maître Kanter
 Je scie l'arbre de leur laïcité avant qu'on le mette en terre
 Marianne est une femen tatouée Fuck God sur les mamelles
@@ -4422,8 +4422,8 @@ Je me suffis d'Allah, pas besoin qu'on me laïcise
 Ma pièce de boeuf Halal, je la mange sans l'étourdir
 À la journée de la femme, j'porte un Burquini
 Islamo-racaille c'est l'appel du muezzin
-</γ>
-<ε>
+/γ
+ε
 Ta barbe, rebeu, dans ce pays c'est Don't Laïk
 Ton voile, ma soeur, dans ce pays c'est Don't Laïk
 Ta foi nigga dans ce pays c'est Don't Laïk
@@ -4432,24 +4432,24 @@ On ira tous au paradis, tous au paradis on ira
 On ira tous au paradis, tous au paradis incha'Allah
 On ira tous au paradis, tous au paradis on ira
 On ira tous au paradis, enfin seulement ceux qui y croient
-</ε>
-<η>
+/ε
+η
 Que le mal qui habite le corps de Dame Laïcité prononce son nom
 Je vous le demande en tant qu'homme de foi
 Quelle entité a élu domicile dans cette enfant vieille de 110 ans?
 Pour la dernière fois ô démons, annoncez-vous ou disparaissez de notre chère valeur
 Nadine Morano, Jean-François Copé, Pierre Cassen et tous les autres, je vous chasse de ce corps et vous condamne à l'exil pour l'éternité
 Vade retro satana
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 MédineDon't Panik!
 Muslim, je le suis everyday
 Écoute ma chronique d'une république effritée
-</β>
-<ε>
+/β
+ε
 Bou léhia de ta barbe, dis-leur Don't Panik!!
 Musulmane de ton voile, dis-leur Don't Panik!!
 Banlieusard de ta ville, dis-leur Don't Panik!!
@@ -4458,14 +4458,14 @@ Prolétaire de ta classe, dis-leur Don't Panik!!
 Africain de ta peau, dis-leur Don't Panik!!
 Musulman de ta foi, dis-leur Don't Panik!!
 Mon slogan, ma devise, c'est le Don't Panik!!
-</ε>
-<ζ>
+/ε
+ζ
 Bêtement, le monde est plein d'entêtement
 Les en-tête de la presse font des tête d'enterrement
 Mais! Mes couplets viennent en faire taire tellement
 Je suis un religieux avec le sens de l'entertainment
-</ζ>
-<γ>
+/ζ
+γ
 Aucun  anthrax dans mes  chronopost
 Y croire! C'est comparer les moto-crottes et les moto-cross
 Mon dynamisme est un bâton de dynamite
@@ -4484,8 +4484,8 @@ Qui transforme l'injustice en
 Patriot Act
 Libertine laïcité liberticide
 Qui viole nos droits civique sans préservatif
-</γ>
-<ε>
+/γ
+ε
 Boul'éhia de ta barbe, dis-leur Don't Panik!!
 Musulmane de ton voile, dis-leur Don't Panik!!
 Banlieusard de ta ville, dis-leur Don't Panik!!
@@ -4494,14 +4494,14 @@ Prolétaire de ta classe, dis-leur Don't Panik!!
 Africain de ta peau, dis-leur Don't Panik!!
 Musulman de ta foi, dis-leur Don't Panik!!
 Mon slogan, ma devise, c'est le Don't Panik!!
-</ε>
-<ζ>
+/ε
+ζ
 Bêtement, le monde est plein d'entêtement
 Les en-tête de la presse font des têtes d'enterrement
 Mais! Mes couplets viennent en faire taire tellement
 Je suis un banlieusard avec le sens de l'entertainment
-</ζ>
-<γ>
+/ζ
+γ
 Le taf nous fuit comme Richard Kimble
 Recalé, même avec un curriculum bankable
 Branquignole,  qui ne traine qu'en bande comme à Gaza
@@ -4523,8 +4523,8 @@ C'est tout ce que la France pense de nous
 Du 76 DPT au 80 zedou crouille
 De leur insultes si j'rédige une liste
 J'aurai de quoi me venger comme Mesrine envers les journalistes
-</γ>
-<ε>
+/γ
+ε
 Boul'éhia de ta barbe, dis-leur Don't Panik!!
 Musulmane de ton voile, dis-leur Don't Panik!!
 Banlieusard de ta ville, dis-leur Don't Panik!!
@@ -4533,8 +4533,8 @@ Prolétaire de ta classe, dis-leur Don't Panik!!
 Africain de ta peau, dis-leur Don't Panik!!
 Musulman de ta foi, dis-leur Don't Panik!!
 Mon slogan, ma devise, c'est le Don't Panik!!
-</ε>
-<η>
+/ε
+η
 Don't Panik, voici mon slogan
 Sortez les cuirasses et renfilez les gants
 Tous les jours au centre de la cible
@@ -4555,11 +4555,11 @@ Every day I'm muslim!
 Every day I'm muslim!
 Every day I'm muslim!
 Every day I'm muslim!
-</η>
-<θ>
-<α>
-True
-<γ>
+/η
+θ
+α
+
+γ
 Une oreille collée sur les news
 Une oreille collecte les sources
 Une oreille écoute le boum
@@ -4580,15 +4580,15 @@ Y a comme un écho dans leurs intox
 Comme un dédoublement dans leur voix off
 Ce soir, on auditionne
 Un muet qui dit aux sourds qu'un aveugle les espionne
-</γ>
-<ε>
-</ε>
-<ζ>
+/γ
+ε
+/ε
+ζ
 Ai-je un double discours? Ont-ils une double audition?
 Un trouble de l'esgourde ou une malformation
 Double audition, une double audition
-</ζ>
-<γ>
+/ζ
+γ
 T'entends la guerre contre la planète
 J'entends les drones contrôlés par l'net
 T'entends le terrorisme à ta fenêtre
@@ -4601,16 +4601,16 @@ Y a comme un truc qui tourne pas rond
 Quand on construit des murs plutôt que des ponts
 Devons-nous faire comme les trois monkeys?
 Ne rien entendre, ne rien voir et ne rien dire!
-</γ>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<ε>
-</ε>
-<θ>
-<α>
-False
+/γ
+ε
+/ε
+ζ
+/ζ
+ε
+/ε
+θ
+α
+
 Parce qu'un arabe trop studieux ça couvre quelque chose
 Pourquoi tu parles de ma barbe dans le fond de ta moustache
 Petit journaliste en stage
@@ -4635,7 +4635,7 @@ Sardou parle-moi du temps béni des colonies
 Je te parlerai de Thiaroye de la torture en Algérie
 Parle-moi de ma barbe de Zakaria Moussaoui
 Mais ne dis pas pour faire peur que ne je sers pas la main des filles
-<ε>
+ε
 RefrainUn double discours un double dialogue
 Un double langage, prends garde au double personnage
 Médine, celui qu'on juge avant le jugement
@@ -4667,8 +4667,8 @@ Je te parlerai de moi et des dossiers de l'histoire
  Double discours
 Pourquoi tu parles de ma barbe dans le fond de ta moustache
 Petit journaliste en stage 
-</ε>
-<ε>
+/ε
+ε
 Refrain x2
 Un double discours un double dialogue
 Un double langage, prends garde au double personnage
@@ -4679,11 +4679,11 @@ Mais cette fois ci c'est certain voici la doublure de Le Pen
 Médine, Dangereux MC pénalisé
 Un rappeur musulman sans double personnalité
 Paroles rédigées et expliquées par la communauté RapGenius France
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 J'en ai passé des soirées comme celle-ci à regarder
 Le ciel illuminé par les tirs de mortier
 48 ans de ma vie sur cette planète
@@ -4811,11 +4811,11 @@ Assassiné par ses frères fut la Panthère noire
 De Massoud à Malcom, du Panjshir à Harlem
 Le combat reste le même
 Paroles rédigées et expliquées par la communauté RapGenius France
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 Écoute nos milliards de minutes à se torturer le cerveau
 Écoute en MP3 à dos de chameau
 Écoute en basket, écoute en métro ou en bus
@@ -4836,8 +4836,8 @@ Les colonies de grande Bretagne
 Écoute l'histoire se répéter pour les peuples et les tribus
 Écoute la TV sous lobby écoute l'islamophobie
 Et comme parfois le monde oublie
-</γ>
-<ε>
+/γ
+ε
 C'est ce qu'on écoute et va savoir ce qu'on comprend
 Reste à l'écoute mon garçon et apprends
 Écoute les clochers,  écoute les bourreaux clencher
@@ -4847,8 +4847,8 @@ Reste à l'écoute mon garçon et apprends
 Médine l'Arabian Panther
 Écoute mon passé, mes pensées
 Écoute mon son, ma mission, écoute ma leçon de Français
-</ε>
-<γ>
+/ε
+γ
 Écoute les cales du cargo pleines de tonne de résine
 Écoute les dos de nos pères qui s'esquintent à l'usine
 Écoute le fort qui opprime le faible
@@ -4881,8 +4881,8 @@ Naji Bencheik
 Écoute le shit en parachute, le détenu qu'on bizute
 Écoute la chute des sales réputes
 Écoute la ruche, st Catherine et la Baf
-</γ>
-<ε>
+/γ
+ε
 C'est ce qu'on écoute et va savoir ce qu'on comprend
 Reste à l'écoute mon garçon et apprends
 Écoute les clochers,  écoute les bourreaux clencher
@@ -4901,11 +4901,11 @@ Reste à l'écoute mon garçon et apprends
 Médine l'Arabian Panther
 Écoute mon passé, mes pensées
 Écoute mon son, ma mission, écoute ma leçon de Français
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 Sur une terre de pas plus de quarante mille âmes vivait un guerrier qu'on appelait Ataï
 Cultivateur de banian et d'igname, chef Komalé du peuple des Kanak
 Obtenu son titre malgré son jeune âge, dans le respect des coutumes ancestrales
@@ -4954,17 +4954,17 @@ Qui, aux colons blancs, se serait rallié?
 Et qui lui tranche le cou au nom de la France
 Ataï fut décapité, son peuple colonisé
 Son crâne fut exposé dans les musées, comme un trophée
-</γ>
-<η>
+/γ
+η
 Enfant du destin, enfant de la guerre
 Enfant du destin, enfant de la guerre
 Komalé, Tiendanite, Canala, Nakéty, Kouaoua, Oroe, Nekou, Azareu et Kikoue
 Enfant du destin
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Le bus m'emmène dans la ville d'Hébron
 Ancienne cité, à la minorité d'hébreux
 Souffleur de verre pour le compte de mon oncle
@@ -5015,16 +5015,16 @@ Ses yeux me fixent avec insistance
 J'ai la drôle impression qu'il cherche assistance
 Mais mon pouce a déjà enfoncé le bouton rouge
 C'est ici que se rencontrent David et Daoud
-</γ>
-<η>
+/γ
+η
 Daoud s'est fait exploser
 David est mort et ses parents vont se venger
 Enfant du destin, enfant de la guerre
 Palestine libre
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 Au crépuscule, les champs encore ensoleillés
 C'est le chant de la rivière et l'odeur des oliviers
 L'harmonieux tableau de la saison
@@ -5079,9 +5079,9 @@ Palestine, Israël
 Amérique, Afrique, Europe, Asie, Océanie
 Enfant du destin
 Paroles rédigées et expliquées par la communauté RapGenius France
-<θ>
-<α>
-False
+θ
+α
+
 J'écarte la végétation qui me gêne
 Mes pieds écorchés piétinent ma terre gambienne
 Quand bien même je continue ma course
@@ -5214,10 +5214,10 @@ Toutes les castes, toutes les tribus
 Enfant du destin
 Enfant de la guerre
 Paroles rédigées et expliquées par la communauté RapGenius France
-<θ>
-<α>
-False
-<γ>
+θ
+α
+
+γ
 Quelques palmiers en friche nous protègent contre l'orage
 Ce soir un vent de force 8 souffle sur les bâches
 Décor de Far West à l'ouest du triangle d'or
@@ -5290,16 +5290,16 @@ Elle hurle à la mort, elle agonise
 Entend les rire de ces pousse-au-crime qui résonnent dans tout l'bidonville
 La pluie d'la mousson tombe, et peine à l'éteindre
 Laissera son corps encore fumant au bord de la jungle
-</γ>
-<η>
+/γ
+η
 Petite Nour fût inhumée, son peulpe épuré, entassé dans des charniers
 Enfant du destin, enfant de la guerre
 Rohingyas, Ouïgours, Sri Lankai, Tibétains, Karen
 Et tous les peuples opprimés
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 Ce matin, le Soleil est sorti de sa tanière
 Et il éclaire les collines de sa forte lumière
 Les bruits des troupeaux qui remplissent la plaine
@@ -5392,16 +5392,16 @@ Pawnees et Crows
 Tout les peuples, et toutes les tribus
 Enfant du destin
 Paroles rédigées et expliquées par la communauté RapGenius France
-<θ>
-<α>
-False
-<β>
+θ
+α
+
+β
 À l'ouest, au pays de l'empire céleste, dans le ciel, un drapeau rouge s'élève
 On parle le turc et se passe le selem en Chine populaire au 21e siècle
 Dans la vieille ville, y a le bruit qui court, qu'on déporte tout c'qui ressemble aux Ouighours
 Sara a 12 ans, joue dans la cour avec un drone déguisé en hibou
-</β>
-<γ>
+/β
+γ
 Ils ont mis ma maison sous scellés, hérissé les murs d'barbelés
 Cloué une plaque non-civilisé et m'ont laissé les yeux embués
 Une semaine avant, on l'savait, un SUV vert nous suivait
@@ -5426,8 +5426,8 @@ Scanner des iris, assise sur la chaise du tigre, seringue dans la cuisse, on ass
 Et le traitement rend docile et supprime les règles des filles
 Ils nous ont dit que c'est ici qu'on passera la fête de l'Aïd
 De l'Aïd, de l'Aïd, de l'Aïd, de l'Aïd, de l'Aïd
-</γ>
-<γ>
+/γ
+γ
 Dans une pièce, ils me rasent la tête et vendront mes cheveux à l'export
 M'obligent à renier Dieu et son prophète et me forceront même à manger du porc
 Ils iront même jusqu'à tuer nos morts en rasant les cimetières de nos ancêtres
@@ -5444,8 +5444,8 @@ J'ai encore la perfusion dans les bras, pleine d'un produit qui nous embrouille 
 J'décale sur le côté, évite un garde, mais mon cathéter se prend dans l'un de ses grades
 Je sais qu'c'est ma dernière cavale, contre mon peuple, ils ont mené leur cabale
 Les forces de Pékin nous écrasent comme des cafards,  il n'y a de Dieu qu'Allah ma dernière kalam
-</γ>
-<η>
+/γ
+η
 Sara fut torturée, son corps électrocuté
 Et son peuple déporté par centaine de milliers
 Enfant du Destin
@@ -5454,10 +5454,10 @@ Ouighours , Kazakhs
 Tatars , Kirghizes
 Enfant du Destin
 Enfant de la guerre
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 Au petit matin seul son cri s'élève
 Le coq hurle à la mort et le soleil se lève
 L'aube est parfumée de Soja
@@ -5493,10 +5493,10 @@ Vietnam, Laos, Cambodge, Corée, Chine, Taïwan, Hong-Kong, Indonésie et Malais
 Tous les pays
 Enfant du destin
 Paroles rédigées et expliquées par la communauté RapGenius France
-<θ>
-<α>
-False
-<β>
+θ
+α
+
+β
 Le bateau fait que d'caler, sur les plages du Pas-d'-Calais
 Et le passeur m'a calé entre les cordes et les sauts de galets
 Le zodiac fait que d'tanguer, ça va finir à la pagaie
@@ -5508,8 +5508,8 @@ Il a quitté le régime, pour échapper à la vie chère
 Fui sa terre d'origine pour enfin retrouver ce qu'il cherche
 Un toit, une femme, un taff, rien qu'une life un peu plus stable
 Un peu d'estime de soi, pas qu'un immigrant, un sans-paperasse
-</β>
-<γ>
+/β
+γ
 Parti de Khartoum, sans une cartouche en poche
 J'cours après les semi-remorques pour me planquer sous les pare-chocs
 Les secousses de la route me cognent, mon bras sur l'garde-boue frotte
@@ -5526,8 +5526,8 @@ J'ai bien entendu le mot esclave, c'est le même mot qu'on utilise
 Étaient tous de la même famille, étaient tous des frères de famine
 Faut que j'donne toutes mes économies à ce passeur aux propos racistes
 Faut pas qu'je perde mes objectifs, mais faut qu'j'obtienne le droit d'asile, ah
-</γ>
-<γ>
+/γ
+γ
 Ils m'offrent une place en première classe
 D'un chalutier espagnol pour la première plage
 Comme une promesse faite sur le sable
@@ -5544,8 +5544,8 @@ Tout est rouillé de haut en bas, si j'meurs pas, j'ai le tétanos
 Tout est verrouillé à la base, on m'appelle déjà clandestino
 J'me lâche d'une hauteur de trois mètres pour courir vers les trains de fret
 J'entends derrière moi les gunshots, tout en pénétrant l'espace Schengen
-</γ>
-<γ>
+/γ
+γ
 Dans un wagon de marchandises
 Croiser les policiers, j'crois qu'c'est ma hantise
 J'ai fait les routes, les mers, maintenant, j'fais les chemins d'fer
@@ -5590,31 +5590,31 @@ Mais mes jeunes poumons d'ado se remplissent d'eau salée
 Je sens mon pouls se ralentir, alors, j'me laisse aller
 Mon corps dans les profondeurs, emporté par son poids mort
 Dans les eaux poissonneuses où l'on n'entend plus battre les coeurs
-</γ>
-<η>
+/γ
+η
 Yasser fut repêché dans le Port de Calais
 Et une trentaine de corps exhumés d'un cimetière bleuté
 Enfant du destin, enfant de la guerre
 Soudanais, Érythréens, Yéménites, Kurdes, Afghans, Irakiens, Syriens
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Tout l'monde veut sauver la planète mais personne veut descendre les poubelles
 Ça sert à rien de tirer la sonnette, mettre des gilets d'sauvetage sur les sirènes
 Plus leurs téléphones sont intelligents et plus les gens sont de plus en plus cons
 J'sais pas si j'ai l'syndrome de Peter Pan mais moi, j'veux pas qu'mes gosses connaissent ce monde
 Oh non
-</γ>
-<ε>
+/γ
+ε
 C'est mieux d'construire des enfants forts
 Que d'réparer les adultes cassés
 Ouais, ouais, ouais, faire des enfants forts
 Que d'réparer les adultes cassés
 Ouais, ouais, ouais, faire des enfants forts
-</ε>
-<γ>
+/ε
+γ
 Trois chamallows qui grillent sur l'incendie
 Quand il pleut, on porte le maillot, pas l'parapluie
 J'essaie d'leur rendre la guerre un peu moins horrible
@@ -5627,8 +5627,8 @@ J'dirai que j'jouais au pirate tous les jours en bas du hall
 Le jour où j'finis éborgné par un tir de flashball
 Pour eux, le sin-c qui tourne au hèbs est gardien dans un parc
 Il garde les zombies arrêtés sur la colline du crack
-</γ>
-<ε>
+/γ
+ε
 C'est mieux d'construire des enfants forts
 Que d'réparer les adultes cassés
 Ouais, ouais, ouais, faire des enfants forts
@@ -5638,8 +5638,8 @@ Que d'réparer les adultes cassés
 Ouais, ouais, ouais, faire des enfants forts
 Que d'réparer les adultes cassés
 Ouais, ouais, ouais, faire des enfants forts
-</ε>
-<η>
+/ε
+η
 Pour leur maman, je suis ailleurs
 Comme dans un jeu, que je gère ma carrière
 Que le danger vient aussi de l'intérieur
@@ -5647,11 +5647,11 @@ Qu'à la légère, j'prends les menaces de mort
 Genghis, Mekka, Massoud, s'il faut faire la paix, jusqu'au bout, on leur f'ra
 Rien à foutre de c'qu'on pense de moi car la majorité des gens ne pensent pas
 The Danger, the Danger
-</η>
-<θ>
-<α>
-True
-<γ>
+/η
+θ
+α
+
+γ
 Redirigés dans les ghettos à l'arrivée des boat-people
 Les grillés jusqu'aux orteils n'ont pas la gueule des Beatles
 Écoute mon récit  ma race qui boit la tasse
@@ -5676,10 +5676,10 @@ L'armateur se marrait lorsque le bateau amarra
 Tu comprends rien au ghetto t'es comme Fadela Amara
 Aboubakr et Médine dans le tas
 Beaucoup plus qu'un symbole des ennemis de l'État
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 On a la couleur de l'ennemi, la foi de l'ennemi
 Le langage de l'ennemi et la musique de l'ennemi
 Entends notre appel celui du désespoir
@@ -5698,19 +5698,19 @@ Paranoïa du paria qui n'est pas roi
 Responsable n'est pas de l'appareil dans la paroi
 Aboubakr et Médine dans le tas
 Le croissant pour symbole donc ennemis de l'État
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
 On garde la tête froide, comme en temps d'ouragan
 Commet les mêmes erreurs du New-yorkais à l'Afghan
 Peu importe de quel pied le monde s'éveille
@@ -5730,13 +5730,13 @@ C'est un bien pour un mal, demande à Alassane
 Le soir évacue le cafard à la SAM
 C'est mon Jihad à moi et à mes frères
 C'est mon conflit contre moi-même et ma guerre
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+γ
 J'déclare la guerre à une partie de moi-même
 Aussi vrai que l'on récolte les fruits de ce qu'on sème
 Ce qu'on aime n'est pas forcement ce qui est bon
@@ -5757,8 +5757,8 @@ Alors j'apaise mon coeur et me souviens d'où je viens
 Profite de l'instant et me rappelle que nous ne sommes qu'un
 Morceau de chair enveloppé dans du tissu
 Qui marche sur la terre sans connaître son issue
-</γ>
-<ε>
+/γ
+ε
 Avant d'être un loup pour l'homme, l'homme est un loup pour lui-même
 Le loup mauvais et le bon loup sont les rouages de son système
 L'un est colère, envie, chagrin, avidité
@@ -5767,8 +5767,8 @@ Ils combattent pour le passage à l'action
 Maîtrisent le résultat mais jamais nos intentions
 Ce même combat à lieu en chacun de nous
 Celui que l'on nourrit sera le vainqueur des deux loups
-</ε>
-<γ>
+/ε
+γ
 On vit avec nos loups dans l'espoir de réconciliation
 Mieux vaut le désaccord qu'une mauvaise conciliation
 Au service du bien j'essaye d'éduquer mon mal
@@ -5789,8 +5789,8 @@ Alors j'évite de mentir les faux plaisirs
 Et médite selon l'humeur lequel des deux vais-je nourrir
 Des deux loups enragés qui se disputent un os
 Enfermés dans une cellule fabriqué de chair et d'os
-</γ>
-<ε>
+/γ
+ε
 Avant d'être un loup pour l'homme, l'homme est un loup pour lui-même
 Le loup mauvais et le bon loup sont les rouages de son système
 L'un est colère, envie, chagrin avidité
@@ -5799,22 +5799,22 @@ Ils combattent pour le passage à l'action
 Maîtrisent le résultat mais jamais nos intentions
 Ce même combat à lieu en chacun de nous
 Celui que l'on nourrit sera le vainqueur des deux loups
-</ε>
-<θ>
-<α>
-False
-<β>
+/ε
+θ
+α
+
+β
 Bang, bang, bangerang
 Exo grand Médine
 Allez, c'est parti
-</β>
-<ε>
+/β
+ε
 Paraît qu't'es aussi fort qu'Médine à l'âge de sa première mixtape
 T'étais même pas encore d'la pisse vers fin 97
 Ta mère écoutait d'jà mes disques, enfin, si je peux m'permettre
 Si tu n'aimes pas mon diagnostic, ne casse pas le thermomètre
-</ε>
-<γ>
+/ε
+γ
 J'suis une star des années 80, pas tout à fait sur le déclin
 Jamais d'textes écrits à quatre mains, jamain j'passe par quatre chemins
 Pose pas d'questions indiscrètes ou j'donne des réponses indiscrètes
@@ -5835,24 +5835,24 @@ J'vois les méchants sous leurs meilleurs jours, je vois les gentils sous leurs 
 T'as besoin d'une raison pour faire l'amour, j'n'ai besoin qu'd'un Airbnb
 À droite, ils ont peur de mes discours, à gauche, ils pourraient s'en servir
 C'est plus dur d'être un honnête homme un jour que d'être un héros toute sa vie
-</γ>
-<ε>
+/γ
+ε
 Paraît qu't'es aussi fort qu'Médine à l'âge de sa première mixtape
 T'étais même pas encore d'la pisse vers fin 97
 Ta mère écoutait d'jà mes disques, enfin, si je peux m'permettre
 Si tu n'aimes pas mon diagnostic, ne casse pas le thermomètre
-</ε>
-<θ>
-<α>
-False
-<β>
+/ε
+θ
+α
+
+β
 En sciences, il faut savoir reconnaître c'qu'on ignore
 Y'a ceux qui parlent vrai, et y'a ceux qui parlent fort
 Comme dirait l'autre
 On va leur souffler dans les bronches à tous ceux-là
 T'es p't-être polyglotte mais, mais reste poli
-</β>
-<γ>
+/β
+γ
 Alif baa taa thaa qui vient d'apprendre à lire ne peut enseigner
 Khalife mode beta, qui veut pouvoir courir doit savoir marcher
 Qamis et be-bar, de quoi faire flipper l'académie d'Poitiers
@@ -5873,20 +5873,20 @@ J'crois que tu t'es pris les deux Nike Air dans le tapis d'prière
 Viens pas recruter dans mon quartier c'est pas ta pépinière
 T'as jamais mis le pied dans une classe et tu veux suivre les quatre écoles
 À travers ma voix tu retrouveras la foi comme Cat Stevens
-</γ>
-<ζ>
+/γ
+ζ
 Heureusement qu'j'ai connu la foi avant d'connaître les pratiquants
 Heureusement qu'j'ai connu l'Islam avant d'connaître les musulmans
 Heureusement qu't'as trouvé la voie avant d'connaître le Vatican
 Heureusement qu'on a lu l'Coran avant d'connaître ces charlatans
-</ζ>
-<ε>
+/ζ
+ε
 Fais gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
 Mon gars fait gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
-</ε>
-<γ>
+/ε
+γ
 Alpha omega, qui veut apprendre à lire doit connaître l'alphabet
 Parle pas aux médias, si la langue de Molière t'es venu pour écorcher
 Arabe mode esclave, de vos origines je vais vous débouter
@@ -5903,20 +5903,20 @@ Il paraîtrait qu't'aurais postulé pour jouer dans Exhibit B
 Que tous les matins tu te laves les dents à la brosse à reluire
 Si t'as perdu la foi, mon son te remplit en sérotonine
 Car ceux qui font le plus de bruit en tombant c'est les tonneaux vides
-</γ>
-<ζ>
+/γ
+ζ
 Heureusement qu'j'ai connu le Beur avant d'connaître son président
 Heureusement qu'j'ai connu le Black avant d'connaître ses dirigeants
 Heureusement qu'j'ai connu l'Homme Blanc bien avant son gouvernement
 Heureusement qu'j'ai connu l'Histoire avant d'connaître Fernand Nathan
-</ζ>
-<ε>
+/ζ
+ε
 Fais gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
 Mon gars fait gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
-</ε>
-<γ>
+/ε
+γ
 A-B-C-D-R-G c'est que du rap hardcore c'est pas du rap con-chiant
 MC BCBG, t'es qu'un rappeur frustré qui a les nerfs qu'on chante
 T'as des dossiers, danger, il paraîtrait qu'j'suis franc-maçon du grand orient
@@ -5925,17 +5925,17 @@ Eh, préchi-précha, t'es qu'un complotiste de fond d'chicha
 Clochard, t'es pire qu'Haziza si t'as les thèses qui valident El Assad Bachar
 Eh, on comprend plus rien, si t'es puriste ou si t'es puritain
 Coupe, coupe, coupe, coupe: ils méritent même pas un couplet ceux-là, coupe
-</γ>
-<ε>
+/γ
+ε
 Fais gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
 Mon gars fait gaffe à toi, fais gaffe à toi
 Fais gaffe à toi, fais gaffe à toi
-</ε>
-<θ>
-<α>
-False
-<β>
+/ε
+θ
+α
+
+β
 Demandez moi à quoi j'pense, me réinventer souvent
 Y'a qu'le poisson mort qui nage dans l'sens du courant
 Demandez moi mon secret: J'me suffis de c'que donne la vie
@@ -5944,8 +5944,8 @@ Demandez moi d'où je suis: De Normandie et d'Algérie
 Comme un moine de Tibhirine, un cactus de Sibérie
 Demandez moi si je peux arrêter de provoquer
 Pour moi une idée qui n'est pas dangereuse, ça n'est pas une idée
-</β>
-<γ>
+/β
+γ
 Demande moi qui je suis
 J'te dirais qu'j'suis de ceux qui se jettent dans le puits pour voir si c'est dangereux
 Demande-moi qui je fus, j'te dirais qui je fuis, si c'est l'enfant ou l'adulte, ou peut-être un peu des deux
@@ -5953,18 +5953,18 @@ Demande-moi en quoi je crois, Allah, Jésus ou Bouddha?
 Combien de bien? Combien de mal? Mais Dieu n'est pas un comptable, yah
 Demande-moi de quoi j'ai peur, quand s'éteignent les projecteurs
 Demande-moi si je pleure, demande-moi si je meurs
-</γ>
-<ζ>
+/γ
+ζ
 J'évacue, j'évacue, mes réponses en FAQ
 Convaincu, convaincu
-</ζ>
-<ε>
+/ζ
+ε
 Aucune question n'est vraiment d'taille
 Pour faire l'détail, de toute ma carrière
 Aucune question n'est vraiment d'taille
 Pour faire l'détail, de toute ma carrière
-</ε>
-<γ>
+/ε
+γ
 Demandez moi c'est quoi l'mariage, un duel ou un duo?
 Quand le couple bat de l'aile, n'envoie pas de noms d'oiseaux
 C'est la moindre des choses
@@ -5977,27 +5977,27 @@ Dans la galère de leurs vies
 Demandez moi mon avis, posez moi la bonne question
 Suivre l'opinion publique, ça n'est pas une opinion
 C'est aller dans le sens des cons
-</γ>
-<ε>
+/γ
+ε
 Aucune question n'est vraiment d'taille
 Pour faire l'détaille, de toute ma carrière
 Aucune question n'est vraiment d'taille
 Pour faire l'détaille, de toute ma carrière
-</ε>
-<η>
+/ε
+η
 Hein, Hein, Hein
 Hein, Hein, Hein
 Hein, Hein, Hein
 Hein, Hein, Hein
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 Hey, hey, hey, hey
 Kuda
-</β>
-<γ>
+/β
+γ
 J'étais déjà là sous Giscard , je s'rai encore là sous Marine
 J'suis du
 Zamzam dans leur Ricard ,  une DZrie seino-marine
@@ -6040,17 +6040,17 @@ Cette fois, c'est mon heure, ma golden hour
 J'aurai plus jamais tort comme Schopenhauer
 Pas rentré dans leurs coeurs par la porte de l'amour
 J'vais rentrer dans leurs corps par la porte de la force
-</γ>
-<η>
+/γ
+η
 FC Grand Médine
 J'suis l'passé, le présent et l'avenir
 Aigle à deux têtes comme sur le drapeau albanais
 Celui qui va m'faire dans cette époque n'est pas encore né
-</η>
-<θ>
-<α>
-True
-<γ>
+/η
+θ
+α
+
+γ
 Enfants des... du territoire du middle
 Je suis autant Français qu'Américain est Scottie Pippen
 Fugitif du passé, dans un rayé pyjama
@@ -6070,19 +6070,19 @@ Pareillement au Tiers-Monde, j'ai le cancer du colon
 Remplit nos poumons avec l'eau de la Seine
 Nous jettent depuis les ponts, flics et boules à zed'Négatifs, sachons le dire, Mister R
 Nous sommes nés poussières, on partira poussières de guerre
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
 Ma mère m'a élevé bien, j'ai pris rap en LV1
 Pour elle, avoir un vrai métier, c'est du ciment sur les mains
 Ou d'la farine sous les griffes, et j'ai compris mon destin
@@ -6109,8 +6109,8 @@ J'veux m'souvenir de celui qu'j'étais hier encore
 Pour ça qu'j'dors sur un matelas à mémoire de forme
 J'sais pas si on s'évade vraiment d'une cellule familale
 Alors j'ai encodé mon destin pour le cut final
-</γ>
-<γ>
+/γ
+γ
 Pour mon premier jour de jeun avec mon zinc d'Argenteuil
 J'l'ai cassé au bout d'trois heures avec un Kinder d'Lidl
 Et j'ai retiré mon piercing en entrant dans la Mosquée
@@ -6130,18 +6130,18 @@ Souvent, le destin est sarcastique
 C'est ceux qui ont l'moins d'bagages qui finissent bagagistes
 Une vie en acharnement thérapeutique
 J'espère ne pas être dans ma fin alternative
-</γ>
-<η>
+/γ
+η
 J'aurais pu être comme Adama Sall, qu'un coup de pression de trop me fasse prendre les armes
 J'aurais pu être Yahia Mbodji, pour déguiser en suicide mon assassinat en son-pri
 J'aurais pu être Mouridou M'Dia, que la drogue dure esquinte mon visage doux et viable
 J'aurais pu être Abdoulaye Camara dix balles de keuf avenue du bois au coq on m'canardera
 Aucun d'entre nous n'avait c'destin céleste, pas même les petits frères de la famille Séné
 J'aurais pu être Belker, Adil, Kéda, Adama Traoré, Zyed Benna, Bouna Traoré, Lamine Dieng, Boudou Thiam
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 Je leur pisserais même pas dans l'oreille si leur mémoire prenait feu
 T'façon quand c'est la France qui pète, c'est l'Afrique qui paie pour eux
 Ca parle d'égalité des sexes sur le bulletin de salaire
@@ -6174,10 +6174,10 @@ Freestyle d'entre deux tours, d'entre deux routes
 Eh ça va être comme ça jusqu'à la fin
 Oubliez pas: nique Marine La Pinata
 BrrrLa France au rap français
-<θ>
-<α>
-False
-<γ>
+θ
+α
+
+γ
 Black Power M.A.S Black Jack Bauer
 C'est pour mes Black cartonnéurs prépare mes black racoleuses
 J'ai mon black martinet viens dans mon black cabinet
@@ -6194,8 +6194,8 @@ Délimiter les quartiers chauds taché de sang sur le Marcel oh
 De la came du biff de la cargaison mes écrits vous donnent des démangeaisons
 C'est la nuit que je taffe nique les tass buter les man levez les mains
 Pète les câbles jette les cab la bite à la main okay
-</γ>
-<γ>
+/γ
+γ
 C'est relou comme de subir la défaite
 Comme quand ça s'embrouille après une scène à la salle des fêtes
 C'est relou comme être le dernier de la file d'attente
@@ -6216,8 +6216,8 @@ C'est relou comme être célibataire
 Être à la rue et passer ses nuits par terre frère
 C'est relou comme être renié par ses pères
 Être à la rue check check eh Sexion d'Assaut ok ok akhi
-</γ>
-<γ>
+/γ
+γ
 Gosse de pauvre j'ai du avaler le Glock de trop
 J'ai grandi dans une cité et dans le Block de trop
 J'ai vu ma mère avec des bleus et des bandages frelon
@@ -6230,33 +6230,33 @@ Peu apprennent la vie dans le journal télévisé
 Moi j'affronte les flics j'suis toujours dans leur viseur
 C'est dans le même appart que les miens s'entassent
 C'est sans regret nous qu'on te met la masse yeah
-</γ>
-<θ>
-<α>
-True
-<γ>
+/γ
+θ
+α
+
+γ
 Je fais de l'afro fait par des blancs, je vais faire un Colors en noir et blanc
 J'suis comme Olivier Besancenot, c'est moi le facteur aggravant
 J'suis la variable, tape justement, justement
 Quand je fais des sons, c'est moi le premier musulman avec un caractère de cochon
-</γ>
-<γ>
-</γ>
-<γ>
+/γ
+γ
+/γ
+γ
 Je compte mes singles d'or sur une main, pour mes procès il faut une calculette
 Mon seul délit, un non rendu de livre à la bibliothèque du tiek's
 Les rappeurs vieillissent, les fans rajeunissent, bientôt on kick devant des foetus
 J'veux que les parkings redeviennent gratis, quand eux veulent juste plus de Urus
-</γ>
-<ε>
+/γ
+ε
 On bosse comme des frontaliers, eux c'est des fonts de panier
 On passe la douane vos papiers, on vient faire du papier
 C'est donc ça le grand remplacement dont parlent les racistes
 Les meilleurs rappeurs français sont devenus des belges et des suisses
-</ε>
-<γ>
-</γ>
-<γ>
+/ε
+γ
+/γ
+γ
 La seule façon de venir en Europe sans passeport, c'est dans un cercueil
 Y a pas de dialogue, mais de monologue de t'façon quand tu parles avec les keufs
 Quand on papote de conditionnelle, on parle pas de verbes irréguliers
@@ -6265,19 +6265,19 @@ Quand j'ai passé l'oral du bac, je portais le merch du double Pact
 Tous ces rappeurs sont ultra bright, que jusqu'au sommet de leur Prada
 Ce que j'étais con adolescent, d'être en échec en permanence
 La gloire à partir de 40 ans, on appelle ça la revanche
-</γ>
-<γ>
-</γ>
-<ε>
+/γ
+γ
+/γ
+ε
 On bosse comme des frontaliers, eux c'est des fonts de panier
 On passe la douane vos papiers, on vient faire du papier
 C'est donc ça le grand remplacement dont parlent les racistes
 Les meilleurs rappeurs français sont devenus des belges et des suisses
-</ε>
-<θ>
-<α>
-False
-<ε>
+/ε
+θ
+α
+
+ε
 Game Over les rappeurs deviennent lovers
 Cover ténébreux depuis les Twin Towers
 Arabian's Panter autodidacte
@@ -6286,8 +6286,8 @@ Conçoit mes couplets dans l'esprit de la machine
 Enfonce mon stylo commando dans le cou du rap comme Achille
 Hostile 10 ans plus tard date anniversaire
 Passe mes condoléances aux familles des adversaires
-</ε>
-<γ>
+/ε
+γ
 Nouveau fichier Microsoft Word encore un sans titre
 Le centième sera récompensé au centuple
 Donne moi la réplique
@@ -6313,8 +6313,8 @@ Je ne fréquente pas la violence elle est trop agnostique
 Brutalité elle est trop acoustique
 Télécharge ma rage en milliers de mégaoctets
 Téléporter l'histoire des déportés sur des portées
-</γ>
-<ε>
+/γ
+ε
 Game Over les rappeurs deviennent lovers
 Cover ténébreux depuis les Twin Towers
 Arabian's Panter autodidacte
@@ -6323,8 +6323,8 @@ Conçoit mes couplets dans l'esprit de la machine
 Enfonce mon stylo commando dans le cou du rap comme Achille
 Hostile 10 ans plus tard date anniversaire
 Passe mes condoléances aux familles des adversaires
-</ε>
-<γ>
+/ε
+γ
 Lorsque la dernière rime aura été prononcé
 Lorsque la fin du monde aura été annoncé
 Lorsque les rivières seront toutes épuisés
@@ -6353,8 +6353,8 @@ Met les gazes il y a de l'eau dans le gaz
 Ils voudraient qu'on leur ressemble que l'on rentre dans leurs cases
 Mes couplets conservés dans une enceinte cryogène
 Alimente le R.A.P par ma plume électrogène
-</γ>
-<ε>
+/γ
+ε
 Game Over les rappeurs deviennent lovers
 Cover ténébreux depuis les Twin Towers
 Arabian's Panter autodidacte
@@ -6363,18 +6363,18 @@ Conçoit mes couplets dans l'esprit de la machine
 Enfonce mon stylo commando dans le cou du rap comme Achille
 Hostile 10 ans plus tard date anniversaire
 Passe mes condoléances aux familles des adversaires
-</ε>
-<η>
+/ε
+η
 Hostile Game over dans ton rap game...Médine
 Pas made in Taiwan, made in arabian power
 D.I.N Records label Energizer
 Proof Sals'a déclenchent les hostilités
 Le rap c'est sérieux stoppé vos festivités
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Un vieux ballon sur une jeune poitrine
 Amorti du plastron dans l'camp des apatrides
 Quatre défenseurs sans entraîneur
@@ -6383,8 +6383,8 @@ En fin de match, aucun maillot n's'échange
 Pour les mêmes raisons que Cristiano la légende
 Ni stabile ni gazon synthétique
 Notre terrain, c'est le sable fin de Palestine
-</γ>
-<ε>
+/γ
+ε
 O Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6393,8 +6393,8 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'arbitre siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la coupe du monde sous l'oeil des journalistes
-</ε>
-<γ>
+/ε
+γ
 Chacun son camp et la balle au centre
 Leur tenue bleue et blanche porte l'étoile à six branches
 Dernier vainqueur de la coupe d'immonde
@@ -6403,8 +6403,8 @@ Mes frères et moi, et mon cousin aussi
 C'qu'on veut, c'est ressembler à Messi ou Mezut Ozil
 On rêve de recrutement, de mercato
 D'revenir au bercail en héros pour jouer au
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6413,8 +6413,8 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'arbitre siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la Coupe du monde sous l'oeil des journalistes
-</ε>
-<γ>
+/ε
+γ
 Un premier tir non cadré fait valser la défense
 Doublé d'une frappe aérienne qui leur fauch'ra les jambes
 C'est la torpeur chez les supporters
@@ -6423,8 +6423,8 @@ Nos quatre Neymar nous quittent sur le brancard
 Sur le visage, un drapeau jaune et noir aux couleurs du Fatah
 J'crois pas qu'on fera le match retour
 À moins qu'au Paradis, il y ait des stades de foot
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6433,8 +6433,8 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'arbitre siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la coupe du monde sous l'oeil des journalistes
-</ε>
-<γ>
+/ε
+γ
 Que la honte s'abatte sur la tribune présidentielle
 Que les sifflets retentissent à l'hymne d'Israël
 Que le banc de touche accueille les fesses de Ban Ki-Moon
@@ -6443,8 +6443,8 @@ Stop au sionisme, stop à l'oligarchie
 Dans nos kops, on milite en disant stop à l'hooliganisme
 Stop les colonies, stop le blocus de l'économie
 Stop à l'hypocrisie, stop aux tirs de missiles de la Bordure Protectrice
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 La dernière plage de martyrs au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6453,11 +6453,11 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'ONU siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la coupe d'immonde sous l'oeil des journalistes
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 Un vieux ballon sur une jeune poitrine
 Amorti du plastron dans l'camp des apatrides
 Quatre défenseurs sans entraîneur
@@ -6466,14 +6466,14 @@ En fin de match, aucun maillot n's'échange
 Pour les mêmes raisons que Cristiano la légende
 Ni stabile ni gazon synthétique
 Notre terrain, c'est le sable fin de Palestine
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
 Entre port de pêcheurs et hôtellerie de riches
-</ε>
-<γ>
+/ε
+γ
 Chacun son camp et la balle au centre
 Leur tenue bleue et blanche porte l'étoile à six branches
 Dernier vainqueur de la coupe d'immonde
@@ -6482,8 +6482,8 @@ Mes frères et moi, et mon cousin aussi
 C'qu'on veut, c'est ressembler à Messi ou Mezut Ozil
 On rêve de recrutement, de mercato
 D'revenir au bercail en héros pour jouer au
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6492,8 +6492,8 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'arbitre siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la Coupe du monde sous l'oeil des journalistes
-</ε>
-<γ>
+/ε
+γ
 Un premier tir non cadré fait valser la défense
 Suivi d'une frappe aérienne qui leur fauch'ra les jambes
 C'est la torpeur chez les supporters
@@ -6502,8 +6502,8 @@ Nos quatre Neymar nous quittent sur le brancard
 Sur le visage, un drapeau jaune et noir aux couleurs du Fatah
 J'crois pas qu'y aura de match retour
 À moins qu'au Paradis, il y ait des stades de foot
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6512,8 +6512,8 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Où les tirs se poursuivent même quand l'arbitre siffle
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la coupe d'immonde sous l'oeil des journalistes
-</ε>
-<γ>
+/ε
+γ
 Que la honte s'abatte sur la tribune présidentielle
 Que les sifflets retentissent à l'hymne d'Israël
 Que le banc de touche accueille les fesses de Netanyahou
@@ -6522,8 +6522,8 @@ Stop au sionisme, stop au capitalisme
 Dans nos kops, on milite en disant stop l'antisémitisme
 Stop les colonies, stop au blocus de l'économie
 Stop à l'hypocrisie, stop aux tirs de missiles de la Bordure Protectrice
-</γ>
-<ε>
+/γ
+ε
 Gaza Soccer Beach, Gaza Soccer Beach
 Le dernier club de football au bord de la corniche
 Gaza Soccer Beach, Gaza Soccer Beach
@@ -6532,11 +6532,11 @@ Gaza Soccer Beach, Gaza Soccer Beach
 Entre pays pauvre et problèmes de pays riche
 Gaza Soccer Beach, Gaza Soccer Beach
 On joue la coupe d'immonde sous l'oeil des journalistes
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 J'pue d'lagueule quand je lis leurs programmes à voix haute
 Ils écrivent leurs discours d'la main gauche, la droite est dans nos poches
 Font des clins d'oeil appuyés  à la petite fille d'un borgne
@@ -6569,21 +6569,21 @@ Qu'un enfant de colonisé
 De Dakar jusqu'à Alger, comme des millions d'étrangers
 Mais mon coeur vous ne l'aurez guère
 Mon p'tit coeur rest'ra français
-</γ>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+θ
+α
+
+γ
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+ε
+/ε
+γ
 Dis-toi qu'aucune de leurs devises ne m'achète
 Si la vie n'tient qu'à un fil, j'rappe en HF
 Micro-machette, j'l'ai manié toute ma jeunesse
@@ -6592,15 +6592,15 @@ Dis-toi qu'il y a un coeur sous un petit jilbab
 Que j'suis l'imam des loubards, un peu comme Guy Gilbert
 J'théorise la tess, mémorise ma thèse
 Terrorise la presse, j'temporise pour les ghetto tales
-</γ>
-<ζ>
-</ζ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ζ
+/ζ
+ε
+/ε
+θ
+α
+
+γ
 J'ai commencé avec Mourad le petit frère de Youssef
 À l'époque, personne nous aide, c'était do it yourself
 À 13 ans j'voulais déjà faire l'album de la maturité
@@ -6651,10 +6651,10 @@ Et pour la 7, entre la Trap et le Boom Bap garde le plaisir
 Entre l'hardcore et le conscient j'ai fait le choix de ne jamais choisir
 Mon meilleur album c'est, celui qui n'est pas encore sorti
 Et big up à mon brother Wilfried qui m'a soufflé le titre Prose Elite
-</γ>
-<ζ>
-</ζ>
-<γ>
+/γ
+ζ
+/ζ
+γ
 À force d'aller au fond des choses on s'y perd
 Frère, j'aurais du écouter mon père, oh lord
 Tout vient de l'enfance comme Hodor
@@ -6687,15 +6687,15 @@ Visière Houston
 Casque de walk-man
 J'suis le Benjamin Button
 À Din Records les grands m'appellent Global
-</γ>
-<θ>
-<α>
-False
-<β>
+/γ
+θ
+α
+
+β
 The Danger
 L'histoire du monde commence par deux êtres humains dans l'jardin
-</β>
-<γ>
+/β
+γ
 L'histoire du monde commence par deux êtres humains dans l'jardin
 Elle s'termine par l'apocalypse et l'jour du jugement
 Alerte spoiler, j'te jure, frère, sur l'honneur
@@ -6738,25 +6738,25 @@ Le pauvre qui tend sa casquette, c'est pas pour t'saluer
 Tellement mesquin, tu trouves des excuses à ton avarice
 On s'fera pardonner en chantant l'gospel de Kanye
 En achetant au merchandising du Sunday Service
-</γ>
-<η>
+/γ
+η
 L'histoire du monde commence par deux êtres humains dans l'jardin
 Elle s'termine par l'apocalypse et l'jour du jugement
-</η>
-<θ>
-<α>
-True
-<β>
-</β>
-<ε>
+/η
+θ
+α
+
+β
+/β
+ε
 J'regarde les tits-pe jouer par la fenêtre
 J'repense à ma jeunesse ou c'qu'il en reste
 J'me revois sur le rrain-te pour du bénéf
 J'm'adresse aux nes-jeu comme un grand d'la tess
 Garde la monnaie, monnaie, monnaie, monnaie, monnaie, monnaie
 Y a pas d'galère, galère, galère, galère, galère
-</ε>
-<γ>
+/ε
+γ
 Mariage et biff, y a qu'ça dans ma tête
 Ma mère me répète: Va la chercher au bled
 J'crèche dans un deux pièces du bâtiment F
@@ -6772,20 +6772,20 @@ Les p'tits 2000 m'appellent le philosophe des chichas
 Le bien qu'j'fais, j'le fais mal et le mal, bien
 Carrément ien-b
 Mais grâce à la daronne, j'ai pas fini crackhead, gang
-</γ>
-<ε>
+/γ
+ε
 J'regarde les tits-pe jouer par la fenêtre
 J'repense à ma jeunesse ou c'qu'il en reste
 J'me revois sur le rrain-te pour du bénéf
 J'm'adresse aux nes-jeu comme un grand d'la tess
 Garde la monnaie, monnaie, monnaie, monnaie, monnaie, monnaie
 Y a pas d'galère, galère, galère, galère, galère
-</ε>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
+/ε
+γ
+/γ
+ζ
+/ζ
+ε
 J'regarde les tits-pe jouer par la fenêtre
 J'repense à ma jeunesse ou c'qu'il en reste
 J'me revois sur le rrain-te pour du bénéf
@@ -6798,14 +6798,14 @@ J'me revois sur le rrain-te pour du bénéf
 J'm'adresse aux nes-jeu comme un grand d'la tess
 Garde la monnaie, monnaie, monnaie, monnaie, monnaie, monnaie
 Y a pas d'galère, galère, galère, galère, galère
-</ε>
-<θ>
-<α>
-False
-<ε>
+/ε
+θ
+α
+
+ε
 Je vais tuer c'métier
-</ε>
-<γ>
+/ε
+γ
 Mes 10 ans de combat valent mieux que leurs 20 ans de carrière
 J'm'étais dit que le rap n'accoucherait pas de chanteur de variét'Main qui donne est main qui dirige, coupe la de toutes les manières
 Médine veut qu'on l'enterre à grand Médine au coeur de DKR
@@ -6837,11 +6837,11 @@ Ha! Que la vérité éclate
 Ils préfèrent jouer les Iglesias que de passer pour les ecclésiastes
 Ha! De toutes les fêtes, de tous les grands meetings
 J'veux pas mourir au grand MGM mais à grand Médine
-</γ>
-<ε>
+/γ
+ε
 Je vais tuer c'métier
-</ε>
-<γ>
+/ε
+γ
 J'viens pour libérer les quartiers, pas d'quartier pour Quartiers Libres
 T'as la vision d'un journaliste alors je t'appelle le presbyte
 Une presse qui n'a de street que le nom de domaine de son blog
@@ -6872,8 +6872,8 @@ Ils préfèrent le statut d'expat que de combattre ceux qui nous exploitent
 AH! De tous les fights, de tous les grands meetings
 Même si je meurs à trente-et-une pige, appelez-moi Grand Médine
 Grand Médine
-</γ>
-<η>
+/γ
+η
 T'as pas de grands frères, de grands hommes auxquels t'identifier
 T'as pas de grandes guerres, de grandes causes auxquelles te sacrifier
 Pas de gangsters, de grands guns pour s'authentifier
@@ -6886,15 +6886,15 @@ Rappe comme grand Médine
 Parle comme grand Médine
 Frappe comme grand Médine
 Marche comme grand Médine
-</η>
-<θ>
-<α>
-True
-<β>
+/η
+θ
+α
+
+β
 C'est nous l'Grand Paris
 C'est nous l'Grand Paris
-</β>
-<γ>
+/β
+γ
 La banlieue, c'est des pâquerettes sur un tas d'fumier
 Les voix du ghetto sont auto-tunées
 Le pied au plancher dans tous les tunnels
@@ -6912,39 +6912,39 @@ J'suis du Grand Paris sans être trop Parisien
 C'est l'grand remplacement des académiciens
 J'fais du son pour les cochons végétariens
 On fête les émeutes comme tu fêtes la Toussaint
-</γ>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<ε>
+/γ
+γ
+/γ
+ζ
+/ζ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+ζ
+/ζ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+ε
+/ε
+ζ
+/ζ
+γ
+/γ
+γ
+/γ
+ε
+/ε
+θ
+α
+
+ε
 Wesh Paname
 C'est nous l'Grand Paris
 La banlieue influence Paname
@@ -6953,8 +6953,8 @@ La banlieue influence le monde
 La banlieue influence Paname
 C'est nous l'Grand Paris
 Wesh Paname
-</ε>
-<γ>
+/ε
+γ
 Le cahier de mes-ri est 3amar , sors un son pour boucler l'année fiscale
 La gestu', ça évite les coups de matraque , même en Fefe, le corbillard t'rattrape
 On est non-coupables mais pas innocents ,  j'suis un millénial, pas un 1900
@@ -6963,10 +6963,10 @@ Paraîtrait qu'l'argent vite gagné , c'est d'l'argent vite perdu
 Frère, on a tous été élevés sur des montagnes d'ordures
 Moi, j'suis prêt à t'couper les pieds  si j'aime pas tes chaussures
 Incrustés sur le sol français comme le marbre DZ de la Maison Blanche
-</γ>
-<γ>
-</γ>
-<ε>
+/γ
+γ
+/γ
+ε
 Wesh Paname
 C'est nous l'Grand Paris
 La banlieue influence Paname
@@ -6974,14 +6974,14 @@ C'est nous l'Grand Paris
 La banlieue influence le monde
 La banlieue influence Paname
 C'est nous l'Grand Paris
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
+/ε
+γ
+/γ
+γ
+/γ
+ζ
+/ζ
+ε
 Wesh Paname
 C'est nous l'Grand Paris
 La banlieue influence Paname
@@ -6989,43 +6989,15 @@ C'est nous l'Grand Paris
 La banlieue influence le monde
 La banlieue influence Paname
 C'est nous l'Grand Paris
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<θ>
-<α>
-True
-<ε>
-Wesh Paname
-C'est nous l'Grand Paris
-La banlieue influence Paname
-C'est nous l'Grand Paris
-La banlieue influence le monde
-La banlieue influence Paname
-C'est nous l'Grand Paris
-Wesh Paname
-</ε>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<γ>
-</γ>
-<ε>
-Wesh Paname
-C'est nous l'Grand Paris
-La banlieue influence Paname
-C'est nous l'Grand Paris
-La banlieue influence le monde
-La banlieue influence Paname
-</ε>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
+/ε
+γ
+/γ
+γ
+/γ
+θ
+α
+
+ε
 Wesh Paname
 C'est nous l'Grand Paris
 La banlieue influence Paname
@@ -7034,54 +7006,82 @@ La banlieue influence le monde
 La banlieue influence Paname
 C'est nous l'Grand Paris
 Wesh Paname
-</ε>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
+/ε
+γ
+/γ
+ζ
+/ζ
+γ
+/γ
+ε
+Wesh Paname
+C'est nous l'Grand Paris
+La banlieue influence Paname
+C'est nous l'Grand Paris
+La banlieue influence le monde
+La banlieue influence Paname
+/ε
+γ
+/γ
+ζ
+/ζ
+ε
+Wesh Paname
+C'est nous l'Grand Paris
+La banlieue influence Paname
+C'est nous l'Grand Paris
+La banlieue influence le monde
+La banlieue influence Paname
+C'est nous l'Grand Paris
+Wesh Paname
+/ε
+θ
+α
+
+ε
+/ε
+γ
+/γ
+ζ
+/ζ
+γ
+/γ
+γ
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+γ
 On n'écrit pas d'chanson d'amour pendant qu'on fait l'amour
 Alors, on fait la guerre au mal comme l'armée du ruban rouge
 Un grand pas pour l'humanité, nos pas sur la lune
 Y a des dates d'expi sur les capotes mais pas sur nos luttes
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<η>
-</η>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+ε
+/ε
+ζ
+/ζ
+η
+/η
+θ
+α
+
+γ
 Le prochain qui me parle de développement personnel
 J'le monte en l'air, j'en fais une affaire personnelle
 Là, j'ai pas envie d'être positif, ni d'faire des stories humoristiques
@@ -7101,14 +7101,14 @@ Aujourd'hui, j'ai toujours pas les clés d'la city
 Mais quand on parle du Havre, c'est mon blase en premier qu'est cité
 Elle va voir tout flou la vieille en 2026
 Quand j'vais devenir le maire d'la municipalité
-</γ>
-<ε>
+/γ
+ε
 Faudrait qu'j'fasse un vide-grenier, un vide dressing ou une brocante
 J'peux pas tout jeter, tout renier, j'garde en moi le Bataclan
 Ça peut servir en cas d'coup dur à passer de sales moments
 Moi, j'm'en sers pour les blessures trop profondes pour les pansements
-</ε>
-<γ>
+/ε
+γ
 Dans mon grenier à seum, y a une salle de concert
 Qui m'a déprogrammé un soir dans le
 Grand Est
@@ -7123,14 +7123,14 @@ Ce jour là, j'avais sorti mon plus bel outfit
 J'avais préparé mon tweet avec le hashtag, Nouvelle équipe
 Ça fait trois ans qu'ils ont plus d'réseau
 J'ai jamais compris pourquoi, ils ont jamais posté la photo
-</γ>
-<ε>
+/γ
+ε
 Faudrait qu'j'fasse un vide-grenier, un vide dressing ou une brocante
 J'peux pas tout jeter, tout renier, j'garde en moi le Bataclan
 Ça peut servir en cas d'coup dur à passer de sales moments
 Moi, j'm'en sers pour les blessures trop profondes pour les pansements
-</ε>
-<η>
+/ε
+η
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
@@ -7139,10 +7139,10 @@ Y a qu'des anecdotes un peu glauques dans mon grenier à seum
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
 Y a qu'des anecdotes un peu glauques dans mon grenier à seum
-</η>
-<θ>
-<α>
-False
+/η
+θ
+α
+
 11 Septembre 2001, New-York, à 8h56. Un avion transformé en bombe volante, vient s'écraser contre l'une des tours du World Trade Center.
 Pour commencer ce journal, des images qui viennent de nous parvenir. Elles ont été prises d'hélicoptère, au-dessus de l'endroit où se trouvaient les deux tours du World Trade Center; et où ont eut lieu les deux attentats. Ces deux tours font place maintenant à un vaste cratère.
 Quelque-chose s'est passé ici au World Trade Center. Nous avons remarqué des flammes et énormément de fumée venant d'une des tours du World Trade Center. C'est tout simplement incroyable...
@@ -7171,10 +7171,10 @@ Le sort des détenus de Guantanamo. La Cour Suprême se penchait sur le dossier 
 Plan Vigipirate qui passe au rouge dans quelques heures. Précaution face à d'éventuelles menaces terroristes, peu avant les cérémonies du soixantième anniversaire...
 Goerge Tenet vient de démissionner de son poste de Directeur de la C.I.A. Son agence avait été très critiquée pour n'avoir pas su prévoir les attentats du 11 Septembre, et pour les informations erronées livrées sur les armes de destruction massive.
 Rien n'est donc résolu...
-<θ>
-<α>
-False
-<ε>
+θ
+α
+
+ε
 Coupable innocent, potentielle est la cible
 Croiseur d'acier au réfectoire des insensibles
 Décode ma rage, reçois mes images
@@ -7183,8 +7183,8 @@ Ténébreuse, ma date est en rouge
 Crier  quand les montagnes bougent
 Orange est la couleur des bourreaux
 Fantômes et détenus de Guantanamo
-</ε>
-<γ>
+/ε
+γ
 Enrayé, le cerveau, mon barillet
 C'est la corde ou gros billet au réfectoire des rhabillés
 Souriez, vous faites la première page
@@ -7209,8 +7209,8 @@ Coupable innocent, potentielle est la cible
 De grands bourreaux qui nous jurent sur la Bible
 Et si le mal, par le mal, n'est pas une erreur
 On se retrouvera le jour de l'Heure
-</γ>
-<ε>
+/γ
+ε
 Coupable innocent, potentielle est la cible
 Croiseur d'acier au réfectoire des insensibles
 Décode ma rage, reçois mes images
@@ -7219,8 +7219,8 @@ Ténébreuse, ma date est en rouge
 Crier  quand les montagnes bougent
 Orange est la couleur des bourreaux
 Fantômes et détenus de Guantanamo
-</ε>
-<γ>
+/ε
+γ
 Deux hommes d'Afrique n'en valent qu'un de l'Occident
 Appauvrir les peuples et faire croire à l'accident
 Il y a la femme, l'homme et le sous-homme
@@ -7241,8 +7241,8 @@ Qui sème la justice récolte la terreur
 Qui ne cesse de mentir est considéré comme menteur
 Et si le mal par le mal n'est pas une erreur
 On se retrouvera le jour de l'Heure
-</γ>
-<ε>
+/γ
+ε
 Coupable innocent, potentielle est la cible
 Croiseur d'acier au réfectoire des insensibles
 Décode ma rage, reçois mes images
@@ -7251,8 +7251,8 @@ Ténébreuse, ma date est en rouge
 Crier  quand les montagnes bougent
 Orange est la couleur des bourreaux
 Fantômes et détenus de Guantanamo
-</ε>
-<ε>
+/ε
+ε
 Coupable innocent, potentielle est la cible
 Croiseur d'acier au réfectoire des insensibles
 Décode ma rage, reçois mes images
@@ -7262,14 +7262,14 @@ Crier  quand les montagnes bougent
 Orange est la couleur des bourreaux
 Fantômes et détenus de Guantanamo
 Paroles rédigées et expliquées par la communauté RapGenius France
-</ε>
-<θ>
-<α>
-False
-<β>
+/ε
+θ
+α
+
+β
 Je suis heureux
-</β>
-<γ>
+/β
+γ
 Je suis heureux comme un Arabe en France, j'y ai passé toute mon enfance
 Mes parents ont suivi leurs rents-p', pas pour les grandes vacances
 Quand j'étais petit, j'avais pas le droit de parler aux étrangers
@@ -7282,14 +7282,14 @@ On est mieux diplômés que nos parents mais on est plus pauvres qu'eux
 Et quand on a de meilleures compétences, ils disent qu'on double les gens dans la queue
 Mes deux grand-mères étaient quasi-analphabètes
 Mais elles connaissaient le sens de ce proverbe
-</γ>
-<ε>
+/γ
+ε
 Heureux comme un Arabe en France
 J'suis heureux comme un Arabe en France
 Heureux comme un Arabe en France
 J'suis heureux comme un Arabe en France
-</ε>
-<γ>
+/ε
+γ
 Je suis heureux en France comme un Arabe, un juif, un Rom, un Asiatique ou un noir
 Mais ici, il suffit pas d'être heureux faut encore que les autres ne le soient pas
 Putassier dans la mentalité, on se déchire comme la famille Hallyday
@@ -7302,8 +7302,8 @@ Mais faut encore que l'on supporte les brimades
 Les grimaces et les grimages de primates
 Sale bougnoule, sale banania, sale bamboula
 J'avoue, j'ai du mal à bien capter le sens de la phrase
-</γ>
-<ε>
+/γ
+ε
 Heureux comme un Arabe en France
 J'suis heureux comme un Arabe en France
 Heureux comme un Arabe en France
@@ -7312,8 +7312,8 @@ Heureux comme un Arabe en France
 J'suis heureux comme un Arabe en France
 Heureux comme un Arabe en France
 J'suis heureux comme un Arabe en France
-</ε>
-<γ>
+/ε
+γ
 C'est pas d'l'anti-France, ni une ligne de défense
 Les rêves brisés de mes parents m'ont rendu méfiant
 J'veux qu'on m'voit comme ambassadeur, pas comme un conquérant
@@ -7326,11 +7326,11 @@ C'est vrai qu'c'est mal parti, mais on va quand même pas tout casser
 On détruit pas la chapelle Sixtine, juste parce que la chapelle est abîmée
 Y a ceux qui se séparent et y a ceux qui réparent
 Une révolution, c'est faire un tour sur soi, donc c'est revenir au départ
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 Hier encore, j'avais 20 ans
 Je me voyais avec des mocassins à glands
 Permis côtier, bateau de plaisance
@@ -7354,8 +7354,8 @@ Pas de galère je connais une gadji déclarante en douane
 Ou étudiante en droit, je sais plus
 Tous les corps de métier sont détournés dans la rue
 Une nourrice n'en est pas une, ici c'est pas un animal, une mule
-</γ>
-<γ>
+/γ
+γ
 Hier encore j'étais niya, je parlais déjà comme un Imam
 Je voulais ouvrir une pizzeria
 Toute Hallal je l'aurais appelé le Riyad
@@ -7370,16 +7370,16 @@ Entre plaire aux gens ou bien plaire aux anges
 J'étais tellement petit qu'aujourd'hui
 Quand je me regarde j'en ai le vertige
 Je croyais être dans le film, j'étais qu'acteur de reconstitution de scènes de crimes
-</γ>
-<γ>
+/γ
+γ
 Hier encore j'avais des exemples, des gars à qui je voulais ressembler plus tard
 Mais j'ai vu tomber toute mes légendes, l'une après l'autre devenir soulard et queutard
 Quelque part c'est la meilleure leçon qu'ils m'ont donné, celle de ne jamais déifier
 Après tout l'Abbé Pierre a commis le péché de chair et paraît que Mère Teresa se masturbait
 Que Malcolm X était amateur de whisky, comprends que même des humanitaires je me méfie
 Je crois que les stars des Restos du Coeur sont surcotées, ils ont le coeur sur la main mais le poignet coupé
-</γ>
-<γ>
+/γ
+γ
 Hier encore j'écoutais Aznav', et le track Demain c'est loin d'IAM
 J'ai vu les paroles dans le rap se nachavent, j'aurai ma certif quand on m'ôtera la prostate
 T'façon le disque d'or c'est nous qu'on le paye, c'est comme la légion d'honneur on paye la médaille
@@ -7392,8 +7392,8 @@ Je me présente je m'appelle Médine, et j'aimerais bien réussir ma vie
 Être heureux gagner de l'argent, avec mes frères, mes amis d'enfance
 Car je me méfie de ceux qu'ont plus d'amis d'enfance, c'est les mêmes qui donnent des leçons de fraternité
 Ceux qui éduquent les gosses des autres mais pas les leurs, ils seront jamais de bons parents comme Dorothée
-</γ>
-<γ>
+/γ
+γ
 Hier encore j'voulais être quelqu'un, je voulais devenir un homme bien ou rien
 Je crois que j'ai réussi un peu à devenir les deux, je me sens comme un bourgeois élevé par les gueux
 J'ai pas fait d'études, j'ai pas fait de thunes, mes relevés de banque c'est mes bulletins scolaires d'adultes
@@ -7407,14 +7407,14 @@ Le mouton passe sa vie, à avoir peur du loup, pour finir par être mangé par l
 Tout ça n'était qu'une aventure musicale qui ne devait pas dépasser le garage familial
 Que le Seigneur préserve mon père AbdelOuahab,  de finir SDF comme le père de 6ix9ine
 Amin
-</γ>
-<θ>
-<α>
-False
-<β>
+/γ
+θ
+α
+
+β
 Hey
-</β>
-<γ>
+/β
+γ
 Mes 15 ans de combat valent mieux que leurs disques de platine
 J'arriverai en berline à mon jugement pour conduite sans permis
 C'est toute la France qui est coincée dans un récit dystopique
@@ -7427,14 +7427,14 @@ La France nous prend par les sentiments, nous, c'est par derrière qu'on la pren
 On n'ouvre pas la porte du vivre-ensemble avec une clé d'étranglement
 Jamais d'la vie j'me ferai la belle, bien avant eux, moi, j'étais là
 Si tu mets du porc au rayon halal, j'construis des mosquées sur GTA
-</γ>
-<ζ>
+/γ
+ζ
 J'vends mon physique dans une boîte de jeux PS
 J'indique la route comme la voix du GPS
 Ils disent que l'rap, c'est pas d'la culture française
 Que ces kelbs se pendent avec leurs propres laisses
-</ζ>
-<γ>
+/ζ
+γ
 C'est ni du Renaud, ni du Brel, ni du Gainsbarre, ni du Ferré
 La Marseillaise, même en gospel, ça m'a toujours fait dégueuler
 Ton rap soulève aucun débat, t'es bon qu'à soulever les rowing bar
@@ -7443,31 +7443,31 @@ Je veux pas savoir plus que eux, moi, je veux savoir mieux que eux
 J'ai de la haine au fond des yeuz, que de la rage dans les muqueuses
 Plein de colère, beaucoup d'orgueil envers le pouvoir politique
 Y a que quand ils ferment leurs gueules que je les trouve poétique
-</γ>
-<ζ>
+/γ
+ζ
 Si j'enterre la hache de guerre, c'est dans leur crâne
 Jamais j'marcherai droit comme le crabe
 Va falloir s'lever tôt pour m'accabler
 J'suis dur à énerver mais encore plus dur à calmer
-</ζ>
-<γ>
+/ζ
+γ
 Et la police, c'est comme aux putes , il faut condamner les clients
 La justice française est aveugle, téléguidée par une canne blanche
 Tous mes couplets qui font la une, c'est votre histoire qui les déclenche
 C'est pas le dernier flocon d'neige le responsable de l'avalanche
-</γ>
-<η>
+/γ
+η
 Si j'enterre la hache de guerre, c'est dans leur crâne
 Jamais j'marcherai droit comme le crabe
 Va falloir s'lever tôt pour m'accabler
 J'suis dur à énerver mais encore plus dur à calmer
-</η>
-<θ>
-<α>
-True
-<ε>
-</ε>
-<γ>
+/η
+θ
+α
+
+ε
+/ε
+γ
 Lorsqu'on tient l'Afrique par la corne d'ivoire
 Elle n'a pas la forme d'un gun mais d'un porte-voix
 Le monde, un échiquier où règnent les rois
@@ -7484,10 +7484,10 @@ Nos lignes de vie rempliront les livres vides
 Et détruiront les prisons de Libreville
 En Amazigh ou  en Swahili
 Tout le monde sait dire soyons libres
-</γ>
-<ε>
-</ε>
-<γ>
+/γ
+ε
+/ε
+γ
 Ces quelques paroles servent de potion
 Révèlent la lumière des peuples à la peau sombre
 Appelle-moi Médine, premier du nom
@@ -7504,14 +7504,14 @@ Aux cris du Libyen libérable
 Bientôt l'esclave limera les barreaux du Liberia
 En Lingala ou en langue arabe
 Tout le monde lit bien liberta
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
 Bourré d'anthrax est mon courrier électronique
 Venant d'internautes et virtuels éléctron-libres
 Microphonique réponse à tout
@@ -7540,7 +7540,7 @@ Le tube cathodique instrument diabolique
 Désolé Malek ton S.O.S n'a pas abouti
 Si s'intégrer c'est ressembler à Smaïn
 Appelez moi l'intégriste et envoyez les aspirines
-<ε>
+ε
 Refrain:
 J'apporterai de l'encre noire à tous vos moulins
 J'éclairerai toutes vos lanternes avec mes refrains
@@ -7569,8 +7569,8 @@ Si tout est critiquable commence par l'auto-critique
 L'Occident n'est pas responsable de ton slip
 Délaisse la paille dans l'oeil de ton voisin
 Et regarde plutôt la poutre qui encombre le tien
-</ε>
-<ε>
+/ε
+ε
 RefrainJ'apporterai de l'encre noire à tous vos moulins
 J'éclairerai toutes vos lanternes avec mes refrains
 C'est la chanson des blogueurs et blogueuses
@@ -7600,11 +7600,11 @@ De son prochain,  à t'entendre c'est toi qui ressuscite
 Délaisse la paille dans l'oeil de ton voisin
 Enseignement chrétien pour attitude de crétin
 Paroles rédigées et expliquées par la communauté RapGenius France
-</ε>
-<θ>
-<α>
-False
-<γ>
+/ε
+θ
+α
+
+γ
 Les femmes veulent toujours changer les hommes et les hommes veulent juste changer de femme
 Les houris, c'est un peu comme les fantômes: bien peu en ont vu mais beaucoup en parlent
 J'ai vu très peu de meufs tenir une arme, un signe d'élégance dans ce monde de fous
@@ -7613,14 +7613,14 @@ Ils pensent qu'ouvrir leurs coeurs, c'est ouvrir leurs braguettes
 Moi, j'suis pas un des leurs, j'essaie pas d'te glisser une disquette
 Mais ton père devrait payer l'ISF, pour ta richesse intérieure
 T'as dû sûrement tomber tout droit du ciel, et tu t'es retrouvée sur Terre par erreur
-</γ>
-<ε>
+/γ
+ε
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
-</ε>
-<γ>
+/ε
+γ
 La femme veut être l'égale de l'homme, elle n'arrivera pas à monter si bas
 On confond nos pulsions avec le love, dans l'Roi Lion, c'est Nala qu'a sauvé Simba
 J'ai qu'un conseil à donner pour ne pas gâcher son avenir
@@ -7629,21 +7629,21 @@ Emmène-la voir l'daron, paye la note sans voir l'taro
 Partagez même la même tombe, comme les amoureux d'Valdaro
 Tes cicatrices, j'en fais des fossettes, mon livre de chevet, c'est ton livre de recettes
 Tous les jaloux me disent que je blasphème quand je dis qu't'es tombée du ciel
-</γ>
-<ε>
+/γ
+ε
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
-</ε>
-<η>
+/ε
+η
 T'es ma houri
 T'es ma houri
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Les femmes veulent toujours changer les hommes et les hommes veulent juste changer de femme
 Les houris, c'est un peu comme les fantômes: bien peu en ont vu mais beaucoup en parlent
 J'ai vu très peu de meufs tenir une arme, un signe d'élégance dans ce monde de fous
@@ -7652,14 +7652,14 @@ Ils pensent qu'ouvrir leurs coeurs, c'est ouvrir leurs braguettes
 Moi, j'suis pas un des leurs, j'essaie pas d'te glisser une disquette
 Mais ton père devrait payer l'ISF, pour ta richesse intérieure
 T'as dû sûrement tomber tout droit du ciel, et tu t'es retrouvée sur Terre par erreur
-</γ>
-<ε>
+/γ
+ε
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
-</ε>
-<γ>
+/ε
+γ
 La femme veut être l'égale de l'homme, elle n'arrivera pas à monter si bas
 On confond nos pulsions avec le love, dans l'Roi Lion, c'est Nala qu'a sauvé Simba
 J'ai qu'un conseil à donner pour pas gâcher son avenir
@@ -7668,24 +7668,24 @@ Emmène-la voir l'daron, paye la note sans voir l'taro
 Partagez même la même tombe, comme les amoureux d'Valdaro
 Tes cicatrices, j'en fais des fossettes, mon livre de ch'vet, c'est ton livre de recettes
 Tous les jaloux me disent que je blasphème quand j'dis qu't'es tombée du ciel
-</γ>
-<ε>
+/γ
+ε
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
 T'es ma houri, je t'aime à mourir
 T'es ma houri, je t'aime à mourir, en théorie
-</ε>
-<η>
+/ε
+η
 T'es ma houri
 T'es ma houri
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 L'iceberg
-</β>
-<ε>
+/β
+ε
 J'me détache pour mieux remonter le niveau d'l'homme
 Coeur de glace, sang de brave, c'est ma ISO norme
 J'appelle à l'aide depuis la berge
@@ -7694,8 +7694,8 @@ Je ne dépasse que de peu au-dessus du niveau de l'eau
 Car mon âme est une épave qui lessive ses fautes
 J'appelle à l'aide depuis la berge
 À mi-chemin entre le mec nice et l'iceberg
-</ε>
-<γ>
+/ε
+γ
 Après Cactus de Sibérie, j'suis l'iceberg du Sahara
 Barbu symétrique, Nike Air et sang arabe
 Invivable, j'suis une contradiction sur pattes
@@ -7712,8 +7712,8 @@ Et j'm'en bats, mon pote Samba m'appelle l'Antidote
 Slogan sur la poitrine, pas comme les Femen
 Carrière éphémère, les flows se féminisent
 Sur la banquise, je suis l'iceberg sous l'effet de serre
-</γ>
-<ε>
+/γ
+ε
 J'me détache pour mieux remonter le niveau d'l'homme
 Coeur de glace, sang de brave, c'est ma ISO norme
 J'appelle à l'aide depuis la berge
@@ -7722,8 +7722,8 @@ Je ne dépasse que de peu au-dessus du niveau de l'eau
 Car mon âme est une épave qui lessive ses fautes
 J'appelle à l'aide depuis la berge
 À mi-chemin entre le mec nice et l'iceberg
-</ε>
-<γ>
+/ε
+γ
 Je parle franc, j'parle pas français
 J'pars en juji gatame sur le bras de Gérard Longuet
 Intégré avant que le mot ne soit inventé
@@ -7740,8 +7740,8 @@ Ils partent en clash dans le fond de la classe
 Devant la glace, tu pousses la fonte avant la fonte des glaces
 Écoute le groove de la grêle, DIN, mon label
 Bullet Proof, toujours aux manettes
-</γ>
-<ε>
+/γ
+ε
 J'me détache pour mieux remonter le niveau d'l'homme
 Coeur de glace, sang de brave, c'est ma ISO norme
 J'appelle à l'aide depuis la berge
@@ -7751,8 +7751,8 @@ Car mon âme est une épave qui lessive ses fautes
 J'appelle à l'aide depuis la berge
 À mi-chemin entre le mec nice et l'iceberg
 À mi-chemin entre le mec nice et l'iceberg
-</ε>
-<γ>
+/ε
+γ
 De mon visage, ne montre qu'un dixième
 Ils ont beau vivre sous l'eau, les neuf autres sont sans hygiène
 Je suis un indigène
@@ -7763,11 +7763,11 @@ Alors je rappe sur de désastreuses instru'Alchimiste à la Heisenberg
 À mi-chemin entre le mec nice et l'iceberg
 À mi-chemin entre le mec nice et l'iceberg
 À mi-chemin entre le mec nice et l'iceberg
-</γ>
-<θ>
-<α>
-False
-<β>
+/γ
+θ
+α
+
+β
 Tu veux un conseil? Oublie la politique. Le public se fout complètement de ce que tu penses. Ce qui l'intéresse, c'est toi. Le public se fout de ton avis sur le monde. Je vais te dire un secret. Si tu mets de toi dans tes textes, tu auras beaucoup de succès
 .
 Mais faudra vraiment être sûr de toi parce que c'que tu diras sur scène, le public s'en emparera et s'y connectera. Les gens s'approprient en tes mots. Ils s'en empareront. Et à partir de ce moment-là, ils s'envoleront pour toujours
@@ -7790,15 +7790,15 @@ J'suis le petit d'Kery, j'suis le petit d'Booba car les bons profs font les bons
 Jamais le crabe du Havre ne marchera droit, jamais rebeu ne s'ra haineux du renoi
 J'veux qu'on m'écoute avant même que je ne parle et pour ça, poto, je ne lâcherai rien
 Que Dieu les préserve du venin du cobra et de la colère de l'Algérien
-</β>
-<ζ>
+/β
+ζ
 Un moment peut changer un jour, un jour peut changer une vie
 Une vie peut changer le world, t'aurais dû ignorer l'intro
 Un moment peut changer un jour, un jour peut changer une vie
 Une vie peut changer le world, t'aurais dû ignorer l'intro
 Beatswitch
-</ζ>
-<γ>
+/ζ
+γ
 Depuis l'époque Global, on a glow up , ils font leurs albums, j'fais le gros oeuvre
 J'fais la ière-pri au fond du pop-up,  c'est l'retour du rap çais-fran, pop, pop
 Ils prennent la pause avec DG de Major, photobomb, j'fais des double majeurs
@@ -7807,19 +7807,19 @@ Mindset Mobb Deep, Hell on Earth , j'accepte qu'elle dise qu'elle en meurt
 Dis pas mon blase près du leur, bientôt,  j'me barre comme Elon Musk
 Le plus difficile, c'est de trouver son public, j'passerai plus sous l'signal du radar médiatique
 Ils oublieront sûrement c'que j'leur aurai appris mais n'oublieront jamais c'qu'ils auront ressenti
-</γ>
-<η>
+/γ
+η
 Ignorez l'intro, ignorez l'intro
 Ignorez l'intro, ignorez l'intro
 Ignorez l'intro, ignorez l'intro
 Ignorez l'intro, ignorez l'intro
-</η>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
+/η
+θ
+α
+
+γ
+/γ
+ε
 Ils disent black blanc beur mais qu'avec des brassards
 Ils disent qu'on enseigne la haine à nos enfants dans les madrassa
 Ils disent vouloir crucifier les basanés
@@ -7828,10 +7828,10 @@ Je dis que leur jugement ressemble à celui de Burgaud
 Je dis qu'ils nous incriminent à tort derrière leur bureau
 Je dis plus de Banania ni de beurre de bénioui
 Je dis brise la glace comme Surya Bonaly
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Ils disent black blanc beur mais qu'avec des brassards
 Ils disent qu'on enseigne la haine à nos enfants dans les madrassa
 Ils disent vouloir crucifier les basanés
@@ -7840,13 +7840,13 @@ Je dis que leur jugement ressemble à celui de Burgaud
 Je dis qu'ils nous incriminent à tort derrière leur bureau
 Je dis plus de Banania ni de beurre de bénioui
 Je dis brise la glace comme Soraya Bonali
-</ε>
-<η>
-</η>
-<θ>
-<α>
-True
-<γ>
+/ε
+η
+/η
+θ
+α
+
+γ
 C'est le systeme DIN, un minaret au centre de nos vies
 La thématique est la même, mathématique de la haine
 Dramatique est le thème lorsque le crime devient logique
@@ -7867,14 +7867,14 @@ C'est pas moi qui l'ai dit c'est Rubin Carter
 C'est nos terres qu'ils piétinent, nos corps qu'ils piétinent
 Pourquoi rendre à César ce qui appartient à Médine?
 Records et l'adversaire est dans les cordes
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+γ
 Comportement violent par la force de l'argent
 À l'image de l'agent qui ne vise pas les jambes
 C'est les murs d'une mosquée criblés de cartouches
@@ -7891,25 +7891,25 @@ Dans le viseur, mes omoplates au centre
 Le résultat d'une immigration gênante
 Atmosphère brûlante car musulmane éloquente
 Rien d'anormal quand je chante, mon attitude est violente
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<θ>
-<α>
-False
+/γ
+ε
+/ε
+γ
+/γ
+γ
+/γ
+θ
+α
+
 Bon tu vas arrêter de te foutre de ma gueule maintenant
 Tu crois qu'on joue au roi du silence ou quoi? Parle!
 Tu veux finir tes jours à Cuba au camp Delta à bouffer ta soupe avec les mains dans le dos et à pisser devant tes codétenus? Alors parle!
 Bon allez, on se calme, don't panik comme tu dirais hein
 T'as réussi à faire croire que ton rap était plus que de la musique et ils t'ont suivi, ils t'ont même accueilli comme un frère du quartier du Havre jusqu'à Chartres
 Des grands projets parisiens aux habitations provinciales, ils ont tous relayé le discours de l'Arabian Panthers
-<θ>
-<α>
-False
+θ
+α
+
 Ah t'as gagné amigo
 Le haut commissaire des droits de l'homme vient d'arriver et il réclame ta libération
 Tu seras libre dans quelques minutes
@@ -7919,9 +7919,9 @@ Mais pourquoi cultiver une telle relation avec les marseillais? Hein?
 T'en es pratiquement à ton cinquième morceau avec eux
 Des dates de concert supplémentaires sont prévues à Marseille
 On a plusieurs séries de photos où t'es au coté de monsieur Saïd, dit Soprano, alors crache, crache le morceau ou bien tes morceaux le feront pour toi
-<θ>
-<α>
-False
+θ
+α
+
 Dis toi bien une chose, chacun de tes courriers sera lu, chacun des tes appels sera écouté, chacun de tes e-mails sera décortiqué et tu ne pourras plus prononcer salam'oualeïkoum, Allah, Islam sans faire 48 heures de garde à vue
 Tu pourras plus aller pisser sans qu'on connaisse la couleur de ton urine
 Si tu persistes dans cette voie, on aura aucun scrupule à calomnier ta vie privée
@@ -7930,10 +7930,10 @@ Tiens toi qui aime citer les leaders contemporains, rappelle-toi de leurs fins
 Aucun d'entre eux n'est mort dans son lit
 C'est ce que tu souhaites pour toi?
 Alors renonce à tout ça, oublie tes projets de révolte, bazarde tes slogans dans un coin de ta tête et surtout abandonne le concept Arabian Panthers
-<θ>
-<α>
-False
-<γ>
+θ
+α
+
+γ
 Si j'en arrive aux poings, c'est qu'on m'a forcé la patte
 J'ai pas acheté ma barbe dans une boutique de farces & attrapes
 On fait du rap dans une époque pérave, regarde!
@@ -7958,11 +7958,11 @@ De l'album petit il reste le pire
 On veut des Dou'aa sincères pas de rest in peace
 Plus un mot ne sortira de ma bouche
 RDV le jour de l'assassinat de Massoud...
-</γ>
-<θ>
-<α>
-False
-<γ>
+/γ
+θ
+α
+
+γ
 Voici mon intro, jamais 2 sans 3
 1, 2, 3 partez, dans le métro de Detroit
 De Gibraltar, sors le nectar
@@ -8014,17 +8014,17 @@ Même Salsa il répond pas, donc on commence à s'inquiéter un petit peu
 On s'demande si vous avez pas été enrôlé dans les combattants d'Al Qaïda
 Vas-y décroche le téléphone on a du taf poto
 Et vas-y, euh, rase-toi la barbe...
-</γ>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
+/γ
+θ
+α
+
+β
+/β
+γ
+/γ
+γ
+/γ
+γ
 J'aurais dû mourir dans la fosse aux lions du zoo d'Vincennes
 L'année dernière pour rejoindre le club des 27
 Salam à Amy et Jim Morrison
@@ -8047,25 +8047,25 @@ T'es déjà largué, nous on est jet-lagués
 Tuons-les tous, Dieu fera l'tri entre les chars ennemis, les chars alliés
 J'suis dans les charts ça y est
 Armure de Seiya et tchatche de Marseillais
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<γ>
-</γ>
-<θ>
-<α>
-False
-<β>
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+γ
+/γ
+θ
+α
+
+β
 Médine, l'Arabian Panther,
 StorytellerKonbini Iron Mic
-</β>
-<γ>
+/β
+γ
 J'casse internet quand j'casse le beat
 Mon CM, c'est Mathieu Kassovitz
 Ils m'ont enterré, comme un Marvel, j'arrive toujours à la fin du générique
@@ -8094,16 +8094,16 @@ Ma première semaine, c'est leur jour d'ITT
 Ma ville, c'est ma muse, j'suis son égérie
 Médine descendant d'immigrés d'Algérie
 Le jour où j'recevrai le prix Nobel comme Yasser Arafat, j'regarderai Tom et Jerry
-</γ>
-<η>
+/γ
+η
 Arabian Panther,
 StorytellerEn direct de Konbini, Iron Mic
 Bangerang
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 En fin de compte, rien de smart dans c'monde, tout est contradictoire
 Chez nous, au Havre, faut qu'tu saches, la rue d'l'avenir est une impasse
 Même quand on crée, on fait que du crade, comme le dit l'adage
@@ -8112,15 +8112,15 @@ Regarde-moi, j'suis un mec de gauche qui vit sur la rive droite
 Si tu m'demandes d'arracher le fruit, moi, j'arracherais tout l'arbre
 Moi, je n'suis qu'une goutte d'eau, celle qui fait déborder l'vase
 J'veux soulever l'monde, j'arrive même pas à me lever pour le Fajr
-</γ>
-<ε>
+/γ
+ε
 J'vois la tempête, j'lui choisis un nom
 C'est ma manière d'affronter le monde
 Comme ma mère, je l'appellerais Jemila
 C'est ma manière de chasser le monstre
 Jemila
-</ε>
-<γ>
+/ε
+γ
 Sur les bons comme sur les méchants, le soleil s'lève quand même
 On l'voit d'un canot de sauvetage, eux d'un paquebot de croisière
 Quand ils ont valises sous les yeux, c'est des Hermès ou des LV
@@ -8128,15 +8128,15 @@ Eux, ils combattent les pauvres, ils combattent pas la pauvreté Moi, en sortant
 Alors je cherche la vérité sur des comptes Meta vérifiés
 J'regarde la terre brûler, bien enroulé dans mon plaid
 La paix, c'est moins télégénique que l'spectacle de la guerre
-</γ>
-<ε>
+/γ
+ε
 J'vois la tempête, j'lui choisis un nom
 C'est ma manière d'affronter le monde
 Comme ma mère, je l'appellerais Jemila
 C'est ma manière de chasser le monstre
 Jemila
-</ε>
-<η>
+/ε
+η
 Jemila, oh, Jemila
 Jemila, oh, Jemila
 Jemila, oh, Jemila
@@ -8146,11 +8146,11 @@ Jemila, oh, Jemila
 Jemila, oh, Jemila
 Jemila, oh, Jemila
 J'vois la tempête, j'lui choisis un nom
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 Les poings levés sur le Mont Olympe
 Face au pouce de César qui nous condamne pour les lois enfreintes
 En direction de l'enfer éternel
@@ -8179,8 +8179,8 @@ Sortir un disque ou parler publiquement
 C'est comme d'écrire une poésie sur un missile avant son  larguement
 Deux albums dans le dos, pas de coup d'épée dans l'eau
 Je suis à l'origine d'un renouveau
-</γ>
-<ε>
+/γ
+ε
 Nous sommes de jeunes vétérans perdus dans la métropole
 De jeunes recherchant la paix avec une parabole
 Orientés vers les continents du Sud
@@ -8191,10 +8191,10 @@ De jeunes conquérants qui par les mots acquièrent
 Le respect de leur père
 Devenant de jeunes vétérans...de jeunes vétérans...
 Din Records...Salsa...Proof...Médine...Arabian Panthers
-</ε>
-<θ>
-<α>
-False
+/ε
+θ
+α
+
 Quelques milliards d'années pour un retour en arrière
 Écrivain arriéré depuis que l'homme est sur terre
 Il était une fois un morceau de chair
@@ -8303,10 +8303,10 @@ C'est celui de l'intérieur contre mon mauvais moi-même
 Mais pour le moment les temps resteront durs
 Et pour le dire une centaine de mesures
 Jihad!
-<θ>
-<α>
-False
-<γ>
+θ
+α
+
+γ
 Claque la portière, rebranche le compteur
 Joe le taxi je suis chauffeur, conducteur
 De père en fils, petit-fils de garagiste
@@ -8331,8 +8331,8 @@ Leur communauté rachète tous les bars-tabac
 Paris devrait bien les dresser comme Bartabas
 Fin de la course, le noi-chi règle le bakchich
 Sort de la caisse sans laisser le pourliche
-</γ>
-<ε>
+/γ
+ε
 Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Paris, Dakar, Alger, Tokyo
@@ -8341,8 +8341,8 @@ Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Pékin, Rabat, Londres et Bamako
 Joe le taxi je suis driver de tacot
-</ε>
-<γ>
+/ε
+γ
 Lorsque l'Asie s'en va, c'est l'Afrique qui s'installe
 Pas de famille nombreuse, mais famille indénombrable
 Africaine, mama d'ébène et colonie de bête
@@ -8367,8 +8367,8 @@ Hé Boy! N'essaie pas de sympathiser
 J'ai vu ton jeu, tu veux faire de mon tacot un taxi bélier
 Sors de ma caisse je n'emmène pas les bourreaux au boulot
 Qui font péter leurs bombes aux heures de bureau
-</γ>
-<ε>
+/γ
+ε
 Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Paris, Dakar, Alger, Tokyo
@@ -8377,8 +8377,8 @@ Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Pékin, Rabah, Londres et Bamako
 Joe le taxi je suis driver de tacot
-</ε>
-<γ>
+/ε
+γ
 Accoudé au comptoir du bon st Bernard
 Joe ouvre sa gazette, son journal, son fichu canard
 En gros titre Histoire du taxi français
@@ -8399,8 +8399,8 @@ Irakiens, saoudiens et autres nantis
 Sans eux, c'est le cimetière des taxis
 L'enfer des drivers sans Vanessa Paradis
 Car au final son tacot n'a de frenchi que l'antipathie
-</γ>
-<ε>
+/γ
+ε
 Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Paris, Dakar, Alger, Tokyo
@@ -8409,28 +8409,28 @@ Dromadaire, couscous, Touk-touk et Pousse-pousse
 Taxi yellow coup de pouce, traverse en tout-Schuss
 Pékin, Rabah, Londres et Bamako
 Joe le taxi je suis driver de tacot
-</ε>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<γ>
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-True
-<β>
-</β>
-<γ>
+/ε
+θ
+α
+
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+γ
+/γ
+ε
+/ε
+θ
+α
+
+β
+/β
+γ
 CheckIls maudissent le Diable en public  mais lui obéissent en privé
 La France n'est qu'une petite Amérique ou bien c'est juste un grand quartier
 Marseille a ses palmiers en plastique mais des armes bel et bien en acier
@@ -8444,12 +8444,12 @@ Ils apprennent aux perroquets à prononcer le mot cage
 J'apprends des critiques, pas des louanges,
 Franco-Algérien, démon-ange
 Volcan fait de magma et de glace, Duc'zer et panthère dans l'club house
-</γ>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<γ>
+/γ
+ε
+/ε
+ζ
+/ζ
+γ
 But: prosternation sur la p'louse, pousse la radio pour couvrir leurs écoutes
 Coupe la tête du coq et il court toujours,  le 9 février au Zénith, ce s'ra full, ah
 Jamais je n'bats en retrait , j'ai une carrière que même l'Enfer rejetterait
@@ -8458,13 +8458,13 @@ Pour le birthday de ma nina, j'commande Marine en pinata
 Un peu de selecto dans un bol de Banania
 J'n'ai pas rasé ma barbe en mémoire de mes ancêtres
 Il paraît qu'les grands peintres ont observé les grands maîtres
-</γ>
-<ε>
-</ε>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+θ
+α
+
+γ
 Si j'shoote un bleu, tout ça va sûrement finir en émeute
 Les publics rentreront chez eux en s'disant: On est neutres
 Tout ça m'émeut mais j'ai choisi d'partir sans faire l'haineux
@@ -8534,11 +8534,11 @@ Qu'oublier un crime est un crime, de
 Beltrame à Oussekine
 On va tous finir par se kill, alors j'ai plus qu'une chose à dire
 L'amour
-</γ>
-<θ>
-<α>
-True
-<ε>
+/γ
+θ
+α
+
+ε
 Ils disent black blanc beur mais qu'avec des brassards
 Ils disent qu'on enseigne la haine à nos enfants dans les madrassa
 Ils disent vouloir crucifier les basanés
@@ -8547,8 +8547,8 @@ Je dis que leur jugement ressemble à celui de Burgaud
 Je dis qu'ils nous incriminent à tort derrière leur bureau
 Je dis plus de Banania ni de beurre de bénioui
 Je dis brise la glace comme Surya Bonaly
-</ε>
-<γ>
+/ε
+γ
 Je suis, autant coupable qu'un détenu cubain
 Et j'ai autant d'innocence qu'un morceau de Jean Gabin
 Master de Cérémonie responsable
@@ -8570,8 +8570,8 @@ Ta matière grise fait son body-building
 Du toit au pied du building; Innocent? Nobody
 Mino réitère pour les frères minoritaires
 Gabarit minotaure c'est l'Arabian Panther
-</γ>
-<ε>
+/γ
+ε
 Ils disent black blanc beur mais qu'avec des brassards
 Ils disent qu'on enseigne la haine à nos enfants dans les madrassa
 Ils disent vouloir crucifier les basanés
@@ -8580,33 +8580,33 @@ Je dis que leur jugement ressemble à celui de Burgaud
 Je dis qu'ils nous incriminent à tort derrière leur bureau
 Je dis plus de Banania ni de beurre de bénioui
 Je dis brise la glace comme Surya Bonaly
-</ε>
-<θ>
-<α>
-True
-<γ>
-</γ>
-<ε>
+/ε
+θ
+α
+
+γ
+/γ
+ε
 Être libre, comme la colombe
 Des colons j'me délivre
 Rien à faire de leurs sapins et de leurs feux d'artifice
 Mon rap, des coups d'feu, sur leurs foutus artifices
-</ε>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+ε
 Être libre, comme la colombe
 Des colons j'me délivre
 Rien à faire de leurs sapins et de leurs feux d'artifice
 Mon rap, des coups d'feu, sur leurs foutus artifices
-</ε>
-<ε>
+/ε
+ε
 Être libre, comme la colombe
 Des colons j'me délivre
 Rien à faire de leurs sapins et de leurs feux d'artifice
 Mon rap, des coups d'feu, sur leurs foutus artifices
-</ε>
-<γ>
+/ε
+γ
 J'ai pas le Christ mais Isaa pour guide
 Mental Monte-Cristo sur cristaux liquides, Ma
 Blanche colombe n'est pas celle de Cristobal
@@ -8635,16 +8635,16 @@ Plus qu'elles ne le peuvent, Dieu ne charge pas les âmes
 La colombe devient carnivore condor
 Pas un quartier qui ne charge pas les armes
 Plus qu'elles ne le peuvent, Dieu ne charge pas les âmes...
-</γ>
-<η>
-</η>
-<θ>
-<α>
-False
-<β>
+/γ
+η
+/η
+θ
+α
+
+β
 J'leur pisserais
-</β>
-<γ>
+/β
+γ
 J'leur pisserais même pas dans l'oreille si leur mémoire prenait feu
 T'façon quand c'est la France qui pète, c'est l'Afrique qui pue pour eux
 Ça parle d'égalité des sexes sur le bulletin d'salaire
@@ -8662,14 +8662,14 @@ J'suis l'candidat l'plus légitime
 Bonsoir tout le monde j'm'appelle Médine
 J'suis dans la caisse présidentielle,  côté passager c'est ma hlel
 J'arrive en campagne dans ton bled
-</γ>
-<ε>
+/γ
+ε
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
-</ε>
-<γ>
+/ε
+γ
 Cousine, enlève bien ton hijab avant de rentrer au lycée
 Car la France jusqu'à c'qu'elle nous aime on va la re-créoliser
 Bats les couilles de ta subvention, mets-la dans l'budget de la santé
@@ -8691,25 +8691,25 @@ J'suis l'candidat l'plus légitime
 Bonsoir tout le monde j'm'appelle Médine
 J'suis dans la caisse présidentielle, côté passager c'est ma hlel
 J'arrive en campagne dans ton bled
-</γ>
-<ε>
+/γ
+ε
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
 La France au rap français, la France au rap français
-</ε>
-<η>
+/ε
+η
 La France au rap français
-</η>
-<θ>
-<α>
-False
-<β>
+/η
+θ
+α
+
+β
 Brr, hey
 L.H
 Junior Alaprod, zanmi
-</β>
-<γ>
+/β
+γ
 Il peut y avoir qu'une seule be-bar dans la city d'Edouard Philippe
 Comme y aura qu'un seul Doudou, c'est mon daron pas l'maire ni le ministre
 On participe pas à leurs victoires, on va s'asseoir dans l'jury
@@ -8728,8 +8728,8 @@ On est pris pour les plus laids dans la presse
 On vit entre le béton et la mer
 Entre le patrimoine et les quartiers délabrés
 Mon cul est international mais mon p'tit coeur est havrais
-</γ>
-<ε>
+/γ
+ε
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
 La puissance du Port du Havre , la puissance du Port du Havre
@@ -8738,8 +8738,8 @@ La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
-</ε>
-<γ>
+/ε
+γ
 Alphonse Mendy, c'est pas Alphonse Brown , j'te monte en l'air, grosse mise à l'amende
 Sur le blason, c'est la salamandre, rien à foutre que l'dessin judiciaire me ressemble
 T'façon, j'reconnais pas l'infraction , sur le PV, je signerais un autre nom
@@ -8754,8 +8754,8 @@ On est pris pour les plus laids dans la presse
 On vit entre le béton et la mer
 Entre le patrimoine et les quartiers délabrés
 Mon cul est international mais mon p'tit coeur est havrais
-</γ>
-<ε>
+/γ
+ε
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
 La puissance du Port du Havre , la puissance du Port du Havre
@@ -8764,15 +8764,15 @@ La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
-</ε>
-<θ>
-<α>
-True
-<β>
+/ε
+θ
+α
+
+β
 Brr, hey
 Junior Alaprod, zanmi
-</β>
-<γ>
+/β
+γ
 Il peut y avoir qu'une seule be-bar dans la city d'Edouard Philippe
 Comme y aura qu'un seul Doudou, c'est mon daron pas l'maire ni le ministre
 On participe pas à leur victoire, on va s'asseoir dans l'jury
@@ -8781,38 +8781,20 @@ On m'a circoncis dans un immeuble , enterré mon prépuce sous l'herbe
 J'croyais que Michael Jackson dans Beat It parlait de mon cle-on Bilel
 Puis, j'ai appris que j'étais coloré, que les Havrais n'avaient pas collaboré
 Que le bédo transitait par les douaniers, et que le B d'OCB, c'était Bolloré
-</γ>
-<γ>
-</γ>
-<ε>
+/γ
+γ
+/γ
+ε
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-La puissance du Port du Havre , la puissance du Port du Havre
-C'est la puissance du Port du Havre , la culture de la bicrave
-La puissance du Port du Havre , la puissance du Port du Havre
-C'est la puissance du Port du Havre , la culture de la bicrave
-La puissance, la puissance, la puissance du Port du Havre
-La puissance, la puissance, la puissance du Port du Havre
-La puissance, la puissance, la puissance du Port du Havre
-La puissance, la puissance, la puissance du Port du Havre
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
-La puissance du Port du Havre , la puissance du Port du Havre
-C'est la puissance du Port du Havre , la culture de la bicrave
-La puissance du Port du Havre , la puissance du Port du Havre
-C'est la puissance du Port du Havre , la culture de la bicrave
+/ε
+γ
+/γ
+γ
+/γ
+ε
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
 La puissance du Port du Havre , la puissance du Port du Havre
@@ -8821,12 +8803,12 @@ La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
-</ε>
-<γ>
-</γ>
-<γ>
-</γ>
-<ε>
+/ε
+γ
+/γ
+γ
+/γ
+ε
 La puissance du Port du Havre , la puissance du Port du Havre
 C'est la puissance du Port du Havre , la culture de la bicrave
 La puissance du Port du Havre , la puissance du Port du Havre
@@ -8839,10 +8821,28 @@ La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
 La puissance, la puissance, la puissance du Port du Havre
-</ε>
-<θ>
-<α>
-False
+/ε
+γ
+/γ
+γ
+/γ
+ε
+La puissance du Port du Havre , la puissance du Port du Havre
+C'est la puissance du Port du Havre , la culture de la bicrave
+La puissance du Port du Havre , la puissance du Port du Havre
+C'est la puissance du Port du Havre , la culture de la bicrave
+La puissance du Port du Havre , la puissance du Port du Havre
+C'est la puissance du Port du Havre , la culture de la bicrave
+La puissance du Port du Havre , la puissance du Port du Havre
+C'est la puissance du Port du Havre , la culture de la bicrave
+La puissance, la puissance, la puissance du Port du Havre
+La puissance, la puissance, la puissance du Port du Havre
+La puissance, la puissance, la puissance du Port du Havre
+La puissance, la puissance, la puissance du Port du Havre
+/ε
+θ
+α
+
 Ce que l'on sème, on le récolte, les pendus se révoltent
 Tirent dans la corde avec un
 Samuel Colt
@@ -8941,10 +8941,10 @@ Si le passé parasite le présent
 Le syndrome de Stockholm remplira leur prison
 Dis au quai d'Orsay au 36 quai des orfèvres
 Qu'on se souviendra de l'histoire le canon entre les lèvres
-</γ>
-<ε>
-</γ>
-<ε>
+/γ
+ε
+/γ
+ε
 On a, pour syndrome la capitale de Suède
 On réunit les causes comme le canal de Suez
 Banlieue, maison d'arrêt à ciel ouvert
@@ -8953,13 +8953,13 @@ Stockholm, un syndrome sans sérum
 C'est l'industrie du ghetto dupliquer sur un album
 On compatit avec le preneur d'otage
 Lui sert de bouclier humain le soir du carnage
-</ε>
-<η>
+/ε
+η
 Ma mâchoire est statistiquement plus dangereux qu'les urgences
 Je calcule plus tout c'que j'entends, j'veux servir de modèle 
 Picasso m'aurait dessiné une bouche à la place de l'oreille
-</ζ>
-<ε>
+/ζ
+ε
 Venom, crache comme venom 
 Venom, venom
 Ma langue n'a pas d'os mais elle brise les leurs
@@ -8968,15 +8968,15 @@ J'parle comme venom, langue de venom
 Sur la toile comme venom,  crache venom
 Ma langue n'a pas d'os mais elle brise les leurs
 J'suis trop en avance pour leur demander l'heure
-</ε>
-<η>
+/ε
+η
 J'suis venu au monde en pleurant et tout l'monde souriait autour de moi
 J'veux mourir en souriant, que tout l'monde pleure autour de moi
-</η>
-<θ>
-<α>
-False
-<γ>
+/η
+θ
+α
+
+γ
 C'est le son des cordes, le ballon contre le mur
 Le plexiglas qui explose, le crissement de nos chaussures
 Le second souffle qui envahit nos poumons
@@ -8993,8 +8993,8 @@ Garder l'espoir quand le physique s'est fait la malle
 Quand on déballe l'instinct du mâle, retrouve l'instinct de l'animal
 Et t'as pas mal! J'ai pas mal! T'as pas mal! J'ai pas mal!
 La soif de vaincre anesthésie, les coups de l'ours ne font plus mal
-</γ>
-<ε>
+/γ
+ε
 Victory! Dans le coin droit les shorts noirs
 C'est cracher du kérosène sur l'étincelle de la victoire
 Victory là où personne ne jette l'éponge
@@ -9003,8 +9003,8 @@ Victorieux dans nos milieux et dans toute situation
 On met du coeur à l'ouvrage, de la rage dans l'action
 En plus de l'oeil du tigre, on a la voix du lion
 Victory! mon garçon, Victory! dans mon son, Victory!
-</ε>
-<γ>
+/ε
+γ
 C'est le son des cloches et des bruits dans le gymnase
 C'est quand l'odeur de la sueur s'apparente à celle du gaz
 C'est au quart de tour que mes panthères décollent
@@ -9021,8 +9021,8 @@ Même dans le sport, c'est le guerrier toujours aux ordres
 Envoie les corps dans le décor au corps à corps dans les cordes
 C'est la vitesse de la licorne la précision du condor
 Avec soi-même en accord, être hardcore pour seule règle d'or
-</γ>
-<ε>
+/γ
+ε
 Victory! Dans le coin droit les shorts noirs
 C'est cracher du kérosène sur l'étincelle de la victoire
 Victory là où personne ne jette l'éponge
@@ -9031,36 +9031,36 @@ Victorieux dans nos milieux et dans toute situation
 On met du coeur à l'ouvrage, de la rage dans l'action
 En plus de l'oeil du tigre, on a la voix du lion
 Victory! mon garçon, Victory! dans mon son, Victory!
-</ε>
-<θ>
-<α>
-True
-<β>
-</β>
-<ε>
-</ε>
-<ε>
-</ε>
-<ε>
-</ε>
-<ζ>
-</ζ>
-<η>
-</η>
-<θ>
-<α>
-True
-<β>
-</β>
-<ε>
-</ε>
-<γ>
-</γ>
-<ζ>
-</ζ>
-<ε>
-</ε>
-<γ>
+/ε
+θ
+α
+
+β
+/β
+ε
+/ε
+ε
+/ε
+ε
+/ε
+ζ
+/ζ
+η
+/η
+θ
+α
+
+β
+/β
+ε
+/ε
+γ
+/γ
+ζ
+/ζ
+ε
+/ε
+γ
 J'suis rassuré depuis qu'j'ai su  que l'Père Noël est noir comme Jésus
 J'suis beau comme un Arabe qui s'accuse ,  comme une Algérienne qui s'excuse
 Les fes-keu ont remonté ma puce , j'l'avais mise au nom de Bismuth
@@ -9072,15 +9072,15 @@ Et la nièce de Ben Laden vote Donald Trump , oh my God
 Plus rien n'm'étonne, mes diplômes, c'est l'top album
 J'rentre en cure de désintoxe pour vendre aux clickos plus de doses
 J'couperai pas la PlayStation même quand Cheez Nan perdra les eaux
-</γ>
-<ε>
-</ε>
-<η>
-</η>
-<θ>
-<α>
-False
-<γ>
+/γ
+ε
+/ε
+η
+/η
+θ
+α
+
+γ
 Y a mes titres qui font les gros titres, les trolls du net qui gossip
 Et tout est parti d'un tweet raciste mais qui se justifie se crucifie
 Un exemplaire de mon disque a fini sur le bureau du ministre
@@ -9089,14 +9089,14 @@ J'suis l'enfant du peuple qui fait la grimace à l'État dès qu'il a le dos tou
 C'est maître Victor Hugo qui disait qu'être contesté, c'est être constaté
 Alors, j'ai porté mes couilles en ayant toujours dit ce que je pense
 J'préfère regretter mes discours plutôt que de regretter mes silences
-</γ>
-<ε>
+/γ
+ε
 C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
 C'est p't-être la faute à un tel ou p't-être la faute à un autre
 C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
 Mais c'est jamais pour nos frères qu'on sépare l'oeuvre de l'Homme
-</ε>
-<γ>
+/ε
+γ
 Allez-vous traiter MHD comme vous avez traité Cantat?
 Mennel ou Mila, le traitement n'était pas équitable
 J'croyais qu'les chiffres allaient changer le game et la machine
@@ -9109,8 +9109,8 @@ Nous on voulait juste vivre de nos plumes, les avoir dans la main mais pas dans 
 Maintenant, même ma main me cache ce qu'elle écrit, sûrement par peur de subir l'autocensure
 J'veux parler de police, de plaquage ventral, que pour quatre Marc il n'y ait pas qu'un Mourad
 Au lieu d'compter les noirs dans ton festival, j'veux qu'on nomme une rue Aya Nakamura
-</γ>
-<ε>
+/γ
+ε
 C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
 C'est p't-être la faute à un tel ou p't-être la faute à un autre
 C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
@@ -9119,8 +9119,10 @@ C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
 C'est p't-être la faute à un tel ou p't-être la faute à un autre
 C'est ni d'la faute à Voltaire, ni d'la faute à Rousseau
 Mais c'est jamais pour nos frères qu'on sépare l'oeuvre de l'Homme
-</ε>
-<η>
+/ε
+η
 C'est-à-dire qu'si tu es en colère, c'est qu'tu n'es pas capable de raisonner logiquement. Puisque, en tout cas en Occident, la colère c'est l'ennemi de la réflexion, ça c'est un truc paternaliste, tu vois, c'est une façon de dire qu'en gros tu es primitif, tu ne sais pas organiser ta pensée. Ça c'est une façon de te disqualifier, c'est une façon d'disqualifier le discours. Et c'est une façon aussi d's'assurer un certain confort. C'est à dire Je veux bien t'entendre mais dis-le moi gentiment que ça soit pas trop inconfortable. Non, des fois, c'est juste un crachat dans ta gueule tu vois que j'ai envie de t'envoyer, pour que tu comprennes.
-</η>
-<θ>
+/η
+θ
+s
+s

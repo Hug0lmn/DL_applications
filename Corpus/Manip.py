@@ -13,6 +13,7 @@ for i in list_files :
         break
 
 characs = sorted(set(corpora))
+print("Length corpus : ", len(corpora))
 char2int = {ch: i for i, ch in enumerate(characs)}
 print("Here the entire char encoding : \n",char2int)
 
