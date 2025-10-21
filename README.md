@@ -17,16 +17,22 @@ Implements end-to-end pipelines for tokenization, training and generation using 
   - Markov_Chain.py — simple song-part transition matrices
 
 ## Project status & progress
-- Scraping & preprocessing: ✅ implemented (Get_lyrics.py, Cleaning_txt.py)  
-- Tokenization & embeddings: ✅ implemented (Tokenize.ipynb)  
-- Song-structure (Markov): ✅ transition matrix generation (Markov_Chain.py)  
-- Character-level models: ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Character_lvl/Training)  
-- Subword-level models: ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Subword_lvl/Training)  
+- Scraping & preprocessing:
+    ✅ implemented (Get_lyrics.py, Cleaning_txt.py)  
+- Tokenization & embeddings:   
+    ✅ implemented (Tokenize.ipynb)  
+- Song-structure (Markov):  
+    ✅ transition matrix generation (Markov_Chain.py)  
+- Character-level models:  
+    ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Character_lvl/Training)  
+- Subword-level models:  
+    ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Subword_lvl/Training)  
 
 Note: In current experiments Transformers underperform compared to LSTMs/RNNs — likely due to dataset size; see "Next steps" below.
 
 ## Next steps / ideas
-- Phonemize corpus to improve rhyme/flow modeling.  
+- Phonemize corpus to improve rhyme/flow modeling :  
+    Sounds can contain more information than character and can also help the models to understand how to do rhyme. Letter can only represent a word for a model while sounds represent another dimension of data.
 - Data augmentation to help Transformer training.  
 - Add Luong attention to LSTM.  
 - Experiment with xLSTM (research reference).
