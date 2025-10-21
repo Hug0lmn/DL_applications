@@ -17,7 +17,7 @@ Implements end-to-end pipelines for tokenization, training and generation using 
   - Markov_Chain.py — simple song-part transition matrices
 
 ## Project status & progress
-- Scraping & preprocessing:
+- Scraping & preprocessing:  
     ✅ implemented (Get_lyrics.py, Cleaning_txt.py)  
 - Tokenization & embeddings:   
     ✅ implemented (Tokenize.ipynb)  
