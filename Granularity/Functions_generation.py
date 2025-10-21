@@ -241,7 +241,7 @@ class Subword_LSTM(nn.Module) :
 
         self.linear = nn.Linear(hidden_size, vocab_size, bias=False)
 
-    def forward(self, x) :
+    def forward(self, x, hidden) :
         h,c = hidden 
 
         x_t = self.embed(x)
