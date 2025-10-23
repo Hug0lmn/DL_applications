@@ -1,11 +1,14 @@
-from bs4 import BeautifulSoup as bs
-import requests
-import re
-from tqdm import tqdm
 import argparse
+from bs4 import BeautifulSoup as bs
 import gc
+import multiprocessing
+import re
+import requests
+import sys
 import subprocess
+from tqdm import tqdm
 import unicodedata
+import warnings
 
 def search_artist(query, headers): #Will send back 10 results 
     url = f"https://api.genius.com/search"
@@ -18,11 +21,11 @@ def collect_all_songs(artist_id, page_nb, headers): #Will send back 20 songs of 
     response = requests.get(url, headers=headers)
     return response.json()
 
-def new_find_discography(headers) :
+def get_the_artist_id(headers) :
 
     result_search = search_artist(input("\nName a song of your artist or the artist's name : "), headers)
 
-    #Will trr to find the artist specific id in order to find their songs
+    #Will try to find the artist specific id in order to find their songs
     for song in result_search["response"]["hits"] : #Loop over all the 10 proposed songs by search_artist()
         
         collect_artist = [] #Collect all the artists on the song
@@ -42,14 +45,20 @@ def new_find_discography(headers) :
     try : 
         result = int(result)
     except :
-        raise ValueError("Provide a valid number or change the song's name")
+        warnings.warn("Change the song's name")
+        return None
+    
+    artist_name = collect_artist[result][0]
+    artist_id = collect_artist[result][1]
+    return artist_name, artist_id
+
+def new_find_discography(artist_name, artist_id) :
 
     ## Collect the artist's discography 
-    artist_name = collect_artist[result][0]
     collect_songs = []
     
     for i in range(1,50) :
-        songs_ = collect_all_songs(collect_artist[result][1], i, headers)
+        songs_ = collect_all_songs(artist_id, i, headers)
 
         if len(songs_["response"]["songs"]) == 0 : #No songs returned
             break
@@ -58,10 +67,24 @@ def new_find_discography(headers) :
     #Check if lyrics are good
     list_songs =[]
     for i in collect_songs : 
-        if i["lyrics_state"] == "complete" :
-            list_songs.append([i["url"],i["title"]])
+        if i["lyrics_state"] == "complete" : #Check that lyrics are complete
+            
+            #Some rappers are also producers and these songs are included
+            matched = False
+            for elem in i["primary_artists"] :
+                if str(artist_id) in elem["api_path"] :
+                    list_songs.append([i["url"],i["title"]])
+                    matched = True
+                    break
 
-    return list_songs, artist_name
+            if not matched : 
+                for elem in i["featured_artists"] :
+                    if str(artist_id) in elem["api_path"] :
+                        list_songs.append([i["url"],i["title"]])
+                        matched = True
+                        break
+
+    return list_songs
 
 #Fonction GPT
 def remove_accents_and_quotes(text):
@@ -74,35 +97,25 @@ def remove_accents_and_quotes(text):
     text = text.replace("'", "’").replace("'", "‘")
     return text
 
-def Get_lyrics_genius(link, artist_name, s):
+def Get_lyrics_genius(link, artist_name, session):
     """
-    Extracts and cleans lyrics from a Genius song page.
+    Fetch and clean lyrics from a Genius song page.
 
-    This function downloads a Genius song page via HTTP (using `requests`), 
-    parses the HTML with BeautifulSoup, and extracts all text.  
-    It handles:
-      - Removal of extra spaces and spacing before punctuation.
-      - Collaborative tracks (e.g., "Featuring" credit) by filtering verses
-        to include only those attributed to the target artist.
-      - Line breaks and multiple spaces normalization.
+    Retrieves the page HTML with `requests`, extracts lyric blocks via BeautifulSoup,
+    and returns cleaned lines with normalized spacing and punctuation. Handles
+    collaborations ("Featuring") and merges split sections or sentences.
 
     Args:
+        link (str): Genius song URL.
+        artist_name (str): Target artist’s name.
+        session (requests.Session): Active HTTP session.
 
     Returns:
-
-    Raises:
-        requests.exceptions.RequestException: If the HTTP request fails.
-        ValueError: If no lyrics container is found in the page HTML.
-
-    Notes:
-        - Collaborator detection is based on the presence of "Featuring" 
-          in the page and section headers that contain the artist name.
-        - This function does not require Selenium; it fetches the HTML directly.
-        - Punctuation spacing is normalized: e.g., `" , "` → `","` and `" . "` → `". "`.
-
+        tuple[list[str], bool, requests.Session]:
+            Cleaned lyrics, collaboration flag, and session.
     """
 
-    src = s.get(link).text
+    src = session.get(link).text
     new = bs(src,"html.parser")
     artist_name = remove_accents_and_quotes(artist_name)
 
@@ -122,11 +135,9 @@ def Get_lyrics_genius(link, artist_name, s):
         lyrics.append(block.get_text(separator="\n"))
     
     lyrics = "\n".join(lyrics).split("\n")
-    #lyrics_blocks = new.find_all("div", attrs={"data-lyrics-container": "true"})
     paroles = []
     
     collab = False #Indication if the music is a featuring, if so the code will need to check if each part was written by our author
-#    author_lyrics = False #Indication if the lyrics were written by our specified artist, only if collab = True
     inside_bracket = False 
     parole_bracket = False
 
@@ -145,16 +156,6 @@ def Get_lyrics_genius(link, artist_name, s):
         if (("Contributor" in line) or (line.strip() == "") or ("Lyrics" in line)) :#We don't need this type of info
             continue              
                 
-#        list_part = ["Couplet","Refrain","Intro","Outro","Pont"]
-        #Featuring part
-#        if collab and (('[' in line[0] or '(' in line[0])) and any(re.search(rf"{part.lower()}", line.lower()) for part in list_part): #If the text indicates a part in a featuring
-#            author_lyrics = (artist_name.split(" ")[0] in remove_accents_and_quotes(line)) and "&" not in line #If the artist name is found in this text and only one name : author_lyrics == True
-#            paroles.append(line)
-#            continue
-
-#        if collab and not author_lyrics : #If the part isn't sung by our artist, skip the text
-#            continue
-
         #Get the text and perform small corrections
         line = re.sub(r"\s+([',;:.!?])", r"\1", line) #If a space before ponctuation remove space
         line = re.sub(r"\([^)]*\)", "", line)       # retire les backs
@@ -197,51 +198,36 @@ def Get_lyrics_genius(link, artist_name, s):
 
     del src, new
     gc.collect()
-    return paroles, collab, s
+    return paroles, collab, session
 
 def Navigate_songs(songs_list, artist_name):
     """
-    Retrieves and cleans lyrics for multiple songs from Genius.
+    Retrieve and structure lyrics for multiple Genius songs.
 
-    This function iterates through a list of song HTML elements, extracts the Genius URL for each track, 
-    retrieves its lyrics via `Get_lyrics_genius`, and performs cleanup such as 
-    removing annotations and marking structural elements (e.g., <COUPLET>, <REFRAIN>).
+    Iterates through song links, extracts lyrics with `Get_lyrics_genius`, and
+    formats them with section markers (e.g., <COUPLET>, <REFRAIN>). Skips
+    non-lyrical or incomplete entries and reconstructs empty refrains when needed.
 
     Args:
-        songs_list (list[bs4.element.Tag]): 
-            A list of BeautifulSoup tag elements, each containing a song entry 
-            with a link (`<a>` tag) to its Genius page.
-        artist_name (str): 
-            Name of the artist, used for filtering lyrics in collaborative tracks.
+        songs_list (list[bs4.element.Tag]): List of song link elements from Genius.
+        artist_name (str): Target artist name for filtering collaborations.
 
     Returns:
-        dict[str, list[str]]: 
-            Dictionary mapping song titles to a list of cleaned lyric lines.  
-            Structural markers are added in uppercase between `<STROPHE>` tags:
-              - `<COUPLET>` for verses
-              - `<REFRAIN>` for choruses
-              - `<INTRO>` for introductions
-              - `<OUTRO>` for conclusions
-
-    Notes:
-        - Songs for which lyrics cannot be found are skipped.
-        - Removes "backs" or background vocals inside parentheses `(...)`.
-        - Ignores non-lyrical annotations like "(paroles)", "(contributors)", "(pont)", etc.
-        - Structural markers are inserted as separate elements in the lyrics list.
+        dict[str, list[str]]: Mapping of song titles to cleaned and structured lyrics.
     """
 
-
     dict_parole = {}
-    s = requests.Session()
+    session = requests.Session()
+    skipped_songs = 0
 
-    #print("Begin the lyrics scrapping...")
-    for songs_link in tqdm(songs_list, desc='Scrapping songs'):
+    for songs_link in songs_list :
         true_link = songs_link[0]
-#        driver.get(true_link)
-        if "lyric" not in true_link : 
+
+        if "lyric" not in true_link : #or "translations" in true_link :
+            skipped_songs += 1 
             continue
 
-        lyrics, collab,s = Get_lyrics_genius(true_link, artist_name, s)
+        lyrics, collab, session = Get_lyrics_genius(true_link, artist_name, session)
 
         if len(lyrics) < 4 :
             continue
@@ -279,7 +265,8 @@ def Navigate_songs(songs_list, artist_name):
             if (i[0] != "[" and i[-1] != "]")  :
                 only_lyrics.append(i)    
 
-        only_lyrics.append(f"<END_{actual_part.upper()}>")
+        if actual_part != "":
+            only_lyrics.append(f"<END_{actual_part.upper()}>")
         only_lyrics.append("<END_SONG>\n")
         
         ## Part that resolve the pb where a part (REFRAIN) has no lyrics because it is identical has the previous one (in older genius's lyrics)
@@ -303,38 +290,31 @@ def Navigate_songs(songs_list, artist_name):
                 compteur_add += 1
                     
         song_title = songs_link[1]
-        dict_parole[f"{song_title}"] = only_lyrics
-    
-    #print("End of lyrics search")
-#    driver.quit()
 
+        nb_parts = len(re.findall("<END.*", "\n".join(only_lyrics))) - 1 #The end is counted as a part
+        length = len("\n".join(only_lyrics))
+
+        #Will skipped songs with > 10 parts and also >= 1
+        if nb_parts <= 10 and nb_parts >= 1 and length > 500 :
+            dict_parole[f"{song_title}"] = only_lyrics
+        else : 
+            skipped_songs += 1
+
+    print("Songs skipped due to non conform format or other problem :", skipped_songs)
+    
     return dict_parole
 
 def prepare_lyrics(artist_name, title_set):
     """
-    Retrieves, cleans, and prepares lyrics for both RNN training 
-    and word-level tokenization models.
+    Retrieve, clean, and compile lyrics into RNN-ready and tokenization corpora.
 
-    This function:
-      1. Uses `Navigate_songs` to retrieve cleaned lyrics for each song title.
-      2. Removes unwanted characters such as invisible spaces, brackets, and quotes.
-      3. Deletes entries with no available lyrics and logs them.
-      4. Aggregates all lyrics into a single corpus.
-      5. Generates two versions of the corpus:
-         - RNN corpus: preserves case and line breaks (only removes double quotes).
-         - Tokenization corpus: lowercased, punctuation stripped, tags removed,
-           and normalized line breaks.
+    Uses `Navigate_songs` to collect lyrics, cleans unwanted characters and tags,
+    removes empty entries, and writes two text corpora: one preserving structure
+    (for RNNs) and one normalized (for tokenization or embeddings).
 
     Args:
-        artist_name (str): 
-            Name of the artist whose lyrics are to be scraped and processed.
-        title_set (set[str]): 
-            Set of song titles by the artist.
-
-    Effects:
-        - Writes `corpus_RNN_<artist_name>.txt` for character/sequence models (RNN, LSTM, etc.).
-        - Writes `corpus_tokenization_<artist_name>.txt` for embedding training (FastText, Word2Vec, etc.).
-        - Prints the count and names of songs removed due to missing lyrics.
+        artist_name (str): Artist name.
+        title_set (set[str]): Song titles to process.
 
     Returns:
         None
@@ -379,20 +359,32 @@ def prepare_lyrics(artist_name, title_set):
     return 
 
 parser = argparse.ArgumentParser()
-#parser.add_argument("--link", type=str, help="Link of genius's artist page", nargs="+", required=True)
 parser.add_argument("--RNN", type=bool, help="Perform specific pre-processing task", required=True)
 parser.add_argument("--nb", type=int, help="Number of artists that will be collected", required=True)
 
 args = parser.parse_args()
-#links = args.link
 rnn = args.RNN
 
 with open("API_genius.txt","r",encoding="utf-8") as f :
     GENIUS_API_TOKEN = f.read()
 headers = {"Authorization": f"Bearer {GENIUS_API_TOKEN}"}
 
+
+def process_all(artist_infos) :
+
+    artist_name, artist_id = artist_infos
+    songs = new_find_discography(artist_name, artist_id)
+    prepare_lyrics(artist_name, songs)
+    subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
+
 if args.nb == 1 :
-    songs, artist_name = new_find_discography(headers)
+    result = get_the_artist_id(headers) 
+
+    if result is None :  #If error during retrieving artist id, stop
+        sys.exit()
+        
+    artist_name, artist_id = result        
+    songs = new_find_discography(artist_name, artist_id)
     prepare_lyrics(artist_name, songs)
     subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
     subprocess.run(["python", "Markov/Markov_Chain.py"])
@@ -401,19 +393,23 @@ if args.nb == 1 :
         subprocess.run(["python", "Corpus/Manip.py"])
 
 elif args.nb > 1 :
-    artists_names = []
-    songs_ = []
 
+    all_artists = []
     for link in range(args.nb) :
-        #Idea : try multi threading to reduce runtime  
-        songs, artist_name = new_find_discography(headers)
-        artists_names.append(artist_name)
-        songs_.append(songs)
 
-#    driver.quit()
-    for i in range(len(artists_names)):
-        prepare_lyrics(artists_names[i], songs_[i])
-        subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artists_names[i]])
+        result = get_the_artist_id(headers) 
+
+        if result is None :  #If error during retrieving artist id, skip
+            continue
+        
+        artist_name, artist_id = result    
+        all_artists.append([artist_name, artist_id])
+    
+    if __name__ == '__main__':
+        with multiprocessing.Pool(processes=3) as pool : #limit the nb of process to avoid getting rate limited
+            for _ in tqdm(pool.imap_unordered(process_all, all_artists), total=len(all_artists)):
+                pass
+
     subprocess.run(["python", "Markov/Markov_Chain.py"])
 
     if rnn == True :
