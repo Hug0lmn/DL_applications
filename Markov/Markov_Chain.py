@@ -3,12 +3,6 @@ import numpy as np
 import pandas as pd
 import os
 
-#parser = argparse.ArgumentParser()
-#parser.add_argument("--name", type=str, default="", help="Name of the artist")
-#args = parser.parse_args()
-#name = args.name
-
-
 def count_each_interact(splitted) :
     #This function count what part appeared after another one and generate the structure that will be used to calculate the transition matrix
     
@@ -104,7 +98,7 @@ def generate_a_song_structure(matrix) :
     return
 
 script_dir = os.path.dirname(__file__)
-path = os.path.join(script_dir, "..", "Corpus\Cleaning")
+path = os.path.join(script_dir, "..", "Corpus", "Cleaning")
 list_files = os.listdir(path)
 
 #Regroup the songs, necessary when multiple artists
@@ -112,13 +106,14 @@ list_files = os.listdir(path)
 global_corpus = []
 for i in list_files :      
     if "clean_corpus_" in i  :
-        with open(f"{path}\{i}", "r", encoding="utf-8", errors="replace") as f:
+        file_path = os.path.join(path, i)
+        with open(file_path, "r", encoding="utf-8", errors="replace") as f:
             corpus = f.read()
             global_corpus.extend([corpus])
         
         good_corpus = re.sub(r"(true|false)\n", "\n", corpus)
-        os.remove(f"{path}\{i}")
-        with open(f"{path}\{i}", "w", encoding="utf-8", errors="replace") as f:
+        os.remove(file_path)
+        with open(file_path, "w", encoding="utf-8", errors="replace") as f:
             f.write(good_corpus)
 
 one_corpus = "".join(global_corpus)
@@ -128,38 +123,6 @@ end_sections =["/β", "/γ", "/ε", "/ζ", "/η"]
 
 #Remove potential duplicates
 one_corpus = "θ\n".join(set(one_corpus.split("θ\n")))
-
-##Count the number of parts in songs
-#If a song has more than 15 parts, delete the song from the corpus
-all_parts = [(m.group(1), m.start(), m.end()) for m in re.finditer(r"(α|θ|β|γ|ε|ζ|η|/β|/γ|/ε|/ζ|/η)", one_corpus)]
-
-count = 0
-beg = 0
-endi =0
-delete_the_text = []
-
-for i in all_parts :
-    if i[0] == "α" :
-        count = 0
-        beg = i[1]
-    elif i[0] in end_sections :
-        continue
-    else : 
-        if i[0] == "θ" :
-            count+=1
-            endi = i[2]
-            if count >=15 :
-#                print("Nb_part :",count, beg, endi)
-                delete_the_text.append([beg,endi])
-        else : 
-            count+=1
-
-for i in delete_the_text[::-1] :
-    beg = i[0]
-    endi = i[1]
-    one_corpus = one_corpus[:beg] + one_corpus[endi:]
-
-print("Nb songs where nb parts > 10 : ",len(delete_the_text))
 
 #Final clean before usable corpus for training
 regroup_corpus = re.sub("(true|false)\n", "", one_corpus)
@@ -225,8 +188,6 @@ order = ["<BEGINNING>","<INTRO>", "<COUPLET>", "<PONT>", "<REFRAIN>", "<OUTRO>",
 #print("\nGeneration of 3 structures :")
 #for run in range(3) :
 #    generate_a_song_structure(matrix)
-
-#print(f"\nTransition_matrix :\n",pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())))
 
 save_path = os.path.join(script_dir, f"transition_matrix.csv")
 pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())).to_csv(save_path, index=False)
