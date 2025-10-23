@@ -1,5 +1,5 @@
 α
-true
+
 γ
 dix heures pétantes, j'suis debout, j'prends ma douche, mon café, la veille, j'étais rré-bou
 j'suis grave en retard, là, j'ai des rendez-vous, midi, mon équipe va ouvrir le four
@@ -59,7 +59,7 @@ t'as même pas eu l'temps d'rappeler ton grand-père, ta mère, en un cri, les l
 /η
 θ
 α
-false
+
 γ
 ah bah ouais, musique du parking
 né dans l'urgence qui monte au casse-pipe
@@ -68,7 +68,7 @@ personne fait d'caprices, toi pousse le caddie
 et prends la pièce qu'il y a dedans pour ton dimanche, t'auras moins l'air triste
 j'ai grandi dans la faune, jamais à nous la faute
 on s'retrouve à la frite, au plus tard tout là-haut
-on pire on s'dira quoi? plus d'un tour dans la poche, plus qu'un tour sur la crosse
+au pire on s'dira quoi? plus d'un tour dans la poche, plus qu'un tour sur la crosse
 on s'enlèvera l'écorce quand il restera plus qu'un seul tour sur l'horloge
 en attendant j'fouille dans ma poche, j'remets du feu sur la torche
 j'parle que du nord, j'crie dans la rue comme un beauf
@@ -95,7 +95,7 @@ tu vas râler vu qu'c'est toujours la faute des autres
 rentre à la casa un oeil fermé, comme le dernier roi d'écosse
 13 heures du mat on sort du stud'on lit pas guy de maupassant on préfère brulux on the flux
 si y a des contrôleurs, on court à l'ouverture
-comme pour les soldes, au pire des cas j'm'appelle arthur de la verdure
+comme pour les soldes,  au pire des cas j'm'appelle arthur de la verdure
 si loin du ciel, si près des autres
 pour passer mieux, on s'met des logos sous l'épaule
 shit et charbon sous les ongles, paraît qu'c'était pour les autres, mais l'eau a séché sous les ponts
@@ -108,7 +108,7 @@ shit et charbon sous les ongles, paraît qu'c'était pour les autres, mais l'eau
 /ε
 θ
 α
-false
+
 β
 ah bah ouais
 okay
@@ -160,7 +160,7 @@ dans ma tête, j'suis pas censé perdre
 /ε
 θ
 α
-false
+
 γ
 elle est arrivée en air force blanches
 lacets formant un mouvement indécent
@@ -221,7 +221,7 @@ elle arrive en air force blanches
 /ε
 θ
 α
-false
+
 β
 encore combien de peines?
 j'pensais pas qu'y en avait tant à l'intérieur
@@ -233,8 +233,7 @@ t'es charmant, t'es gol-ri
 tu s'rais mon perso préféré d'la série
 si c'était une série mais c'est pas une série
 donc quand y a une dinguerie y a personne qui parle
-y a pas d'petits drames
-si y a l'noeud faut l'défaire y a pas d'petites larmes
+y a pas d'petits dramei y a l'noeud faut l'défaire y a pas d'petites larmes
 convaincu qu'au départ y a pas d'mauvaises âmes
 et qu'la noirceur du bonhomme dépend d'comment il prend les virages, bref
 /γ
@@ -286,7 +285,7 @@ arrête de crier sur ta meuf
 /ε
 θ
 α
-true
+
 γ
 j'ai arrêté la clope, j'vais pas arrêter d'rapper tout d'suite
 ça m'rend plus si heureux d'avoir des nouveaux habits tout jdid
@@ -296,8 +295,7 @@ lucci met les batteries, j'sais qu'les gens vont danser
 moi, c'est les mélos qui m'font penser
 j'demande pas pourquoi, j'demande quand c'est
 j'fais une pause, j'regarde autour de moi
-cinquante-neuf centimètres de tour de bras
-si le p'tit moi nous voyait, il nous croirait pas
+cinquante-neuf centimètres de tour de brai le p'tit moi nous voyait, il nous croirait pas
 j'arrache encore un p'tit bout, je roule, je tasse
 j'suis dans les émotions, les halls de gare
 j'construis amitié solide comme l'épaule de papa
@@ -351,7 +349,7 @@ j'fais le tour de l'arrondissement
 /ε
 θ
 α
-true
+
 γ
 j'suis perdu quand j'me lève , j'étais bien dans mes rêves
 avant que la ville s'éveille, j'dois partir charbonner
@@ -414,7 +412,7 @@ pour rentrer, faut casser la porte, bélier ou bien pied de biche
 /ε
 θ
 α
-false
+
 β
 yeah, yeah
 yeah, yeah
@@ -451,87 +449,14 @@ réussir ou mourir, c'est lequel des deux? plus jamais on baisse les yeux
 /η
 θ
 α
-true
-j'rêve d'un bateau qui flotte dans le ciel
-la salle est noire j'entends des cris
-on m'tape dans le dos et j'monte sur scène
-je sais pas si j'ai du potentiel à la base
-j'ai du courage et des amis, c'est l'essence même
-et puis l'amour c'est l'essentiel
-pas des quartiers résidentiels
-avec un vélo devant la porte
-j'aurais bien grandi de la sorte
-mais j'suis un gamin de la zone
-lv1 anglais? j'roule a gauche
-j'éclaire au flash, réchauffe au bouchon de poliakov
-qu'les minots l'sache:
-elle va jamais vraiment partir la boule dans l'ventre
-j'monte à pont de neuville, j'sors à tourcoing centre
-une baguette à 50 centimes
-j'mange le quignon, ça va sans dire
-j'fume une première clope en cachette
-j'espère maman va pas sentir
-cd gravé dans la 106
-néochrome hall star, panthéon
-va derrière le stade en vélo
-avec un poto sur l'guidon, sous pilon
-çui qui tombe on l'relève illico
-j'rappe les rides, les histoire de derrière le rideau
-le fond des tripes, y s'aiment pas, y font des feat
-c'est pas mon problème
-j'rappe pas j'traduis la résonnance dans mon abdomen
-j'rêve d'un bateau qui flotte dans l'ciel
-y parait qu'on a du potentiel
-wesh le rap c'est toute ma vie, 8h30 j'suis dans la giv'j'joue à éviter les immeuble
-avec les goutes qu'y'a sur la vitre
-en bougeant la tête
-wesh le rap c'est toute ma vie, vieux fou
-j'suis avec skary, j'touche la cible
-y'a ton label qui double la mise
-saperlipopette toutatis
-j'fais concert, j'ramène tout la mif
-pépère, nany, martin, noé
-bientôt charlie, les potes, la team
-pour l'instant j'ai l'pot en platine
-un jour le disque, pourquoi pas
-t'rappelles y m'disait viens par là
-ils voulais m'apprendre toute la vie
-une planète, un banc j'roule un ptit
-pas un gros, demain jbosse à 8
-avec ludo c'est passe aveugle
-tête plongeante avec les cheveux gris
-j'mets petit filet et j'souris
-depuis les ptit filou, les kiri
-j'sors de la cabine et j'souris
-ça sert a rien d'tirer la gueule
-mais de temps en temps on a pas trop le choix
-les 400 coups avant les 400 pas
-j'me rappelle hier t'était sur la paille
-suffit d'un rien pour que la paille s'enflamme
-jregarde plus l'top stream
-pélo, j'mate des post-it
-mon album sort dans un mois, j'fais ma tracklist
-frérot, je loupe le casting
-mais c'est moi le bon numéro
-on va brasser comme ta daronne en bonnet d'bain
-ça m'a l'air classique
-pendant qu'wysko chatouille fl ça à l'air facile
-les gens timides et authentique, nous ça nous fascine
-j'ressert un gobelet en plastique
-une batterie, un ptit sample de voix, ça m'a l'air magique
-y parait qu'on a du potentiel
-j'rêve d'un bateau qui flotte dans l'ciel
-θ
-α
-true
+
 β
 la famax
 ben plg
 /β
 γ
 encore un café tiède, une camel qui fait mal à la tête
-j'ai pas l'coeur à la fête, j'avais les yeux dans les bêtises
-stratégie précise, mets nos noms sur la coupe et enlève-les d'ta guest list, zebi
+j'ai pas l'coeur à la fête, j'avais les yeux dans les bêtisetratégie précise, mets nos noms sur la coupe et enlève-les d'ta guest list, zebi
 elle voulait zaï, zaï, un pétou, un verre de gnôle
 un verre de trop, c'est nous les canailles, casquette sur la tête de gnome
 ça fait un bête de flow
@@ -556,8 +481,7 @@ si j'étais à l'ufc, j's'rais white dana
 j'ai trop eu le coeur blessé, c'est dev'nu banal
 on t'met la banane, pas d'âme, écouté d'marseille jusqu'à paname
 ça pue dans les annales mais bon, marquer l'histoire, ce s'rait pas mal
-les voix dans ma tête me disent: un clip dans les west indies
-souris ching-chong, ça fait cheese, ma vie, un coup de ping-pong, oversize
+les voix dans ma tête me disent: un clip dans les west indieouris ching-chong, ça fait cheese, ma vie, un coup de ping-pong, oversize
 ramène la'teille, un pét', ce soir, la belle, la bête
 la tête à ben affleck,  la barbe à ben laden
 /γ
@@ -573,7 +497,7 @@ la bonne california
 /η
 θ
 α
-false
+
 γ
 j'porte la bague de ma grand-mère, les pêchés d'mon grand-père
 c'était pas prévu qu'ils s'transforment en ange aussi vite
@@ -631,10 +555,9 @@ tu les entends nos cris dans l'silence? c'est l'bruit du boulot qui rentre
 /γ
 θ
 α
-true
+
 ε
-j'suis ce gars qui rêve au fond d'la classe, qui rêve de faire le tour de l'atlas
-souvent perdu dans mes pensées
+j'suis ce gars qui rêve au fond d'la classe, qui rêve de faire le tour de l'atlaouvent perdu dans mes pensées
 et quand j'me sens seul, j'm'en vais me fondre dans la masse
 tous les jours on fait la guerre, mais l'exutoire c'est pas l'contrôle
 dis moi c'qui s'passe dans ta tête, tellement noir que j'entends que des bonsoirs
@@ -692,7 +615,7 @@ dis moi c'qui s'passe dans ta tête, tellement noir que j'entends que des bonsoi
 /ε
 θ
 α
-false
+
 γ
 à force de voir toute cette violence, on n'a plus de couleur dans la rétine
 chez moi, la police arrête pas les violeurs, parce qu'ils ont peur du sous-effectif
@@ -742,7 +665,7 @@ chaque jour un peu plus
 /ε
 θ
 α
-false
+
 γ
 on m'a dit: c'est ton année, depuis l'temps qu't'es dans la'zic
 on m'a dit: sois toi-même ça va payer, dans tes yeux y'a tout ce qui brille
@@ -796,7 +719,7 @@ le soleil est sérieux, la lune n'fait que d'briller
 /ε
 θ
 α
-false
+
 γ
 j'veux plus sentir l'odeur du beurre d'mi-sel sur des coquillettes
 coeur froid comme les larmes d'une mère sur paupières
@@ -853,7 +776,7 @@ rien n'tombe du ciel à part la pluie, ça leur donne des occasions d'se plaindr
 /ε
 θ
 α
-true
+
 γ
 ils ont tiré sur un p'tit frère, on a brulé des foot korner
 des lidl et des mjc, y a des trucs qu'on peut pas expliquer
@@ -906,7 +829,7 @@ cicatrices sur nos têtes et rayures sur nos range rove
 /ε
 θ
 α
-false
+
 β
 des années qu'on est dans l'attente, sinon, quoi d'autre?
 c'pas un passe-temps, ça cartonne sinon basta
@@ -971,7 +894,7 @@ j'roulerai jusque à la fin, hein, hein
 /ε
 θ
 α
-true
+
 β
 et ça ira, ça ira
 tôt ou tard, ça ira, ça ira
@@ -1033,7 +956,7 @@ on sourit sous la pluie, tu sais, l'orage, c'est pas si grave
 /ε
 θ
 α
-false
+
 ε
 entre mecs, on s'dit pas qu'on s'aime, déjà p'tits, on s'mettait des droites
 j'peux sauter pour un nique ta mère, ça veut dire j'peux mourir pour toi
@@ -1073,7 +996,7 @@ avec mon gars, j'fais comme à pôle emploi: j'reste devant et j'attends qu'il s
 /ε
 θ
 α
-false
+
 γ
 soleil est déjà au zénith, on répète qu'on vit dans l'péril
 aujourd'hui je vis, demain je meurs, au milieu j'comprends mon esprit
@@ -1128,7 +1051,7 @@ elle a, elle a, elle a
 /η
 θ
 α
-false
+
 γ
 c'est pas un drame
 c'est pas une fin
@@ -1176,7 +1099,7 @@ elle me regarde dans les yeux
 /η
 θ
 α
-false
+
 γ
 écriture automatique pour sentiments qu'j'ai pas compris
 des enfants qu'la vie traumatise, la vérité n'a pas tout dit
@@ -1232,7 +1155,7 @@ allez viens, on danse encore
 /η
 θ
 α
-false
+
 β
 j'ai pas attendu netflix pour écrire des classiques, hun
 ils font les rappeurs, ils parlent que d'streaming
@@ -1307,7 +1230,7 @@ plg, plg
 /η
 θ
 α
-true
+
 γ
 j'fais pas d'bonne musique si j'ai rien à dire et j'veux pas y aller si y a rien à vivre
 j'dessinerai qu'des sourires à la fin du livre
@@ -1383,7 +1306,7 @@ parfois, tu vas douter mais nique sa mère
 /η
 θ
 α
-false
+
 γ
 j'étais arrivé à un point où j'avais si faim, t'aurais pu croire qu'j'étais ventriloque
 j'viens d'là où des génies changent le monde pour cent euros, sans diplôme
@@ -1423,7 +1346,7 @@ c'est normal, faut qu'il tue sa mère, mon premier album
 /ε
 θ
 α
-false
+
 β
 maman m'a fait avec un fantôme
 j'ai tout appris dans les virages
@@ -1472,7 +1395,7 @@ j'garde ces images dans ma tête
 /η
 θ
 α
-false
+
 γ
 les années passent de plus en plus vite
 on avance, parfois on gagne, pourtant j'te trouve de plus en plus triste, moi
@@ -1494,8 +1417,7 @@ ou plus si y'a du monde sur l'trajet, si l'chauffeur met un film, ça tue
 j'fais du foot avec badri, dean, malik et junior d'la zup, on fait exprès d'louper l'bus
 /γ
 γ
-y'a des problèmes, c'est les solutions
-souvent l'évidence, c'est pas la seule issue, j'peux voir les fantômes dans la pollutions
+y'a des problèmes, c'est les solutionouvent l'évidence, c'est pas la seule issue, j'peux voir les fantômes dans la pollutions
 plg marqué sur le capot dans la salissure
 parait qu'on s'habitue, j'ai plus peur d'l'altitude
 ils m'ont dit: tout est trop dur, le bac, la vie, les factures
@@ -1523,7 +1445,7 @@ faut pas oublier d'dire: je t'aime
 /γ
 θ
 α
-false
+
 β
 les feuilles tombent, c'est pas la saison, on a dormi dans nos caisses
 on a dormi sur des cartons, nourri d'espoir tous nos rêves
@@ -1594,7 +1516,7 @@ on conjugue avec des fils de pute
 /γ
 θ
 α
-true
+
 γ
 faut les mêmes lettres sur l'olympia qu'sur les courriers des impôts
 leur ciel a moins d'étoiles que les yeux d'mes sins-cou
@@ -1661,7 +1583,7 @@ on peut monter au sommet, j'veux pas tomber d'aussi haut
 /η
 θ
 α
-true
+
 γ
 han, depuis quand les flics apprécient pas qu'on les filme? on en croise à la télé tous les soirs
 qu'ont d'ailleurs très souvent plus rien à voir avec ceux qui passent à la té-ci tous les soirs
@@ -1781,7 +1703,7 @@ j'ai du bon shit dans ma shitière et de la bonne weed pour le week-end
 /γ
 θ
 α
-false
+
 β
 six heures du matin, gare du nord, au bout du quai, j'rallume un long teh
 roulé la veille, j'me demande c'qu'cette vie va m'apporter à long terme
@@ -1833,1219 +1755,7 @@ j'rajoute encore du gris dans mon ciel
 /η
 θ
 α
-true
-γ
-mets d'la couleur dans le mélange,  dans nos coeurs, y a d'la place comme sur le gros front d'aubameyang
-moi j'mets d'la couleur dans nos têtes, y a rien qui bouge comme le vieux en bas qui fait des signes à sa f'nêtre
-wesh alors la mif', c'est comment? les potes, les parents, la vie les brise en deux comme une vitre, une puce lebara
-j'ai la dalle plus le talent, faut qu'je brille plus que la lampe, que mes frères puissent voir saint-tropez, monaco plus les calanques
-quand y a les flics ont fait des ouais ouais ouais, caillou à côté du samsung en cas d'gyrophares d'puis la m.j.c
-juste à la voix, tu sais qui c'est, couteau rouillé, flow aiguisé sa mère
-joues salées, salées comme la mer du nord, on t'retourne comme la terre
-il roule un bédo plus fort qu'lui, elle pousse une poussette plus grande qu'elle
-il sait déjà faire des collages, elle veut d'jà faire du collagène
-p'tit coeur en sucre dirait ma mère, faut juste leur dire qu'ils sont gentils, faut juste leur dire qu'on les aime
-/γ
-γ
-ouais, ouais
-c'est noir dehors, ça l'est pas moins dedans, cousin
-y a qu'dans l'viano qu'c'est jamais moi devant, bah ouais
-j'peux rouler l'teh même si y a plein de vent autour
-gros, la police n'empêche pas de vendre
-les gamos n'arrêtent pas de chanter
-et les shlagoss prennent du crackos sous une barre de chantier
-super actif j'laisse rien au pif, j'suis l'opposé d'ton collectif
-j'arrive dans c'truc tout beau tout frais comme quand l'daron m'coupait les tifs, bah ouais
-pas sûr que l'rap me rendra millionnaire
-j'arrive en mode f.a.b.e, en mode visionnaire
-j'les baise en missionnaire, en leu-leu
-jeune b.e, l'élu, j'mets quatre lu'-lu dans l'match
-et puis j'me casse, comme si j'démissionnais, ouais
-on t'allume comme ce blunt plein de puff
-tu t'fais sauter comme le grunt 59, ouais
-sacrée vie donc forcément qu'on a des sacrées failles
-ça fume des oins-j avant et après l'five
-/γ
-γ
-yeah, hein
-stonar pour les intimes, j'viens du clash à la base
-j'voyais tout rouge, on a mis un peu d'couleur dans nos lifes
-nan, on a consommé la kush
-fume à fond, bois beaucoup
-très tôt j'ai su compter les erreurs, les main sales
-maint'nant faut pas qu'j'me rate comme trezeguet
-sur la prod du rodéo, drift, musique, mais j'aime bien tout
-me mets pas dans une case, allez fuck, j'irai pas chez vous
-té-ma j'suis entouré d'lyricistes, que fais-je donc ici?
-grunt 59, ouais, c'est bien trop gore, j'réouvre des cicatrices, hein
-p'tit remix pour le mob, c'est pour mes centipèdes, yeah
-j'ai mille façon d'leur dire nique ta mère, d'leur dire qu'j'suis le best
-tu vas rester cinq minutes ici, après tu vas next
-putain, yeah, après il va next
-nous on se doit d'envoyer la dope, même si j'ai mon tel devant les yeux
-salomons aux pieds pour run les cops
-salomons aux pieds, même dans le pieux
-j'en place une pour marlo, s.r.2.e,
-k.o.n.g.a, sima, les feux
-ceux qui se lèvent tôt, ceux qui baissent pas les bras, yeah
-/γ
-γ
-hey, hey, jeune b, on y va, ouais ouais, ouais
-à deux sur un scoot délabré, autour ça sent la brique, ça fume, ça file après
-tous ces chiffres ça fout la press'un frère au sol entouré à la craie
-j'regarde dans l'flou, j'y pense après
-j'y pense après, on portait pas d'superdry
-par contre j'fume du super dry
-t.n.f, que la famille, compte pas sur moi si t'espères graille
-j'connais des fauteurs de trouble, j'connais des fouteurs de trouille
-j'connais des footeux, des fougueux, sur la table des poseurs de couilles
-j'connais des sauveurs de coups, des smokeurs troueurs de coussins
-il paraît qu'marylin manson il mange des poussins
-j'rallume un j', j'rallume un coupe-faim
-j'nage en eaux troubles, j'évite les oursins
-putain, plus de zéros sur l'contrat qu'sur le bulletin
-mais pourtant,  elle m'disait fous l'camp
-tout près du radiateur, j'bavardais tout l'temps
-j'pas peur de vous, j'ai peur du changement
-j'avais pas peur du gen', -gen', j'connaissais la valeur du -gent, -gent
-big up à jeanjean, big-up à grunt
-un p'tit bout d'shit, un p'tit peu d'funk
-casquette croco sur la coupe à trunk
-et j'pense aux frères, à six dans vingt mètres carrés
-là ou t'aurais même pas su t'garer, on leur demande de vivre
-t'en parles mal une fois qu'c'est plus ta feu-meu, c'est facile
-tu veux m'faire croire qu'ta nouvelle pute le fait mieux, j'suis pas sûr
-pour en être là, j'ai try-hard, comme devant les porcs j'ai fort cavalé
-concurrence préfère avaler l'chibre de l'industrie
-merci à flav et raf', le haut du panier
-d'avoir su qu'j'allais faire l'or, quand j'avais qu'la ferraille
-c'tait pas gagné, dans les poches j'crois qu'j'avais deux balles à peine
-main dans l'froc sur mon canapé, cette vie là n'pouvait pas m'aller
-à notre place, qu'est'ce t'aurais fait, à part te plaindre comme beaucoup d'autres?
-attendre que quelqu'chose vienne à toi, qu'ça tombe du ciel comme des gouttes d'eau
-mon épaule est un perchoir pour le p'tit ange qui veille sur moi
-j'sais qu'il prendra l'relais si j'foire
-jeune b, sto, ben, grunt 59,  tu connais déjà
-/γ
-γ
-on y va, on y va, yeah, hein
-let's go, s.t.o, s.t.o, s.t.o, s.t.o, 5.9, t.n.f, l.c.g, brotherhood jusqu'à l'infini, tu connais déjà, yeah
-on y va, yeah
-ensemble finessementality®, j'suis ambidextre, j'sais bien rer-ti
-j'fais tout pour le clan, comme yung simmie
-mitsubishi a/r breda
-sushi, cerveau mé-cra, tout est pollué, c'est jakarta
-5.9 endetté, dans les tatams
-faut dix suv couleur magenta
-dans le game sans didacticiel
-là-celle, elle croit c'est facile d'faire c'qu'on fait
-sur la scène on manque d'oxygène, no-sleep j'ai coupé les deux bras d'morphée
-pas de bullet-proof, j'suis un one, j'les tape
-entouré d'loups, marche comme dans les steppes
-j'sais y en a qui soufflent devant leurs stats
-ils font grave pitié, en vrai c'est que d'la flemme
-on se prolifère comme un virus, hein, ça vient du nord force à mes dogs
-j'roule un cône de plus sous l'abribus, j'suis à p.d.v, je vois que la mort
-c'est qu'des crackheads tes rappeurs, c'est au-ch
-fini d'l'époque d'la lame sur le réchaud
-les petits ont trois couteaux de poche
-t'inquiète qu'ils veulent pas rayer ta porsche
-les mutants on s'en rapproche, pour pouvoir cash les lunettes de scott summer
-ma gueule j'ai plus peur, à 2.5 sur l'a7 dans un hummer, vroum
-j'aime quand ça fait boum boum boum, huit-cent-huit malveillance au max
-j'suis en légende comme mf doom, mais j'aime pas trop les gens qui portent des masques
-yeah, hein, let's go
-2.4.2 sur la voie d'gauche à fond
-drift musique, tous les murs y s'effondrent
-j'mélange tous les styles, nan j'mélange pas l'euphon
-yeah, hein, let's go
-dans un gros bolide y a qu'une seule direction
-toujours tout droit c'était la prédiction
-gros joint sur l'accoudoir j'fais des additions
-cinq plus neuf, hein hein, non c'est pas une fiction, let's go
-cinq plus neuf, non c'est pas une fiction, let's go
-/γ
-γ
-ok, ok, ok
-grunt 59, faut qu'j'm'implique un peu
-si tu m'avais dit ça y a cinq ans, j'y aurais pas cru
-maint'nant ça m'fait ça, dès qu'j'commence un truc, t'imagines le trac, nique sa mère
-ils m'ont dit t'es nul, j'ai quand même eu l'bac, nique sa mère
-j'ai même eu confiance en moi, t'imagines le bail
-j'ferme les yeux, la prod démarre, j'imagine le sale
-cabas lidl cartonné, j'sors, j'sécurise le sac, lol
-mon c.d à la fnac, mes paroles à la fac', ma p'tite gueule à la caf
-j'écoute des instrus, j'passe la serpillère
-nos pères ont des yeux d'lynx, des doigts d'faits divers
-j'ai grandi avec des militaires, des bruits d'bouteilles de jupiler
-odeur d'clope et score de foot au minitel, sur l'pallier beaucoup d'poussière
-et des courriers du ministère, ces nouvelles qui rallongent l'hiver, le passé t'rattrape toujours
-ça marche qu'un temps d'inventer une mauvaise adresse dans l'finistère
-j'sens la sueur faire bouger mes molécules
-on a pris du r'cul, on va prendre les thunes, d'ceux qu'y ont pas payé les grandes études
-j'parle à la lune, à un mur, les menaces brisent pas les armures
-mais les larmes, elles si, on va tout niquer même si, yeah, yeah
-époque inter milan pirelli, on pensait qu't'étais pas toi-même quand t'avais pas ton pire ennemi
-j'voulais être peter parker, nos mères méritent des champs d'fleurs et d'la présence,  pour ça qu'on pleure tous à l'adolescence
-j'ai tout crié, pour jamais oublier mes peines
-tatoue le toi, pour jamais oublier qu't'es belle
-t'endors pas trop, pour pas tout oublier tes rêves
-ça y est, c'est bon, là tu peux oublier les règles
-cendrillon s'est niquée les veines, batman s'est niqué les vertèbres
-à la chaîne au 3.8
-tintin rigole comme une hyène rue des orfèvres au trente-six
-j'sais pas si j'm'abîme ou j'grandis, j'sais pas si j'pars ou j'm'enfuis
-j'arrive plus à dire tant pis, mais tant pis
-c'est l'chant des normaux et des non-dits, l'bonheur est libre en condi'vu qu'les vampires ont pas compris qu'on est rentrés par la f'nêtre et par la porte de la sortie
-j'ai d'plus en plus mal à la tête, j'suis d'moins en moins mal à l'aise après un je t'aime
-ou un moi aussi, donc merci pour la survie, merci pour les cicatrices, les cicatrices et les chaînes
-quand on pensait qu'être seulement soi-même pourrait jamais suffire
-ça suffit
-/γ
-γ
-ouais, ouais, ouais, ouais, ouais, ouais, ouais
-hey, j'veux quitter ma banlieue, j'veux quitter ma colline, ouais
-j'veux quitter ma banlieue, j'veux quitter ma colline, voir le papel tripler de volume à la virgule près comme si j'étais roni'faire semblant, dire que l'dribble était voulu
-fuis jamais tes doutes, ils vont finir par t'follow
-acouphènes, c'est cause de la sono', bientôt les certifs dans mon portfolio
-le keuf a mal vérif et il repart solo
-j'travaille bien trop, j'ai mal en bas d'la colonne
-bon vivant, j'ai jamais su être économe
-on pleure jamais, on tise comme des bonhommes, des flashs rouges et blancs comme le drapeau d'la pologne
-si demain cette life m'agrippe avec un lasso et qu'elle m'emmène très, très, très loin d'la maison
-j'me dis qu'y aura toujours un hall pour un dealer, un toit pour un rêveur, une branche pour un oiseau
-ma chérie, j'te dis pas si tu pars demain, ça m'f'ra l'effet qu'peut faire un bombardement
-j's'rai sûrement là-bas quelque part plus loin
-seul sous rhum au degré d'mon département
-j'f'rai des tours dans mon quartier embrumé en m'demandant qui va rev'nir en premier
-j'suis fait d'gaz, d'azote et de flammes, t'approche pas trop, tu vas finir par t'brûler
-premier en sport et en chant, dernier en maths et en meufs 
-on va pas s'pointer en teuf, on va pas s'pointer en teuf 
-premier en sport et en chant, dernier en maths et en meufs
-on va s'préparer au show, on va pas s'pointer en teuf
-premier en sport et en chant , dernier en maths et en meufs
-on va s'préparer au show, on va pas s'pointer en teuf'premier en sport et en chant, dernier en maths et en meufs
-/γ
-γ
-yeah, let's go
-c'est mon retour ou c'est un vrai murder
-gra-gra, boum, toi t'es un fou là
-si j'disparais c'est que pour la moula
-j'suis fort partout, j'suis paré pour le goulag
-toi t'es die, j'sais qu'tu parles sur nous
-ta feu-meu en boîte ? d'vant mehdi casse les genoux
-j'ai l'sourire, mais j'reste pirate aguerri
-money bag rempli, j'suis comme un guerrier
-je guéris quand je crée, j'veux shiner, égérie, en secret, veut whiner
-j'suis dans l'thème, j'suis dans mon l.c.g
-rue faidherbe dans un gros suv
-qu'est-ce tu veux? en vrai j'ai pas d'd.a
-j'me fais kiffer, j'me fais gonfler les bras
-let's go, hein, j'me fais kiffer, j'me fais gonfler les bras
-c'est un goofy lui, il croit que j'me suis du-per
-j'suis resté l'même, toutes les places, je récupère
-demande à 2c, mama elle doit manger
-berline chargée tu ressens le
-té-ma mes soldats, ils ressortent des tranchées
-j'sais être méchant, j'vais pas t'arranger
-audio dope, on vend tout dans des sachets
-prends ta cop sinon elle va s'faire, hein
-jusqu'à mehringdamm on m'appelle big man
-j'ai la te-tê solide, ouais, c'est du titane
-j'suis dans les carotides, j'suis plus amateur
-bou-bou-bou, hein
-jusqu'à mehringdamm, on m'appelle big man
-j'ai la te-tê solide, ouais, c'est du titane
-j'suis dans les carotides, j'suis plus amateur
-j'me sens comme ? comme un grand scammeur
-/γ
-γ
-wesh les cas social, la madame a dit qu'on n'était pas normal
-j'viens d'là où on sait pas quoi mettre sur l'devant des cartes postales
-pour ta maman, j'suis adorable, pour ta cousine, j'suis abordable
-pour mes p'tits frères, j'suis un moyen d'se faire inviter au mcdonald's
-on a poncé les aldi, les parkings, roulé des palmiers sur l'palier jusqu'à c'que la voisine sonne
-à part zidane et papi, j'ai pas d'idole, la symphonie du taxi phone
-y a les condés rue ratisbonne en train d'batifoler comme à washington
-foutus descendants d'wisigoths, sur la chatte à leur grand-mère la bourguignonne, yeah, yeah
-thon hannibal dans l'pain bagnat, supplément oeufs durs, mayonnaise
-ton cousin t'ramène des total quatre-vingt cinq sans virgule quand il revient du bled yeah, yeah
-j'm'en bats les couilles d'percer, si j'peux pas fumer des joints dans l'hôtel
-j'rappe avec des lames dans la gorge, des noeuds dans l'coeur, elle m'demande si j'suis vraiment honnête, ah ouais
-ouais, ouais, ouais et t'as cru qu'j'allais pas percer
-j'me sens comme zinédine avant l'corner, comme naps avant l'été, ouais
-ouais, ouais, ouais et t'as cru qu'j'allais pas percer
-j'me sens comme zinédine avant l'corner, comme naps avant l'été
-yeah, yeah, hey, grunt 59
-/γ
-γ
-jeune b, j'vais les mettre à l'amende
-jeune b, j'vais les mettre à l'amende
-dans deux, trois piges j'ai plus d'prêt à la banque
-j'suis un mec discret, tu peux t'mettre à la mode
-tu peux p't-être me voir si tu guettes par la fente, ouais
-je reste le même donc sois pas surpris si tu m'pètes à l'alim'j'ai des frères muslims d'autres qui fêtent pas l'aïd
-mais on marche ensemble sur n'importe quelle pente
-mauvais cocktail, ébullition, ils bandent sur les flows qu'nous utilisons
-j'ai caché des pièges dans les buissons
-plus ils sont nombreux, plus ils s'sentent puissants
-ils ont finis à dix dans un puit sombre
-jamais d'ma vie j'fais machine arrière
-même amputé j'enjambe les barrières
-ils comptent les streams on compte les carrières
-on brise des chaines ils brisent des lanières
-roubaix c'est pas la villa cavrois
-on va monter dans les tours même moteur à froid
-on a bien trop smoké, donc on pilote à trois
-les années d'vie s'perdent, mais le talent s'accroît
-quelques leçons de vie que j'ai tendance à croire, mais j'ai vu mon frère se tuer tout en tenant sa croix
-/γ
-γ
-roule à fond dans un bolide noir, ... foire
-j'sais qu'là haut y a du cash à s'faire, mais pour l'instant j'suis qué-blo les pieds sur terre
-pas besoin d'grand chose, tout c'que j'ai, j'le donne
-la vie c'est pas tout rose, c'est grave monotone
-j'raconte moi, tout c'que j'vis
-j'invente pas, j'aime pas vos vices, yeah
-lunettes de vitesse, j'dis merci gwam
-c'est marrant, t'es pas pareil qu'sur instagram
-salope fait l'grand écart la nuit en club
-tu peux louer sa pussy pour deux, trois teufs
-j'dis non merci à toutes ces clavs
-j'ai besoin de ? sharass qui colle aux oigts-d
-j'compte plus les balafres, mes gars ont soif
-j'm'enfume toute la night, j'attends qu'on s'taille
-gros gamos, gros bad trip
-tellement ça va à fond, t'en perds tes tripes
-j'sais qu'un jour on f'ra tous le vide
-j'ai des plavons qui m'feraient tenir dix vies
-c'est encore moi enfoiré, let's go
-dans mon 5.9, mes reu-frés ils sont parés
-quand j'rappe sur toute la france, c'est comme si y pleuvait
-/γ
-γ
-j'ai grandi en rêvant d'la voisine, d'la dame de la cantine, en ayant toujours peur des quantités
-j'rappe parce que si j'rappe pas, j'me sens vidé
-j'fais comme les yeux d'mon père, j'mets d'l'intensité
-en un je t'aime, j'fais un couplet
-trous d'boulettes de boeuf d'lidl surgelées
-en un j't'aime plus, j'fais un putain d'projet
-sponsorisé par l'époque des gouttes sur l'nez, yeah
-évidemment quand un frérot s'détériore comme une autoroute, ça m'soûle
-j'rappe comme si j'épouse la foudre
-ils bougent les bras pour rien comme les nunchakus
-on a fait d'la route, mon coeur fait la boussole
-jamais d'la vie j'dis j'me suis fait tout seul
-jeune b.e, s-to, big ben, y a trop d'klaxons pour entendre le chant des sirènes
-la vie, ça va super vite, j'récupère, j'investis l'bif
-j'laisse tes rappeurs dépenser la moitié d'leur avance en uber eats
-à force qu'on m'crie d'ssus, j'avais plus d'estime
-là on va péter, y a plus d'esquive
-viens on regarde la taille de tes glaouis, poto, quand y a plus les streams
-/γ
-γ
-de un, baise le monde, baise les keufs, baise ces grosses têtes à claque qui parlent trop pour rien
-les profiteurs, les critiqueurs, les gens trop lisses, tu sais ceux qui trouvent toujours tout bien
-chaque matin j'ai tête de mort, café, moins quatre dehors, douche froide, chez nous on prend pas d'bain
-baise le monde, baise les keufs, si tu veux qu'j'te l'dise de plus près, bah, viens
-ouais, ouais
-tu m'fais la hess, mais j't'ai vu hier au club dépenser trois fois la paye de ma daronne
-on t'a cramé, ici on a l'oeil de la lune, de madara uchiwa
-j'voulais un feat, avant qu'je monte ça m'répondait mandarin ou chinois
-ils sont ? dingues, j'me suis promis d'jamais r'produire ce schéma
-j'suis un gars peace, tu fais l'fou, j'peux t'faire une fukushima
-en vrai je sais bien qu'j'suis un haineux, c'est pas moi, c'est b.e
-dans la tête j'ai des noeuds, mon but c'est d'le faire même de faire mieux
-j'ai grandi à roubaix, j'suis pas fils de fermier, les briques rouges, la déprime hivernale, des nuisances infernales
-on va peu vers lille, on traine qu'entre vermines
-les sols sont trop glissants, dites-moi qui les vernit?
-/γ
-γ
-sto, sto, sto
-grunt 59, c'est grâce à vous hein, yeah
-let's go
-j'ai un problème avec vos mans, danger j'vois plus les pictogrammes
-2.4.2 jamais on rétrograde on capte des schlags, et des dobermans
-mitsubishi, arlequin, i like, j'ai pas l'permis, my wife elle drive
-j'suis une galère, tellement je smoke de ma bouche sort que du feu, j'me sens comme smaug, hein
-woa, woa, woa, c'est pas ici le paradise
-j'me sens comme gucci en 2012, demande à 2c
-ensemble 2008 assorti, bre-som comme une histoire sordide
-j'viens tout graille comme en tyrannie, pas d'parrainage, pas d'pyramide
-à ma table que les avengers d'la u-re
-wake up, j'ai trop serré la ceinture
-j'suis avec bekar et ben en direct d'roubaix, big up à hem aussi
-on est tous unis, 5.9 sur les bras, j'vous oublie as-p
-j'prends des prods, c'est même plus d'la trap
-mais j'reste un pirate, un putain d'crack
-/γ
-ζ
-sale, sale
-big up à hem', big up à fives , big up à tout l'monde
-on part aux states là
-en mode west coast, il m'faut des grosses caisses, des pesos
-let's go, yeah
-j'ai un problème avec ces bitchs qui font que d'parler sur les réseaux
-ouais, ouais, hey
-/ζ
-γ
-en mode west coast
-il m'faut des grosses caisses, des pesos
-et qu'tu m'demandes combien ma veste coûte
-elle a des grosses fesses
-et vu comme elle cause
-j'aurais pu lui faire treize gosses sur du gospel
-jeune b.e, guess who's back
-démarre la caisse on s'barre
-on a la carrosserie qui brille, les carreaux sont teintés
-tu cries si j't'annonce un prix
-lunettes violettes à la vice city
-et pour les papiers, frère, on falsifie
-mission accomplie comme carl c.j
-moi j'suis plus kendal que jenner kylie
-j'vis loin des cains-ri
-mais j'allume leur cali'et plus j'suis high, plus j'fume leur cali'c'est pas l'même calibre qu'à lille
-/γ
-γ
-j'ai un problème avec ces bitchs qui font que parler sur les réseaux
-j'ai un problème avec ces riches qui font que d'bander sur la ne-zo
-ils prennent leur truc par voie nasale, ça m'dégoute tous ces shlags
-j'faisais mon biff près de la salle, puis j'partais recharger le bag
-j'ai brisé trente-six coeurs, nos sides c'est pour les miens
-c'fils de pute on lui baise sa soeur si il nous sert pas la main
-j'suis dans un motorsport rouge carmin
-hoodie lanvin taché d'blood, hein, j'veux faire fois vingt
-tu sors un blicky dans tes sons, mais derrière on sait qu'tout est faux
-jeune rêveur veut que tailler, le trou noir il est dans son ventre
-un p'tit couteau aiguisé, tekpak il est matrixé
-pyramide de gizeh ou dubaï, il voit plus c'qui rentre
-j'écoute pas les gens qui cé-su, j'écoute les gens qui sécurisent
-j'découpe la beuh rien qu'ça, pour un peu d'guap mes gars s'isolent
-moi j'veux vire de la sorte, qu'on leak à mort
-il m'faut dix fois l'salaire d'un avocat, j'mets plein phare comme si j'transportais d'la coca, yeah
-/γ
-γ
-j'suis bien concentré, bien, bien, trop
-une dernière taffe avant l'métro, j'me dis qu'ça va aller
-en c'moment j'me remets en cause tous les matins
-j'serais nulle part sans mes proches, sans mes copains
-y en a qui m'ont ralenti, j'peux pas leur en vouloir
-un pote qui change, ça fait l'effet d'un miroir
-j'veux plus jamais dire trop tard, j'suis accroché au trottoir
-j'écoutais pas en français, j'écoutais que en histoire
-du coup, j'fais que des fautes partout, mais j'écris mieux qu'les mecs qu'on devait lire en cours
-avec ma mère aux courses, j'sors la cb à la caisse, elle me dit: range ta merde, t'es pas drake et on n'est pas aux states
-j'sens qu'j'ai grandi, j'mets d'l'oseille dans l'horodateur
-j'conduis voie d'droite à cent dix sous régulateur
-ça zehef les commentateurs comme les j'suis un artiste, j'suis pas juste un rappeur
-/γ
-ζ
-oui, hé oui hé oui, hé oui
-quel bon moment, yeah, c'est magnifique
-merci à tous les beatmakers pour les instrus, lucci', low, tout l'monde
-pour tous les gens qui ont une passion, croyez en vos rêves les frères
-/ζ
-γ
-let's go, yeah
-nan j'fais pas d'golf à morfontaine, tu sais la fame c'est éphémère
-rap jeu c'est une femme fontaine donc quand j'la baise, je persévère
-c'est comme une fable de la fontaine, quand j'rappe y a double sens
-sur la mélo mes gars ils dansent, mais dans mes mots j'aime quand ça tranche
-les faux frères j'les comptabilise, faut l'compte à billy
-anthracite sera ma'ghini, j'touche du bois j'suis pas ébéniste
-hein, henni, henni, glou-glou-glou, chacun ses vices
-dans cette shit on en a mis des sous, non personne a fait d's...
-j'suis posé vers l'mont des cats, j'ai fait un p'tit tour de bécane
-j'pense à la vie, à ses mécaniques, au truc qui t'serre les canines
-coeur en céramique, la tête en acier trempé
-sur l'drapeau c'est ttp d'puis l'époque de ddp
-cartable poivre et sel, j'avais d'jà le mindset, on graillait à sept
-quand heenok parlait d'la cassette, j'ai compris la recette
-cooking ce top dans le dio-stu, on a plus les bouches cousues
-nous parler d'd.a, comment oses-tu alors qu't'achètes des vues?
-époque révolue, que ça transac sur revolut
-les banquiers comprennent pas qu'avec ça, bah ma vie j'vais la sécur'j'connais mieux mes textes que mon numéro d'sécu'viens pas m'parler de mon vécu, il faut qu'sur mon dos ça spécule, hein
-les requins nagent, dans l'grand bain, je tape une brasse
-et j'mets un peu d'espoir dans cette dernière phrase, yeah
-faut croire en ses rêves, se r'garder dans les eyes, yeah
-pourquoi j'suis ici, pourquoi toi tu l'serais as-p?
-/γ
-γ
-c'est plus dur de tirer un trait que d'marquer un point
-plus dur d'ouvrir un caprisun que d'rouler un joint
-j'représente mon coin comme steven gerrard
-j'viens d'la belle ville de tourcoing comme c't'idiot d'gérald
-personne n'aime les pointeurs
-y'en a plein dans l'bus, dans l'train, dans les bureaux du 20h
-mais personne n'aime les pointeurs
-dans les commentaires sur insta et twitter, ils font des stats de rappeurs mais t'inquiète
-personne n'aime les pointeurs
-fuck ppda tous les jours
-siffler une meuf c'est une preuve que t'es une merde, c'est pas une preuve d'amour
-v'nez on leur montre c'est qui les idiots
-p'tit frère à l'ombre pour trois grammes pendant qu'norman fait des vidéos
-gros joint sur les plages du débarquement
-t'es belle mais j'peux pas t'aimer plus que mon département ou peut-être autrement
-mais j'attendrai d'avoir digéré plus de chose, là, ton regard me manque
-là y a mon grand-père à la maison, il m'dit: j'sais qu'j'suis vieux, qu'j'perds la raison
-j'lui dit: j'prépare une grunt 59, pour la région
-il m'a dit: j'suis fier de vous, les yeux rouges comme l'horizon
-j'vis pour ces moments là
-j'suis sur scène, j'fais moins d'fuck que d'coeurs avec les doigts
-ça veut dire que ça va
-ça veut dire que ça va
-/γ
-γ
-on voulait voir de beaux décors, on a vu qu'passer qu'des corbeaux
-r.b.x mon territoire, à notre histoire vont-ils y croire?
-prie pour qu'demain soit beau, qu'après d'main soit encore beau
-parce que c'est rare que les choses durent, ça s'effrite comme sous les chaussures
-j'ai fait l'deuil, papa heureux j'vais jamais l'voir
-et mon pote non plus d'ailleurs, parce que cette life l'a mis ailleurs dans un monde où je n'peux y aller
-j'maudis la drogue qui l'a détruit et la corde qui l'a libéré
-j'pense à lui des fois le soir, quand j'me retrouve seul à errer
-j'suis pas sûr d'finir au valhalla
-j'suis l'portrait d'mon père, ah la la
-ça crache comme des lamas, ça sent l'fumier jusqu'à là-bas
-entre ceux qui nous salissent et qui d'vant nous salivent, j'en ai ras-la-casquette
-envie d'faire mes valises et d'voir bali ou malaga
-crache sur un frère et j'le défends comme alaba méfiant comme à la barre ou à minuit trente à la gare
-envie d'visiter l'monde, rejoindre mon berceau à barcelona
-si l'or ça nous sépare, l'art ça nous lie, nique ardisson, nique hanouna, ouais
-j'crois qu'j'ai grandi, j'commence à vouloir faire du bif', ouais
-à prendre des décisions, à plus choisir au pif, eh
-mais les contrats ça reste du hiéroglyphe
-sous vos jolis gants noirs, j'ai su flairer vos griffes
-j'grandi, j'ai la barbe qui pousse, conscient qu'on s'éparpille tous
-j'vois des p'tits, sur la barre, qui poussent et des anciens au bar qui toussent
-j'connais toutes mes peurs, même les plus profondes
-on n'est jamais trop instruit, on n'est jamais trop con, yeah
-/γ
-η
-jeune b.e, s-to, hein, ben plg
-/η
-θ
-α
-true
-β
-grr, yeah
-ouais ouais, ouais
-yeah, yeah, ok
-/β
-γ
-c'est évident, j'suis plus chaud qu'tous tes potos
-j'traumatise la prod comme sch sur auto
-le doigt sur la gâchette, j'appuie tous mes propos
-brrr, mon flow, un semi-auto'j'pas l'temps d'sourire vu j'm'entraîne à gogo, nan, nan, yeah
-j'pas l'temps d'sourire vu j'm'entraîne à gogo, ouais
-sous cernes, je zone, moteur v12, j'fly comme superman ou jojo
-sous cernes, je zone, moteur v12, j'fly comme superman ou jojo, ouais
-ma peau est noire, mon coeur est noir, mais j'vais pas mettre du tchoko, non
-eux, faut les voir, ils font les zouaves, c'est qu'une équipe de bozos
-damn, edge, vingt moins un
-yeah, ok, brr
-chien méchant, tu peux m'appeler kelevra
-j'envoie shoot dans la tête, j'viens pas viser les bras
-ceux qui dirigent alimentent les dégâts
-c'est ces bâtards qu'appauvrissent les caisses de l'état
-la plupart, faudrait les mettre en ehpad
-le vrai souci c'est eux, ma gueule, pas telegram
-moi, j'suis qu'un mec d'en bas qui a besoin d'becte en balle
-donc il faut qu'j'accumule les coups d'éclat
-grr, mode franchise player, j'rentre mes three p, han
-prince dans la ville comme titi? ou hifi
-bientôt, j'ai des bagues qui font le prix d'un q7
-okay, okay, yes, ouais, yeah
-mode franchise player, j'rentre mes three p, ouais
-prince dans la ville comme le 113 ou hifi, yeah
-bientôt, j'ai des bagues qui font le prix d'un q7
-ouais, ouais
-/γ
-γ
-okay, han, han
-yeah, yeah, ouais, ouais
-j'm'installe au resto et j'prends la table du maire
-on m'vi-ser comme un roi, ces bitches sont loin d'moi
-j'les vois en tout petit, même à taille humaine
-ouais, ces bitches sont loin d'moi, yeah j', yeah
-j'ai des plugs tout-par, du 9.3 au canada
-tu veux m'test ou quoi? mais, mon gros, t'as pas la dalle
-moi, j'mets des switchs ou des lucarnes à chaque fois que j'prends la balle
-il joue l'thug, il devient tout pâle, dès qu'il ré-ti sur la za', wah
-j'sirote un cocktail dans l'fond en parlant d'gros llets-bi, ouais
-j'connais l'fond des humains, lui j'sais pourquoi il maigrit, uh
-j'glisse sur la prod, on dirait qu'j'fais des drifts, ouais
-sébastien lobb, steph curry, switch, j'ai tous les tricks, yeah
-j'ai tous les tricks, faut qu'j'empile les bricks
-r-o-b, rob, let's get it, mon g, yeah
-/γ
-γ
-j'louche que d'vant l'beurre
-ou un boule quand j'tais khabat devant l'club
-dès qu'j'ai la balle, j'deviens clutch
-sonne-per à qui j'demande l'heure
-c'qui sort de ma boca, c'est du plomb, pas lassé du front
-mais j'veux passer du bon temps, pas sûr d'revenir des enfers, j'pense que j'aurai croisé du monde
-l'hiver était compliqué, fallait s'abriter
-j'roule un j dans mon hall, y a des sobriquets gravés au schlass et des 9.4 marqués au briquet
-premier en sport, j'savais pas chanter
-c'toujours pas l'cas, mais j'ai pas d'plan b
-les années passent, rien n'a changé donc on refait l'monde de janvier à janvier
-il a pu neiger, il a plu des g, dans la cabeza, c'est vite fait plus léger
-j'mets l'réveil à 13:12, j'lève le doigt, après, j'me r'couche
-quelques embrouilles en flashback, une soirée sur deux, c'tait un blackout
-c'est plus un rre-ve?, c'est un placard
-fuck, la vie, c'est encore une bagarre
-j'me défends mieux, tu vois plus d'cocard, sur la slice, faut plus de fromage
-y a qu'des vrais cons, me parle plus d'faux calme, j'accélère, ils voient plus qu'le flocage
-dans cette merde, j'suis aussi de-spi qu'ato boldon
-j've-'squi l'boredom, pas d'jim gordon, donc dans la feuille, c'comme le maillot d'boston
-/γ
-ζ
-shitshh, trr
-gruntlet's go, big rob, let's go
-janvier à janvier
-let's go
-okay, okay
-ouais, ouais, yeah, yeah, yeah
-grunt, okay, ouais
-/ζ
-γ
-déter', j'suis en mode cassius clay quand il faut faire des sous
-mon coeur se vide à chaque couplet mais ça crée des bijoux
-j'ai quitté l'taf fsur un coup d'tête, j'me suis pris pour zizou
-ouais, hahaha, ouais, yeah
-j'ai plus l'choix, j'dois faire le nécessaire
-j'suis dans des dièses, plus dans le fond d'la caisse pour faire gonfler l'salaire, han
-j'ai qu'des plaies, mais pas les clés d'une benz, jour d'été, mais l'coeur froid comme l'everest
-et ça c'est every day
-la grande maman a la misère, la vie, faut qu'j'la ken
-j'pense constamment à des passes pour faire rentrer d'l'oseille
-j'connais ?, c'est qu'une tchoin mais j'peux pas l'éviter, non
-j'crame encore d'la zeb, j'ai besoin d'léviter, yeah
-dans une gova, duragué, j'écoute turban, yeah
-devin dans un virage, ma vie prend un tournant, han
-j'dois faire ce cash, tout pour l'showcase, j'dois l'faire durement, yeah
-vendre d'la ce-pla, prendre des sses-lia, j'dois l'faire durement, ouais
-j'ai des skills à la jamal crawford, uh
-j'suis trop fort, eux, c'est billy crawford, ouais
-il m'faut un style de vie confortable, han
-quatre maybachs, les meilleurs'teilles, ? pour s'mettre high, yeah
-oh god, j'veux l'salaire de janis
-comme dit esso, faut faire une hatem à nice, yeah
-oh god, j'veux l'salaire de janis
-/γ
-ζ
-han, han, han, yeah
-let's go big toothpick
-shout out le big e pour l'invit', merci, ma gueule
-envoie ça, my g
-yeahyeah, yeah, yeah, ouais
-/ζ
-γ
-j'suis avec dirty à l'arrière d'un t.e.r low cost
-direction faire les sous, la tête ailleurs et le teh aux socks
-chaque jour, ma gueule, je pense à faire ce'seille au top
-musique sincère, tu mets les écouteurs comme si c'était un stéthoscope
-trop d'gars sur mes shoes, what up? c'est quoi? c'est des cordonniers?
-maman m'dit qu'faut d'l'ordre dans les idées mais j'suis désordonné
-ouais p't'-êt', on est un peu potes ou p't'-êt', tu déconnes trop, p't-êt'bitch, jamais j'décolle trop tôt, j'suis prêt pour des tonnes d'obsèques
-plein de rappeurs sous ma s'melle, c'est comme si j'écrase des clopes
-on veut pas plus d'espace et d'ordre, on veut juste des liasses énormes
-on est là pour rentrer, on veut rentrer, toi, tu décales des portes
-un pédophile de plus, tranquille, en france, ça, c'est un cas d'école
-yeah, ma monnaie grandit comme si c'tait un adolescent, eh
-j'veux pas monter mais j'suis pas d'accord pour la descente, eh
-pas d'clopes dans l'paquet d'clopes mais c'est bien d'l'eau dans la evian
-mes reufs, j'leur fais des passes, si on est éloigné, j'leur fais des centres
-ma monnaie grandit comme si c'tait un adolescent, yeah
-j'veux bien monter mais j'suis pas d'accord pour la descente
-pas d'clopes dans l'paquet d'clopes mais c'est bien d'l'eau dans la evian
-mes reufs, j'leur fais des passes, si on est éloignés, j'leur fais des centres
-/γ
-ζ
-big toothpick, let's get it, my g
-yeah, han
-montreuil, okay
-ouais, yeah, yeah
-/ζ
-γ
-c'est moi qui dicte le tempo, c'est moi qui dicte le tempo
-et dès l'intro, j'peux t'rendre accro, normal, j'ai des putains d'flows
-j'me prends pour rooney ou r9, à chaque fois qu'j'ai la balle
-han, y m'font, huh, huh, yeah
-ma voix sur une prod, tu sais qu'ça démarre bien, hey
-passement d'jambe, roulette, j'finis, j'lobe le gardien
-j'mélange la neesh et la weed donc je sens bon, yeah
-j'suis dans l'bon, han, j'suis dans l'bon, gros
-j'suis dans l'bon wagon, c'lui qui va faire d'la maille, han
-gros t'as rien sans rien, tu l'sais bien c'est la base, han
-j'avais qu'du pain noir quand y avait rien à graille, yeah
-là, j'attends l'caviar, j'vais jamais perdre ma dalle
-7-5-0-1-9, tu connais l'adresse
-j'viens d'en bas, ma gueule, tu peux m'appeler hadès, han
-petit, j'voulais du hermès mais c'tait la hess, han
-aujourd'hui, j'mets du hermès au-dessus d'ma veste
-comme tommy dans power, j'aime voir ma liasse glow up
-comme les tours de doha, donc je me lève à six
-comme tommy dans power, j'aime voir ma liasse glow up
-comme les tours de doha, donc je me lève à 6
-/γ
-γ
-le temps qu'j'cogite sur c'qui m'dépasse, six s'maines passent
-j'tape quelques pompes chez oi-m, j'déserte le fitness park
-j'fais du rap, c'est p't-êt du sport
-applique tes passes, j'réduis l'score, vitesse frappe
-j'ai pris d'l'espace et quelques sommes mais j'deviens pas un businessman
-j'vais que tout droit, c'bâtard veut tout savoir, j'reste courtois
-quelques mois qu'elle écoute ma voix, elle veut tout voir
-moi, j'm'adresse à tout l'monde, j'suis à la botte de sonne-per
-j'aime bien faire le gole-mon, j'suis ni votre prof, ni votre père
-le temps, il passe, le café refroidit, j'm'en tape si j'ai des rivaux
-j'ferme les ridaux, j'me taille, j'ai rdv dans l'deux fois dix
-plus de poids sur les épaules et d'la charge mentale, j'passe pas sous la fonte
-moi, j'suis bon à rien à part cracher l'feu jusqu'à c'que ça fonde
-d'puis l'départ, j'attends qu'le système casse
-le temps qu'j'cogite sur c'qui m'dépasse, six s'maines passent
-d'puis l'époque où j'faisais pas mes devoirs
-dans chacun d'mes yeux, y a du feu et y a un s barré deux fois
-let's get it
-/γ
-ζ
-yeah, han
-toothpickyeah
-ouerhokay
-yeah, yeah
-ouais, ouais
-/ζ
-γ
-j'arrive avec une paire de ciste-ra, un teh de weed grasse
-j'tire dessus, j'gaze tout l'tieks, c'est moi, je fais le blizzard
-le seul avec une veste kipsta pour faire ce biff crade
-le drip froid comme picard avec ma tête de trimard
-toi, tu fais que d'pénave mais est-c'que tu bectes?
-bah ouais, nous, on passe des cachets au cachets
-scam, scam, aucun scrupule à arnaquer l'haut gradé, han
-j'vais pas passer aux aveux, j'vais rouler mon baveux
-direction mairie d'montreuil, pas bagneux
-shout out lounis, gamberge max en air max avec le pan bagnat
-j'mets ton rappeur dans l'armoire, j'lui fais voir le monde de narnia
-j'arrive drippé comme un chasseur, du solognac et v'là la gnaque, han
-willing dans ta pétasse, pétard, j'fais des vraies liasses
-avant, on était tout l'temps collés, maint'nant, on est comme le égal
-j'ai la tête sur l'pavé, hun, ma gueule, j'fais des écarts
-gros baveux comme un crapaud, hun, depuis que j'suis têtard
-east side, viens pas sucer, bitch
-le plus jeune de c'merdier, faut les éduquer, bitch
-j'fais d'l'argent, comme si j'étais dupliqué, bitch
-j'dors avec ma liasse, han, j'lui fais des triplés, bitch
-ma gueule et mon drip, j'ai même pas b'soin d'ver-'squi les flics
-le'sin vend d'la blanche à des cadres, hun, c'est sa ligne directrice
-hustle cette musique parce que c'est tout c'qu'il m'reste à faire, hun
-le grand veut qu'j'reprenne les affaires mais c'est plus mes affaires
-/γ
-ζ
-yeahyeah
-toothpick, let's go
-ouerhmais c'est plus mes affaires
-pdghan, shit
-/ζ
-γ
-j'place la barre d'plus en plus haut
-pour qui et pourquoi j'le fais? va savoir
-si c'est pour rappeler qu'tu m'a fait la passe, ouais, garde la balle
-reste ici, moi, j'frotte là-bas
-j'ai beaucoup foiré, c'est pas la poisse
-d'moins en moins soirée, j'reste à l'appart'j'guette par la f'nêtre et j'connais pas toute l'histoire
-mais y a des mots, des bouquets d'fleur d'vant l'bar-tabac
-quelques dettes qui traînent, quelques têtes qui datent
-des traitres qui boitent, des ordures qui prêchent mais ils pêchent
-ouais, j'crois qu'j'en ai assez
-vous boycottez sonne-per, fuck, chaque fois, vous laissez passer
-pas là pour négocier, ni pour doser
-j'bosse pour finir vers san josé ou au gosier
-et parfois, j'peux causer trop fort, fuck
-du mal avec ceux qu'ont du mal à s'opposer aux ordres
-et tu peux m'capter, j'suis parfois vers mars ou dans paname
-pas surpris si j'croise la wehrmacht
-j'compte gagner l'match dans l'money time, j'fais des hold up, j'suis là pour les tales comme le dobermann
-à part ça, j'lève trop souvent l'oigt-d
-j'ai des tonnes de raison mais j'dois m'faire une raison
-faut qu'j'regarde devant oi-m, pas sur l'té-c', j'me sens comme enfant d'pauvre, j'en oublie doucement l'chemin d'la maison, wow
-/γ
-γ
-ta weed est trop light, light
-gros, laisse-moi fumer ma clope
-j'suis devenu insomniaque
-quand j'ai appris qu'morphée était un homme
-wesh, frérot, qu'importe
-on s'raconte donc si y a des schneks, on approche
-j'ai ni skate ni roller, mais t'inquiète pas, ouais, j'ai d'la wax dans la poche, han
-j'traverse la campagne, j'fume que des cinquante balles, mets-toi bien ça dans l'crâne
-si on blasphème, c'est qu'y a plus rien à perdre donc normal si j'emmerde saint antoine
-lis c'que tu veux sur moi, j'parle pas d'argent sale quand j'dis qu'tous vos billets puent, han
-j'f'rais les bails pour mon équipe, les autres, ouais, même à jeun j'leur han
-j'connais plein de fille d'l'est
-y a rien que les putes et la drogue qui m'font
-que j'suis bloqué un vendredi 13, han
-mais j'me suis creusé, mon appétit baisse
-j'suis comme mamen bazz
-j'suis bien loin d'l'époque de l'album des guinness
-pourtant, j'cours après l'bonheur
-mais c'bâtard a une bien meilleure pointe de vitesse
-hun, mais c'bâtard a une bien meilleure pointe de vitesse
-e.d.g.e double s
-goldy, saboteur, hun-hun
-/γ
-γ
-la bitch, elle me crade mon collage
-mais c'est pas suffisant, quel dommage
-mon coeur a toujours autant d'dommages
-mon coeur a toujours autant d'dommages
-la bitch, elle m'aime plus que son compagnon
-rêve du hilton, pas de campanile
-souvent, la lune me tient compagnie
-j'prends la plus grosse tête, j'prends la compagnie
-l'oseille et moi, il faut qu'on s'allie
-j'suis connecté partout comme un compagnon
-j'traîne avec des hyènes, mais j'suis pas au japon
-là pour faire des m, la monnaie nous traquons
-y a pas d'happy end quand tu viens des bas-fonds
-y a pas d'happy end quand tu viens des bas-fonds
-yeah, yeah
-fut un temps, j'ai bibi quelques g
-pour avoir le poignet moins léger
-faut du gras, pas un compte allégé
-/γ
-ζ
-bah ouais
-let's go
-si, si, si, si, sale, sale
-han, fut un temps, j'ai bibi quelques g
-let's go
-ouais, faut du gras, pas un compte allégé
-non, non, non, wesh
-big ben, c'est comment, mon g?
-ça va et toi mon pote?
-on est là, brûle ça
-yeah, yeah, yeah, huh han
-/ζ
-γ
-on m'a dit: on baise tout, j'ai dit: let's go
-la faucheuse est venue chercher papi, il a dit: j'finis mon épisode de julie lescaut
-le rap, c'est un peu rempli d'escrots
-si tu t'achètes un grec, faut qu'tu passes un croc
-c'est nous qu'on faisait les marioles, j'vais mouiller le maillot, j'vais remplir la cagnotte
-même dans le cayenne, même dans le carosse
-jamais j'te parlerai comme manu à mayotte
-pas condamné aux palettes
-j'rappe le son d'la clope qui bé-tom dans la canette
-shit dans le kalenji
-tous les jours, tu cries sur des gosses, tu t'étonnes, ils ont pas d'estime
-arc'teryx, j'ai pas les skis, il s'chierait d'ssus astérix en palestine
-j'ai pas la rolex, bats les c', han, j'entends encore trop d'à l'aide
-toi, t'es un sacré fils de putain mais t'as une jolie patek
-j'mate plus dans le sac d'la vieille, j'tire plus sur le joint d'la veille
-avec un milliard, tu peux nourrir un pays, eux ils ont lavé l'eau d'la seine
-2025, c'est donc l'année à bibi, j'ai demandé au ciel et j'ai demandé à siri
-j'arrive en jefe, j'arrive en n.i, j'arrive en tupac, j'arrive en biggie
-j'arrive en clio rouge, panamera, cramé dans l'métro mais j'm'en bats les reins
-j'envoie mon classique dans pas très longtemps, écrit sur l'parking tous les phares éteints
-et t'embrasseras ta famille en passant, j'finis mon couplet, ils m'regardent en phasant
-/γ
-ζ
-eh, mais en scred
-ben plg, il ressemble de fou à léon marchand, non?
-attends qu'j'arrive en slip mon pote
-let's go
-let's go, ben plg
-59, trrr
-waddupsidi ?
-graaahokay
-edgeyeah yeah
-de janvier à janvier
-t'sais déjà qu'on opère depuis l'départ
-bah ouais, mon pote
-grah, grah, grah
-/ζ
-γ
-j'arrive sous peu-fra, tu sens qu'j'ai la patate
-j'sens qu'ça parle beaucoup, mais sur ça, on n'est pas d'ac'j'sens qu'ça parle beaucoup, sur ça, on n'est pas d'ac't'étais bien avant, mais aujourd'hui, ça date
-j'ai planifié les bails comme si j'étais saddam
-j'sors d'là où tout est noir comme si il m'restait ça d'âmes
-ta baby veut vivre un rêve quand t'es pas là
-c'est une salope, faut qu'j'lui dise si c'est sa dame
-j'crois pas qu'la vie est belle, c'est au pire qu'on s'attend
-si tu parles pas cash, c'est pas sûr qu'on s'entende
-si tu parles pas cash, c'est pas sûr qu'on s'entende
-on a tellement charbonné, à croire qu'ça fait
-ça tourne pas rond, c'est pas carré donc j'le sens pas
-tu sors vraiment d'la calle? j'le ressens pas
-on va chercher l'argent, on fait pas les
-c'est un méchant chez toi qu'chez nous, on trouve sympa
-sur les hmm?, j'crache un molard
-c'est l'ouverture du four, les clients font la ola
-la place du boss avec sa dona
-blanche comme lola, sombre comme mola, grah
-kilos, kilos, transactions dans l'parking
-tu t'es fait hasbaré? par qui?
-j'ai pris plus de pochtar que d'flash et d'paki
-j'sors du fond du four, pas du maki
-j'rallume un blunt, deuxième comme si c'tait un tacos
-j'suis l'renoi qu'ils attendaient, pas l'makakos
-trace ou paye, c'est là-bas, c'est pas
-je peux vendre à perte si c'est pour ma cause
-j'ai des diam's sur moi comme si j'm'appelais thanos
-salope est piquée comme si c'tait l'tétanos
-j'arrive en gamos, tu repars en tacos
-j'ai des diam's sur moi comme si j'm'appelais thanos
-salope est piquée comme si c'tait l'tétanos
-j'arrive en gamos, tu repars en tacos
-/γ
-γ
-j'ai la tête dans l'guidon, la tête dans l'guidon
-les mains sur l'bidon, les doigts sur l'pilon, l'espoir au pilori
-il pensait pas qu'on servait à quelque chose comme le clitoris
-adolescence, j'en ai mangé, des kilos d'riz
-high et fines herbes, j'ai du fumé un kilo d'shit
-olympia plein, on est partis du frigo vide
-j'suis la fureur d'exister en pov
-j'prends la caisse, les clés de la caisse
-wesh, ma gueule, c'est quand qu'on encaisse?
-elle s'assoit sur ma tête comme sur l'banc de la tess
-téléfoot, c'est à l'heure de la messe
-et devine où j'étais, aquarium dans un golf noir gt
-j'arrive en gradi, j'arrive en sheguey
-tu veux qu'ton fils soit un peu moins débile, achète mon cd
-bureau d'informations, jeune, il voulait qu'on rédige un cv
-et p't-être un jour le cdi
-j'colle sur l'ordi', je cherche des gif
-je l'ai vécu, je suis legit
-manger des grecs et des gifles dans la gueule
-j'voulais g-star pas rivaldi
-si t'as le m comme rivaldo, file pas en turquie comme icardi
-si tes potes te ralentissent comme hidalgo, arrête d'abord la cookie, la gelato
-et r'mets-toi vite en question, mon p'tit salaud
-j'mets en lucarne, j'fais huit saltos
-toutes les nuits, j'me réveille, j'arrête pas d'me d'mander comment j'vais finir par tout niquer
-ils parlent fort mais j'y crois pas comme quand l'professeur criait pour avoir d'l'autorité
-han, han
-compte en banque, j'vais colorier
-hanma gorge, elle est motorisé
-sens inverse comme koffi olomidé
-dans la fête sans y être autorisé
-/γ
-ζ
-let's go
-de janvier à janvier, ma gueule
-bien vu les gars
-ouais, ouais
-yeah, shout out montreuil, shoutout big e
-yeah, yeah, yeah, yeah, yeah
-/ζ
-γ
-j'te jure qu'j'le fais pour rendre fière ma mère, j'fais jamais le gouap à perte
-c'est pas du rosé, c'est pas d'la weed non plus, je n'consomme que la verte
-des diez bizarres mais dieu merci j'le fais pas avec des bombonnes le salaire
-cette salope de misère est si belle, elle arrive avec sa tonne de manières
-montreuil j'y ai grandit, j'distingue pas les méchants les gentils
-ici, c'est bizarre, ça t'fait croire aux millions avec des centimes
-ça m'remplit la tête, maintenant pour les tals c'est devenu les grands prix
-des fois, j'me dis reste en vie pour qu'maman ait le sourire quand j'te-chan et qu'les gens crient
-j'me souviens plus du doogie d'la veille, du sourire d'ma mère
-hustle hard, on pense à cette maudite monnaie et aux soucis après
-ma gueule, j'vois tout et quand j'écris tout ça, faut bien tout s'imager
-si demain j'canne et qu'j'ai rien f, il sert à quoi tout c'simagrée?
-j'me l'demande, mon daron aussi il s'le demande
-ça varie pas selon mon humeur, ça varie seulement selon demande
-j'ai deux mains, j'pars en couilles, eh
-j'rappe nos vies, parce que c'est pas des cartoons
-y a trop de fois où on a dû s'taire, maintenant, on fait du bruit partout
-j'te jure qu'j'le fais pour rendre fière ma mère, j'fais jamais le gouap à perte
-c'est pas du rosé, c'est pas d'la lean non plus, je n'consomme que la verte
-des dièses bizarres mais, dieu merci, j'le fais pas avec des bombonnes, le salaire
-cette salope de misère est si belle, elle arrive avec sa tonne de manières
-/γ
-ζ
-sidide janvier à janvier
-/ζ
-γ
-j'ai trop d'amour pour c'khaliss
-tu veux ta dope, viens par ici
-j'passe la sixième, j'ai le nine k tout au fond d'la caille
-j'crois qu'j'vais tourner toute la night après j'm'occupe de la baddy
-don julio jamais d'moly, j'laisse ma trace, adults only
-que d'la ice comme souri b
-va vendre ta eh, va vendre ta chatte sur ebay
-nous on parle avec c'lui qui paie
-toute l'équipe est équipée
-tu sais d'jà qu'les dés sont pipés
-tu vas finir aux blessés graves pour des plaques, t'aurais dû bipper
-t'es dans la piste dans l'sens contraire
-brique par brique, cocaine
-casamigos, c'est mon cocktail
-beaucoup trop har pour ton top ten
-/γ
-ζ
-big up à edge, de janvier à janvier
-let's go
-big up mon g oldpee
-big up mon g ben plg
-big up toothpick
-big up rob
-okay, okay
-shout out grunt
-yeahyeah
-yeahouais, ouais
-/ζ
-γ
-forgé par la vie, j'ai le coeur plein d'impacts
-y a des mois, dans mes poches, j'avais même pas vingt balles
-c'est pour ça qu'aujourd'hui, j'ai une très forte dalle
-les remarques de ma banquière, j'les supporte mal, han
-quatorze ans, j'portais du double xl
-beaucoup trop matrixé par dipset
-j'me prends pour carmelo, pas sergio busquets
-j'sais pas si y a plus cainri qu'moi dans tout l'tiekson
-7-5-0-1-9, c'est l'secteur
-j'rêve pas encore d'paradis papers
-j'traîne à la
-habillé en jaune et mauve comme un lakers
-ni la nuit, ni les cernes qui s'creusent
-moi, c'est e-d-g-e, j'veux juste être clutch
-loin d'chez-moi, là-bas, trop d'larmes qui pleuvent
-f-a-b-o-l-o-u-s
-les clips us bercent ma jeunesse
-sourire fragile comme la porcelaine
-mes rêves deviennent ma seule forteresse
-quatorze ans, j'porte du double xl
-beaucoup trop matrixé par dipset
-j'me prends pour carmelo, pas sergio busquets
-j'sais pas si y a plus cainri qu'moi dans tout l'tiekson
-aujourd'hui, c'est migos et nipsey
-mon ange de gauche est devenu une pipelette
-carmelo anthony, j'regarde ses replays
-en rêvant d'un compte en banque xxl
-/γ
-ζ
-ah ouais, yeah, yeah, yeah
-grunt 69, e-d-g-e, vingt moins un
-shoutout oldpee, shout out ben plg
-shoutout toothpick, shout out big rob
-let's get it
-han, han, han, han, e.d.g.e
-han, han, han, han, han, han
-yeah, yeah
-/ζ
-β
-han han
-yeahhan han
-yeah
-/β
-γ
-j'ai l'impression d'être dans la tourmente tous les jours
-j'sais pas comment faire pour m'en sortir sans m'rendre fou
-le sérum dans mon verre n'a plus vraiment l'même goût
-han han, han han, yeah
-j'me sens bien au pays des songes
-pourtant, j'ai l'impression que morphée m'en veut
-j'parle le plafond, le ciel connaît tous mes voeux
-des insomnies, j'en ai tous les deux jours
-un peu comme mon envie d'stopper la beuh
-mais pour l'instant, c'est pas vraiment l'moment
-j'retourne mon appart pour trouver un feu
-il m'faut des millions, gros, c'est tout bête
-j'vais ni au fouquet's ni à phuket
-j'fais les cent pas, j'rêve de tout ken
-tellement d'maquettes jetées à la poubelle
-j'fais kiffer les g et les choupettes
-elles secoue son cul, j'tire ses bouclettes
-j'lui envoie du sale et c'est pas flouté, han
-maintenant, on m'khalass pour les couplets, han
-ouais
-/γ
-ε
-trop d'soucis en tête, faudrait qu'j'les gué-lar, gros
-fous la merde comme le 113 ou key largo
-nique sa mère molière, chez nous, c'est que l'argot
-cargo plein d'gelato, au fond, ça m'rend marteau, ouais
-maman prie pour moi vu qu'j'ai plus trop la foi
-maintenant, l'soir, j'préfère niquer mon foie
-trop d'soucis en tête, faudrait qu'j'les gué-lar, gros
-fous la merde comme le 113 ou hidalgo
-/ε
-γ
-la caillasse fais des ricochets
-sans elle, la lune, comment j'peux la décrocher?
-j'suis bien obligé d'bosser
-j'f'rai jamais l'salaire d'un joueur du rocher
-sans sueur, les fruits du labeur sont loin
-fumer ma vie, j'crois qu'ça m'emballe moins
-t'façon, bientôt j'suis coté
-comme l'été sur l'île de beauté, ouais
-j'vie d'un jeu, j'ferme les yeux
-j'm'imagine en givenchy
-des zéros, mets-en six
-pour que j'oblique mon coeur est triste
-froid comme l'hiver dans le six
-la vie, c'pas lilo et stitch
-politiciens, j'écoute pas leur speech
-ils connaissent pas l'montant du smic
-/γ
-ε
-trop d'soucis en tête, faudrait qu'j'les gué-lar, gros
-fous la merde comme le 113 ou key largo
-nique sa mère molière, chez nous, c'est que l'argot
-cargo plein d'gelato, au fond, ça m'rend marteau, ouais
-maman prie pour moi vu qu'j'ai plus trop la foi
-maintenant, l'soir, j'préfère niquer mon foie, ouais
-trop d'soucis en tête, faudrait qu'j'les gué-lar, gros
-fous la merde comme le 113 ou hidalgo
-/ε
-ζ
-yeahle sérum dans mon verre n'a plus vraiment l'même goût
-ouais, ouais, yeah
-/ζ
-γ
-j'suis perdu quand j'me lève, j'étais bien dans mes rêves
-avant que la ville s'éveille, j'dois partir charbonner
-j'suis un peu barbouillé d'la veille
-mes poumons sont noirs comme l'abeille
-c'que j'ai pé-cho hier, c'est pas du miel, mais bien un bon pollen
-c'est pas le matelas, c'est pas le lit
-c'est pas le plumard, c'est pas la routine, c'est pas l'ennui
-c'est la vie qui fait mal au dos
-c'est d'la musique, c'est pas du bruit
-on a sué, c'est comme ça qu'on brille
-l'instrumentale, je la brise pas
-j'ferme les paupières et je rap, c'est comme ça qu'on prie
-le visage trop livide, j'sais pas si c'est le shit ou la vie, des fois
-j'm'amuse à compter les étoiles, en marchant dans tout paris, le soir
-le visage trop livide, j'sais pas si c'est le shit ou la vie, des fois
-j'm'amuse à compter les étoiles, en m'demandant c'quon voit du toit
-les voix dans ma tête font le bruit d'un vuvuzela
-j'cherche comment couper le son, mais j'crois qu'tout est là
-mon étau se resserre, pourtant, la route est large
-y a tellement d'fois où j'ai pensé à tout gué-lar
-les voix dans ma tête font le bruit du ventilateur
-j'lâche la pédale, ça va quand même à mille à l'heure
-j'raconte ma putain de vie à l'ordinateur
-j'marche dans ma ville comme si j'étais à seattle
-okay, eh
-yeah, yeah, yeah, yeah
-/γ
-ε
-fuck la politique et le fisc 
-au fond, ils s'en foutent de nos vies 
-pour rentrer, faut casser la porte 
-bélier ou bien pied de biche 
-bélier ou bien pied de biche
-fuck la politique et le fisc
-pour rentrer, faut casser la porte
-bélier ou bien pied de biche
-/ε
-γ
-j'ai les yeux rouges, hémoglobine, flotte comme clark kent à metropolis
-j'écoute pas leurs conseils de merde, j'écoute ayo technology
-c'est trop lourd, ouais, j'pèse mes mots, j'ai la vision comme lees-melou
-y a edge pour la belle mélo', dans l'assiette, on laisse walou, yeah
-avant l'coup franc, j'fais les pas de côté, avant l'couplet, j'écris les ambiances
-c'est comme le sel sur le steak de kobe, nique un politique, j'ai pas hâte de voter
-entre un salopard et un faf
-ferme ta gueule et prends ta gifle comme quand l'daron t'mettait les baffes
-la galère, j'aimerais bien l'attraper, la gifler et lui dire: tu veux quoi? 
-mon sourire, j'aimerais bien l'attraper, l'balayer
-et lui dire tu fais quoi? 
-mais pour ça, faut des liasses qui font la taille de rudy gobert
-j'suis déter depuis l'époque de chamillionaire
-j'suis déter depuis l'époque de chamillionaire 
-wah, wah, faut faire vite avant qu'ça s'gâte
-le temps file, il faut qu'j'fasse gaffe
-le temps file, il faut qu'j'fasse gaffe 
-bentley, bm, sche-por, mais surtout pas une mazda
-j'dois faire des m, j'dois faire trr
-bref, il faut qu'j'amasse, yeah
-/γ
-ε
-fuck la politique et le fisc
-au fond, ils s'en foutent de nos vies
-pour rentrer, faut casser la porte
-bélier ou bien pied de biche e
-bélier ou bien pied de biche
-fuck la politique et le fisc
-pour rentrer, faut casser la porte
-bélier ou bien pied de biche
-fuck la politique et le fisc
-au fond, ils s'en foutent de nos vies
-pour rentrer, faut casser la porte
-bélier ou bien pied de biche
-bélier ou bien pied de biche
-fuck la politique et le fisc
-pour rentrer, faut casser la porte
-bélier ou bien pied de biche
-/ε
-ζ
-yeahbig dani à la guitare
-big thomus à la basse
-big clément à la batterie
-merci les gars
-hey
-/ζ
-γ
-souvent effrayé par le monde, j'crame une blonde avec la tête par la fenêtre, han
-des questions, j'en ai un nombre incalculable, j'compte encore, le soleil se lève
-j'ai pas besoin d'avoir bu six sours pour qu'mon cerveau ressemble aux twin towers
-j'trouve pas d'solution, ça m'fait serrer, y a trop d'noeuds qu'j'aimerais dénouer, j'suis dessus d'puis t'à l'heure
-faut qu'j'me tire d'ailleurs, j'aimerais vivre ailleurs, loin d'où vit l'malheur
-j'parle au ciel
-j'lui demande une p'tite faveur, gros joint plein d'saveurs, j'oublie la froideur de notre terre
-les éclairages de décembre
-servent à aveugler les gens
-/γ
-ε
-j'ai l'impression d'être bloqué en janvier
-mon coeur veut m'raisonner, j'suis borné
-c'est pas là que j'veux figer l'temps
-j'te réponds seulement si j'ai l'temps
-j'ai l'impression d'être bloqué en janvier
-mon coeur veut m'raisonner, j'suis borné
-c'est pas là que j'veux figer l'temps
-j'te réponds seulement si j'ai l'temps
-/ε
-γ
-j'rêve d'un yacht alors que j'ai l'mal de mer, c'est maso comme un amour passionnel
-j'enchaîne les sales semaines, j'cherche juste un brin d'soleil
-le bonheur, ça s'monnaye, ouais, faudrait qu'on s'connecte
-l'été ressemble à l'automne ces derniers temps
-à l'image d'une comète, mon sourire fout l'camp
-mon coeur est absent, j'sais même plus quand j'suis content
-y a rien qu'est constant à part le manque de confiance
-j'ai pas besoin d'avoir bu six sours pour qu'mon cerveau ressemble aux twin towers
-j'trouve pas d'solution, ça m'fait serrer, y a trop d'noeuds qu'j'aimerais dénouer, j'suis dessus d'puis t'à l'heure
-han, han, j'suis dessus d'puis t'à l'heure
-han, han
-/γ
-ε
-j'ai l'impression d'être bloqué en janvier
-mon coeur veut m'raisonner, j'suis borné
-c'est pas là que j'veux figer l'temps
-j'te réponds seulement si j'ai l'temps
-j'ai l'impression d'être bloqué en janvier
-mon coeur veut m'raisonner, j'suis borné
-c'est pas là que j'veux figer l'temps
-j'te réponds seulement si j'ai l'temps
-/ε
-η
-palala-lala, palala-lala, hou-hou, wouhou
-palala-lala, palala-lala, hou-hou
-palala-lala, palala-lala, hou-hou, wouhou
-palala-lala, palala-lala, hou-hou
-grunt, edge, 69
-let's get it
-/η
-θ
-α
-false
+
 γ
 terrasse de bar, j'fais les trois bises du front
 j'réponds: ouais, mais dans ma tête, j'fais pas du son, j'change le monde
@@ -3090,7 +1800,7 @@ j'repense au jardin d'pépère, l'odeur de clope, les guerres de pissenlits
 /γ
 θ
 α
-true
+
 γ
 hey, check 1-2, il faut qu'je flex un peu
 avec un teh plein de beuh, p't-être un deux feuilles
@@ -3105,8 +1815,7 @@ j'suis devant l'club à 6 o'clock à fêter et lui, il m'ti-sor son opinel
 il arrive comme contrôle inopiné, j'me rappelle de quand j'étais minot
 des bêtes de fous rires, à 13 piges, j'lâchais des 16 comme les mecs de q.b
 beleck, genève c'est konoha, j'vais pas rétrograder, futur hokage
-même les rolotos le savent, big smoke, juste follow dans le sas
-sous drogue comme snoop doggy
+même les rolotos le savent, big smoke, juste follow dans le saous drogue comme snoop doggy
 /γ
 ε
 best life, best life, headliner
@@ -3152,7 +1861,7 @@ best life, best life, headliner
 /ε
 θ
 α
-false
+
 γ
 j'suis pas celui qu'on plébiscite, un jour sur deux, j'demande c'qu'on fait ici
 j'sais pas vraiment c'est quoi réussir, j'sais c'est quoi essayer, j'sais c'est quoi survivre
@@ -3193,7 +1902,7 @@ puis, ils r'viennent chez nous pour sucer, wesh, ma gueule, t'as cru qu'c'était
 /γ
 θ
 α
-false
+
 γ
 j'arrive mieux à regarder la mort que les larmes d'un homme
 j'écoute pas d'son, j'm'écoute penser, on dirait norah jones
@@ -3243,7 +1952,7 @@ j'hésite entre les joies et les larmes, entre le bien et le mal, c'est le syndr
 /η
 θ
 α
-false
+
 β
 ouh-ah
 ouh-ah
@@ -3309,7 +2018,7 @@ on va baiser la france jusqu'à c'qu'elle s'aime
 /ε
 θ
 α
-false
+
 γ
 t'sais, j'vois tellement d'd dans la vraie vie
 c'est pas un cul qui va m'casser la rétine
@@ -3347,7 +2056,7 @@ l'instru', c'est le docteur, j'ai tout fumé, j'ai la toux comme un moteur
 /η
 θ
 α
-false
+
 γ
 j'suis à l'aise dans la clio, à l'aise dans la bm
 sur l'instru comme le lait dans l'bn
@@ -3398,7 +2107,7 @@ comment tu veux qu'on croit pas aux miracles
 /ε
 θ
 α
-false
+
 γ
 on a la dalle depuis l'réhausseur, mon papi fait des voitures avec quatre bâtons
 mon papi, c'est elon musk, sauf qu'il nique pas l'plavon et qu'sa vie entière tient dans quatre cartons
@@ -3439,7 +2148,7 @@ le silence après le r.i.p
 /ε
 θ
 α
-false
+
 γ
 j'ai grandi à l'époque des tacchini, des rappeurs techniques à trois couplets
 enfance parfumée au martini, arrière-goût d'picon ou d'martinet
@@ -3487,13 +2196,12 @@ on préfère nuit, on préfère la nuit
 /ε
 θ
 α
-false
+
 β
 j'sens la sueur couler sur le haut d'mon front
 j'sors une clope, baisse la vitre, monte le volume
 m'écouter penser, c'est une erreur, eh
-le regard des autres, c'est un miroir, j'sais
-si j'savais pas ça, j'serais nulle part
+le regard des autres, c'est un miroir, j'saii j'savais pas ça, j'serais nulle part
 si j'les avais pas, j'serais nul à mort
 j'leur dis souvent qu'j'ai plus l'temps, plus d'force
 je l'sais, j'fais qu'le regretter d'plus en plus fort
@@ -3558,7 +2266,7 @@ la pluie après l'orage, elle sait c'qu'elle dit
 /ε
 θ
 α
-true
+
 β
 j'suis bon qu'à raconter ma vie gros, la prod me casse la tête
 même une fois qu'les lumières se terminent, la prod me casse la tête
@@ -3617,7 +2325,7 @@ la prod me casse la tête, le produit m'casse la huh huh
 /ε
 θ
 α
-false
+
 γ
 j'tire sur le joint, j'me déshumanise, j'me d'mande: maintenant, j'vais décevoir qui?
 fumée marron qui sort de la vitre , moi, j'voudrais la suivre et m'enfuir
@@ -3678,7 +2386,7 @@ bizarre
 /η
 θ
 α
-false
+
 β
 oh
 /β
@@ -3741,7 +2449,7 @@ va leur dire qu'la vie est belle
 /ε
 θ
 α
-false
+
 β
 j'me rappelle quand la dalle m'faisait mal à la tête, qu'la peur m'empêchait d'avancer
 pétard coupe-faim quand y avait rien dans l'assiette
@@ -3797,7 +2505,7 @@ moi, j'veux goûter l'eau des mirages
 /ε
 θ
 α
-false
+
 β
 il fait trop d'bruit, l'silence
 faut qu'j'arrête de parler par peur du vide
@@ -3843,7 +2551,7 @@ crier plus fort que l'ambulance pour briller plus fort comme la lumière au fond
 /ε
 θ
 α
-true
+
 γ
 j'fais l'grand sourire pour la photo, à qui j'penserais si l'ryanair tremble un peu trop?
 y a des trucs qui tombent d'un seul coup, qui font qu'c'matin, l'chant des oiseaux sonne un peu faux
@@ -3896,7 +2604,7 @@ y a un peu de toi
 /η
 θ
 α
-false
+
 β
 /β
 γ
@@ -3940,7 +2648,7 @@ j'ai quelques questions non résolues, j'appuie encore sur la barre espace
 /η
 θ
 α
-false
+
 j'aimerais être assez fort pour pleurer devant les gens qu'j'aime
 pour crier toutes mes faiblesses
 j'suis vaincu par la pudeur, on me dit qu'la vie, c'est pas un jeu
@@ -3991,7 +2699,7 @@ c'est pas un jeu
 /ε
 θ
 α
-false
+
 γ
 quand y a pas d'goût, j'mets du gruyère
 quand ça fait mal, j'mets du temps
@@ -4031,7 +2739,7 @@ bah ouais
 /γ
 θ
 α
-false
+
 γ
 trop d'doutes dans la tête
 donc j'ride dans la city
@@ -4082,7 +2790,7 @@ jamais avant les éboueurs, avant les oiseaux
 /γ
 θ
 α
-false
+
 γ
 c'est plus comme avant
 c'est encore les mêmes traces sur l'mur, c'est encore les mêmes taches sur nos visages
@@ -4128,7 +2836,7 @@ la madame a dit qu'j'étais un cassos, eh, eh
 /ε
 θ
 α
-true
+
 γ
 j'suis tout blanc, j'ai les yeux gyrophares, j'suis tout pâle, c'est l'reflet des nuages
 papa m'a dit: va t'trouver du travail, remplis pas l'placard avec du bricolage
@@ -4147,8 +2855,7 @@ les préférés de la cantinière , les moins aimés du proviseur
 /ζ
 ε
 qui ramène la tate-pa en balle? c'est nous, c'est nous
-ceux qu'les voisins veulent virer du bât', c'est nous, c'est nous
-si c'est pas nous, c'est qui?,  autant d'mariages que d'funérailles
+ceux qu'les voisins veulent virer du bât', c'est nous, c'est noui c'est pas nous, c'est qui?,  autant d'mariages que d'funérailles
 c'est nous, c'est nous ,  les pneus sont trop lisses, ça dérape
 c'est nous, c'est nous , qui ramène la tate-pa en balle?
 c'est nous, c'est nous , ceux qu'les voisins veulent virer du bât'c'est nous, c'est nous
@@ -4171,8 +2878,7 @@ les p'tits chouchous des surveillants , les plus détestés des professeurs
 /γ
 ε
 qui ramène la tate-pa en balle? c'est nous, c'est nous
-ceux qu'les voisins veulent virer du bât', c'est nous, c'est nous
-si c'est pas nous, c'est qui?,  autant d'mariages que d'funérailles
+ceux qu'les voisins veulent virer du bât', c'est nous, c'est noui c'est pas nous, c'est qui?,  autant d'mariages que d'funérailles
 c'est nous, c'est nous ,  les pneus sont trop lisses, ça dérape
 c'est nous, c'est nous , qui ramène la tate-pa en balle?
 c'est nous, c'est nous , ceux qu'les voisins veulent virer du bât'c'est nous, c'est nous
@@ -4185,7 +2891,7 @@ big djal', big ben
 /η
 θ
 α
-false
+
 β
 j'écoute le bruit d'la mer qui monte, le bruit du périphérique
 j'pense aux yeux des p'tits qui voient la montagne depuis l'téléphérique
@@ -4233,7 +2939,7 @@ j'fais semblant que ça va mais j'ai trop peur des blancs et du silence, bref
 /γ
 θ
 α
-true
+
 γ
 le rap, c'est pas d'la touchette, j'ressors du charbon, faut passer la douchette
 les belles filles aiment la trap musique comme il a dit le 2 chainz
@@ -4286,7 +2992,7 @@ va dire à tes anciens qu'il est bien loin le temps des cathédrales
 /ε
 θ
 α
-false
+
 β
 t'sais, j'ai peur de mal faire, gros, et  j'parle plus au micro qu'aux autres mais
 grâce à la technologie, j'peux leur dire des vraies choses
@@ -4363,7 +3069,7 @@ j'entends plus rien mais j'ai cette voix dans la tête encore
 /ε
 θ
 α
-false
+
 β
 eh, eh, eh
 /β
@@ -4410,7 +3116,7 @@ j'tourne en rond, ouais
 /ε
 θ
 α
-false
+
 γ
 j'ai pas besoin qu'on m'raconte la fin, j'sais qu'j'vais taper un platane en cherchant du feu dans la portière
 en m'demandant: est-c'que la banquière va accepter qu'on paie en peut-être
@@ -4466,7 +3172,7 @@ j'suis distant mais j'vais chanter sur la scène
 /η
 θ
 α
-false
+
 γ
 à la base, s'lever pour un smic, c'est une fierté
 dorénavant, arracher l'sol, c'est une certitude
@@ -4523,7 +3229,7 @@ parce que c'est magnifique
 /η
 θ
 α
-false
+
 γ
 qu'est-ce qui m'intéresse au fond? cinq heures vingt, j'écris topliné par l'micro-ondes
 il fait l'étonné, j'le connais dans l'fond, j'sais lire entre les lignes qui s'sont formées sur l'front
@@ -4582,7 +3288,7 @@ j'prends ocb, j'mets tout l'seum
 /ε
 θ
 α
-false
+
 β
 ah, bah, ouais
 trois new era sous l'averse
@@ -4653,7 +3359,7 @@ encore une mauvaise nouvelle
 /ε
 θ
 α
-true
+
 γ
 dans le studio y a des poutres, j'crois qu'on est sur la bonne voie
 c'est perdu d'avance, si tu pensais pouvoir compter sur leur bonne foi
@@ -4717,7 +3423,7 @@ c'était bien jusqu'ici, qu'on m'apporte la suite
 /γ
 θ
 α
-false
+
 γ
 j'clippe avec des taches sur l'pull
 la vie, ça fait des taches sur l'coeur
@@ -4766,7 +3472,7 @@ j'suis sur le trottoir comme si c'était du sable, j'rêve mieux qu'avant
 /ε
 θ
 α
-false
+
 β
 juste avant d'partir en paix, non, j'vais pas venir danser c'soir
 laisse-moi m'convaincre que j'vais changer l'monde avant d'changer d'monde, avant d'partir
@@ -4817,14 +3523,13 @@ il reste encore des gosses sur le trottoir
 /ε
 θ
 α
-false
+
 γ
 chacun ses rêves, chacun ses peines, la juge fait cantiner des gosses pour un peu d'deal
 pour avoir monté d'la patate au centre-ville
 des barrettes et des schlass, des glock et des sachets
 la tête dans la cuvette alors qu'elle a sa place dans les étoiles
-parle au gosse sous l'maillot d'foot, parle aux mômes
-si tu parles mal de sa famille, il part en couille
+parle au gosse sous l'maillot d'foot, parle aux mômei tu parles mal de sa famille, il part en couille
 le père est parti, la mère s'est pendue
 14 ans et demi: prison pour mineurs
 tu parles d'un coup d'crasse, la morale a un coup d'barre
@@ -4865,7 +3570,7 @@ nabil, nabil, nabil, nabil
 /ε
 θ
 α
-false
+
 γ
 j'ai grandi à l'époque des paninis, des trous dans les tacchinis
 où même le toxico du tieks sait faire des gestes techniques
@@ -4927,7 +3632,7 @@ né pour briller
 /γ
 θ
 α
-false
+
 β
 y a des escrocs qui portent pas d'masque , y a des héros qui portent pas d'cape
 on pensait qu'celio, c'était d'la marque , bosse en solo, fais comme batman
@@ -4993,7 +3698,7 @@ prod by lucci, murer, nickel
 /η
 θ
 α
-false
+
 γ
 tant qu'le soleil se lève, tant qu'il m'reste de la salive
 il m'a dit qu'j'brassais du vent, c'est vrai, c'est pour qu'les planètes s'alignent
@@ -5001,8 +3706,7 @@ ils ont bientôt compris, moi, faut pas que j'l'oublie
 j'suis là pour que ça marque, pas là pour qu'ça brille
 j'regarde plus l'sablier, plus la peau d'mon père se détendre, enculé, hein
 j'fais comme si j'avais du temps
-j'lui ai dit: j't'aimerai toute ma vie, ma chérie, comme si ça avait du sens
-seul sur l'trottoir, j'frotte mes mains, en hommage aux moments où y avait du sang d'ssus
+j'lui ai dit: j't'aimerai toute ma vie, ma chérie, comme si ça avait du seneul sur l'trottoir, j'frotte mes mains, en hommage aux moments où y avait du sang d'ssus
 avant, j'avais un plan, maintenant, j'ai un plan, une famille, un clan
 j'ai plus peur du silence, j'ai que peur du temps, j'ai plus peur de l'aventure
 la madame, elle a dit: pour celui-là, c'est la merde
@@ -5047,7 +3751,7 @@ la tête dans l'ciel, les pieds dans l'bitume, on a pris l'habitude
 /ε
 θ
 α
-false
+
 γ
 y'a beaucoup d'choses qui nous fascinent
 l'argent, l'amour, les principes
@@ -5079,8 +3783,7 @@ ils ont dit les places sont prises, on préfère les chansons tristes
 c'est l'été ça sent les clous de girofles
 les anges ont des nike air, les philosophes postillonnent
 la ville est triste comme sting mais elle chante comme akon
-le soleil change tout l'décors
-sur les briques rouges la pluie coule des fois
+le soleil change tout l'décorur les briques rouges la pluie coule des fois
 comme sur les joues d'ceux qui ont encore faim
 le trottoir y transpire, la boule au ventre s'enfuit
 on s'dit qu'elle va revenir mais on sait pas quand
@@ -5108,7 +3811,7 @@ ils ont dit les places sont prises, on préfère les chansons tristes
 /ε
 θ
 α
-false
+
 γ
 pélo, mes semelles ont trop l'goût d'caillou
 mon daron veut pas d'piscine il veut une r8, vitres teintées
@@ -5168,7 +3871,7 @@ qu'mon banquier m'fasse un biz et qu'la banquière m'fasse un chèque
 /ε
 θ
 α
-false
+
 γ
 j'ai assez vu le mur, j'ai assez vu le banc
 j'ai assez vu le ciel s'assombrir, j'ai vu le temps passer comme s'il avançait pas
@@ -5243,7 +3946,7 @@ on tombe, on réessaie
 /ε
 θ
 α
-false
+
 γ
 michel n'est pas triste mais michel a vieilli
 ses pensées, ses gestes, ne sont plus ceux d'hier mais bien ceux d'aujourd'hui
@@ -5286,7 +3989,7 @@ ahah
 /η
 θ
 α
-false
+
 γ
 qu'est ce que j'fais sur la scène?
 pendant qu'le temps s'arrête pas d'courir comme le lapin duracell
@@ -5356,7 +4059,7 @@ don't nobody know my trouble but god
 /ε
 θ
 α
-false
+
 γ
 j'vois derrière les nuages
 après la grisaille
@@ -5430,7 +4133,7 @@ d'la monnaie pour soigner nos esprits
 /ε
 θ
 α
-true
+
 β
 nous, on n'avait pas compris qu'on était que de passage
 qu'celui qui t'éclaire les yeux, demain, peut partir
@@ -5494,13 +4197,12 @@ et tes mots qui disparaissent par la fenêtre
 /ε
 θ
 α
-true
+
 γ
 des millions d'abo mais j'suis personne, j'suis pas certifié, j'suis bientôt l'seul
 pour briller, faut l'logo sur l'perso', j'ai pas la pastille, j'ai la sainte poêle
 pas d'badge bleu mais on reste authentiques, soigner ses tweets, j'préfère, j'préfère être bordélique
-dans mes dm, que des randoms, les six premiers com c'est des robots
-si elle est bonne, on la follow, si elle moche, on la follow
+dans mes dm, que des randoms, les six premiers com c'est des roboti elle est bonne, on la follow, si elle moche, on la follow
 t'as pris un brunch et une photo, ma photo d'profil c'est azzaro
 quand j'tweete, t'as pas la notif , des mouv contre-productifs
 pas très collaboratif, j'suis pas kiffé par l'algo
@@ -5547,7 +4249,7 @@ yeah, yeah, yeah
 /η
 θ
 α
-false
+
 γ
 en ce moment, il fait froid dans la zone
 les jours où j'ai ? un bout dans la north
@@ -5606,7 +4308,7 @@ j'suis l'héros d'la série d'la prochaine saison
 /ε
 θ
 α
-true
+
 γ
 en c'moment, j'sais plus c'qu'on me trouve
 si j'peux voir de l'amour dans une pupille rouge
@@ -5680,7 +4382,7 @@ po, po po po po po, po po po po po, po po po po pop
 /ε
 θ
 α
-true
+
 γ
 j'fais des noeuds dans ma tête comme un pêcheur
 j'réfléchis un peu trop, j'me fais des frayeurs
@@ -5723,7 +4425,7 @@ mais le fil, il fait des noeuds
 /ε
 θ
 α
-false
+
 β
 plafond, plafond
 plafondhey
@@ -5775,7 +4477,7 @@ j'regarde le ciel, j'crois qu'c'est le plafond, j'demande pardon
 /ε
 θ
 α
-false
+
 γ
 tête dans l'brouillard, confiance en soi qui fait des saltos
 j'me trouvais pas beau, j'ai fait des abdos, j'ai fait des pompes
@@ -5823,10 +4525,9 @@ bientôt, j'ai plus peur du monde
 /ε
 θ
 α
-false
+
 γ
-j'sais pas quoi répondre à tes questions
-si j'parle, j'te blesse et sans un mot, t'inventes les réponses
+j'sais pas quoi répondre à tes questioni j'parle, j'te blesse et sans un mot, t'inventes les réponses
 toujours du silence dans la maison, j'parle avec la fumée pendant qu'les ombres embrassent le plafond
 on perd des proches, on r'trouve la raison
 des anciens rêves collés au frigidaire
@@ -5889,7 +4590,7 @@ il suffit pas d'avoir du potentiel
 /ε
 θ
 α
-false
+
 γ
 y en a qu'ont jamais vu la mer , qui connaissent plus l'goût des cerises
 y en a qu'ont jamais vu la neige , qui savent plus comprendre un sourire
@@ -5919,8 +4620,7 @@ si j'khalass une grey goose, c'est juste pour la voir s'exploser sur ta tête
 faites-moi souffrir que j'me sente vivre, j'me sentirai plus léger les yeux vides
 ça fait bien trop longtemps que j'ressens rien alors faites-moi pleurer que j'me sente rire
 et toi, ça baigne?  ouais, rien qu'ça brasse
-tu rentres, tu sors, tu rentres, tu sors, on dirait qu'tu baises
-si moi, ça va?  j'te dirai qu'ça s'passe
+tu rentres, tu sors, tu rentres, tu sors, on dirait qu'tu baisei moi, ça va?  j'te dirai qu'ça s'passe
 j'attend d'accepter d'être que moi-même pour m'envoler comme une poussière
 /γ
 ε
@@ -5933,7 +4633,7 @@ j'suis né poussière, j'veux mourir poussière, au milieu du soupir, pour finir
 /ε
 θ
 α
-false
+
 γ
 lumière floue dans le fond de la ville
 j'ai la tête sur le bord de la vitre
@@ -5999,7 +4699,7 @@ parlez-moi plus de la prochaine fois
 /ε
 θ
 α
-false
+
 γ
 hiver 92, j'suis né dans l'ombre, sans daron, sans prénom
 c'est pas l'paradis sous nos pieds, c'est p't-être pas la saison
@@ -6048,7 +4748,7 @@ quand les lumières s'éteignent
 /η
 θ
 α
-false
+
 γ
 j'tire le penalty d'la 90ème, sans plus avoir peur de perdre
 comme quand j'faisais des culs secs avec les cendres de mon verre
@@ -6099,7 +4799,7 @@ quitter la fête, j'veux plus quitter la fête
 /η
 θ
 α
-false
+
 γ
 dans tout ça, qu'est-ce qui m'intéresse? moi, j'parle au micro, j'fais des textes
 la nuit, j'ferme les yeux, j'fais des rêves, y a les noeuds, j'les défais, parfois, j'm'adore autant qu'j'me déteste
@@ -6156,7 +4856,7 @@ il nous manque pas grand chose pour qu'on respire
 /ε
 θ
 α
-true
+
 β
 j'enfile la bague de ma grand-mère, j'me dis qu'ça l'empêche de mourir
 les gamins d'la primaire ont d'jà vécu trois vies, d'ces trucs qui empêchent de sourire
@@ -6168,7 +4868,7 @@ j'repense au mini-moi, droit comme un i sur la piste de danse de la boom
 j'rappe pour ceux qui ont mis l'bluetooth sur l'allume-cigare qui grésille tout l'long de la route
 trop d'compliments et j'rougis de la joue, j'fais rien, j'baisse la tête, quand j'ressens de l'amour
 quand j'sais plus quoi faire, j'vais chez ma mère, j'ferme ma gueule, j'ouvre le frigo et j'mange de la soupe
-coeur en bordel comme le fond de la soute, nos pères courbés dans le sens de la voûte
+coeur en bordel comme le fond de la soute,  nos pères courbés dans le sens de la voûte
 j'viens, j'ouvre ma gueule, j'prends un salaire, yeah, dans ma tête, c'est un sale merdier
 elle est belle dans son chanel, yeah, elle est belle dans son kalenji
 j'viens, j'baise tout, c'est mon challenge
@@ -6185,7 +4885,7 @@ j's'rai supersonique dans les news
 /ε
 γ
 avant les douze coups, j'glisse, j'ai bu douze coupes, j'suis avec cendrillon, j'd'mande le bluetooth
-après la course-poursuite, j'prends la chambre 106, on s'ra des amants dans un bain d'mousse
+après la course-poursuite,  j'prends la chambre 106, on s'ra des amants dans un bain d'mousse
 j'fête mes noces de perle avec mon ombre, j'peux ouvrir la porte avec mon nom
 j'fais des très gros trous dans mon plafond, il m'stresse, j'allume ma voisine, c'est l'plafond, il m'stresse
 j'veux d'l'orange et du savon, un ciné dans l'salon, un sourire sans qu'j'allonge
@@ -6200,8 +4900,7 @@ je zigue, je zague, j'suis rien qu'une machine morte, j'reprends un verre avant 
 ζ
 ferme les yeux, juste imagine une couleur qui existe pas dans c'monde
 c'est c'que j'me répète à chaque temps sombre, c'est c'que j'me répète à chaque chanson
-elle est moins belle, la victoire sans les doutes, elles sont mieux, les trajectoires loin des routes
-s'il faut qu'j'te montre, on prend rendez-vous
+elle est moins belle, la victoire sans les doutes, elles sont mieux, les trajectoires loin des route'il faut qu'j'te montre, on prend rendez-vous
 /ζ
 ε
 ferme les yeux, juste imagine
@@ -6215,7 +4914,7 @@ j's'rai un supersonique dans les news
 /ε
 θ
 α
-false
+
 ε
 j'ai fait un cauchemar où j'gagnais au loto
 où j'avais qu'des trucs qu'on veut prendre en photo
@@ -6272,7 +4971,7 @@ riche avec un style de pauvre
 /η
 θ
 α
-false
+
 rien de personnel
 γ
 toujours autant d'valises sous mes yeux, toujours autant d'violence sous mes yeux
@@ -6324,7 +5023,7 @@ envie d'tout prendre, envie d'tout vendre, y a rien d'personnel
 /ε
 θ
 α
-false
+
 β
 tu sais, au fond, c'est toujours pareil, tu t'réveilles, tu tombes, tu t'relèves
 moi, j'espère juste avoir les yeux un peu moins fermés qu'hier
@@ -6384,7 +5083,7 @@ rien n'a changé
 /ε
 θ
 α
-false
+
 γ
 trois coups sur la porte, y a des trous dans la peinture
 j'crois que bientôt, on sature
@@ -6472,7 +5171,7 @@ j'roule une fusée, j'mets tout l'seum d'ailleurs
 /η
 θ
 α
-true
+
 γ
 les smartphones sont des machines à sous et c'est nous la monnaie
 un nuage au-d'ssus du visage, ouais, tu nous connais
@@ -6494,8 +5193,7 @@ il m'demande t'es dans ça?, j'suis pas dans répondre en baissant la tête
 malgré ça, j'suis dispo s'il faut, regard jaune comme les sous-titres
 y a plus d'dix comme enzo scifo, y a d'la fumée dans l'vito break
 le voisin crie comme kyo, sous l'triple sec
-regard est froid derrière sunglasses isothermes
-si t'as b'soin d'seille-o, salaud, j't'écris ton texte
+regard est froid derrière sunglasses isothermei t'as b'soin d'seille-o, salaud, j't'écris ton texte
 mon nom au titre et au générique
 on f'sait l'école ou on f'sait la mine
 j'suis dans billie jean, pull up quatre fois d'suite
@@ -6546,7 +5244,7 @@ j'ai rencontré presque toutes mes idoles
 /γ
 θ
 α
-false
+
 γ
 j'ai encore un bruit dans la tête, j'ai encore une boule dans l'ventre
 c'est toujours le même bruit dans l'vent
@@ -6591,7 +5289,7 @@ j'raconte la rue, j'raconte l'arrêt d'bus, la vodka, la red bull
 /γ
 θ
 α
-true
+
 partie i
 ε
 c'est pas nous les héros du chapitre
@@ -6682,7 +5380,7 @@ mm-mm, hmm, mm-mm
 /η
 θ
 α
-true
+
 γ
 on a mangé des roustes, fumé des clopes trop amères
 bouteille de polia dans la mer
@@ -6748,14 +5446,13 @@ la mélodie tourne à l'envers
 /η
 θ
 α
-true
+
 γ
 à la base, on est mignons et tendres mais les gamins ont durci plus vite que la baguette du hanout
 un demi-plein d'gazouz et j'monte à paname faire un boulot, vu d'où j'viens, j'sais respirer sous l'eau
 maintenant, on est moches et méchants, on v'-esqui les anciens éméchés, on chérit les sommes alléchantes
 on aime pas lécher, t'es chanceux si on t'a laissé en convalescence
-pour mon fils, j'serai daniel balavoine, la faucheuse, on lui a dit: va là-bas
-si tu t'tminik au city stade, on t'souleymane diawara
+pour mon fils, j'serai daniel balavoine, la faucheuse, on lui a dit: va là-bai tu t'tminik au city stade, on t'souleymane diawara
 il m'faut un casse-croûte, hannibal, j'viens d'là où dix-sept degrés, c'pas si mal
 j'me réveille à six heures, sbah lila, vu qu'l'huissier est matinal
 pour ma fille, j'suis l'émir du qatar, j'ai choqué la juge, l'éducateur
@@ -6799,7 +5496,7 @@ c'est minimum dans les g'noux, j'sais pas c'que t'attendais d'nous
 /ε
 θ
 α
-false
+
 γ
 j'pense à ça, faut qu'j'le note, les idées, ça part plus vite qu'les amis
 donc si j'y pense, faut qu'j'lui dise, si y a b'soin, faut qu'j'le porte
@@ -6865,7 +5562,7 @@ on est des hommes de conviction
 /η
 θ
 α
-false
+
 ε
 j'défais pas mes valises, j'pose pas mes souvenirs
 j'attends pas d'me croire arrivé pour arrêter d'courir
@@ -6915,8 +5612,7 @@ j'mets ma vie sur logic, mes tripes dans la cabine
 j'prends des pauses avec mes p'tits reufs pour construire des cabanes
 eh, j'me parle tout seul dans la rue, un pote me croise, me d'mande c'que j'ai bu
 moi, j'ai rien bu, j'veux comprendre c'que j'ai vu, du coup, j'me parle seul dans la rue
-parfois, j'm'endors sur des barrières, j'vois d'la couleur sur les trottoirs
-souvent du gris dans le ciel, un peu trop d'rouge dans nos regards
+parfois, j'm'endors sur des barrières, j'vois d'la couleur sur les trottoirouvent du gris dans le ciel, un peu trop d'rouge dans nos regards
 enfant d'la france du milieu
 qui connait trop l'goût du lidl
 motivé qu'par la peur du vide
@@ -6934,7 +5630,7 @@ ici, on t'allume juste pour écouter ton âme
 /ε
 θ
 α
-false
+
 β
 tous les jours
 tous les jours
@@ -7003,7 +5699,7 @@ pour les sous, j'peux finir masqué dans un viano
 /ε
 θ
 α
-false
+
 γ
 si tout s'passe bien en 2025, j'aurai plus d'coeur
 c'qui m'a pas tué, m'a pas rendu plus fort
@@ -7033,8 +5729,7 @@ tercian , tramadol , neuroleptique comme parasol
 xanax , théralène, vis jamais mieux qu'dans les yeux des autres
 /ε
 γ
-y a des larmes et des fesses qui dansent sur mes joues , parfois les deux en même temps
-souvent quand j'pense à avant, avant, quand j'savais baiser et aimer en même temps
+y a des larmes et des fesses qui dansent sur mes joues , parfois les deux en même tempouvent quand j'pense à avant, avant, quand j'savais baiser et aimer en même temps
 maintenant, j'ai l'trac, maintenant, j'ai peur, bientôt d'être complètement seul
 et puis, j'connais les gens et leurs histoires, plus j'tue mes complexes dans l'oeuf
 j'ai des gavas, on dirait des pizzas carrefour à 30 balais, wesh donc j'vais pas t'dire qu'la gue-dro c'est cool, même si ça m'arrive de oué-j'j'viens du 59, ici, ça tousse comme si trop d'monoxyde dans l'air
@@ -7069,7 +5764,7 @@ j'l'ai déjà fait, j'le sais, c'est plus facile de perdre
 /η
 θ
 α
-false
+
 β
 ouh, oh-oh, ouh
 /β
@@ -7134,7 +5829,7 @@ j'sais qu'c'est pas évident, évident pour eux
 /ε
 θ
 α
-false
+
 γ
 2019 j'me serai moins rapproché d'une meuf que d'mon manager
 j'entend pédé dans des morceaux de grand public donc c'est ça qu'on veut
@@ -7188,8 +5883,7 @@ il est garé
 tout est calme
 tout est carré
 une fois mes paroles rendues célèbres
-mes parents rendus fiers
-si j'retourne ma veste pas mon cerveau
+mes parents rendus fieri j'retourne ma veste pas mon cerveau
 j'aurai peut-être raison de le faire
 j'suis la voix de léo
 la voix de david
@@ -7210,7 +5904,7 @@ j'suis sûr de ce que j'crois
 /ε
 θ
 α
-true
+
 γ
 il pleut comme vache qui pisse
 j'ai bu ma soupe, mangé mon pain noir et ma vache qui rit
@@ -7269,8 +5963,7 @@ mes survêts du lycée sentent encore le mégot
 j'suis avec salim d'aulnay-sous
 mélange l'absolut, la redbull, j'espère avoir un gamin un d'ces jours
 bre-som comme un métalleux, quoi qu'il s'passe, gros, rends-moi mes tal-euh
-je te rends les tiens dès qu'j'ai tes sous
-si j'ai oublié, c'est qu'j'étais saoul
+je te rends les tiens dès qu'j'ai tes soui j'ai oublié, c'est qu'j'étais saoul
 gros, au collège, j'étais sot, j'étais bon, j'ai fait l'con, j'ai té-sau
 chaque bavure, j'accusais les autres, aucun r'cul sur mes défauts
 /γ
@@ -7283,7 +5976,7 @@ ah merde
 /ε
 θ
 α
-false
+
 γ
 y'a ces sentiments à l'intérieur, la plupart j'les lit sur sa tête
 quand on savait partir ailleurs, en regardant par la fenêtre
@@ -7330,7 +6023,7 @@ j'repartirai pour une aventure avec toi
 /η
 θ
 α
-true
+
 β
 cramé par tu sais qui
 on fait tu sais quoi
@@ -7360,11 +6053,8 @@ bref, j'calcule plus trop l'dix-sept
 t'façons nous on disait call 911
 poisse colle a la peau comme l'odeur d'tabac
 la sortie c'est sûr mais c'est dans longtemps
-en attendant nabil rouille en dépôt avec sa rage de dents
-s-il parle j'rentre dedans
-si j'y rentre j'perd deux dents
-des histoires d'perte de temps
-si tu paie, paie comptant
+en attendant nabil rouille en dépôt avec sa rage de dent-il parle j'rentre dedani j'y rentre j'perd deux dents
+des histoires d'perte de tempi tu paie, paie comptant
 j'veux rapper, j'veux un dictaphone
 accent de sicario
 laguna d'papi, elle sent l'cigario
@@ -7432,15 +6122,14 @@ j'suis déjà à terre j'peut pas ber-tom
 /η
 θ
 α
-false
+
 γ
 j'essaie d'arrêter d'me rappeler d'tous ces fantômes aux joues creusées, aux rides trop sèches
 qui m'coupent la parole dans tous mes rêves
 joue à la parlotte dans toutes mes règles
 pour me calmer, y'a pas vraiment d'remède
 pour réussir, y'a pas vraiment d'recette
-j'efface pas les morts de mon répertoire, si j'souffre pas comme eux, y'a pas vraiment de regrets
-steak surgelé dans l'fond du eastpack
+j'efface pas les morts de mon répertoire, si j'souffre pas comme eux, y'a pas vraiment de regretteak surgelé dans l'fond du eastpack
 prêt à courir si j'sonne au portique
 faut bien s'nourrir, la dalle en guise d'arme
 café très froid comme ryan gosling
@@ -7495,7 +6184,7 @@ j'sais pas si c'est gris ou bleu derrière
 /ε
 θ
 α
-false
+
 γ
 putain de merde, on n'a fait qu'un bout du film
 j'ai déjà bien fumé la vie, j'ai cramé un bout du filtre
@@ -7540,7 +6229,7 @@ c'est pas pour la r'faire dans ta tête que t'es venu jouer la finale
 /γ
 θ
 α
-true
+
 γ
 maman pleure de fierté d'puis les danses à la kermesse
 j'fais des pauses dans mes concerts pour lui faire des clins d'oeil
@@ -7601,7 +6290,7 @@ easyjet lille-italie comme victor osimhen
 /ε
 θ
 α
-false
+
 β
 j'suis bon qu'à raconter des histoires, comme un sparadrap sous la pommette
 des trous dans nos sourires, dans nos coeurs et dans nos baskets
@@ -7654,7 +6343,7 @@ grandi sous un soleil terne, que sa couleur est belle
 /ε
 θ
 α
-false
+
 β
 wesh
 /β
@@ -7704,5 +6393,4 @@ j'ai ma dose, j'sais pas quand j'vais craquer, j'ai chaud, continuer: j'sais pas
 qu'est-ce qui s'passe dans ma tête si j'échoue?
 /γ
 θ
-s
 s
