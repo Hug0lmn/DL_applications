@@ -13,24 +13,17 @@ file_path = os.path.join(script_dir, f"corpus_RNN_{name}.txt")
 with open(file_path, "r", encoding="utf-8", errors="replace") as f:
     corpus = f.read()
 
-#First we remove the indication of featuring
-#corpus = re.sub(r">(True|False)\n", ">\n", corpus)
-
-#Then we remove the unecessary spaces
+#First we remove the unecessary spaces
 corpus = corpus.strip()
 corpus_splitted = re.split(r"\n", corpus, flags=re.DOTALL)
 new_list = []
 for i in range(len(corpus_splitted)) :
     stripped = corpus_splitted[i].strip()
     if stripped != "" :
-#        if stripped == "<END>" :
-#            new_list.extend([stripped+"<>"])
-#        else :
         new_list.extend([stripped+"\n"])
 corpus = "".join(new_list)
 
 #Beginning of the corpus cleaning
-#print("Nb of individual char",len(set(corpus)))
 
 dict_change = {}
 substitutions = [
@@ -58,22 +51,26 @@ substitutions = [
     ("ú", "u", 0),
     ("ū", "u", 0),
     ("č", "c", 0),
+    ("&", "et", 0),
     ("°","",0),
     ("œ", "oe", 0),
+    ("$","s",0),
     ("ş","s",0),
     ("$","s", 0),
     ("”", '"', 0), # Characters : “ ”
     ("“", '"', 0),
-    ("…", "...", 0), # Character : …
+    ("…", "", 0), # Character : …
     ("‘", "'", 0), # Characters : ‘ ’
     ("’", "'", 0),
     ("´","'",0),
     ("′","'",0),
     ("×","x",0),
+    ("{.*}", "", 0),
     ("е", "e", 0),   # Cyrillic e → Latin e
-    ("#", "", 0), # Character : \#
+    ("#", "", 0), # Character : #
     ('"', "", 0), # Character : "
-    ("\(", "", 0), # Character : (
+    (r"\(", "", 0), # Character : (
+    (r"\)", "", 0),
     ("»|«", "", 0), # Character : »|«
     ("\x80", "", 0),
     ("\x90", "", 0),
@@ -87,10 +84,11 @@ substitutions = [
     ("\xa0", "", 0),
     ("ʿ", "", 0), # Character : ʿ
     ("·", "", 0), # Character : ·
+    ("s\ns", "", 0), #I don't know exactly why and I don't know exactly where to check but each individual corpus ends by s\ns
     (r"\n(\n)", "", 0), #Sometime the text is in « and the previous will just replace it with only a "" but the line are kept and on some songs there is huge part of this
     (r"><", ">\n<", 0), #If two parts are fuzed together, unfuze them
     (r"(>)(\w+)", r"\1\n\2",0),
-    (r"(?:(?<!\n)<end_\w+>)", "\n\g<0>", 0), #If the end of a part is preceded by a thing that is not \n then add a \n
+    (r"(?:(?<!\n)<end_\w+>)", r"\n\g<0>", 0), #If the end of a part is preceded by a thing that is not \n then add a \n
 
 #Replace indication part by specific charac (greek)
 #η θ	ι	κ	λ	μ	ν	ξ	Ο	π	ρ	Σ	τ	υ	φ	χ ψ	Ω	
@@ -114,7 +112,6 @@ substitutions = [
     (r"<end_song>", "θ", 0),
     (r"α\nθ\n", "", 0), #No lyrics inside a song
 
-#    (r"<.*>\n<END_\w+>\n", "", 0), #Some parts are empty of lyrics because they were used just for training on the structure
     (r"\n<end_>", "\n", 0), 
     (r"\n\n", "\n", 0), 
     ("—","-",0),
@@ -141,7 +138,7 @@ def remove_special(match):
 
 corpus = re.sub(r"'\s|\s+'", remove_special, corpus, flags=re.DOTALL)
 
-save_path = os.path.join(script_dir, f"Cleaning\clean_corpus_{name}.txt")
+save_path = os.path.join(script_dir, "Cleaning", f"clean_corpus_{name}.txt")
 os.remove(file_path)
 with open(save_path, "w", encoding="utf-8") as f :
     f.write(corpus)
