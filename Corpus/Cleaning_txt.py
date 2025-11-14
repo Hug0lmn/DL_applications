@@ -10,11 +10,6 @@ name = args.name
 script_dir = Path(__file__).resolve().parent
 file_path = script_dir / f"corpus_{name}.txt"
 corpus = file_path.read_text(encoding='utf-8', errors="replace")
-#script_dir = os.path.dirname(__file__)
-#file_path = os.path.join(script_dir, f"corpus_{name}.txt")
-
-#with open(file_path, "r", encoding="utf-8", errors="replace") as f:
-#    corpus = f.read()
 
 #First we remove the unecessary spaces
 corpus = corpus.strip()
@@ -121,7 +116,6 @@ substitutions = [
 ]
 
 pre_substitu = [
-    #Data cleaning
     (r"\n([a-z]\w+)\n", r"\1\n", 0), #If lowercase, we assume that the sentence wasn't finished
     (r"\n([A-Z]\w+)\n", r"\n\1", 0), #If uppercase, we assume we are at the beginning of the sentence]
 ]
@@ -144,7 +138,3 @@ corpus = re.sub(r"'\s|\s+'", remove_special, corpus, flags=re.DOTALL)
 save_path = script_dir / "Corpora" / f"clean_corpus_{name}.txt"
 file_path.unlink()
 save_path.write_text(corpus, encoding='utf-8')
-#save_path = os.path.join(script_dir, "Corpora", f"clean_corpus_{name}.txt")
-#os.remove(file_path)
-#with open(save_path, "w", encoding="utf-8") as f :
-#    f.write(corpus)
