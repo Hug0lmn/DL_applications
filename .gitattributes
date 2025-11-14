@@ -8,6 +8,7 @@
 *.pyc filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+/Corpus/Corpora/fasttext_embedding filter=lfs diff=lfs merge=lfs -text
 *.py !text !filter !merge !diff
 *.txt !text !filter !merge !diff
 *.json !text !filter !merge !diff
