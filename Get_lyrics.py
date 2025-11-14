@@ -350,7 +350,7 @@ def prepare_lyrics(artist_name, title_set):
 
     with open(f"Corpus/corpus_RNN_{artist_name}.txt", "w", encoding="utf-8") as f:
         f.write(corpus_RNN)
-    print(f"\nFind corpus usable for RNN at corpus_RNN_{artist_name}.txt")
+#    print(f"\nFind corpus usable for RNN at corpus_RNN_{artist_name}.txt")
 
 #    with open(f"corpus_tokenization_{artist_name}.txt", "w", encoding="utf-8") as f:
 #        f.write(corpus_tokenization)

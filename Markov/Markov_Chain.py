@@ -1,7 +1,7 @@
 import re
 import numpy as np
 import pandas as pd
-import os
+from pathlib import Path
 
 def count_each_interact(splitted) :
     #This function count what part appeared after another one and generate the structure that will be used to calculate the transition matrix
@@ -97,8 +97,12 @@ def generate_a_song_structure(matrix) :
     print([order[i] for i in song_struct])
     return
 
+script_dir = Path(__file__).resolve().parent
+path = script_dir / ".." / "Corpus" / "Corpora"
+list_files = [f for f in path.iterdir()]
+
 script_dir = os.path.dirname(__file__)
-path = os.path.join(script_dir, "..", "Corpus", "Cleaning")
+path = os.path.join(script_dir, "..", "Corpus", "Corpora")
 list_files = os.listdir(path)
 
 #Regroup the songs, necessary when multiple artists
@@ -106,15 +110,20 @@ list_files = os.listdir(path)
 global_corpus = []
 for i in list_files :      
     if "clean_corpus_" in i  :
-        file_path = os.path.join(path, i)
-        with open(file_path, "r", encoding="utf-8", errors="replace") as f:
-            corpus = f.read()
-            global_corpus.extend([corpus])
+        file_path = path / i
+        corpus = file_path.read_text(encoding="utf-8", errors="replace")
+        global_corpus.extend([corpus])
+        file_path.unlink()
+
+#        os.path.join(path, i)
+#        with open(file_path, "r", encoding="utf-8", errors="replace") as f:
+#            corpus = f.read()
+#            global_corpus.extend([corpus])
         
-        good_corpus = re.sub(r"(true|false)\n", "\n", corpus)
-        os.remove(file_path)
-        with open(file_path, "w", encoding="utf-8", errors="replace") as f:
-            f.write(good_corpus)
+#        good_corpus = re.sub(r"(true|false)\n", "\n", corpus)
+#        os.remove(file_path)
+#        with open(file_path, "w", encoding="utf-8", errors="replace") as f:
+#            f.write(good_corpus)
 
 one_corpus = "".join(global_corpus)
 
@@ -136,9 +145,12 @@ for i in beginning_sections :
     regroup_corpus = re.sub(f"{i}\n/{i}\n", f"", regroup_corpus) 
 regroup_corpus = re.sub(r"α\nθ\n",r"", regroup_corpus, flags=re.DOTALL) #Delete the songs where now there is only the token indicating the beginning and the end
 
-save_path = os.path.join(path, f"regroup_clean_corpus.txt")
-with open(save_path, "w", encoding="utf-8") as f :
-    f.write(regroup_corpus)
+save_path = path / "final_corpus.txt"
+save_path.write_text(regroup_corpus, encoding="utf-8")
+
+#save_path = os.path.join(path, f"final_corpus.txt")
+#with open(save_path, "w", encoding="utf-8") as f :
+#    f.write(regroup_corpus)
 
 ## Removing featuring 
 solo_corpus = re.sub(r"αTrue.*?θ\n\n", " ", one_corpus, flags=re.DOTALL)
@@ -189,7 +201,8 @@ order = ["<BEGINNING>","<INTRO>", "<COUPLET>", "<PONT>", "<REFRAIN>", "<OUTRO>",
 #for run in range(3) :
 #    generate_a_song_structure(matrix)
 
-save_path = os.path.join(script_dir, f"transition_matrix.csv")
+#save_path = os.path.join(script_dir, f"transition_matrix.csv")
+save_path = script_dir / "transition_matrix.csv"
 pd.concat((pd.DataFrame(matrix),pd.DataFrame(order).transpose())).to_csv(save_path, index=False)
 
 #print(f"\nTransition_matrix saved as transition_matrix.csv")
