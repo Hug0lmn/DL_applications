@@ -1,16 +1,9 @@
 *.pt filter=lfs diff=lfs merge=lfs -text
-fasttext_embedding filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
-Corpus/Corpora/Char_level/word_matrix.npy
-*.txt filter=lfs diff=lfs merge=lfs -text
-*.py filter=lfs diff=lfs merge=lfs -text
-*.pkl filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
-*.ipynb filter=lfs diff=lfs merge=lfs -text
-*.pyc filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-/Corpus/Corpora/fasttext_embedding filter=lfs diff=lfs merge=lfs -text
+
+# Explicit files
+Corpus/Corpora/fasttext_embedding filter=lfs diff=lfs merge=lfs -text
+Corpus/Corpora/Char_level/word_matrix.npy filter=lfs diff=lfs merge=lfs -text
 *.py !text !filter !merge !diff
 *.txt !text !filter !merge !diff
 *.json !text !filter !merge !diff
