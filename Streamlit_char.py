@@ -5,7 +5,7 @@ from functools import lru_cache
 import time
 from pathlib import Path
 
-from Functions.Generation.Generation import load_and_clean, generate_from_text
+from Functions.Generation.Generation import load_and_clean, generate_from_text_char
 from Functions.Models.Char_models import Char_Models
 
 script_dir = Path(__file__).resolve().parent
@@ -33,7 +33,7 @@ def main():
     mapping = load_mapping()
     forbidden_generation = [i for i in range(70, 72)]
 
-    st.title("🎵 Rap Lyric Generator")
+    st.title("🎵 Rap Lyric Generator using char lvl model")
     st.text("For optimal generation, keep parameter values")
 
     seed = st.text_input("Enter a starting phrase:")
@@ -61,7 +61,7 @@ def main():
 
             texts = []
             for model, hidden in zip(models, hiddens):
-                t = generate_from_text(
+                t = generate_from_text_char(
                     model, seed, length, temp, top_k,
                     mapping, FASTTEXT, forbidden_generation, hidden
                 )

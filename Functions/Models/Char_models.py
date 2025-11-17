@@ -29,7 +29,7 @@ class Char_Models(nn.Module) :
             return self.model.init_hidden(batch_size)
         
 class Char_RNN(nn.Module):
-    def __init__(self, vocab_size = 72, emb_size = 128, hidden_size = 512, num_layers=4, dropout = 0.2):
+    def __init__(self, vocab_size  = 72, emb_size = 128, hidden_size = 512, num_layers=4, dropout = 0.2):
         super(Char_RNN, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
@@ -40,41 +40,45 @@ class Char_RNN(nn.Module):
         self.fc = nn.Linear(hidden_size, vocab_size)
         
         # Context dim proj
-        self.context_proj = nn.Linear(3 * 100, emb_size)  # flatten context_matrix to emb dim
+        self.context_proj = nn.Linear(3 * 100, emb_size)  # 3 prev words × 100-dim vectors
 
+        # RNN now expects concatenated embeddings → 2 * emb_size
         self.rnn = nn.RNN(
             input_size=emb_size * 2,
             hidden_size=hidden_size,
             num_layers=num_layers,
             batch_first=True,
             dropout=dropout,
-            nonlinearity="tanh")
+            nonlinearity="tanh"
+        )
 
         # Attention
         self.attn_combine = nn.Linear(hidden_size * 2, hidden_size) #After concat, need to stream back the params to hidden_size
         self.Wa = nn.Linear(hidden_size, hidden_size, bias=False) #Learnable attention matrix
 
     def forward(self, x, context, hidden):
-        x_embed = self.embedding(x) 
+        x_embed = self.embedding(x)  
 
-        # Context projection 
-        context_flat = context.view(context.size(0), context.size(1), -1)  # Flatten context
+        # --- Context projection ---
+        context_flat = context.view(context.size(0), context.size(1), -1)  
         context_proj = self.context_proj(context_flat)                     
 
         x_input = torch.cat([x_embed, context_proj], dim=-1)               
         x_drop = self.drop(x_input)
+
         out, hidden = self.rnn(x_drop, hidden)
         out = self.drop(out)
 
         #Attention part Q/K/V
         #query = hidden[-1].unsqueeze(1)    
         keys = self.Wa(out)
-        values = out        
+        values = out
+        
         attn_scores = torch.bmm(out, keys.transpose(1, 2))
 
         #Mask attention
         L = out.size(1)
-        mask = torch.tril(torch.ones(L, L, device=out.device)).unsqueeze(0)
+        mask = torch.tril(torch.ones(L, L, device=out.device)).unsqueeze(0)  
         attn_scores = attn_scores.masked_fill(mask == 0, float('-inf'))
         
         attn_weights = F.softmax(attn_scores, dim=-1)                    
@@ -90,7 +94,8 @@ class Char_RNN(nn.Module):
         return torch.zeros(self.num_layers, batch_size, self.hidden_size)
     
 class Char_GRU(nn.Module):
-    def __init__(self, vocab_size = 72, embedding_dim = 128, hidden_size = 512, dropout=0.2, num_layers=3):
+    def __init__(self, vocab_size = 72, embedding_dim = 128, hidden_size = 512, dropout = 0.2, num_layers = 3):
+
         super(Char_GRU, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
@@ -232,9 +237,8 @@ class Char_LSTM(nn.Module):
         return (h0, c0)
 
 ## Multihead attention
-    
 class Char_transformer(nn.Module):
-    def __init__(self, vocab_size = 72, d_model=256, n_heads=4, n_layers=4, dropout = 0.25, max_len=256):
+    def __init__(self, vocab_size = 72, d_model = 384, n_heads = 6, n_layers = 8, dropout = 0.25, max_len = 320):
         super().__init__()
         self.emb = nn.Embedding(vocab_size, d_model)
         
@@ -242,7 +246,7 @@ class Char_transformer(nn.Module):
         self.context_proj = nn.Linear(3*100, d_model)
         self.merge_proj = nn.Linear(d_model * 2, d_model)  
         
-        self.layers = nn.ModuleList([TransformerBlock(d_model, n_heads) for _ in range(n_layers)])
+        self.layers = nn.ModuleList([TransformerBlock(d_model, n_heads, dropout=0.2, max_seq = max_len) for _ in range(n_layers)])
         
         self.drop = nn.Dropout(dropout)
         self.norm = nn.RMSNorm(d_model)
@@ -251,13 +255,14 @@ class Char_transformer(nn.Module):
         self.fc.weight = self.emb.weight
 
     def forward(self, x, context):
+
+        x = self.drop(self.emb(x))
         
-        context_flat = context.view(context.size(0), context.size(1), -1)
-        context_emb = self.context_proj(context_flat)
-        x_emb = self.emb(x)
+#        context_flat = context.view(context.size(0), context.size(1), -1)
+#        context_emb = self.context_proj(context_flat)
         
-        x_concat = torch.cat([x_emb, context_emb], dim=-1)
-        x = self.drop(self.merge_proj(x_concat))
+#        x_concat = torch.cat([x_emb, context_emb], dim=-1)
+#        x = self.drop(self.merge_proj(x_concat))
 
         for layer in self.layers:
             x = layer(x)

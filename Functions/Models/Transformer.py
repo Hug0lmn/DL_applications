@@ -45,13 +45,13 @@ class MultiHeadAttention(nn.Module):
         return self.drop(self.out_proj(attn_output))
     
 class TransformerBlock(nn.Module):
-    def __init__(self, d_model, n_heads, dropout=0.2):
+    def __init__(self, d_model, n_heads, dropout, max_seq):
         super().__init__()
         self.d_ff = d_model * 4
         self.norm_1 = nn.RMSNorm(d_model)
         self.norm_2 = nn.RMSNorm(d_model)
         
-        self.attn = MultiHeadAttention(d_model, n_heads, dropout = 0.15, max_seq=256)
+        self.attn = MultiHeadAttention(d_model, n_heads, dropout = 0.15, max_seq=max_seq)
         self.ff = nn.Sequential(
             nn.Linear(d_model, self.d_ff),
             nn.GELU(approximate="tanh"),

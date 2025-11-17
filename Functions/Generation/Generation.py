@@ -34,7 +34,7 @@ def obtain_context_from_seed (seed, mapping, fasttext_emb) :
 
     return encoded, whole_context
 
-def generate_from_text(model, seed, length, temp, top, mapping, fasttext_emb, forbidden, hidden = False) :
+def generate_from_text_char(model, seed, length, temp, top, mapping, fasttext_emb, forbidden, hidden = False) :
 
     encoded, context = obtain_context_from_seed(seed, mapping, fasttext_emb)
 
