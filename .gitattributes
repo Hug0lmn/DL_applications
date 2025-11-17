@@ -1,4 +1,0 @@
-*.pt filter=lfs diff=lfs merge=lfs -text
-*.npy filter=lfs diff=lfs merge=lfs -text
-Corpus/Corpora/fasttext_embedding filter=lfs diff=lfs merge=lfs -text
-Corpus/Corpora/Char_level/word_matrix.npy filter=lfs diff=lfs merge=lfs -text
