@@ -17,25 +17,25 @@ The objective is to compare different text granularities (character vs subword) 
 
 ## Repository Structure
 
-DL_applications/
-├── Get_lyrics.py # Corpus scraping (Genius) + cleaning orchestration
-├── Streamlit_char.py # Streamlit app for character-level generation
-├── Streamlit_subword.py # Streamlit app for subword-level generation (WIP)
-│
-├── Corpus/
-│ ├── Cleaning_txt.py # Cleaning, de-duplication, normalization
-│ ├── Manip.py # Corpus manipulation utilities
-│ └── Tokenizer.py # Tokenizer training (BPE), FastText embedding, context-window creation
-│
-├── Models/
-│ ├── ... # Checkpoints for RNN/LSTM/Transformer models
-│ └── Training_example.ipynb # Example training notebook
-│
-├── Markov/
-│ └── Markov_Chain.py # Simple transition matrix for song-part sequencing
-│
-└── Functions/
-└── ... # Helper functions used by the Streamlit apps
+DL_applications/  
+├── Get_lyrics.py # Corpus scraping (Genius) + cleaning orchestration  
+├── Streamlit_char.py # Streamlit app for character-level generation  
+├── Streamlit_subword.py # Streamlit app for subword-level generation (WIP)  
+│  
+├── Corpus/  
+│ ├── Cleaning_txt.py # Cleaning, de-duplication, normalization  
+│ ├── Manip.py # Corpus manipulation utilities  
+│ └── Tokenizer.py # Tokenizer training (BPE), FastText embedding, context-window creation  
+│  
+├── Models/  
+│ ├── ... # Checkpoints for RNN/LSTM/Transformer models  
+│ └── Training_example.ipynb # Example training notebook  
+│  
+├── Markov/  
+│ └── Markov_Chain.py # Simple transition matrix for song-part sequencing  
+│  
+└── Functions/  
+└── ... # Helper functions used by the Streamlit apps  
 
 
 ---
@@ -82,12 +82,18 @@ python Get_lyrics.py --RNN True --nb <number_of_artists>
 ### 2. Train models
 
 Use the notebook :  
+```bash
 Models/.../Training_example.ipynb
+```  
 
 ### 3. Generate lyrics (Streamlit)
 
 Character_level generation :  
+```bash
 streamlit run Streamlit_char.py  
+```  
 
 Subword_level generation (under development) :  
+```bash
 streamlit run Streamlit_subword.py
+```  
