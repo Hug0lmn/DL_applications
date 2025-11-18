@@ -1,47 +1,93 @@
-# DL_applications
+# DL_applications — Deep Learning for Lyrics Generation
 
-A research / demo repository exploring deep learning applications in NLP, focused on lyrics generation.  
-Implements end-to-end pipelines for tokenization, training and generation using RNN, LSTM and Transformer models at multiple granularities (character, subword). Includes utilities for corpus scraping, cleaning and simple song-structure generation (Markov).
+This repository explores deep learning applications in NLP, with a focus on rap/hip-hop lyrics generation.  
+It provides complete pipelines for:
 
-## Repository layout
-- Corpus/Preprocessing
-  - Get_lyrics.py — scraping (Genius)
-  - Cleaning_txt.py, Manip.py — cleaning and normalization
-- Tokenization & Embeddings
-  - Tokenize.ipynb — tokenizer creation, FastText / custom embeddings
-- Models
-  - Checkpoints and model code for RNN / LSTM / Transformer (character & subword levels)
-- Generation
-  - Notebooks and scripts for priming/generation (rep_penalty, top_k)
-- Markov
-  - Markov_Chain.py — simple song-part transition matrices
+- Corpus scraping (Genius API)
+- Cleaning and normalization
+- Character-level and subword tokenization
+- FastText embedding
+- Training RNN, LSTM, and Transformer models
+- Generation via Streamlit apps
+- Simple Markov-based song-structure modeling
 
-## Project status & progress
-- Scraping & preprocessing:  
-    ✅ implemented (Get_lyrics.py, Cleaning_txt.py)  
-- Tokenization & embeddings:   
-    ✅ implemented (Tokenize.ipynb)  
-- Song-structure (Markov):  
-    ✅ transition matrix generation (Markov_Chain.py)  
-- Character-level models:  
-    ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Character_lvl/Training)  
-- Subword-level models:  
-    ✅ RNN, LSTM, Transformer (training notebooks in Granularity/Subword_lvl/Training)  
+The objective is to compare different text granularities (character vs subword) and model families, and analyze their impact on lyrical quality, structure, and coherence.
 
-Note: In current experiments Transformers underperform compared to LSTMs/RNNs — likely due to dataset size; see "Next steps" below.
+---
 
-## Next steps / ideas
-- Phonemize corpus to improve rhyme/flow modeling :  
-    Sounds can contain more information than character and can also help the models to understand how to do rhyme. Letter can only represent a word for a model while sounds represent another dimension of data.
-- Data augmentation to help Transformer training.  
-- Add Luong attention to LSTM.  
-- Experiment with xLSTM (research reference).
+## Repository Structure
 
-## Quick usage
-1. Scrape and prepare data:
-   - python Get_lyrics.py --RNN True --nb <number_of_artists>
-   - The script prompts for artist/song names, builds the corpus and runs Markov_Chain.py and cleaning scripts.
-2. Train models:
-   - See training notebooks under Granularity/*/Training/.
-3. Generate text:
-   - Use notebooks under Granularity/*/Generation/. They include priming, top_k, repetition penalty.
+DL_applications/
+├── Get_lyrics.py # Corpus scraping (Genius) + cleaning orchestration
+├── Streamlit_char.py # Streamlit app for character-level generation
+├── Streamlit_subword.py # Streamlit app for subword-level generation (WIP)
+│
+├── Corpus/
+│ ├── Cleaning_txt.py # Cleaning, de-duplication, normalization
+│ ├── Manip.py # Corpus manipulation utilities
+│ └── Tokenizer.py # Tokenizer training (BPE), FastText embedding, context-window creation
+│
+├── Models/
+│ ├── ... # Checkpoints for RNN/LSTM/Transformer models
+│ └── Training_example.ipynb # Example training notebook
+│
+├── Markov/
+│ └── Markov_Chain.py # Simple transition matrix for song-part sequencing
+│
+└── Functions/
+└── ... # Helper functions used by the Streamlit apps
+
+
+---
+
+## Notes on Current Experiments
+
+- **Transformers at character level underperform** compared to RNNs/LSTMs despite similar perplexity.  
+  Expected causes:
+  - characters carry very limited semantic information  
+  - sequence lengths are much longer  
+  - Transformers do not leverage recurrence like RNNs  
+
+- **Subword-level models (BPE ~4000 vocab)** produce better semantic consistency and more coherent lyrical structure.
+
+---
+
+## Next Steps / Research Ideas
+
+### 1. Phoneme-level modeling
+Phonemes carry more information than characters and can improve rhyme, flow, and syllabic structure.  
+Plan: process the corpus with a phonemizer, then train models on phoneme sequences.
+
+### 2. Experiment with xLSTM
+Test the xLSTM architecture (recent research) for better handling of long-range dependencies and improved training stability.
+
+---
+
+## Quick Usage
+
+### 1. Build a corpus from specific artists
+
+The script will:
+- prompt for artist/song names  
+- download lyrics from Genius  
+- clean and normalize the corpus  
+- generate a simple Markov transition matrix  
+
+Command:
+
+```bash
+python Get_lyrics.py --RNN True --nb <number_of_artists>
+```
+
+### 2. Train models
+
+Use the notebook :  
+Models/.../Training_example.ipynb
+
+### 3. Generate lyrics (Streamlit)
+
+Character_level generation :  
+streamlit run Streamlit_char.py  
+
+Subword_level generation (under development) :  
+streamlit run Streamlit_subword.py
