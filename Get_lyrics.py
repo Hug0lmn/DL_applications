@@ -359,11 +359,13 @@ def prepare_lyrics(artist_name, title_set):
     return 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--RNN", type=bool, help="Perform specific pre-processing task", required=True)
+parser.add_argument("--char", type=bool, help="Perform specific pre-processing task", required=True)
+parser.add_argument("--subword", type=bool, help="Perform specific pre-processing task", required=True)
 parser.add_argument("--nb", type=int, help="Number of artists that will be collected", required=True)
 
 args = parser.parse_args()
-rnn = args.RNN
+char = args.char
+subword = args.subword
 
 with open("API_genius.txt","r",encoding="utf-8") as f :
     GENIUS_API_TOKEN = f.read()
@@ -389,8 +391,11 @@ if args.nb == 1 :
     subprocess.run(["python", "Corpus/Cleaning_txt.py", "--name", artist_name])
     subprocess.run(["python", "Markov/Markov_Chain.py"])
     
-    if rnn == True :
-        subprocess.run(["python", "Corpus/Manip.py"])
+    if char == True :
+        subprocess.run(["python", "Corpus/Manip_char.py", "--type", "char"])
+    if subword == True :
+        subprocess.run(["python", "Corpus/Manip_subword.py", "--type", "subword"])
+
 
 elif args.nb > 1 :
 
@@ -412,5 +417,7 @@ elif args.nb > 1 :
 
     subprocess.run(["python", "Markov/Markov_Chain.py"])
 
-    if rnn == True :
-        subprocess.run(["python", "Corpus/Manip.py"])
+    if char == True :
+        subprocess.run(["python", "Corpus/Manip_char.py", "--type", "char"])
+    if subword == True :
+        subprocess.run(["python", "Corpus/Manip_subword.py", "--type", "subword"])

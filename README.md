@@ -37,7 +37,6 @@ DL_applications/
 └── Functions/  
 └── ... # Helper functions used by the Streamlit apps  
 
-
 ---
 
 ## Notes on Current Experiments
@@ -82,7 +81,7 @@ The script will:
 Command:
 
 ```bash
-python Get_lyrics.py --RNN True --nb <number_of_artists>
+python Get_lyrics.py --char <True/False> --subword <True/False> --nb <number_of_artists>
 ```
 
 ### 2. Train models
