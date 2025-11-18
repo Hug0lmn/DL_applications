@@ -48,6 +48,12 @@ DL_applications/
   - sequence lengths are much longer  
   - Transformers do not leverage recurrence like RNNs  
 
+- **Only character level has window context implemented**, subword level will have it next.  
+  Explanation of window context:  
+  - Tried to augment the data and help the models to understand more semantic and phonetic relations
+  - Use fasttext embedding to represent each word in a 100 dim space (not more because of storage pb after)
+  - Each word gets the three previous word embedding, require specific manipulation to make it word on each character
+
 - **Subword-level models (BPE ~4000 vocab)** produce better semantic consistency and more coherent lyrical structure.
 
 ---
