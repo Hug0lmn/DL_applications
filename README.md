@@ -47,11 +47,16 @@ DL_applications/
   - sequence lengths are much longer  
   - Transformers do not leverage recurrence like RNNs  
 
-- **Only character level has window context implemented**, subword level will have it next.  
+- **Only character level has window context implemented**.  
   Explanation of window context:  
   - Tried to augment the data and help the models to understand more semantic and phonetic relations
   - Use fasttext embedding to represent each word in a 100 dim space (not more because of storage pb after)
-  - Each word gets the three previous word embedding, require specific manipulation to make it word on each character
+  - Each word gets the three previous word embedding, require specific manipulation to make it word on each character  
+
+- **Context window doesn't work on subword level**.  
+  - Maybe context window, on char level, added a new representation space (with word level representation) that wasn't there
+  - The context window doesn't help to pass through the 50ish ppl wall on subword level
+  - On char level, helped to pass through the 3.6ish but not on every model
 
 - **Subword-level models (BPE ~4000 vocab)** produce better semantic consistency and more coherent lyrical structure.
 
@@ -59,11 +64,16 @@ DL_applications/
 
 ## Next Steps / Research Ideas
 
-### 1. Phoneme-level modeling
+### 1. Upgrade the Streamlit part
+- Get better layout
+- Get a working Streamlit app for subword level
+- Propose better choice on the app (type of generation, ...)
+
+### 2. Phoneme-level modeling
 Phonemes carry more information than characters and can improve rhyme, flow, and syllabic structure.  
 Plan: process the corpus with a phonemizer, then train models on phoneme sequences.
 
-### 2. Experiment with xLSTM
+### 3. Experiment with xLSTM
 Test the xLSTM architecture (recent research) for better handling of long-range dependencies and improved training stability.
 
 ---

@@ -73,7 +73,7 @@ elif type == "subword" :
 
     # Train it
     tokenizer.train([f"{path}/final_corpus.txt"], vocab_size=4000, min_frequency=2, 
-        special_tokens=["<PAD>","α","β","γ","ε","ζ","η","θ","/β","/γ","/ε","/ζ","/η"])
+        special_tokens=["<PAD>","α","β","γ","ε","ζ","η","θ","/β","/γ","/ε","/ζ","/η","/n"])
 
     tokenizer.save(f"{path}/Subword/tokenizer.json")
 
