@@ -13,6 +13,11 @@ It provides complete pipelines for:
 
 The objective is to compare different text granularities (character vs subword) and model families, and analyze their impact on lyrical quality, structure, and coherence.
 
+### Current status :  
+Right now, this repository isn't my main priority, as I'm more focused on the Financial RAG repo and also it takes quite a bit of compute time when I'm implementing a change because I need to retrain and test on every architecture to see if I get better results.  
+This project will see maybe a few more updates regarding Streamlit with subword level, type of generation and other small details.  
+Every future method/test/change will be trained only on the subword level models, to reduce boredom on my part.  
+
 ---
 
 ## Repository Structure
